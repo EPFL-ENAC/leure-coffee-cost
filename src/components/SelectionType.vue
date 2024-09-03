@@ -75,12 +75,10 @@ const returnToSelection = () => {
 }
 
 .coffee-card:hover {
-  transform: translateY(-5px);
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .coffee-card:active {
-  transform: translateY(0);
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
 }
 

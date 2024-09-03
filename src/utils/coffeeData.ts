@@ -421,3 +421,60 @@ export const data: CoffeeImpactData[] = [
     reference: "International Coffee Council, MRL",
   },
 ];
+
+export type Layer = {
+  name: string;
+  value: number;
+  children: Leaf[];
+};
+
+export type Leaf = {
+  name: string;
+  value: number;
+  impactDefinition: string;
+};
+
+// Function to generate sunburstData from the flat data array
+export function generateSunburstData(data: CoffeeImpactData[]) {
+  const sunburstData = {
+    name: "root",
+    children: [] as Layer[],
+  };
+
+  const categories: { [key: string]: any } = {};
+
+  data.forEach((item) => {
+    const { impactCategory, indicators, impactValue } = item;
+
+    // Check if the category exists, if not, create it
+    if (!categories[impactCategory]) {
+      categories[impactCategory] = {
+        name: impactCategory,
+        children: [],
+      };
+      sunburstData.children.push(categories[impactCategory]);
+    }
+
+    // Find or create the indicator under the current category
+    const category = categories[impactCategory];
+    const indicator = category.children.find(
+      (child: any) => child.name === indicators
+    );
+
+    if (indicator) {
+      // If the indicator exists, add to its value
+      indicator.value += impactValue;
+    } else {
+      // Otherwise, create a new indicator entry
+      category.children.push({
+        name: indicators,
+        value: impactValue,
+        impactDefinition: item.impactDefinition,
+      });
+    }
+  });
+
+  return sunburstData;
+}
+
+export const sunburstData = generateSunburstData(data);
