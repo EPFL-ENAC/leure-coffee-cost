@@ -35,7 +35,6 @@ import ResultPie from "./components/ResultPie.vue";
   flex-direction: column;
   align-items: center;
   /* justify-content: center; */
-  height: 100vh;
   gap: 2em;
   max-width: 600px;
 }

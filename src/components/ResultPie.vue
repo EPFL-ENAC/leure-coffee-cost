@@ -1,13 +1,20 @@
 <template>
-  <div ref="chart" class="chart"></div>
+  <div ref="chartRef" class="chart"></div>
 </template>
 
 <script setup lang="ts">
 import * as d3 from "d3";
-import { onMounted, ref } from "vue";
+import { onMounted, ref, reactive } from "vue";
+import { groupByCategory, getImpactsForCategory } from "../utils/category";
 import { data } from "../utils/coffeeData"; // Import your data
 
 const chartRef = ref<HTMLElement | null>(null);
+const state = reactive({
+  level: "category", // "category" or "indicator"
+  categoryData: groupByCategory(data),
+  currentCategory: null,
+  impactsData: [] as { indicator: string; value: number }[],
+});
 
 onMounted(() => {
   if (!chartRef.value) return;
@@ -29,43 +36,83 @@ onMounted(() => {
       `translate(${width / 2 + margin}, ${height / 2 + margin})`
     );
 
-  // Prepare the data for the pie chart
-  const processedData = d3
-    .pie<any>()
-    .value((d) => parseFloat(d["Impact Value"].replace(",", ".")))(data);
+  // Define a function to render the chart based on the current state
+  function renderChart() {
+    svg.selectAll("*").remove(); // Clear previous chart
 
-  // Create the arc generator
-  const arc = d3.arc<d3.PieArcDatum<any>>().innerRadius(0).outerRadius(radius);
+    const dataToUse =
+      state.level === "category" ? state.categoryData : state.impactsData;
 
-  // Set up the color scale
-  const color = d3
-    .scaleOrdinal()
-    .domain(data.map((d) => d.Indicators))
-    .range(d3.schemeCategory10);
+    const pie = d3
+      .pie<any>()
+      .value((d) => (state.level === "category" ? d.totalImpact : d.value))(
+      dataToUse
+    );
 
-  // Create the pie chart
-  svg
-    .selectAll("path")
-    .data(processedData)
-    .enter()
-    .append("path")
-    .attr("d", (d) => arc(d) as any)
-    .attr("fill", (d) => color((d.data as { Indicators: string }).Indicators)) // Explicitly typing d.data
-    .attr("stroke", "white")
-    .style("stroke-width", "2px")
-    .style("opacity", 0.7);
+    // Create the arc generator
+    const arc = d3
+      .arc<d3.PieArcDatum<any>>()
+      .innerRadius(0)
+      .outerRadius(radius);
 
-  // Add text labels to the slices
-  svg
-    .selectAll("text")
-    .data(processedData)
-    .enter()
-    .append("text")
-    .text((d) => d.data.Indicators)
-    .attr("transform", (d) => `translate(${arc.centroid(d as any)})`)
-    .style("text-anchor", "middle")
-    .style("font-size", "10px")
-    .style("fill", "#fff");
+    // Set up the color scale
+    const color = d3
+      .scaleOrdinal()
+      .domain(
+        dataToUse.map((d) =>
+          state.level === "category"
+            ? (d as any).category
+            : (d as any).indicator
+        )
+      )
+      .range(d3.schemeCategory10);
+
+    // Create the pie chart
+    const paths = svg
+      .selectAll("path")
+      .data(pie)
+      .enter()
+      .append("path")
+      .attr("d", (d) => arc(d) as any)
+      .attr(
+        "fill",
+        (d) =>
+          color(
+            state.level === "category" ? d.data.category : d.data.indicator
+          ) as string
+      )
+      .attr("stroke", "white")
+      .style("stroke-width", "2px")
+      .style("opacity", 0.7)
+      .on("click", function (event, d) {
+        if (state.level === "category") {
+          state.level = "indicator";
+          state.currentCategory = d.data.category;
+          state.impactsData = getImpactsForCategory(d.data.category, data);
+        } else {
+          state.level = "category";
+          state.currentCategory = null;
+          state.impactsData = [];
+        }
+        renderChart(); // Re-render chart based on new level
+      });
+
+    // Add text labels to the slices
+    svg
+      .selectAll("text")
+      .data(pie)
+      .enter()
+      .append("text")
+      .text((d) =>
+        state.level === "category" ? d.data.category : d.data.indicator
+      )
+      .attr("transform", (d) => `translate(${arc.centroid(d as any)})`)
+      .style("text-anchor", "middle")
+      .style("font-size", "10px")
+      .style("fill", "#fff");
+  }
+
+  renderChart(); // Initial render
 });
 </script>
 
