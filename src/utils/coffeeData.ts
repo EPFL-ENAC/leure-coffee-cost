@@ -422,9 +422,13 @@ export const data: CoffeeImpactData[] = [
   },
 ];
 
+export type Root = {
+  name: string;
+  children: Layer[];
+};
+
 export type Layer = {
   name: string;
-  value: number;
   children: Leaf[];
 };
 
@@ -436,12 +440,12 @@ export type Leaf = {
 
 // Function to generate sunburstData from the flat data array
 export function generateSunburstData(data: CoffeeImpactData[]) {
-  const sunburstData = {
+  const sunburstData: Root = {
     name: "root",
-    children: [] as Layer[],
+    children: [],
   };
 
-  const categories: { [key: string]: any } = {};
+  const categories: Record<string, Layer> = {};
 
   data.forEach((item) => {
     const { impactCategory, indicators, impactValue } = item;

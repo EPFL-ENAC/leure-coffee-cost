@@ -20,9 +20,7 @@ const toggleMilk = () => {
       <input type="checkbox" v-model="hasMilk" @change="toggleMilk" />
       <span class="slider round"></span>
     </label>
-    <span class="milk-label">
-      {{ hasMilk ? "With Milk" : "No Milk" }}
-    </span>
+    <span class="milk-label"> Milk </span>
   </div>
 </template>
 

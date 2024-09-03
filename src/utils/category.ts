@@ -1,4 +1,3 @@
-import { data } from "./coffeeData";
 import { CoffeeImpactData } from "../utils/coffeeData";
 export function groupByCategory(data: CoffeeImpactData[]) {
   const categories: { [key: string]: CoffeeImpactData[] } = {};
