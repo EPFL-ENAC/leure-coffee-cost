@@ -1,0 +1,15 @@
+:root {
+  --color-primary: #967749;
+  --color-primary-light: #d4a866;
+  --color-primary-dark: #524128;
+
+  /* Secondary Color (Emerald Green) */
+  --color-secondary: #5fa762;
+  --color-secondary-light: #69d46d;
+  --color-secondary-dark: #355a36;
+
+  /* Other Colors */
+  --color-white: #ffffff;
+  --color-gray-light: #f0f0f0;
+  --color-gray-dark: #333333;
+}

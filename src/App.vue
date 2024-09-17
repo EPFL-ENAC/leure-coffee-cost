@@ -24,6 +24,7 @@ import ResultPie from "./components/ResultPie.vue";
 .app-title {
   font-size: 2.3em;
   margin-bottom: 0.5em;
+  /* color: var(--color-primary-dark); */
   /* position: fixed;
   top: 0;
   left: 50%;
