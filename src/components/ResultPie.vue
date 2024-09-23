@@ -5,7 +5,7 @@
 <script setup lang="ts">
 import * as d3 from "d3";
 import { computed, onMounted, ref, watch } from "vue";
-import { CoffeeImpactData, Root, sunburstData } from "@/utils/coffeeData";
+import { Leaf, Root, sunburstData, SunburstNode } from "@/utils/coffeeData";
 import { useCoffeeStore } from "../stores/coffeeStore";
 
 const chartRef = ref<HTMLElement | null>(null);
@@ -24,14 +24,10 @@ const hierarchy: d3.HierarchyNode<Root> = d3
   .sum((d: any) => d.value)
   .sort((a: any, b: any) => b.value - a.value);
 
-type HierarchyRectangularNode = d3.HierarchyRectangularNode<Root> & {
+type HierarchyRectangularNode = d3.HierarchyRectangularNode<SunburstNode> & {
   current: any;
   target: any;
 };
-
-type HierarchyRectangularChild = d3.HierarchyRectangularNode<
-  CoffeeImpactData & { name: string; value: number }
->;
 
 const root = d3
   .partition<Root>()
@@ -168,21 +164,19 @@ onMounted(() => {
     .append("text")
     .attr("text-anchor", "middle")
     .attr("font-size", "middle")
-    .attr("transform", `translate(0 , 15)`);
+    .attr("transform", "translate(0 , 15)");
 
-  function impactClicked(_: MouseEvent, p: HierarchyRectangularChild) {
+  function impactClicked(_: MouseEvent, p: HierarchyRectangularNode) {
     console.log("Clicked on impact", p.data, selectedPath.value);
-
     if (
       store.selectedImpact &&
       store.selectedImpact.indicators === p.data.name
     ) {
       store.selectImpact(undefined);
     } else {
-      store.selectImpact(p.data);
+      store.selectImpact(p.data as Leaf);
     }
   }
-
   function clicked(_event: MouseEvent, p: HierarchyRectangularNode) {
     parent
       .datum(p.parent || root)
@@ -285,5 +279,11 @@ onMounted(() => {
   transition: transform 0.3s, filter 0.3s;
   fill-opacity: 1;
   filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.1));
+}
+
+@media screen and (max-width: 600px) {
+  .chart {
+    min-width: 90vw;
+  }
 }
 </style>

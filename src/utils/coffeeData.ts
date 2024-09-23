@@ -1,4 +1,4 @@
-export interface CoffeeImpactData {
+export type CoffeeImpactData = {
   retailName: string;
   productId: string;
   productName: string;
@@ -12,7 +12,7 @@ export interface CoffeeImpactData {
   impactDefinition: string;
   coffeeDetails: string;
   reference: string;
-}
+};
 
 export const data: CoffeeImpactData[] = [
   {
@@ -422,25 +422,29 @@ export const data: CoffeeImpactData[] = [
   },
 ];
 
-export type Root = {
+export type Leaf = CoffeeImpactData & {
   name: string;
-  children: Layer[];
+  value: number;
 };
 
 export type Layer = {
   name: string;
+  value: number;
   children: Leaf[];
 };
 
-export type Leaf = {
+export type Root = {
   name: string;
   value: number;
-  impactDefinition: string;
+  children: Layer[];
 };
+
+export type SunburstNode = Root | Layer | Leaf;
 
 // Function to generate sunburstData from the flat data array
 export function generateSunburstData(data: CoffeeImpactData[]) {
   const sunburstData: Root = {
+    value: 0,
     name: "root",
     children: [],
   };
@@ -454,6 +458,7 @@ export function generateSunburstData(data: CoffeeImpactData[]) {
     if (!categories[impactCategory]) {
       categories[impactCategory] = {
         name: impactCategory,
+        value: 0,
         children: [],
       };
       sunburstData.children.push(categories[impactCategory]);
