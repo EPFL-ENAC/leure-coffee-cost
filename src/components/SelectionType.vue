@@ -7,12 +7,22 @@ const coffeeStore = useCoffeeStore();
 
 // Define the coffee types with their corresponding SVG images
 const coffeeTypes = [
-  { name: "Espresso", img: "./coffee/Espresso.svg" },
-  { name: "Ristretto", img: "./coffee/Espresso.svg" },
-  { name: "Doppio", img: "./coffee/FlatWhite.svg" },
-  { name: "Flat White", img: "./coffee/FlatWhite.svg" },
   { name: "Americano", img: "./coffee/Americano.svg" },
+  { name: "Café", img: "./coffee/Café.svg" },
+  { name: "Café Macchiato", img: "./coffee/Café_Macchiato.svg" },
   { name: "Cappuccino", img: "./coffee/Cappuccino.svg" },
+  { name: "Cappuccino Vanille", img: "./coffee/Cappuccino_vanille.svg" },
+  { name: "Espresso", img: "./coffee/Espresso.svg" },
+  { name: "Espresso Macchiato", img: "./coffee/Espresso_Macchiato.svg" },
+  { name: "Flat White", img: "./coffee/FlatWhite.svg" },
+  { name: "Latte Macchiato", img: "./coffee/Latte_Macchiato.svg" },
+  {
+    name: "Latte Macchiato Vanille",
+    img: "./coffee/Latte_Macchiato_vanille.svg",
+  },
+  { name: "Mocaccino", img: "./coffee/Mocaccino.svg" },
+  { name: "Renversé", img: "./coffee/Renversé.svg" },
+  { name: "Ristretto", img: "./coffee/Ristretto.svg" },
 ];
 
 // Computed property for the selected coffee from the store
@@ -158,5 +168,22 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
   text-align: center;
   max-width: 300px;
   color: #555;
+}
+
+@media screen and (max-width: 600px) {
+  .coffee-card {
+    width: 80px;
+    height: 110px;
+  }
+  .coffee-image {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0.5em;
+  }
+
+  .coffee-name {
+    font-size: medium;
+    text-align: center;
+  }
 }
 </style>

@@ -4,13 +4,16 @@
 
 <script setup lang="ts">
 import * as d3 from "d3";
-import { onMounted, ref } from "vue";
-import { Root, sunburstData } from "../utils/coffeeData";
+import { computed, onMounted, ref, watch } from "vue";
+import { CoffeeImpactData, Root, sunburstData } from "@/utils/coffeeData";
+import { useCoffeeStore } from "../stores/coffeeStore";
 
 const chartRef = ref<HTMLElement | null>(null);
 const color = d3.scaleOrdinal(
   d3.quantize(d3.interpolateRainbow, sunburstData.children.length + 1)
 );
+
+const store = useCoffeeStore();
 
 const width = 450;
 const height = width;
@@ -25,6 +28,10 @@ type HierarchyRectangularNode = d3.HierarchyRectangularNode<Root> & {
   current: any;
   target: any;
 };
+
+type HierarchyRectangularChild = d3.HierarchyRectangularNode<
+  CoffeeImpactData & { name: string; value: number }
+>;
 
 const root = d3
   .partition<Root>()
@@ -53,6 +60,26 @@ const arc = d3
   .innerRadius((d) => d.y0 * radius)
   .outerRadius((d) => d.y1 * radius - 1);
 
+const paths =
+  ref<
+    d3.Selection<
+      SVGPathElement | d3.BaseType,
+      HierarchyRectangularNode,
+      SVGGElement,
+      unknown
+    >
+  >();
+
+// Variable to keep track of the currently selected path
+const selectedPath = computed(() =>
+  paths.value?.filter((d) => d.data.name == store.selectedImpact?.indicators)
+);
+
+watch(selectedPath, (newVal, oldVal) => {
+  oldVal?.classed("selected", false);
+  newVal?.classed("selected", true);
+});
+
 onMounted(() => {
   if (!chartRef.value) return;
 
@@ -62,7 +89,7 @@ onMounted(() => {
     .attr("viewBox", [-width / 2, -height / 2, width, width])
     .style("font", "10px sans-serif");
 
-  const path = svg
+  paths.value = svg
     .append("g")
     .selectAll("path")
     .data(root.descendants().slice(1))
@@ -77,14 +104,16 @@ onMounted(() => {
     .attr("pointer-events", (d) => (arcVisible(d.current) ? "auto" : "none"))
     .attr("d", (d) => arc(d.current));
 
-  path
-    .filter((d: any) => d.children)
+  paths.value
     .style("cursor", "pointer")
     .style("display", "inline")
+    .filter((d: any) => d.children)
     .on("click", clicked);
 
+  paths.value.filter((d: any) => !d.children).on("click", impactClicked);
+
   const format = d3.format(",d");
-  path.append("title").text(
+  paths.value.append("title").text(
     (d) =>
       `${d
         .ancestors()
@@ -141,10 +170,28 @@ onMounted(() => {
     .attr("font-size", "middle")
     .attr("transform", `translate(0 , 15)`);
 
+  function impactClicked(_: MouseEvent, p: HierarchyRectangularChild) {
+    console.log("Clicked on impact", p.data, selectedPath.value);
+
+    if (
+      store.selectedImpact &&
+      store.selectedImpact.indicators === p.data.name
+    ) {
+      store.selectImpact(undefined);
+    } else {
+      store.selectImpact(p.data);
+    }
+  }
+
   function clicked(_event: MouseEvent, p: HierarchyRectangularNode) {
     parent
       .datum(p.parent || root)
       .attr("cursor", p.data.name == root.data.name ? "default" : "zoom-out");
+
+    if (p.data.name == root.data.name) {
+      console.log(p.data.name, root.data.name);
+      store.selectImpact(undefined);
+    }
 
     subTitle.text(p.data.name !== root.data.name ? p.data.name : "");
 
@@ -162,10 +209,10 @@ onMounted(() => {
     const t = svg.transition().duration(750);
 
     // Set display to inline for elements that will be visible
-    path.filter((d) => arcVisible(d.target)).style("display", "inline");
+    paths.value?.filter((d) => arcVisible(d.target)).style("display", "inline");
 
-    path
-      .transition(t as any)
+    paths.value
+      ?.transition(t as any)
       .tween("data", (d) => {
         const i = d3.interpolate(d.current, d.target);
         return (t) => (d.current = i(t));
@@ -219,5 +266,24 @@ onMounted(() => {
   width: 100%;
   height: 100%;
   overflow: visible;
+}
+
+/* Define a filter for the shadow effect */
+:deep()defs {
+  filter: url(#shadow);
+}
+
+/* Selected path styles */
+:deep().selected {
+  /* Apply the shadow filter */
+  /* filter: url(#shadow); */
+  /* Apply a scale transform */
+  transform: scale(1.05);
+  /* Optional: Add a smooth transition */
+  /* Ensure the transform origin is centered */
+  /* transform-origin: center; */
+  transition: transform 0.3s, filter 0.3s;
+  fill-opacity: 1;
+  filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.1));
 }
 </style>

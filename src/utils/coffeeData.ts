@@ -473,7 +473,7 @@ export function generateSunburstData(data: CoffeeImpactData[]) {
       category.children.push({
         name: indicators,
         value: impactValue,
-        impactDefinition: item.impactDefinition,
+        ...item,
       });
     }
   });

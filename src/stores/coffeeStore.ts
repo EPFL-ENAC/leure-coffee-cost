@@ -1,5 +1,6 @@
 import { defineStore } from "pinia";
 import { computed, ref } from "vue";
+import { CoffeeImpactData } from "@/utils/coffeeData";
 
 export const useCoffeeStore = defineStore(
   "coffee",
@@ -24,6 +25,8 @@ export const useCoffeeStore = defineStore(
     const hiddenCostMilk = ref<number>(0.3); // Extra cost for milk
     const hiddenCostSugar = ref<number>(0.1); // Extra cost per sugar unit
 
+    const selectedImpact = ref<CoffeeImpactData | undefined>(undefined);
+
     // Computed property for the hidden cost based on selections
     const hiddenCost = computed(() => {
       let totalHiddenCost = 0;
@@ -42,6 +45,10 @@ export const useCoffeeStore = defineStore(
     // Function to set the selected coffee
     const selectCoffee = (coffee: string) => {
       selectedCoffee.value = coffee;
+    };
+
+    const selectImpact = (impactData?: CoffeeImpactData) => {
+      selectedImpact.value = impactData;
     };
 
     // Function to clear the selected coffee
@@ -72,6 +79,8 @@ export const useCoffeeStore = defineStore(
       hasCaffeine,
       hasMilk,
       sugarLevel,
+      selectedImpact,
+      selectImpact,
       selectCoffee,
       clearSelection,
       toggleCaffeine,
