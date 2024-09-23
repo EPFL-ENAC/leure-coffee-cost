@@ -17,7 +17,8 @@ const store = useCoffeeStore();
 
 const width = 450;
 const height = width;
-const radius = width / 6;
+const radius = width / 5;
+const innerRadius = radius * 0.5;
 
 const hierarchy: d3.HierarchyNode<Root> = d3
   .hierarchy<Root>(sunburstData)
@@ -53,7 +54,7 @@ const arc = d3
   .endAngle((d) => d.x1)
   .padAngle((d) => Math.min((d.x1 - d.x0) / 2, 0.005))
   .padRadius(radius * 1.5)
-  .innerRadius((d) => d.y0 * radius)
+  .innerRadius((d) => d.y0 * innerRadius)
   .outerRadius((d) => d.y1 * radius - 1);
 
 const paths =
@@ -71,13 +72,33 @@ const selectedPath = computed(() =>
   paths.value?.filter((d) => d.data.name == store.selectedImpact?.indicators)
 );
 
+const labels =
+  ref<
+    d3.Selection<
+      d3.BaseType | SVGTextElement,
+      HierarchyRectangularNode,
+      SVGGElement,
+      unknown
+    >
+  >();
+
+const selectedLabel = computed(() =>
+  labels.value?.filter((d) => d.data.name == store.selectedImpact?.indicators)
+);
+
 watch(selectedPath, (newVal, oldVal) => {
+  oldVal?.classed("selected", false);
+  newVal?.classed("selected", true);
+});
+
+watch(selectedLabel, (newVal, oldVal) => {
   oldVal?.classed("selected", false);
   newVal?.classed("selected", true);
 });
 
 onMounted(() => {
   if (!chartRef.value) return;
+  store.selectImpact(undefined);
 
   const svg = d3
     .select(chartRef.value)
@@ -118,7 +139,7 @@ onMounted(() => {
         .join("/")}\n${format(d.value || 0)}`
   );
 
-  const label = svg
+  labels.value = svg
     .append("g")
     .attr("pointer-events", "none")
     .attr("text-anchor", "middle")
@@ -131,7 +152,7 @@ onMounted(() => {
     .attr("transform", (d: any) => labelTransform(d.current));
 
   // Handle multi-line labels
-  label.each(function (d) {
+  labels.value.each(function (d) {
     const text = d3.select(this);
     const words = d.data.name.split(" ");
     if (words.length > 2) {
@@ -152,7 +173,10 @@ onMounted(() => {
     .attr("pointer-events", "all")
     .on("click", clicked);
 
-  parent.append("circle").attr("r", radius).attr("fill", "none");
+  parent
+    .append("circle")
+    .attr("r", innerRadius * 0.9)
+    .attr("fill", "none");
 
   parent
     .append("text")
@@ -223,10 +247,12 @@ onMounted(() => {
       });
 
     // Apply the same logic to labels
-    label.filter((d) => labelVisible(d.target)).style("display", "inline");
+    labels.value
+      ?.filter((d) => labelVisible(d.target))
+      .style("display", "inline");
 
-    label
-      .transition(t as any)
+    labels.value
+      ?.transition(t as any)
       .attr("fill-opacity", (d) => +labelVisible(d.target))
       .attrTween("transform", (d) => () => labelTransform(d.current))
       .on("end", function (d) {
@@ -246,8 +272,10 @@ onMounted(() => {
 
   function labelTransform(d: HierarchyRectangularNode) {
     const x = (((d.x0 + d.x1) / 2) * 180) / Math.PI;
-    const y = ((d.y0 + d.y1) / 2) * radius;
-    return `rotate(${x - 90}) translate(${y},0) rotate(${x < 180 ? 0 : 180})`;
+    const y = ((d.y0 + d.y1) / 2) * radius * 0.8;
+    return `rotate(${x - 90}) translate(${y + 10},0) rotate(${
+      x < 180 ? 0 : 180
+    })`;
   }
 });
 </script>
@@ -267,16 +295,15 @@ onMounted(() => {
   filter: url(#shadow);
 }
 
+:deep()path,
+:deep()text {
+  /* Add a smooth transition */
+  transition: scale 0.3s;
+}
+
 /* Selected path styles */
 :deep().selected {
-  /* Apply the shadow filter */
-  /* filter: url(#shadow); */
-  /* Apply a scale transform */
-  transform: scale(1.05);
-  /* Optional: Add a smooth transition */
-  /* Ensure the transform origin is centered */
-  /* transform-origin: center; */
-  transition: transform 0.3s, filter 0.3s;
+  scale: 1.2;
   fill-opacity: 1;
   filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.1));
 }
