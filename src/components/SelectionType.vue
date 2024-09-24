@@ -36,7 +36,7 @@ const selectedCoffeeImage = computed(() => {
 
 // Function to handle selection
 const selectCoffee = (coffeeName: string) => {
-  coffeeStore.selectedCoffee = coffeeName;
+  coffeeStore.selectCoffee(coffeeName);
 };
 
 // Function to return to selection view
@@ -63,8 +63,12 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
 
   <div v-else class="coffee-detail">
     <button class="return-button" @click="returnToSelection">
-      ← Select another coffee
+      <vue-feather type="arrow-left"></vue-feather>
+      Choix du café
     </button>
+    <div>
+      <h2>Comparez les fournisseurs</h2>
+    </div>
     <div class="coffee-card selected">
       <img
         :src="getSelectedCoffeeImage"
@@ -100,7 +104,7 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
   cursor: pointer;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s, box-shadow 0.2s;
-  background-color: #fff;
+  background-color: white;
   color: black;
 }
 
@@ -132,14 +136,19 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
 }
 
 .return-button {
-  background-color: transparent;
   border: none;
   font-size: 1.5em;
   cursor: pointer;
   margin-bottom: 1em;
   align-self: flex-start;
-  color: white;
+  color: var(--color-secondary-dark);
   transition: color 0.2s;
+  display: flex;
+  gap: 0.5em;
+  margin: auto;
+  margin-bottom: 2em;
+  align-items: center;
+  background-color: white;
 }
 
 .return-button:hover {
@@ -152,7 +161,6 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fff;
   border-radius: 12px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
   padding: 1em;

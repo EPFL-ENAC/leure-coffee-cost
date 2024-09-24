@@ -19,6 +19,10 @@ export const useCoffeeStore = defineStore("coffee", () => {
     },
   });
 
+  const selectCoffee = (coffee: string) => {
+    selectedCoffee.value = coffee;
+  };
+
   // State for caffeine selection
   const hasCaffeine = ref<boolean>(true);
 
@@ -92,6 +96,7 @@ export const useCoffeeStore = defineStore("coffee", () => {
     sugarLevel,
     selectedImpact,
     selectImpact,
+    selectCoffee,
     clearSelection,
     toggleCaffeine,
     toggleMilk,
