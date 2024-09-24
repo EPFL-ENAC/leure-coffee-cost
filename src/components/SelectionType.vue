@@ -136,8 +136,9 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
   font-size: xx-large;
   font-weight: bold;
   display: flex;
-  justify-content: left;
-  gap: 1em;
+  justify-content: space-between;
+  gap: 0.5em;
+
   /* text-decoration: underline;
   text-underline-offset: 0.1em; */
   /* margin-bottom: 1em; */
