@@ -34,13 +34,13 @@ const setSugarLevel = (level: number) => {
 .sugar-selection {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-top: 1em;
+  align-items: left;
+  font-size: large;
 }
 
 .sugar-buttons {
   display: flex;
-  gap: 0.5em;
+  gap: 0.3em;
 }
 
 .sugar-buttons button {
@@ -49,8 +49,7 @@ const setSugarLevel = (level: number) => {
   border-radius: 5px;
   padding: 0.5em 1em;
   cursor: pointer;
-  font-size: 1em;
-  transition: background-color 0.2s;
+  font-size: medium;
 }
 
 .sugar-buttons button.selected {

@@ -34,4 +34,11 @@
   max-width: 800px;
   margin: auto;
 }
+
+@media screen and (max-width: 600px) {
+  .app-container {
+    gap: 0.8em;
+    padding: 1em;
+  }
+}
 </style>

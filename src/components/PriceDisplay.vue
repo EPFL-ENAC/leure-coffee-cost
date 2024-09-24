@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useCoffeeStore } from "../stores/coffeeStore";
-import { computed } from "vue";
+import { computed, watch } from "vue";
 
 // Use the coffee store
 const coffeeStore = useCoffeeStore();
@@ -33,13 +33,15 @@ const truePrice = computed(() => coffeeStore.truePrice);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: 2em;
-  font-size: 1.2em;
+  margin-top: 1em;
+  font-size: medium;
+  gap: 10px;
   background-color: var(--color-primary-light);
   /* border: white 1px solid; */
   color: var(--color-secondary-dark);
-  padding: 1em;
+  padding: 1em 4em;
   border-radius: 10px;
+  min-width: min(50vw, 300px);
   font-weight: bold;
 }
 
@@ -47,7 +49,6 @@ const truePrice = computed(() => coffeeStore.truePrice);
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 0.5em;
 }
 
 .price-item span {
@@ -55,11 +56,24 @@ const truePrice = computed(() => coffeeStore.truePrice);
 }
 
 .price-item.total {
-  font-size: 1.5em;
+  font-size: larger;
   color: var(--color-secondary-dark);
 }
 
 .price-item.total span {
   margin-right: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  /* .price-display {
+    width: 100%;
+    border-radius: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .price-item {
+    max-width: 60vw;
+  } */
 }
 </style>

@@ -89,6 +89,10 @@ export const useCoffeeStore = defineStore("coffee", () => {
   // Computed property for the true price (retail + hidden costs)
   const truePrice = computed(() => retailPrice.value + hiddenCost.value);
 
+  const isPriceVisible = computed(
+    () => selectedCoffee.value && selectedSalePoint.value
+  );
+
   // **New Function to Set Milk Type**
   const setMilkType = (type: string) => {
     milkType.value = type;
@@ -129,6 +133,7 @@ export const useCoffeeStore = defineStore("coffee", () => {
     sugarLevel,
     selectedImpact,
     selectedSalePoint,
+    isPriceVisible,
     selectSalePoint,
     selectCoffee,
     selectImpact,

@@ -168,7 +168,7 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
 .coffee-title img {
   width: 50px;
   height: 50px;
-  border: var(--color-primary-dark) 3px solid;
+  border: var(--color-primary-dark) 5px solid;
   background-color: white;
   border-radius: 50px;
   padding: 10px;
@@ -207,10 +207,6 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
 }
 .return-button:hover {
   filter: brightness(0.8);
-}
-
-.coffee-card:hover {
-  background-color: var(--color-primary-light);
 }
 
 .selected {
@@ -253,6 +249,25 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
   .coffee-name {
     font-size: medium;
     text-align: center;
+  }
+
+  .selection-coffee-sale-point {
+    gap: 1em;
+    margin-bottom: 0.5em;
+  }
+  .selection-coffee-sale-point > .coffee-card {
+    width: 65px;
+    height: 70px;
+    padding: 1em;
+  }
+
+  .selection-coffee-sale-point > .coffee-card > .coffee-name {
+    font-size: small;
+  }
+
+  .selection-coffee-sale-point > .coffee-card > .coffee-image {
+    width: 35px;
+    height: 35px;
   }
 }
 </style>

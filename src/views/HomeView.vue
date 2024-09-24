@@ -1,4 +1,8 @@
 <script setup lang="ts">
+import { useCoffeeStore } from "@/stores/coffeeStore";
+
+const store = useCoffeeStore();
+
 import SelectionType from "@/components/SelectionType.vue";
 import SelectionCaffeine from "@/components/SelectionCaffeine.vue";
 import SelectionMilk from "@/components/SelectionMilk.vue";
@@ -12,6 +16,6 @@ import ResultPie from "@/components/ResultPie.vue";
   <SelectionCaffeine />
   <SelectionMilk />
   <SelectionSugar />
-  <PriceDisplay />
-  <ResultPie />
+  <PriceDisplay v-if="store.isPriceVisible" />
+  <ResultPie v-if="store.isPriceVisible" />
 </template>

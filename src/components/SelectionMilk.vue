@@ -52,18 +52,15 @@ watch(
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: 1em;
 }
 
 .milk-label {
-  margin-bottom: 0.5em;
-  font-size: 1.2em;
+  font-size: large;
 }
 
 .milk-dropdown {
   padding: 0.5em 2em;
-  font-size: 1em;
-
+  font-size: medium;
   border-radius: 4px;
 }
 </style>

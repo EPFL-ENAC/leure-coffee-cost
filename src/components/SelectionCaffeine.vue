@@ -30,7 +30,6 @@ const toggleCaffeine = () => {
 .caffeine-selection {
   display: flex;
   align-items: center;
-  margin-top: 1em;
 }
 
 .switch {
@@ -81,5 +80,25 @@ input:checked + .slider:before {
 .caffeine-label {
   margin-left: 10px;
   font-size: 1.2em;
+  min-width: 4em;
+}
+
+@media screen and (max-width: 600px) {
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 26px;
+  }
+
+  .slider:before {
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 3px;
+  }
+  input:checked + .slider:before {
+    transform: translateX(30px);
+  }
 }
 </style>
