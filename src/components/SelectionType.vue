@@ -132,7 +132,7 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s, box-shadow 0.2s;
   background-color: white;
-  color: black;
+  color: var(--color-secondary-dark);
 }
 
 .coffee-card:not(.selected):hover {
@@ -172,7 +172,8 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
   padding: 10px;
 }
 .coffee-name {
-  font-size: large;
+  font-size: medium;
+  font-weight: bold;
   text-align: center;
 }
 
