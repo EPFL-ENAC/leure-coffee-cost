@@ -1,83 +1,69 @@
+<!-- src/components/SelectionMilk.vue -->
 <script setup lang="ts">
-import { useCoffeeStore } from "../stores/coffeeStore";
-import { computed } from "vue";
+import { useCoffeeStore } from "@/stores/coffeeStore";
+import { computed, watch } from "vue";
 
 // Use the coffee store
 const coffeeStore = useCoffeeStore();
 
-// Computed property for milk selection from the store
-const hasMilk = computed(() => coffeeStore.hasMilk);
+// Define available milk types
+const milkOptions = [
+  { value: "none", label: "No Milk" },
+  { value: "cow", label: "Cow Milk" },
+  { value: "almond", label: "Almond Milk" },
+  { value: "soy", label: "Soy Milk" },
+  // Add more milk types as needed
+];
 
-// Function to toggle milk selection
-const toggleMilk = () => {
-  coffeeStore.toggleMilk();
-};
+// Computed property for current milk selection
+const selectedMilk = computed({
+  get: () => coffeeStore.milkType,
+  set: (value: string) => {
+    coffeeStore.setMilkType(value);
+  },
+});
+
+watch(
+  selectedMilk,
+  (newValue) => {
+    console.log("Selected milk type:", newValue);
+  },
+  { immediate: true }
+);
 </script>
 
 <template>
   <div class="milk-selection">
-    <label class="switch">
-      <input type="checkbox" v-model="hasMilk" @change="toggleMilk" />
-      <span class="slider round"></span>
-    </label>
-    <span class="milk-label"> Milk </span>
+    <label for="milk-select" class="milk-label">Choose Milk Type:</label>
+    <select id="milk-select" v-model="selectedMilk" class="milk-dropdown">
+      <option
+        v-for="option in milkOptions"
+        :key="option.value"
+        :value="option.value"
+      >
+        {{ option.label }}
+      </option>
+    </select>
   </div>
 </template>
 
 <style scoped>
 .milk-selection {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   margin-top: 1em;
 }
 
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
-}
-
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  transition: 0.4s;
-  border-radius: 34px;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  transition: 0.4s;
-  border-radius: 50%;
-}
-
-input:checked + .slider {
-  background-color: var(--color-primary-dark);
-}
-
-input:checked + .slider:before {
-  transform: translateX(26px);
-}
-
 .milk-label {
-  margin-left: 10px;
+  margin-bottom: 0.5em;
   font-size: 1.2em;
+}
+
+.milk-dropdown {
+  padding: 0.5em 2em;
+  font-size: 1em;
+
+  border-radius: 4px;
 }
 </style>

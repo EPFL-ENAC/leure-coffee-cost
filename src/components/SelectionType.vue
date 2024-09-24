@@ -82,13 +82,19 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
       Choix du café
     </button>
     <h2>Comparez les fournisseurs</h2>
-    <div class="coffee-card selected">
-      <img
-        :src="getSelectedCoffeeImage"
-        :alt="selectedCoffee"
-        class="coffee-image selected-image"
-      />
-      <span class="coffee-name">{{ selectedCoffee }}</span>
+    <div class="selection-coffee-sale-point">
+      <div
+        v-for="(coffee, i) in coffeeTypes.filter((c, i) => i < 3)"
+        :key="coffee.name"
+        class="coffee-card"
+      >
+        <img
+          :src="getSelectedCoffeeImage"
+          :alt="selectedCoffee"
+          class="coffee-image selected-image"
+        />
+        <span class="coffee-name">Fournisseur {{ i + 1 }}</span>
+      </div>
     </div>
   </div>
 </template>
@@ -98,6 +104,13 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
   display: flex;
   flex-wrap: wrap;
   gap: 1em;
+  justify-content: center;
+}
+
+.selection-coffee-sale-point {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
   justify-content: center;
 }
 

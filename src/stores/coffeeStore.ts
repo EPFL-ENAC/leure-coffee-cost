@@ -26,8 +26,9 @@ export const useCoffeeStore = defineStore("coffee", () => {
   // State for caffeine selection
   const hasCaffeine = ref<boolean>(true);
 
-  // State for milk selection
-  const hasMilk = ref<boolean>(false);
+  // **Updated State for Milk Selection**
+  // Possible values: 'none', 'cow', 'almond', 'soy', etc.
+  const milkType = ref<string>("none");
 
   // State for sugar selection
   const sugarLevel = ref<number>(0);
@@ -37,7 +38,21 @@ export const useCoffeeStore = defineStore("coffee", () => {
 
   // Define hidden costs (example values)
   const hiddenCostCaffeine = ref<number>(0.5); // Extra cost for caffeine
-  const hiddenCostMilk = ref<number>(0.3); // Extra cost for milk
+  // **Updated Hidden Cost for Milk Based on `milkType`**
+  const hiddenCostMilk = computed<number>(() => {
+    switch (milkType.value) {
+      case "cow":
+        return 0.8;
+      case "almond":
+        return 0.3;
+      case "soy":
+        return 0.35;
+      // Add more milk types and their costs as needed
+      case "none":
+      default:
+        return 0;
+    }
+  });
   const hiddenCostSugar = ref<number>(0.1); // Extra cost per sugar unit
 
   const selectedImpact = ref<CoffeeImpactData | undefined>(undefined);
@@ -46,21 +61,20 @@ export const useCoffeeStore = defineStore("coffee", () => {
   const hiddenCost = computed(() => {
     let totalHiddenCost = 0;
     if (hasCaffeine.value) totalHiddenCost += hiddenCostCaffeine.value;
-    if (hasMilk.value) totalHiddenCost += hiddenCostMilk.value;
+    totalHiddenCost += hiddenCostMilk.value;
     totalHiddenCost += sugarLevel.value * hiddenCostSugar.value;
     return totalHiddenCost;
   });
-
   // Computed property for the retail price (base price)
   const retailPrice = computed(() => baseRetailPrice.value);
 
   // Computed property for the true price (retail + hidden costs)
   const truePrice = computed(() => retailPrice.value + hiddenCost.value);
 
-  // // Function to set the selected coffee
-  // const selectCoffee = (coffee: string) => {
-  //   selectedCoffee.value = coffee;
-  // };
+  // **New Function to Set Milk Type**
+  const setMilkType = (type: string) => {
+    milkType.value = type;
+  };
 
   const selectImpact = (impactData?: CoffeeImpactData) => {
     selectedImpact.value = impactData;
@@ -70,18 +84,19 @@ export const useCoffeeStore = defineStore("coffee", () => {
   const clearSelection = () => {
     selectedCoffee.value = null;
     hasCaffeine.value = true; // Reset caffeine selection on clear
-    hasMilk.value = false; // Reset milk selection on clear
+    milkType.value = "none"; // Reset milk selection on clear
     sugarLevel.value = 0; // Reset sugar level on clear
   };
+
+  // **Remove Toggle Functions for Milk**
+  // These are no longer needed as we have multiple milk types
+  // const toggleMilk = () => {
+  //   milkType.value = milkType.value === "none" ? "cow" : "none";
+  // };
 
   // Function to toggle caffeine selection
   const toggleCaffeine = () => {
     hasCaffeine.value = !hasCaffeine.value;
-  };
-
-  // Function to toggle milk selection
-  const toggleMilk = () => {
-    hasMilk.value = !hasMilk.value;
   };
 
   // Function to set sugar level
@@ -92,14 +107,14 @@ export const useCoffeeStore = defineStore("coffee", () => {
   return {
     selectedCoffee,
     hasCaffeine,
-    hasMilk,
+    milkType, // Exposed to components
     sugarLevel,
     selectedImpact,
-    selectImpact,
     selectCoffee,
+    selectImpact,
+    setMilkType, // Exposed to components
     clearSelection,
     toggleCaffeine,
-    toggleMilk,
     setSugarLevel,
     retailPrice,
     truePrice,
