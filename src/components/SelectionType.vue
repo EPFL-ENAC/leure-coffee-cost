@@ -7,22 +7,22 @@ const coffeeStore = useCoffeeStore();
 
 // Define the coffee types with their corresponding SVG images
 const coffeeTypes = [
-  { name: "Americano", img: "./coffee/Americano.svg" },
-  { name: "Café", img: "./coffee/Café.svg" },
-  { name: "Café Macchiato", img: "./coffee/Café_Macchiato.svg" },
-  { name: "Cappuccino", img: "./coffee/Cappuccino.svg" },
-  { name: "Cappuccino Vanille", img: "./coffee/Cappuccino_vanille.svg" },
-  { name: "Espresso", img: "./coffee/Espresso.svg" },
-  { name: "Espresso Macchiato", img: "./coffee/Espresso_Macchiato.svg" },
-  { name: "Flat White", img: "./coffee/FlatWhite.svg" },
-  { name: "Latte Macchiato", img: "./coffee/Latte_Macchiato.svg" },
+  { name: "Americano", img: "/coffee/Americano.svg" },
+  { name: "Café", img: "/coffee/Café.svg" },
+  { name: "Café Macchiato", img: "/coffee/Café_Macchiato.svg" },
+  { name: "Cappuccino", img: "/coffee/Cappuccino.svg" },
+  { name: "Cappuccino Vanille", img: "/coffee/Cappuccino_vanille.svg" },
+  { name: "Espresso", img: "/coffee/Espresso.svg" },
+  { name: "Espresso Macchiato", img: "/coffee/Espresso_Macchiato.svg" },
+  { name: "Flat White", img: "/coffee/FlatWhite.svg" },
+  { name: "Latte Macchiato", img: "/coffee/Latte_Macchiato.svg" },
   {
     name: "Latte Macchiato Vanille",
-    img: "./coffee/Latte_Macchiato_vanille.svg",
+    img: "/coffee/Latte_Macchiato_vanille.svg",
   },
-  { name: "Mocaccino", img: "./coffee/Mocaccino.svg" },
-  { name: "Renversé", img: "./coffee/Renversé.svg" },
-  { name: "Ristretto", img: "./coffee/Ristretto.svg" },
+  { name: "Mocaccino", img: "/coffee/Mocaccino.svg" },
+  { name: "Renversé", img: "/coffee/Renversé.svg" },
+  { name: "Ristretto", img: "/coffee/Ristretto.svg" },
 ];
 
 // Computed property for the selected coffee from the store
@@ -37,6 +37,10 @@ const selectedCoffeeImage = computed(() => {
 // Function to handle selection
 const selectCoffee = (coffeeName: string) => {
   coffeeStore.selectCoffee(coffeeName);
+};
+
+const selectSalePoint = (salePoint: string) => {
+  coffeeStore.selectSalePoint(salePoint);
 };
 
 // Function to return to selection view
@@ -84,9 +88,10 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
     <h2>Comparez les fournisseurs</h2>
     <div class="selection-coffee-sale-point">
       <div
-        v-for="(coffee, i) in coffeeTypes.filter((c, i) => i < 3)"
+        v-for="(coffee, i) in coffeeTypes.filter((_c, i) => i < 3)"
         :key="coffee.name"
         class="coffee-card"
+        @click="selectSalePoint(i.toString())"
       >
         <img
           :src="getSelectedCoffeeImage"

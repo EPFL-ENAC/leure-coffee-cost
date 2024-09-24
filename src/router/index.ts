@@ -1,13 +1,18 @@
 // src/router/index.ts
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "@/views/HomeView.vue";
+import { path } from "d3";
 
 const routes = [
   {
-    path: "/:selectedCoffee?",
+    path: "/selection/:selectedCoffee?/:selectedSalePoint?",
     name: "Coffee",
     component: HomeView,
     props: true, // Allows route params to be passed as props
+  },
+  {
+    path: "/",
+    redirect: "/selection",
   },
   // ... other routes
 ];

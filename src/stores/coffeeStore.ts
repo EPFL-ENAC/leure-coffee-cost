@@ -15,12 +15,30 @@ export const useCoffeeStore = defineStore("coffee", () => {
     set(coffee: string | null) {
       console.log("Setting selected coffee to", coffee);
       if (route.params.selectedCoffee !== coffee)
-        router.push(`/${coffee || ""}`);
+        router.push(`/selection/${coffee || ""}`);
     },
   });
 
   const selectCoffee = (coffee: string) => {
     selectedCoffee.value = coffee;
+  };
+
+  // State for selected sale point
+  const selectedSalePoint = computed<string | null>({
+    get() {
+      return route.params?.selectedSalePoint as string | null;
+    },
+    set(salePoint: string | null) {
+      console.log("Setting selected salePoint to", salePoint);
+      if (route.params.selectedSalePoint !== salePoint)
+        router.push(
+          `/selection/${route.params.selectedCoffee}/${salePoint || ""}`
+        );
+    },
+  });
+
+  const selectSalePoint = (salePoint: string) => {
+    selectedSalePoint.value = salePoint;
   };
 
   // State for caffeine selection
@@ -63,7 +81,7 @@ export const useCoffeeStore = defineStore("coffee", () => {
     if (hasCaffeine.value) totalHiddenCost += hiddenCostCaffeine.value;
     totalHiddenCost += hiddenCostMilk.value;
     totalHiddenCost += sugarLevel.value * hiddenCostSugar.value;
-    return totalHiddenCost;
+    return totalHiddenCost * ((Number(selectedSalePoint.value) ?? 0) + 1);
   });
   // Computed property for the retail price (base price)
   const retailPrice = computed(() => baseRetailPrice.value);
@@ -110,6 +128,8 @@ export const useCoffeeStore = defineStore("coffee", () => {
     milkType, // Exposed to components
     sugarLevel,
     selectedImpact,
+    selectedSalePoint,
+    selectSalePoint,
     selectCoffee,
     selectImpact,
     setMilkType, // Exposed to components

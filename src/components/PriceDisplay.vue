@@ -40,6 +40,7 @@ const truePrice = computed(() => coffeeStore.truePrice);
   color: var(--color-secondary-dark);
   padding: 1em;
   border-radius: 10px;
+  font-weight: bold;
 }
 
 .price-item {
@@ -54,7 +55,6 @@ const truePrice = computed(() => coffeeStore.truePrice);
 }
 
 .price-item.total {
-  font-weight: bold;
   font-size: 1.5em;
   color: var(--color-secondary-dark);
 }
