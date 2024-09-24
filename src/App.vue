@@ -1,9 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import HomeView from "./views/HomeView.vue";
+</script>
 
 <template>
   <h1 class="app-title">True Cost of Coffee</h1>
   <div class="app-container">
-    <RouterView />
+    <HomeView />
   </div>
 </template>
 

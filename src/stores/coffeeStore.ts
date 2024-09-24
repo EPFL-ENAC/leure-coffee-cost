@@ -1,41 +1,43 @@
 import { defineStore } from "pinia";
 import { computed, ref } from "vue";
 import { CoffeeImpactData } from "@/utils/coffeeData";
-import { useRoute, useRouter } from "vue-router";
+// import { useRoute, useRouter } from "vue-router";
 
 export const useCoffeeStore = defineStore("coffee", () => {
-  const route = useRoute();
-  const router = useRouter();
+  // const route = useRoute();
+  // const router = useRouter();
 
   // State for selected coffee
-  const selectedCoffee = computed<string | null>({
-    get() {
-      return route.params?.selectedCoffee as string | null;
-    },
-    set(coffee: string | null) {
-      console.log("Setting selected coffee to", coffee);
-      if (route.params.selectedCoffee !== coffee)
-        router.push(`/selection/${coffee || ""}`);
-    },
-  });
+  // const selectedCoffee = computed<string | null>({
+  //   get() {
+  //     return route.params?.selectedCoffee as string | null;
+  //   },
+  //   set(coffee: string | null) {
+  //     console.log("Setting selected coffee to", coffee);
+  //     if (route.params.selectedCoffee !== coffee)
+  //       router.push(`/${coffee || ""}`);
+  //   },
+  // });
+
+  const selectedCoffee = ref<string | null>(null);
 
   const selectCoffee = (coffee: string) => {
     selectedCoffee.value = coffee;
   };
 
-  // State for selected sale point
-  const selectedSalePoint = computed<string | null>({
-    get() {
-      return route.params?.selectedSalePoint as string | null;
-    },
-    set(salePoint: string | null) {
-      console.log("Setting selected salePoint to", salePoint);
-      if (route.params.selectedSalePoint !== salePoint)
-        router.push(
-          `/selection/${route.params.selectedCoffee}/${salePoint || ""}`
-        );
-    },
-  });
+  const selectedSalePoint = ref<string | null>(null);
+
+  // // State for selected sale point
+  // const selectedSalePoint = computed<string | null>({
+  //   get() {
+  //     return route.params?.selectedSalePoint as string | null;
+  //   },
+  //   set(salePoint: string | null) {
+  //     console.log("Setting selected salePoint to", salePoint);
+  //     if (route.params.selectedSalePoint !== salePoint)
+  //       router.push(`/${route.params.selectedCoffee}/${salePoint || ""}`);
+  //   },
+  // });
 
   const selectSalePoint = (salePoint: string) => {
     selectedSalePoint.value = salePoint;

@@ -4,15 +4,16 @@ import HomeView from "@/views/HomeView.vue";
 
 const routes = [
   {
-    path: "/selection/:selectedCoffee?/:selectedSalePoint?",
+    path: "/:selectedCoffee?/:selectedSalePoint?",
     name: "Coffee",
     component: HomeView,
     props: true, // Allows route params to be passed as props
   },
-  {
-    path: "/",
-    redirect: "/selection",
-  },
+  // {
+  //   path: "/",
+  //   redirect: "/selection",
+  // },
+  // { path: "/:pathMatch(.*)*", redirect: "/" },
   // ... other routes
 ];
 
