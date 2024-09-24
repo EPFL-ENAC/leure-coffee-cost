@@ -90,7 +90,9 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
       <div
         v-for="(coffee, i) in coffeeTypes.filter((_c, i) => i < 3)"
         :key="coffee.name"
-        class="coffee-card"
+        :class="`coffee-card ${
+          coffeeStore.selectedSalePoint === i.toString() ? 'selected' : ''
+        }`"
         @click="selectSalePoint(i.toString())"
       >
         <img
@@ -115,7 +117,7 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
 .selection-coffee-sale-point {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5em;
+  gap: 2em;
   justify-content: center;
 }
 
@@ -207,16 +209,22 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
   filter: brightness(0.8);
 }
 
+.coffee-card:hover {
+  background-color: var(--color-primary-light);
+}
+
 .selected {
-  width: 220px;
-  height: 220px; /* Adjust as needed */
+  /* width: 220px;
+  height: 220px; 
   display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: 12px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
   padding: 1em;
-  cursor: default;
+  cursor: default; */
+  background-color: var(--color-primary-dark);
+  /* outline: var(--color-primary-dark) 6px solid; */
 }
 
 .selected-image {
