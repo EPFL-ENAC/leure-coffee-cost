@@ -2,28 +2,38 @@
 import { useCoffeeStore } from "../stores/coffeeStore";
 import { computed } from "vue";
 
+const generateCoffeeImage = (imgName: string) => {
+  // const baseURL = import.meta.env.BASE_URL ?? "";
+  return `./coffee/${imgName}`;
+};
 // Use the coffee store
 const coffeeStore = useCoffeeStore();
 
 // Define the coffee types with their corresponding SVG images
 const coffeeTypes = [
-  { name: "Americano", img: "/coffee/Americano.svg" },
-  { name: "Café", img: "/coffee/Café.svg" },
-  { name: "Café Macchiato", img: "/coffee/Café_Macchiato.svg" },
-  { name: "Cappuccino", img: "/coffee/Cappuccino.svg" },
-  { name: "Cappuccino Vanille", img: "/coffee/Cappuccino_vanille.svg" },
-  { name: "Espresso", img: "/coffee/Espresso.svg" },
-  { name: "Espresso Macchiato", img: "/coffee/Espresso_Macchiato.svg" },
-  { name: "Flat White", img: "/coffee/FlatWhite.svg" },
-  { name: "Latte Macchiato", img: "/coffee/Latte_Macchiato.svg" },
+  { name: "Americano", img: "Americano.svg" },
+  { name: "Café", img: "Café.svg" },
+  { name: "Café Macchiato", img: "Café_Macchiato.svg" },
+  { name: "Cappuccino", img: "Cappuccino.svg" },
+  {
+    name: "Cappuccino Vanille",
+    img: "Cappuccino_vanille.svg",
+  },
+  { name: "Espresso", img: "Espresso.svg" },
+  {
+    name: "Espresso Macchiato",
+    img: "Espresso_Macchiato.svg",
+  },
+  { name: "Flat White", img: "FlatWhite.svg" },
+  { name: "Latte Macchiato", img: "Latte_Macchiato.svg" },
   {
     name: "Latte Macchiato Vanille",
-    img: "/coffee/Latte_Macchiato_vanille.svg",
+    img: "Latte_Macchiato_vanille.svg",
   },
-  { name: "Mocaccino", img: "/coffee/Mocaccino.svg" },
-  { name: "Renversé", img: "/coffee/Renversé.svg" },
-  { name: "Ristretto", img: "/coffee/Ristretto.svg" },
-];
+  { name: "Mocaccino", img: "Mocaccino.svg" },
+  { name: "Renversé", img: "Renversé.svg" },
+  { name: "Ristretto", img: "Ristretto.svg" },
+].map((d) => ({ ...d, img: generateCoffeeImage(d.img) }));
 
 // Computed property for the selected coffee from the store
 const selectedCoffee = computed(() => coffeeStore.selectedCoffee);
