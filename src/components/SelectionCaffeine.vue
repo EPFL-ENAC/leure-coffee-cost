@@ -71,7 +71,7 @@ const toggleCaffeine = () => {
 }
 
 input:checked + .slider {
-  background-color: var(--color-primary);
+  background-color: var(--color-primary-dark);
 }
 
 input:checked + .slider:before {

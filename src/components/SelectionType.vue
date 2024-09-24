@@ -62,7 +62,9 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
   </div>
 
   <div v-else class="coffee-detail">
-    <button class="return-button" @click="returnToSelection">← Return</button>
+    <button class="return-button" @click="returnToSelection">
+      ← Select another coffee
+    </button>
     <div class="coffee-card selected">
       <img
         :src="getSelectedCoffeeImage"
@@ -96,9 +98,10 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  border: var(--color-primary) 2px solid;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s, box-shadow 0.2s;
+  background-color: #fff;
+  color: black;
 }
 
 .coffee-card:not(.selected):hover {
@@ -135,7 +138,7 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
   cursor: pointer;
   margin-bottom: 1em;
   align-self: flex-start;
-  color: var(--color-secondary);
+  color: white;
   transition: color 0.2s;
 }
 
@@ -167,7 +170,6 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
   font-size: 1em;
   text-align: center;
   max-width: 300px;
-  color: #555;
 }
 
 @media screen and (max-width: 600px) {

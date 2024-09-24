@@ -54,8 +54,7 @@ const setSugarLevel = (level: number) => {
 }
 
 .sugar-buttons button.selected {
-  background-color: var(--color-primary);
-  color: white;
+  background-color: var(--color-primary-dark);
 }
 
 .sugar-buttons button:hover {

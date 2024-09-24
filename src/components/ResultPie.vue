@@ -9,9 +9,12 @@ import { Leaf, Root, sunburstData, SunburstNode } from "@/utils/coffeeData";
 import { useCoffeeStore } from "../stores/coffeeStore";
 
 const chartRef = ref<HTMLElement | null>(null);
-const color = d3.scaleOrdinal(
-  d3.quantize(d3.interpolateRainbow, sunburstData.children.length + 1)
-);
+const color = d3.scaleOrdinal().range([
+  "#e8e2d8", // color-primary-light
+  "#e2cca6", // color-primary-dark
+  "#8f6a48", // color-secondary-light
+  "#3c2619", // color-secondary-dark
+]);
 
 const store = useCoffeeStore();
 
@@ -53,7 +56,7 @@ const arc = d3
   .startAngle((d) => d.x0)
   .endAngle((d) => d.x1)
   .padAngle((d) => Math.min((d.x1 - d.x0) / 2, 0.005))
-  .padRadius(radius * 1.5)
+  .padRadius(radius)
   .innerRadius((d) => d.y0 * innerRadius)
   .outerRadius((d) => d.y1 * radius - 1);
 
@@ -111,12 +114,12 @@ onMounted(() => {
     .selectAll("path")
     .data(root.descendants().slice(1))
     .join("path")
-    .attr("fill", (d) => {
+    .attr("fill", (d: HierarchyRectangularNode) => {
       while (d.depth > 1 && d.parent) d = d.parent;
-      return color(d.data.name);
+      return color(d.data.name) as string; // Ensure the return type is string
     })
     .attr("fill-opacity", (d) =>
-      arcVisible(d.current) ? (d.children ? 0.6 : 0.4) : 0
+      arcVisible(d.current) ? (d.children ? 1 : 0) : 0
     )
     .attr("pointer-events", (d) => (arcVisible(d.current) ? "auto" : "none"))
     .attr("d", (d) => arc(d.current));
@@ -235,9 +238,7 @@ onMounted(() => {
         const i = d3.interpolate(d.current, d.target);
         return (t) => (d.current = i(t));
       })
-      .attr("fill-opacity", (d) =>
-        arcVisible(d.target) ? (d.children ? 0.6 : 0.4) : 0
-      )
+      .attr("fill-opacity", (d) => (arcVisible(d.target) ? 1 : 0))
       .attr("pointer-events", (d) => (arcVisible(d.target) ? "auto" : "none"))
       .attrTween("d", (d) => () => arc(d.current) as string)
       .on("end", function (d) {
@@ -288,11 +289,16 @@ onMounted(() => {
   width: 100%;
   height: 100%;
   overflow: visible;
+  /* background-color: white; */
 }
 
 /* Define a filter for the shadow effect */
 :deep()defs {
   filter: url(#shadow);
+}
+
+:deep()text {
+  font-size: 1.6em;
 }
 
 :deep()path,
@@ -305,6 +311,7 @@ onMounted(() => {
 :deep().selected {
   scale: 1.2;
   fill-opacity: 1;
+  color: white;
   filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.1));
 }
 

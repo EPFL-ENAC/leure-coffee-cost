@@ -23,6 +23,7 @@ import ResultPie from "./components/ResultPie.vue";
 <style scoped>
 .app-title {
   font-size: 2.3em;
+  color: white;
   margin-bottom: 0.5em;
   /* color: var(--color-primary-dark); */
   /* position: fixed;
@@ -37,6 +38,7 @@ import ResultPie from "./components/ResultPie.vue";
   align-items: center;
   /* justify-content: center; */
   gap: 2em;
-  /* max-width: 600px; */
+  max-width: 800px;
+  margin: auto;
 }
 </style>
