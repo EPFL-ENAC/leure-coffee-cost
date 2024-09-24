@@ -61,7 +61,7 @@ button:focus-visible {
   margin: 0 auto;
   padding: 1rem;
   width: 100%;
-  text-align: center;
+  text-align: left;
   background-color: var(--color-secondary-dark);
 }
 

@@ -62,13 +62,26 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
   </div>
 
   <div v-else class="coffee-detail">
+    <div class="coffee-infos">
+      <div class="coffee-title">
+        {{ selectedCoffee }}
+        <img
+          :src="getSelectedCoffeeImage"
+          :alt="selectedCoffee"
+          class="coffee-image"
+        />
+      </div>
+      <p class="coffee-description">
+        {{ selectedCoffee }} is a popular coffee type known for its rich flavor
+        and strong aroma. Enjoy the smooth and bold taste with every sip!
+      </p>
+      <div></div>
+    </div>
     <button class="return-button" @click="returnToSelection">
       <vue-feather type="arrow-left"></vue-feather>
       Choix du café
     </button>
-    <div>
-      <h2>Comparez les fournisseurs</h2>
-    </div>
+    <h2>Comparez les fournisseurs</h2>
     <div class="coffee-card selected">
       <img
         :src="getSelectedCoffeeImage"
@@ -77,10 +90,6 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
       />
       <span class="coffee-name">{{ selectedCoffee }}</span>
     </div>
-    <p class="coffee-description">
-      {{ selectedCoffee }} is a popular coffee type known for its rich flavor
-      and strong aroma. Enjoy the smooth and bold taste with every sip!
-    </p>
   </div>
 </template>
 
@@ -123,13 +132,33 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
   height: 80px;
   margin-bottom: 0.5em;
 }
+.coffee-title {
+  font-size: xx-large;
+  font-weight: bold;
+  display: flex;
+  justify-content: left;
+  gap: 1em;
+  /* text-decoration: underline;
+  text-underline-offset: 0.1em; */
+  /* margin-bottom: 1em; */
+  align-items: center;
+}
 
+.coffee-title img {
+  width: 50px;
+  height: 50px;
+  border: var(--color-primary-dark) 3px solid;
+  background-color: white;
+  border-radius: 50px;
+  padding: 10px;
+}
 .coffee-name {
-  font-size: 1.2em;
+  font-size: large;
   text-align: center;
 }
 
 .coffee-detail {
+  font-size: medium;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -137,20 +166,23 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
 
 .return-button {
   border: none;
-  font-size: 1.5em;
+  font-size: medium;
   cursor: pointer;
-  margin-bottom: 1em;
   align-self: flex-start;
   color: var(--color-secondary-dark);
   transition: color 0.2s;
   display: flex;
   gap: 0.5em;
-  margin: auto;
-  margin-bottom: 2em;
+  margin: 2em 0px;
   align-items: center;
   background-color: white;
 }
 
+.coffee-card.icon {
+  border-radius: 100px;
+  width: 120px;
+  height: 120px;
+}
 .return-button:hover {
   filter: brightness(0.8);
 }
@@ -176,7 +208,6 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
 .coffee-description {
   margin-top: 1em;
   font-size: 1em;
-  text-align: center;
   max-width: 300px;
 }
 
