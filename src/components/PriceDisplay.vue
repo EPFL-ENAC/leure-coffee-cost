@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useCoffeeStore } from "../stores/coffeeStore";
-import { computed, watch } from "vue";
+import { computed } from "vue";
 
 // Use the coffee store
 const coffeeStore = useCoffeeStore();

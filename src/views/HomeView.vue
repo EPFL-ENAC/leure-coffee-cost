@@ -18,4 +18,14 @@ import ResultPie from "@/components/ResultPie.vue";
   <SelectionSugar />
   <PriceDisplay v-if="store.isPriceVisible" />
   <ResultPie v-if="store.isPriceVisible" />
+  <h3 v-if="!store.isPriceVisible">
+    Select a coffee and its sale point to visualize its true cost!
+  </h3>
 </template>
+
+<style scoped>
+h3 {
+  text-align: center;
+  margin-top: 2em;
+}
+</style>
