@@ -36,7 +36,7 @@ const selectedCoffeeImage = computed(() => {
 
 // Function to handle selection
 const selectCoffee = (coffeeName: string) => {
-  coffeeStore.selectCoffee(coffeeName);
+  coffeeStore.selectedCoffee = coffeeName;
 };
 
 // Function to return to selection view

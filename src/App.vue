@@ -1,22 +1,9 @@
-<script setup lang="ts">
-import SelectionType from "./components/SelectionType.vue";
-import SelectionCaffeine from "./components/SelectionCaffeine.vue";
-import SelectionMilk from "./components/SelectionMilk.vue";
-import SelectionSugar from "./components/SelectionSugar.vue";
-import PriceDisplay from "./components/PriceDisplay.vue";
-import ResultPie from "./components/ResultPie.vue";
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="app-container">
     <h1 class="app-title">True Cost of Coffee</h1>
-
-    <SelectionType />
-    <SelectionCaffeine />
-    <SelectionMilk />
-    <SelectionSugar />
-    <PriceDisplay />
-    <ResultPie />
+    <RouterView />
   </div>
 </template>
 

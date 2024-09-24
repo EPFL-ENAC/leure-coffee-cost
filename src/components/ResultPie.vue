@@ -179,7 +179,7 @@ onMounted(() => {
   parent
     .append("circle")
     .attr("r", innerRadius * 0.9)
-    .attr("fill", "none");
+    .attr("fill", "white");
 
   parent
     .append("text")
@@ -298,7 +298,7 @@ onMounted(() => {
 }
 
 :deep()text {
-  font-size: 1.6em;
+  font-size: 1.4em;
 }
 
 :deep()path,

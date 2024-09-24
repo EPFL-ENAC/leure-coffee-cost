@@ -1,95 +1,103 @@
 import { defineStore } from "pinia";
 import { computed, ref } from "vue";
 import { CoffeeImpactData } from "@/utils/coffeeData";
+import { useRoute, useRouter } from "vue-router";
 
-export const useCoffeeStore = defineStore(
-  "coffee",
-  () => {
-    // State for selected coffee
-    const selectedCoffee = ref<string | null>(null);
+export const useCoffeeStore = defineStore("coffee", () => {
+  const route = useRoute();
+  const router = useRouter();
 
-    // State for caffeine selection
-    const hasCaffeine = ref<boolean>(true);
+  // State for selected coffee
+  const selectedCoffee = computed<string | null>({
+    get() {
+      return route.params?.selectedCoffee as string | null;
+    },
+    set(coffee: string | null) {
+      console.log("Setting selected coffee to", coffee);
+      if (route.params.selectedCoffee !== coffee)
+        router.push(`/${coffee || ""}`);
+    },
+  });
 
-    // State for milk selection
-    const hasMilk = ref<boolean>(false);
+  // State for caffeine selection
+  const hasCaffeine = ref<boolean>(true);
 
-    // State for sugar selection
-    const sugarLevel = ref<number>(0);
+  // State for milk selection
+  const hasMilk = ref<boolean>(false);
 
-    // Base retail price of the coffee (assuming a base price of $2.00)
-    const baseRetailPrice = ref<number>(2.0);
+  // State for sugar selection
+  const sugarLevel = ref<number>(0);
 
-    // Define hidden costs (example values)
-    const hiddenCostCaffeine = ref<number>(0.5); // Extra cost for caffeine
-    const hiddenCostMilk = ref<number>(0.3); // Extra cost for milk
-    const hiddenCostSugar = ref<number>(0.1); // Extra cost per sugar unit
+  // Base retail price of the coffee (assuming a base price of $2.00)
+  const baseRetailPrice = ref<number>(2.0);
 
-    const selectedImpact = ref<CoffeeImpactData | undefined>(undefined);
+  // Define hidden costs (example values)
+  const hiddenCostCaffeine = ref<number>(0.5); // Extra cost for caffeine
+  const hiddenCostMilk = ref<number>(0.3); // Extra cost for milk
+  const hiddenCostSugar = ref<number>(0.1); // Extra cost per sugar unit
 
-    // Computed property for the hidden cost based on selections
-    const hiddenCost = computed(() => {
-      let totalHiddenCost = 0;
-      if (hasCaffeine.value) totalHiddenCost += hiddenCostCaffeine.value;
-      if (hasMilk.value) totalHiddenCost += hiddenCostMilk.value;
-      totalHiddenCost += sugarLevel.value * hiddenCostSugar.value;
-      return totalHiddenCost;
-    });
+  const selectedImpact = ref<CoffeeImpactData | undefined>(undefined);
 
-    // Computed property for the retail price (base price)
-    const retailPrice = computed(() => baseRetailPrice.value);
+  // Computed property for the hidden cost based on selections
+  const hiddenCost = computed(() => {
+    let totalHiddenCost = 0;
+    if (hasCaffeine.value) totalHiddenCost += hiddenCostCaffeine.value;
+    if (hasMilk.value) totalHiddenCost += hiddenCostMilk.value;
+    totalHiddenCost += sugarLevel.value * hiddenCostSugar.value;
+    return totalHiddenCost;
+  });
 
-    // Computed property for the true price (retail + hidden costs)
-    const truePrice = computed(() => retailPrice.value + hiddenCost.value);
+  // Computed property for the retail price (base price)
+  const retailPrice = computed(() => baseRetailPrice.value);
 
-    // Function to set the selected coffee
-    const selectCoffee = (coffee: string) => {
-      selectedCoffee.value = coffee;
-    };
+  // Computed property for the true price (retail + hidden costs)
+  const truePrice = computed(() => retailPrice.value + hiddenCost.value);
 
-    const selectImpact = (impactData?: CoffeeImpactData) => {
-      selectedImpact.value = impactData;
-    };
+  // // Function to set the selected coffee
+  // const selectCoffee = (coffee: string) => {
+  //   selectedCoffee.value = coffee;
+  // };
 
-    // Function to clear the selected coffee
-    const clearSelection = () => {
-      selectedCoffee.value = null;
-      hasCaffeine.value = true; // Reset caffeine selection on clear
-      hasMilk.value = false; // Reset milk selection on clear
-      sugarLevel.value = 0; // Reset sugar level on clear
-    };
+  const selectImpact = (impactData?: CoffeeImpactData) => {
+    selectedImpact.value = impactData;
+  };
 
-    // Function to toggle caffeine selection
-    const toggleCaffeine = () => {
-      hasCaffeine.value = !hasCaffeine.value;
-    };
+  // Function to clear the selected coffee
+  const clearSelection = () => {
+    selectedCoffee.value = null;
+    hasCaffeine.value = true; // Reset caffeine selection on clear
+    hasMilk.value = false; // Reset milk selection on clear
+    sugarLevel.value = 0; // Reset sugar level on clear
+  };
 
-    // Function to toggle milk selection
-    const toggleMilk = () => {
-      hasMilk.value = !hasMilk.value;
-    };
+  // Function to toggle caffeine selection
+  const toggleCaffeine = () => {
+    hasCaffeine.value = !hasCaffeine.value;
+  };
 
-    // Function to set sugar level
-    const setSugarLevel = (level: number) => {
-      sugarLevel.value = level;
-    };
+  // Function to toggle milk selection
+  const toggleMilk = () => {
+    hasMilk.value = !hasMilk.value;
+  };
 
-    return {
-      selectedCoffee,
-      hasCaffeine,
-      hasMilk,
-      sugarLevel,
-      selectedImpact,
-      selectImpact,
-      selectCoffee,
-      clearSelection,
-      toggleCaffeine,
-      toggleMilk,
-      setSugarLevel,
-      retailPrice,
-      truePrice,
-      hiddenCost,
-    };
-  },
-  { persist: true }
-);
+  // Function to set sugar level
+  const setSugarLevel = (level: number) => {
+    sugarLevel.value = level;
+  };
+
+  return {
+    selectedCoffee,
+    hasCaffeine,
+    hasMilk,
+    sugarLevel,
+    selectedImpact,
+    selectImpact,
+    clearSelection,
+    toggleCaffeine,
+    toggleMilk,
+    setSugarLevel,
+    retailPrice,
+    truePrice,
+    hiddenCost,
+  };
+});
