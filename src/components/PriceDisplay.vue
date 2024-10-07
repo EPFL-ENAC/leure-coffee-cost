@@ -5,10 +5,14 @@ import { computed } from "vue";
 // Use the coffee store
 const coffeeStore = useCoffeeStore();
 
+const selectedCoffee = computed(() => coffeeStore.selectedCoffee);
+
 // Computed properties to get prices from the store
-const retailPrice = computed(() => coffeeStore.retailPrice);
-const hiddenCost = computed(() => coffeeStore.hiddenCost);
-const truePrice = computed(() => coffeeStore.truePrice);
+const retailPrice = computed(() => selectedCoffee.value?.marketPrice ?? 0);
+const hiddenCost = computed(
+  () => (selectedCoffee.value?.trueCost ?? 0) + 0.2 * coffeeStore.sugarLevel
+);
+const truePrice = computed(() => retailPrice.value + hiddenCost.value);
 </script>
 
 <template>

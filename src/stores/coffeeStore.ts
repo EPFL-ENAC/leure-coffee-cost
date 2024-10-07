@@ -42,7 +42,6 @@ export const useCoffeeStore = defineStore("coffee", () => {
   // Selections
   const selectedRecipe = ref<Recipe | null>(null);
   const selectedSalePoint = ref<string | null>(null);
-  const selectedCoffee = ref<CoffeeData | null>(null);
   const isDecaf = ref<boolean>(true);
   const milkType = ref<MilkType>(MilkType.NONE);
   const sugarLevel = ref<number>(0);
@@ -61,7 +60,6 @@ export const useCoffeeStore = defineStore("coffee", () => {
   const filterWithCurrentDecaf = (d: CoffeeData) => d.isDecaf === isDecaf.value;
 
   const filterWithCurrentSelection = (d: CoffeeData) => {
-    console.log("Filtering with current selection:", d);
     return (
       filterWithCurrentDecaf(d) &&
       filterWithCurrentMilkType(d) &&
@@ -134,7 +132,6 @@ export const useCoffeeStore = defineStore("coffee", () => {
     selectedRecipe.value = recipe;
     // Reset dependent selections
     selectedSalePoint.value = null;
-    selectedCoffee.value = null;
     milkType.value = MilkType.NONE;
     sugarLevel.value = 0;
     isDecaf.value = false;
@@ -142,21 +139,6 @@ export const useCoffeeStore = defineStore("coffee", () => {
 
   const selectSalePoint = (salePoint: string) => {
     selectedSalePoint.value = salePoint;
-    // Reset coffee selection
-    selectedCoffee.value = null;
-  };
-
-  const selectCoffee = (coffee: CoffeeData) => {
-    selectedCoffee.value = coffee;
-    // Optionally, set recipe based on coffee selection
-    selectedRecipe.value = coffee.mainRecipe as Recipe;
-    // Set other selections based on coffee
-    milkType.value = coffee.hasMilk
-      ? (coffee.milkType as MilkType)
-      : MilkType.NONE;
-    isDecaf.value = coffee.isDecaf;
-    // Sugar level and other customizations can be reset or set as needed
-    sugarLevel.value = 0;
   };
 
   const toggleCaffeine = () => {
@@ -184,50 +166,20 @@ export const useCoffeeStore = defineStore("coffee", () => {
   const clearSelection = () => {
     selectedRecipe.value = null;
     selectedSalePoint.value = null;
-    selectedCoffee.value = null;
     isDecaf.value = true;
     milkType.value = MilkType.NONE;
     sugarLevel.value = 0;
     selectedImpact.value = undefined;
   };
 
-  // Computed properties for pricing
-  const hiddenCostCaffeine = ref<number>(0.5);
-  const hiddenCostSugar = ref<number>(0.1);
-
-  const hiddenCostMilk = computed<number>(() => {
-    switch (milkType.value) {
-      case MilkType.COW:
-        return 0.8;
-      case MilkType.ALMOND:
-        return 0.3;
-      case MilkType.SOY:
-        return 0.35;
-      case MilkType.CLF:
-        return 0.25;
-      case MilkType.OAT:
-        return 0.4;
-      case MilkType.NONE:
-      default:
-        return 0;
-    }
+  const selectedCoffee = computed<CoffeeData | null>(() => {
+    if (!listCoffee.value) return null;
+    return listCoffee.value.find(filterWithCurrentSelection) ?? null;
   });
 
-  const hiddenCost = computed(() => {
-    let totalHiddenCost = 0;
-    if (!isDecaf.value) totalHiddenCost += hiddenCostCaffeine.value;
-    totalHiddenCost += hiddenCostMilk.value;
-    totalHiddenCost += sugarLevel.value * hiddenCostSugar.value;
-    return totalHiddenCost;
+  const isPriceVisible = computed(() => {
+    return selectedCoffee.value !== null;
   });
-
-  const baseRetailPrice = ref<number>(2.0);
-  const retailPrice = computed(() => baseRetailPrice.value);
-  const truePrice = computed(() => retailPrice.value + hiddenCost.value);
-
-  const isPriceVisible = computed(
-    () => !!selectedCoffee.value && !!selectedSalePoint.value
-  );
 
   return {
     // State
@@ -257,16 +209,10 @@ export const useCoffeeStore = defineStore("coffee", () => {
     // Actions
     selectRecipe,
     selectSalePoint,
-    selectCoffee,
     toggleCaffeine,
     setMilkType,
     setSugarLevel,
     selectImpact,
     clearSelection,
-
-    // Pricing
-    retailPrice,
-    truePrice,
-    hiddenCost,
   };
 });

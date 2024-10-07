@@ -17,7 +17,7 @@ const toggleCaffeine = () => {
 <template>
   <div class="caffeine-selection">
     <label class="switch">
-      <input type="checkbox" v-model="isDecaf" @change="toggleCaffeine" />
+      <input type="checkbox" :value="isDecaf" @change="toggleCaffeine" />
       <span class="slider round"></span>
     </label>
     <span class="caffeine-label">
