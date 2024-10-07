@@ -1,3 +1,40 @@
+// Define enums for better type safety
+export enum MilkType {
+  NONE = "none",
+  COW = "cow",
+  ALMOND = "almond",
+  SOY = "soy",
+  CLF = "clf",
+  OAT = "oat",
+  // Add more as needed
+}
+
+export const milkName: Map<MilkType, string> = new Map([
+  [MilkType.NONE, "None"],
+  [MilkType.COW, "Cow"],
+  [MilkType.ALMOND, "Almond"],
+  [MilkType.SOY, "Soy"],
+  [MilkType.CLF, "Lactose-free cow"],
+  [MilkType.OAT, "Oat"],
+]);
+
+export enum Recipe {
+  RIS = "ris",
+  ESP = "esp",
+  CAF = "caf",
+  CAP = "cap",
+  REN = "ren",
+  LAMA = "lama",
+  RENV = "renv",
+  MOC = "moc",
+  CAPVA = "capva",
+  LATMAC = "latmac",
+  LATMACVA = "latmacva",
+  ESPMOC = "espmoc",
+  CAFMOC = "cafmoc",
+  SUG = "sug",
+}
+
 export type CoffeeData = {
   serveId: string;
   recipeId: string;
@@ -11,25 +48,8 @@ export type CoffeeData = {
   isDecaf: boolean;
   hasMilk: boolean;
   milkType: string | null;
-  mainRecipe: string;
+  mainRecipe: Recipe;
 };
-
-// export enum Recipe {
-//   ris = "ris",
-//   esp = "esp",
-//   caf = "caf",
-//   cap = "cap",
-//   ren = "ren",
-//   lama = "lama",
-//   renv = "renv",
-//   moc = "moc",
-//   capva = "capva",
-//   latmac = "latmac",
-//   latmacva = "latmacva",
-//   espmoc = "espmoc",
-//   cafmoc = "cafmoc",
-//   sug = "sug",
-// }
 
 export const recipeDetails: Map<string, { name: string; img: string }> =
   new Map([

@@ -2,10 +2,11 @@
 import { useCoffeeStore } from "@/stores/coffeeStore";
 import {
   CoffeeData,
+  Recipe,
   recipeDetails,
   salePointDetails,
 } from "@/utils/coffeeData";
-import { computed, onMounted, ref, watch } from "vue";
+import { computed, watch } from "vue";
 
 const generateCoffeeImage = (imgName?: string) => {
   // const baseURL = import.meta.env.BASE_URL ?? "";
@@ -15,20 +16,20 @@ const generateCoffeeImage = (imgName?: string) => {
 
 const coffeeStore = useCoffeeStore();
 
-const listCoffee = ref<CoffeeData[] | null>(null);
+const listCoffee = computed(() => coffeeStore.listCoffee);
 
-const listRecipes = computed(() => {
-  if (!listCoffee.value) return {};
+const listRecipes = computed<Record<Recipe, CoffeeData[]>>(() => {
+  if (!listCoffee.value) return {} as Record<Recipe, CoffeeData[]>;
   return listCoffee.value
     .filter((d) => d.marketPrice && d.marketPrice > 0)
     .reduce((acc, coffee) => {
-      const key = coffee.mainRecipe;
+      const key = coffee.mainRecipe as Recipe;
       if (!acc[key]) {
         acc[key] = [];
       }
       acc[key].push(coffee);
       return acc;
-    }, {} as Record<string, CoffeeData[]>);
+    }, {} as Record<Recipe, CoffeeData[]>);
 });
 
 // Computed property for the selected coffee image
@@ -38,7 +39,7 @@ const selectedCoffeeImage = computed(() => {
     : "";
 });
 
-const selectRecipe = (recipe: string) => {
+const selectRecipe = (recipe: Recipe) => {
   coffeeStore.selectRecipe(recipe);
 };
 const selectedRecipe = computed(() => coffeeStore.selectedRecipe);
@@ -70,10 +71,6 @@ const listSalesPoint = computed(() => {
 
 watch(listSalesPoint, (newValue) => {
   console.log("Selected sale point:", newValue);
-});
-
-onMounted(async () => {
-  listCoffee.value = await coffeeStore.listCoffee;
 });
 </script>
 
@@ -133,7 +130,6 @@ onMounted(async () => {
         <span class="coffee-name">{{
           salePointDetails.get(name)?.name.replace("EPFL", "")
         }}</span>
-        <span class="coffee-name"> 10 CHF </span>
       </div>
     </div>
   </div>
@@ -268,11 +264,16 @@ onMounted(async () => {
   max-width: 300px;
 }
 .selection-coffee-sale-point > .coffee-card {
-  height: 240px;
+  height: 180px;
+  justify-content: space-between;
 }
-.selection-coffee-sale-point > .coffee-card > .coffee-name {
+/* .selection-coffee-sale-point > .coffee-card > .coffee-name {
   font-size: medium;
-}
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+} */
 @media screen and (max-width: 600px) {
   .coffee-card {
     width: 80px;

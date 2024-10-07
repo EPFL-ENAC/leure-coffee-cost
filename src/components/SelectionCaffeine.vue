@@ -6,7 +6,7 @@ import { computed } from "vue";
 const coffeeStore = useCoffeeStore();
 
 // Computed property for caffeine selection from the store
-const hasCaffeine = computed(() => coffeeStore.hasCaffeine);
+const isDecaf = computed(() => coffeeStore.isDecaf);
 
 // Function to toggle caffeine selection
 const toggleCaffeine = () => {
@@ -17,11 +17,11 @@ const toggleCaffeine = () => {
 <template>
   <div class="caffeine-selection">
     <label class="switch">
-      <input type="checkbox" v-model="hasCaffeine" @change="toggleCaffeine" />
+      <input type="checkbox" v-model="isDecaf" @change="toggleCaffeine" />
       <span class="slider round"></span>
     </label>
     <span class="caffeine-label">
-      {{ hasCaffeine ? "Caffeinated" : "Decaf" }}
+      {{ !isDecaf ? "Caffeinated" : "Decaf" }}
     </span>
   </div>
 </template>

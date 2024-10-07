@@ -1,24 +1,17 @@
 <!-- src/components/SelectionMilk.vue -->
 <script setup lang="ts">
 import { useCoffeeStore } from "@/stores/coffeeStore";
+import { milkName, MilkType } from "@/utils/coffeeData";
 import { computed, watch } from "vue";
 
 // Use the coffee store
 const coffeeStore = useCoffeeStore();
 
-// Define available milk types
-const milkOptions = [
-  { value: "none", label: "No Milk" },
-  { value: "cow", label: "Cow Milk" },
-  { value: "almond", label: "Almond Milk" },
-  { value: "soy", label: "Soy Milk" },
-  // Add more milk types as needed
-];
-
+const disabled = computed(() => coffeeStore.availableMilkTypes.length <= 1);
 // Computed property for current milk selection
 const selectedMilk = computed({
   get: () => coffeeStore.milkType,
-  set: (value: string) => {
+  set: (value: MilkType) => {
     coffeeStore.setMilkType(value);
   },
 });
@@ -33,15 +26,15 @@ watch(
 </script>
 
 <template>
-  <div class="milk-selection">
+  <div :class="`milk-selection ${disabled ? 'disabled' : ''}`">
     <label for="milk-select" class="milk-label">Choose Milk Type:</label>
     <select id="milk-select" v-model="selectedMilk" class="milk-dropdown">
       <option
-        v-for="option in milkOptions"
-        :key="option.value"
-        :value="option.value"
+        v-for="option in coffeeStore.availableMilkTypes"
+        :key="option"
+        :value="option"
       >
-        {{ option.label }}
+        {{ milkName.get(option) }}
       </option>
     </select>
   </div>
@@ -52,6 +45,10 @@ watch(
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.milk-selection.disabled {
+  opacity: 0.5;
 }
 
 .milk-label {

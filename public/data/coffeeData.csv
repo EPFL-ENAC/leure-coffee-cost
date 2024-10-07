@@ -1,0 +1,81 @@
+serveId,recipeId,retailName,salePointId,coffeeDetails,marketPrice,trueCost,truePrice,isDecaf,hasMilk,milkType,mainRecipe
+ch-epfl-klee_ris-cof,ris-cof,Ristretto,ch-epfl-klee,To fill,1.6,0.8478559481654123,2.4478559481654125,false,false,,ris
+ch-epfl-klee_ris-decaf,ris-decaf,"Ristretto, décaféiné",ch-epfl-klee,To fill,1.6,0.7664726757964858,2.366472675796486,true,false,,ris
+ch-epfl-klee_esp-cof,esp-cof,Espresso,ch-epfl-klee,To fill,1.6,0.8478559481654123,2.4478559481654125,false,false,,esp
+ch-epfl-klee_esp-decaf,esp-decaf,"Espresso, décaféiné",ch-epfl-klee,To fill,1.6,0.7664726757964858,2.366472675796486,true,false,,esp
+ch-epfl-klee_caf-cof,caf-cof,Café,ch-epfl-klee,To fill,1.6,0.8478559481654123,2.4478559481654125,false,false,,caf
+ch-epfl-klee_caf-decaf,caf-decaf,"Café, décaféiné",ch-epfl-klee,To fill,1.6,0.7664726757964858,2.366472675796486,true,false,,caf
+ch-epfl-klee_ren-cof-cow,ren-cof-cow,Renversé,ch-epfl-klee,To fill,2.7,0.0,2.7,false,true,cow,ren
+ch-epfl-klee_ren-decaf-cow,ren-decaf-cow,"Renversé, décaféiné",ch-epfl-klee,To fill,2.7,0.0,2.7,true,true,cow,ren
+ch-epfl-klee_renv-cof-clf,renv-cof-clf,"Renversé, sans-lactose",ch-epfl-klee,To fill,2.7,0.0,2.7,false,true,clf,renv
+ch-epfl-klee_renv-decaf-clf,renv-decaf-clf,"Renversé, décaféiné, sans-lactose",ch-epfl-klee,To fill,2.7,0.0,2.7,true,true,clf,renv
+ch-epfl-klee_renv-cof-oat,renv-cof-oat,Renversé,ch-epfl-klee,To fill,2.7,0.0,2.7,false,true,oat,renv
+ch-epfl-klee_renv-decaf-oat,renv-decaf-oat,"Renversé, décaféiné, lait d'avoine",ch-epfl-klee,To fill,2.7,0.0,2.7,true,true,oat,renv
+ch-epfl-klee_cap-cof-cow,cap-cof-cow,Cappuccino,ch-epfl-klee,To fill,2.7,0.0,2.7,false,true,cow,cap
+ch-epfl-klee_cap-decaf-cow,cap-decaf-cow,"Cappuccino, décaféiné",ch-epfl-klee,To fill,2.7,0.0,2.7,true,true,cow,cap
+ch-epfl-klee_cap-cof-clf,cap-cof-clf,"Cappuccino, sans-lactose",ch-epfl-klee,To fill,2.7,0.0,2.7,false,true,clf,cap
+ch-epfl-klee_cap-decaf-clf,cap-decaf-clf,"Cappuccino, décaféiné, sans-lactose",ch-epfl-klee,To fill,2.7,0.0,2.7,true,true,clf,cap
+ch-epfl-klee_cap-cof-oat,cap-cof-oat,"Cappuccino, lait d'avoine",ch-epfl-klee,To fill,2.7,0.0,2.7,false,true,oat,cap
+ch-epfl-klee_cap-decaf-oat,cap-decaf-oat,"Cappuccino, décaféiné, lait d'avoine",ch-epfl-klee,To fill,2.7,0.0,2.7,true,true,oat,cap
+ch-epfl-klee_lama-cof-cow,lama-cof-cow,Latte Macchiato,ch-epfl-klee,To fill,2.7,0.0,2.7,false,true,cow,lama
+ch-epfl-klee_lama-deca-cow,lama-deca-cow,"Latte Macchiato, décaféiné",ch-epfl-klee,To fill,2.7,0.0,2.7,true,true,cow,lama
+ch-epfl-klee_lama-cof-clf,lama-cof-clf,"Latte Macchiato, sans-lactose",ch-epfl-klee,To fill,2.7,0.0,2.7,false,true,clf,lama
+ch-epfl-klee_lama-deca-clf,lama-deca-clf,"Latte Macchiato, décaféiné, sans-lactose",ch-epfl-klee,To fill,2.7,0.0,2.7,true,true,clf,lama
+ch-epfl-klee_lama-cof-oat,lama-cof-oat,"Latte Macchiato, lait d'avoine",ch-epfl-klee,To fill,2.7,0.0,2.7,false,true,oat,lama
+ch-epfl-klee_lama-deca-oat,lama-deca-oat,"Latte Macchiato, décaféiné, lait d'avoine",ch-epfl-klee,To fill,2.7,0.0,2.7,true,true,oat,lama
+ch-epfl-vm#1_ris-cof,ris-cof,Ristretto,ch-epfl-vm#1,To fill,1.5,0.0,1.5,false,false,,ris
+ch-epfl-vm#1_ris-decaf,ris-decaf,"Ristretto, décaféiné",ch-epfl-vm#1,To fill,1.5,0.0,1.5,true,false,,ris
+ch-epfl-vm#1_esp-cof,esp-cof,Espresso,ch-epfl-vm#1,To fill,1.5,0.0,1.5,false,false,,esp
+ch-epfl-vm#1_esp-decaf,esp-decaf,"Espresso, décaféiné",ch-epfl-vm#1,To fill,1.5,0.0,1.5,true,false,,esp
+ch-epfl-vm#1_caf-cof,caf-cof,Café,ch-epfl-vm#1,To fill,1.5,0.0,1.5,false,false,,caf
+ch-epfl-vm#1_caf-cof,caf-cof,"Café, décaféiné",ch-epfl-vm#1,To fill,1.5,0.0,1.5,false,false,,caf
+ch-epfl-vm#1_ren-cof-cow,ren-cof-cow,Renversé,ch-epfl-vm#1,To fill,2.5,0.0,2.5,false,true,cow,ren
+ch-epfl-vm#1_ren-decaf-cow,ren-decaf-cow,"Renversé, décaféiné",ch-epfl-vm#1,To fill,2.5,0.0,2.5,true,true,cow,ren
+ch-epfl-vm#1_renv-cof-clf,renv-cof-clf,"Renversé, sans-lactose",ch-epfl-vm#1,To fill,2.5,0.0,2.5,false,true,clf,renv
+ch-epfl-vm#1_renv-decaf-clf,renv-decaf-clf,"Renversé, décaféiné, sans-lactose",ch-epfl-vm#1,To fill,2.5,0.0,2.5,true,true,clf,renv
+ch-epfl-vm#1_renv-cof-oat,renv-cof-oat,Renversé,ch-epfl-vm#1,To fill,2.5,0.0,2.5,false,true,oat,renv
+ch-epfl-vm#1_renv-decaf-oat,renv-decaf-oat,"Renversé, décaféiné, lait d'avoine",ch-epfl-vm#1,To fill,2.5,0.0,2.5,true,true,oat,renv
+ch-epfl-vm#1_cap-cof-cow,cap-cof-cow,Cappuccino,ch-epfl-vm#1,To fill,2.5,0.0,2.5,false,true,cow,cap
+ch-epfl-vm#1_cap-decaf-cow,cap-decaf-cow,"Cappuccino, décaféiné",ch-epfl-vm#1,To fill,2.5,0.0,2.5,true,true,cow,cap
+ch-epfl-vm#1_cap-cof-clf,cap-cof-clf,"Cappuccino, sans-lactose",ch-epfl-vm#1,To fill,2.5,0.0,2.5,false,true,clf,cap
+ch-epfl-vm#1_cap-decaf-clf,cap-decaf-clf,"Cappuccino, décaféiné, sans-lactose",ch-epfl-vm#1,To fill,2.5,0.0,2.5,true,true,clf,cap
+ch-epfl-vm#1_cap-cof-oat,cap-cof-oat,"Cappuccino, lait d'avoine",ch-epfl-vm#1,To fill,2.5,0.0,2.5,false,true,oat,cap
+ch-epfl-vm#1_cap-decaf-oat,cap-decaf-oat,"Cappuccino, décaféiné, lait d'avoine",ch-epfl-vm#1,To fill,2.5,0.0,2.5,true,true,oat,cap
+ch-epfl-vm#2_esp-cof-bp,esp-cof-bp,"Espresso, Blue-Planet",ch-epfl-vm#2,To fill,1.6,0.3754537007166621,1.9754537007166622,false,false,,esp
+ch-epfl-vm#2_caf-cof-bp,caf-cof-bp,"Café, Blue-Planet",ch-epfl-vm#2,To fill,1.6,0.3754537007166621,1.9754537007166622,false,false,,caf
+ch-epfl-vm#2_moc-cof-bp,moc-cof-bp,"Mocaccino, Blue-Planet",ch-epfl-vm#2,To fill,,0.0,0.0,false,false,,moc
+ch-epfl-vm#2_esp-cof-vv,esp-cof-vv,"Espresso, Via Verde",ch-epfl-vm#2,To fill,1.6,0.5329147461740315,2.1329147461740314,false,false,,esp
+ch-epfl-vm#2_caf-cof-vv,caf-cof-vv,"Café, Via Verde",ch-epfl-vm#2,To fill,1.6,0.5329147461740315,2.1329147461740314,false,false,,caf
+ch-epfl-vm#2_moc-cof-vv,moc-cof-vv,"Mocaccino, Via Verde",ch-epfl-vm#2,To fill,,0.0,0.0,false,false,,moc
+ch-epfl-vm#2_espmoc-cof-bp,espmoc-cof-bp,"Espresso Macchiato, Blue Planet",ch-epfl-vm#2,To fill,,0.0,0.0,false,false,,espmoc
+ch-epfl-vm#2_cafmoc-cof-bp,cafmoc-cof-bp,"Café Macchiato, Blue Planet",ch-epfl-vm#2,To fill,,0.0,0.0,false,false,,cafmoc
+ch-epfl-vm#2_capva-cof-bp,capva-cof-bp,"Cappuccino Vanille, Blue Planet",ch-epfl-vm#2,To fill,,0.0,0.0,false,false,,capva
+ch-epfl-vm#2_espmoc-cof-vv,espmoc-cof-vv,"Espresso Macchiato, Via Verde",ch-epfl-vm#2,To fill,,0.0,0.0,false,false,,espmoc
+ch-epfl-vm#2_cafmoc-cof-vv,cafmoc-cof-vv,"Café Macchiato, Via Verde",ch-epfl-vm#2,To fill,,0.0,0.0,false,false,,cafmoc
+ch-epfl-vm#2_capva-cof-vv,capva-cof-vv,"Cappuccino Vanille, Via Verde",ch-epfl-vm#2,To fill,,0.0,0.0,false,false,,capva
+ch-epfl-vm#2_cap-cof-bp,cap-cof-bp,"Cappuccino, Blue Planet",ch-epfl-vm#2,To fill,,0.0,0.0,false,false,,cap
+ch-epfl-vm#2_latmac-cof-bp,latmac-cof-bp,"Latte Macchiato, Blue Planet",ch-epfl-vm#2,To fill,,0.0,0.0,false,false,,latmac
+ch-epfl-vm#2_latmacva-cof-bp,latmacva-cof-bp,"Latte Macchiato Vanille, Blue Planet",ch-epfl-vm#2,To fill,,0.0,0.0,false,false,,latmacva
+ch-epfl-vm#2_cap-cof-vv,cap-cof-vv,"Cappuccino, Via Verde",ch-epfl-vm#2,To fill,,0.0,0.0,false,false,,cap
+ch-epfl-vm#2_latmac-cof-vv,latmac-cof-vv,"Latte Macchiato, Via Verde",ch-epfl-vm#2,To fill,,0.0,0.0,false,false,,latmac
+ch-epfl-vm#2_latmacva-cof-vv,latmacva-cof-vv,"Latte Macchiato Vanille, Via Verde",ch-epfl-vm#2,To fill,,0.0,0.0,false,false,,latmacva
+ch-epfl-vm#3_esp-cof-bp,esp-cof-bp,"Espresso, Blue-Planet",ch-epfl-vm#3,To fill,,0.0,0.0,false,false,,esp
+ch-epfl-vm#3_caf-cof-bp,caf-cof-bp,"Café, Blue-Planet",ch-epfl-vm#3,To fill,,0.0,0.0,false,false,,caf
+ch-epfl-vm#3_moc-cof-bp,moc-cof-bp,"Mocaccino, Blue-Planet",ch-epfl-vm#3,To fill,,0.0,0.0,false,false,,moc
+ch-epfl-vm#3_esp-cof-vv,esp-cof-vv,"Espresso, Via Verde",ch-epfl-vm#3,To fill,,0.0,0.0,false,false,,esp
+ch-epfl-vm#3_caf-cof-vv,caf-cof-vv,"Café, Via Verde",ch-epfl-vm#3,To fill,,0.0,0.0,false,false,,caf
+ch-epfl-vm#3_moc-cof-vv,moc-cof-vv,"Mocaccino, Via Verde",ch-epfl-vm#3,To fill,,0.0,0.0,false,false,,moc
+ch-epfl-vm#3_espmoc-cof-bp,espmoc-cof-bp,"Espresso Macchiato, Blue Planet",ch-epfl-vm#3,To fill,,0.0,0.0,false,false,,espmoc
+ch-epfl-vm#3_cafmoc-cof-bp,cafmoc-cof-bp,"Café Macchiato, Blue Planet",ch-epfl-vm#3,To fill,,0.0,0.0,false,false,,cafmoc
+ch-epfl-vm#3_capva-cof-bp,capva-cof-bp,"Cappuccino Vanille, Blue Planet",ch-epfl-vm#3,To fill,,0.0,0.0,false,false,,capva
+ch-epfl-vm#3_espmoc-cof-vv,espmoc-cof-vv,"Espresso Macchiato, Via Verde",ch-epfl-vm#3,To fill,,0.0,0.0,false,false,,espmoc
+ch-epfl-vm#3_cafmoc-cof-vv,cafmoc-cof-vv,"Café Macchiato, Via Verde",ch-epfl-vm#3,To fill,,0.0,0.0,false,false,,cafmoc
+ch-epfl-vm#3_capva-cof-vv,capva-cof-vv,"Cappuccino Vanille, Via Verde",ch-epfl-vm#3,To fill,,0.0,0.0,false,false,,capva
+ch-epfl-vm#3_cap-cof-bp,cap-cof-bp,"Cappuccino, Blue Planet",ch-epfl-vm#3,To fill,,0.0,0.0,false,false,,cap
+ch-epfl-vm#3_latmac-cof-bp,latmac-cof-bp,"Latte Macchiato, Blue Planet",ch-epfl-vm#3,To fill,,0.0,0.0,false,false,,latmac
+ch-epfl-vm#3_latmacva-cof-bp,latmacva-cof-bp,"Latte Macchiato Vanille, Blue Planet",ch-epfl-vm#3,To fill,,0.0,0.0,false,false,,latmacva
+ch-epfl-vm#3_cap-cof-vv,cap-cof-vv,"Cappuccino, Via Verde",ch-epfl-vm#3,To fill,,0.0,0.0,false,false,,cap
+ch-epfl-vm#3_latmac-cof-vv,latmac-cof-vv,"Latte Macchiato, Via Verde",ch-epfl-vm#3,To fill,,0.0,0.0,false,false,,latmac
+ch-epfl-vm#3_latmacva-cof-vv,latmacva-cof-vv,"Latte Macchiato Vanille, Via Verde",ch-epfl-vm#3,To fill,,0.0,0.0,false,false,,latmacva
+ch-epfl-vm#3_white-sug-conv,white-sug-conv,"White Sugar, Conventional",ch-epfl-vm#3,To fill,0.0,7.43354508273174,7.43354508273174,false,false,,white
+ch-epfl-klee_sug-cane-ft,sug-cane-ft,"Sugar Cane, Fairtrade",ch-epfl-klee,To fill,0.0,0.0,0.0,false,false,,sug
