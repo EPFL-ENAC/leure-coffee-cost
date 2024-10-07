@@ -1,3 +1,116 @@
+export type CoffeeData = {
+  serveId: string;
+  recipeId: string;
+  retailName: string;
+  salePointId: string;
+  coffeeDetails: string;
+  unit: string;
+  marketPrice: number;
+  trueCost: number | null;
+  truePrice: number | null;
+  isDecaf: boolean;
+  hasMilk: boolean;
+  milkType: string | null;
+  mainRecipe: string;
+};
+
+// export enum Recipe {
+//   ris = "ris",
+//   esp = "esp",
+//   caf = "caf",
+//   cap = "cap",
+//   ren = "ren",
+//   lama = "lama",
+//   renv = "renv",
+//   moc = "moc",
+//   capva = "capva",
+//   latmac = "latmac",
+//   latmacva = "latmacva",
+//   espmoc = "espmoc",
+//   cafmoc = "cafmoc",
+//   sug = "sug",
+// }
+
+export const recipeDetails: Map<string, { name: string; img: string }> =
+  new Map([
+    ["ris", { name: "Ristretto", img: "Ristretto.svg" }],
+    ["esp", { name: "Espresso", img: "Espresso.svg" }],
+    ["caf", { name: "Café", img: "Café.svg" }],
+    ["cap", { name: "Cappuccino", img: "Cappuccino.svg" }],
+    ["ren", { name: "Renversé", img: "Renversé.svg" }],
+    ["lama", { name: "Latte Macchiato", img: "Latte_Macchiato.svg" }],
+    ["renv", { name: "Renversé", img: "Renversé.svg" }],
+    ["moc", { name: "Mocaccino", img: "Mocaccino.svg" }],
+    ["capva", { name: "Cappuccino vanille", img: "Cappuccino_vanille.svg" }],
+    ["latmac", { name: "Latte Macchiato", img: "Latte_Macchiato.svg" }],
+    [
+      "latmacva",
+      {
+        name: "Latte Macchiato vanille",
+        img: "Latte_Macchiato_vanille.svg",
+      },
+    ],
+    ["espmoc", { name: "Espresso Macchiato", img: "Espresso_Macchiato.svg" }],
+    ["cafmoc", { name: "Café Macchiato", img: "Café_Macchiato.svg" }],
+  ]);
+
+export const salePointDetails = new Map<
+  string,
+  {
+    country: string;
+    organisation: string;
+    provider: string;
+    salePoint: string;
+    type: string;
+    name: string;
+  }
+>([
+  [
+    "ch-epfl-klee",
+    {
+      country: "Switzerland",
+      organisation: "EPFL",
+      provider: "Compass Group",
+      salePoint: "Le Klee",
+      type: "Cafeteria",
+      name: "EPFL Compass Group Le Klee Cafeteria",
+    },
+  ],
+  [
+    "ch-epfl-vm#1",
+    {
+      country: "Switzerland",
+      organisation: "EPFL",
+      provider: "Compass Group",
+      salePoint: "Rolex centre",
+      type: "Vending-machine",
+      name: "EPFL Compass Group Rolex centre Vending-machine 1",
+    },
+  ],
+  [
+    "ch-epfl-vm#2",
+    {
+      country: "Switzerland",
+      organisation: "EPFL",
+      provider: "Dallmayr",
+      salePoint: "Rolex centre",
+      type: "Vending-machine",
+      name: "EPFL Dallmayr Rolex centre Vending-machine 2",
+    },
+  ],
+  [
+    "ch-epfl-vm#3",
+    {
+      country: "Switzerland",
+      organisation: "EPFL",
+      provider: "Dallmayr",
+      salePoint: "Rolex centre",
+      type: "Vending-machine",
+      name: "EPFL Dallmayr Rolex centre Vending-machine 3",
+    },
+  ],
+]);
+
 export type CoffeeImpactData = {
   retailName: string;
   productId: string;

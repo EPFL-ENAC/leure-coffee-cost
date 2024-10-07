@@ -1,53 +1,47 @@
 <script setup lang="ts">
-import { useCoffeeStore } from "../stores/coffeeStore";
-import { computed } from "vue";
+import { useCoffeeStore } from "@/stores/coffeeStore";
+import {
+  CoffeeData,
+  recipeDetails,
+  salePointDetails,
+} from "@/utils/coffeeData";
+import { computed, onMounted, ref, watch } from "vue";
 
-const generateCoffeeImage = (imgName: string) => {
+const generateCoffeeImage = (imgName?: string) => {
   // const baseURL = import.meta.env.BASE_URL ?? "";
   return `./coffee/${imgName}`;
 };
 // Use the coffee store
+
 const coffeeStore = useCoffeeStore();
 
-// Define the coffee types with their corresponding SVG images
-const coffeeTypes = [
-  { name: "Americano", img: "Americano.svg" },
-  { name: "Café", img: "Café.svg" },
-  { name: "Café Macchiato", img: "Café_Macchiato.svg" },
-  { name: "Cappuccino", img: "Cappuccino.svg" },
-  {
-    name: "Cappuccino Vanille",
-    img: "Cappuccino_vanille.svg",
-  },
-  { name: "Espresso", img: "Espresso.svg" },
-  {
-    name: "Espresso Macchiato",
-    img: "Espresso_Macchiato.svg",
-  },
-  { name: "Flat White", img: "FlatWhite.svg" },
-  { name: "Latte Macchiato", img: "Latte_Macchiato.svg" },
-  {
-    name: "Latte Macchiato Vanille",
-    img: "Latte_Macchiato_vanille.svg",
-  },
-  { name: "Mocaccino", img: "Mocaccino.svg" },
-  { name: "Renversé", img: "Renversé.svg" },
-  { name: "Ristretto", img: "Ristretto.svg" },
-].map((d) => ({ ...d, img: generateCoffeeImage(d.img) }));
+const listCoffee = ref<CoffeeData[] | null>(null);
 
-// Computed property for the selected coffee from the store
-const selectedCoffee = computed(() => coffeeStore.selectedCoffee);
+const listRecipes = computed(() => {
+  if (!listCoffee.value) return {};
+  return listCoffee.value
+    .filter((d) => d.marketPrice && d.marketPrice > 0)
+    .reduce((acc, coffee) => {
+      const key = coffee.mainRecipe;
+      if (!acc[key]) {
+        acc[key] = [];
+      }
+      acc[key].push(coffee);
+      return acc;
+    }, {} as Record<string, CoffeeData[]>);
+});
 
 // Computed property for the selected coffee image
 const selectedCoffeeImage = computed(() => {
-  const coffee = coffeeTypes.find((c) => c.name === selectedCoffee.value);
-  return coffee ? coffee.img : "";
+  return selectedRecipe.value
+    ? generateCoffeeImage(recipeDetails.get(selectedRecipe.value)?.img)
+    : "";
 });
 
-// Function to handle selection
-const selectCoffee = (coffeeName: string) => {
-  coffeeStore.selectCoffee(coffeeName);
+const selectRecipe = (recipe: string) => {
+  coffeeStore.selectRecipe(recipe);
 };
+const selectedRecipe = computed(() => coffeeStore.selectedRecipe);
 
 const selectSalePoint = (salePoint: string) => {
   coffeeStore.selectSalePoint(salePoint);
@@ -60,34 +54,60 @@ const returnToSelection = () => {
 
 // Expose the selected coffee image to the template
 const getSelectedCoffeeImage = selectedCoffeeImage;
+
+const listSalesPoint = computed(() => {
+  if (!listRecipes.value) return {};
+  else if (selectedRecipe.value)
+    return listRecipes.value[selectedRecipe.value].reduce((acc, coffee) => {
+      const key = coffee.salePointId;
+      if (!acc[key]) {
+        acc[key] = [];
+      }
+      acc[key].push(coffee);
+      return acc;
+    }, {} as Record<string, CoffeeData[]>);
+});
+
+watch(listSalesPoint, (newValue) => {
+  console.log("Selected sale point:", newValue);
+});
+
+onMounted(async () => {
+  listCoffee.value = await coffeeStore.listCoffee;
+});
 </script>
 
 <template>
-  <div v-if="!selectedCoffee" class="selection-coffee-type">
+  <div v-if="!selectedRecipe" class="selection-coffee-type">
     <div
-      v-for="coffee in coffeeTypes"
-      :key="coffee.name"
+      v-for="(_, name) in listRecipes"
+      :key="name"
       class="coffee-card"
-      @click="selectCoffee(coffee.name)"
+      @click="selectRecipe(name)"
     >
-      <img :src="coffee.img" :alt="coffee.name" class="coffee-image" />
-      <span class="coffee-name">{{ coffee.name }}</span>
+      <img
+        :src="generateCoffeeImage(recipeDetails.get(name)?.img)"
+        :alt="name"
+        class="coffee-image"
+      />
+      <span class="coffee-name">{{ recipeDetails.get(name)?.name }}</span>
     </div>
   </div>
 
   <div v-else class="coffee-detail">
     <div class="coffee-infos">
       <div class="coffee-title">
-        {{ selectedCoffee }}
+        {{ recipeDetails.get(selectedRecipe)?.name }}
         <img
           :src="getSelectedCoffeeImage"
-          :alt="selectedCoffee"
+          :alt="recipeDetails.get(selectedRecipe)?.name"
           class="coffee-image"
         />
       </div>
       <p class="coffee-description">
-        {{ selectedCoffee }} is a popular coffee type known for its rich flavor
-        and strong aroma. Enjoy the smooth and bold taste with every sip!
+        {{ recipeDetails.get(selectedRecipe)?.name }} is a popular coffee type
+        known for its rich flavor and strong aroma. Enjoy the smooth and bold
+        taste with every sip!
       </p>
       <div></div>
     </div>
@@ -98,19 +118,22 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
     <h2>Comparez les fournisseurs</h2>
     <div class="selection-coffee-sale-point">
       <div
-        v-for="(coffee, i) in coffeeTypes.filter((_c, i) => i < 3)"
-        :key="coffee.name"
-        :class="`coffee-card ${
-          coffeeStore.selectedSalePoint === i.toString() ? 'selected' : ''
+        v-for="(_, name) in listSalesPoint"
+        :key="name"
+        :class="`coffee-card sale-point ${
+          coffeeStore.selectedSalePoint === name ? 'selected' : ''
         }`"
-        @click="selectSalePoint(i.toString())"
+        @click="selectSalePoint(name)"
       >
         <img
           :src="getSelectedCoffeeImage"
-          :alt="selectedCoffee"
+          :alt="name"
           class="coffee-image selected-image"
         />
-        <span class="coffee-name">Fournisseur {{ i + 1 }}</span>
+        <span class="coffee-name">{{
+          salePointDetails.get(name)?.name.replace("EPFL", "")
+        }}</span>
+        <span class="coffee-name"> 10 CHF </span>
       </div>
     </div>
   </div>
@@ -244,7 +267,12 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
   font-size: 1em;
   max-width: 300px;
 }
-
+.selection-coffee-sale-point > .coffee-card {
+  height: 240px;
+}
+.selection-coffee-sale-point > .coffee-card > .coffee-name {
+  font-size: medium;
+}
 @media screen and (max-width: 600px) {
   .coffee-card {
     width: 80px;
@@ -267,7 +295,7 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
   }
   .selection-coffee-sale-point > .coffee-card {
     width: 65px;
-    height: 70px;
+    height: 140px;
     padding: 1em;
   }
 
@@ -276,8 +304,8 @@ const getSelectedCoffeeImage = selectedCoffeeImage;
   }
 
   .selection-coffee-sale-point > .coffee-card > .coffee-image {
-    width: 35px;
-    height: 35px;
+    width: 20px;
+    height: 20px;
   }
 }
 </style>

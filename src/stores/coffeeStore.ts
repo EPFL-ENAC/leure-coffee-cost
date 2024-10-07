@@ -1,27 +1,49 @@
 import { defineStore } from "pinia";
 import { computed, ref } from "vue";
-import { CoffeeImpactData } from "@/utils/coffeeData";
+import { CoffeeImpactData, CoffeeData } from "@/utils/coffeeData";
+import Papa from "papaparse";
+
 // import { useRoute, useRouter } from "vue-router";
 
 export const useCoffeeStore = defineStore("coffee", () => {
-  // const route = useRoute();
-  // const router = useRouter();
+  const listCoffeeFetched = ref<CoffeeData[] | null>(null);
 
-  // State for selected coffee
-  // const selectedCoffee = computed<string | null>({
-  //   get() {
-  //     return route.params?.selectedCoffee as string | null;
-  //   },
-  //   set(coffee: string | null) {
-  //     console.log("Setting selected coffee to", coffee);
-  //     if (route.params.selectedCoffee !== coffee)
-  //       router.push(`/${coffee || ""}`);
-  //   },
-  // });
+  const loadListCoffee = async () => {
+    if (listCoffeeFetched.value && listCoffeeFetched.value?.length !== 0)
+      return; // Prevent re-fetching
 
-  const selectedCoffee = ref<string | null>(null);
+    try {
+      // Fetch the CSV file (assuming it's in your public folder)
+      const response = await fetch("/data/coffe_data.csv");
+      const csvText = await response.text();
 
-  const selectCoffee = (coffee: string) => {
+      // Parse the CSV using PapaParse
+      const parsedData = Papa.parse<CoffeeData>(csvText, {
+        header: true, // Set to true if the CSV has headers
+        dynamicTyping: true, // Automatically typecast values
+      });
+
+      // Populate the store
+      listCoffeeFetched.value = parsedData.data;
+    } catch (error) {
+      console.error("Failed to load CSV:", error);
+    }
+  };
+
+  const listCoffee = computed(async () => {
+    if (!listCoffeeFetched.value) await loadListCoffee();
+    return listCoffeeFetched.value as CoffeeData[];
+  });
+
+  const selectedRecipe = ref<string | null>(null);
+
+  const selectRecipe = (recipe: string) => {
+    selectedRecipe.value = recipe;
+  };
+
+  const selectedCoffee = ref<CoffeeData | null>(null);
+
+  const selectCoffee = (coffee: CoffeeData) => {
     selectedCoffee.value = coffee;
   };
 
@@ -106,6 +128,8 @@ export const useCoffeeStore = defineStore("coffee", () => {
 
   // Function to clear the selected coffee
   const clearSelection = () => {
+    selectedRecipe.value = null;
+    selectedSalePoint.value = null;
     selectedCoffee.value = null;
     hasCaffeine.value = true; // Reset caffeine selection on clear
     milkType.value = "none"; // Reset milk selection on clear
@@ -134,8 +158,11 @@ export const useCoffeeStore = defineStore("coffee", () => {
     milkType, // Exposed to components
     sugarLevel,
     selectedImpact,
+    listCoffee,
     selectedSalePoint,
     isPriceVisible,
+    selectedRecipe,
+    selectRecipe,
     selectSalePoint,
     selectCoffee,
     selectImpact,
