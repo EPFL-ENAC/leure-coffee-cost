@@ -188,8 +188,6 @@ export type SunburstNode = Root | Layer | Leaf;
 export function generateSunburstData(
   data: CoffeeImpactData
 ): Record<string, Root> {
-  console.log("Generating sunburst data by stage for", data);
-
   // Object to store sunburst data for each stage
   const sunburstDataByStage: Record<string, Root> = {};
 
@@ -277,6 +275,5 @@ export function generateSunburstData(
       ].children.reduce((sum, layer) => sum + layer.value, 0);
     });
 
-  console.log("Generated sunburst data by stage", sunburstDataByStage);
   return sunburstDataByStage;
 }

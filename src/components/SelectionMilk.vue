@@ -2,7 +2,7 @@
 <script setup lang="ts">
 import { useCoffeeStore } from "@/stores/coffeeStore";
 import { milkName, MilkType } from "@/utils/coffeeData";
-import { computed, watch } from "vue";
+import { computed } from "vue";
 
 // Use the coffee store
 const coffeeStore = useCoffeeStore();
@@ -15,14 +15,6 @@ const selectedMilk = computed({
     coffeeStore.setMilkType(value);
   },
 });
-
-watch(
-  selectedMilk,
-  (newValue) => {
-    console.log("Selected milk type:", newValue);
-  },
-  { immediate: true }
-);
 </script>
 
 <template>

@@ -27,7 +27,6 @@ export const useCoffeeStore = defineStore("coffee", () => {
         dynamicTyping: true,
         skipEmptyLines: true, // Skip empty lines
       });
-      console.log("Loaded CSV data:", parsedData.data);
 
       // Validate and filter parsed data
       listCoffee.value = parsedData.data.filter(

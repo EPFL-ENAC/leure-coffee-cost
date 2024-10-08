@@ -6,7 +6,7 @@ import {
   recipeDetails,
   salePointDetails,
 } from "@/utils/coffeeData";
-import { computed, watch } from "vue";
+import { computed } from "vue";
 
 const generateCoffeeImage = (imgName?: string) => {
   // const baseURL = import.meta.env.BASE_URL ?? "";
@@ -67,10 +67,6 @@ const listSalesPoint = computed(() => {
       acc[key].push(coffee);
       return acc;
     }, {} as Record<string, CoffeeData[]>);
-});
-
-watch(listSalesPoint, (newValue) => {
-  console.log("Selected sale point:", newValue);
 });
 </script>
 

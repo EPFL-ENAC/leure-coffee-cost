@@ -89,8 +89,6 @@ const initChart = () => {
       ? Object.values(sunburstDataByStage)
       : []; // Get an array of Root objects or an empty array if null
 
-    console.log("Sunburst data", sunburstData);
-
     // Define the ECharts option
     const option = {
       tooltip: {
