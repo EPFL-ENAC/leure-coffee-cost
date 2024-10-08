@@ -5,6 +5,8 @@ import { createPinia } from "pinia";
 import piniaPluginPersistedstate from "pinia-plugin-persistedstate";
 import VueFeather from "vue-feather";
 
+import echartsPlugin from "./plugins/echarts"; // Adjust the path as necessary
+
 import App from "./App.vue";
 import "./styles/variables.css"; // Import global variables
 
@@ -13,6 +15,8 @@ const pinia = createPinia();
 pinia.use(piniaPluginPersistedstate);
 
 app.use(pinia);
+app.use(echartsPlugin);
+
 // app.use(router);
 app.component(VueFeather.name || "default-name", VueFeather);
 

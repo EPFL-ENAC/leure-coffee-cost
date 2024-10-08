@@ -7,7 +7,7 @@ import {
   MilkType,
   Recipe,
   generateSunburstData,
-  generateTreemapData,
+  ImpactDetail,
 } from "@/utils/coffeeData";
 import Papa from "papaparse";
 
@@ -47,7 +47,7 @@ export const useCoffeeStore = defineStore("coffee", () => {
   const isDecaf = ref<boolean>(true);
   const milkType = ref<MilkType>(MilkType.NONE);
   const sugarLevel = ref<number>(0);
-  const selectedImpact = ref<CoffeeImpactData | undefined>(undefined);
+  const selectedImpact = ref<ImpactDetail | undefined>(undefined);
 
   const filterWithCurrentMilkType = (d: CoffeeData) =>
     milkType.value === MilkType.NONE || d.milkType === milkType.value;
@@ -179,26 +179,23 @@ export const useCoffeeStore = defineStore("coffee", () => {
     return listCoffee.value.find(filterWithCurrentSelection) ?? null;
   });
 
+  const selectedCoffeeServeId = computed<string | null>(() => {
+    if (!listCoffee.value) return null;
+    return listCoffee.value.find(filterWithCurrentSelection)?.serveId ?? null;
+  });
+
   const isPriceVisible = computed(() => {
     return selectedRecipe.value !== null && selectedSalePoint.value !== null;
   });
 
   const selectedCoffeeImpacts = ref<CoffeeImpactData | null>(null);
 
-  const loadImpacts = async () => {
-    if (
-      !selectedCoffee.value ||
-      (selectedCoffee.value &&
-        selectedCoffeeImpacts.value?.serveId === selectedCoffee.value.serveId)
-    )
-      return;
-
+  const loadImpacts = async (serveId: string) => {
     try {
       const response = await fetch(
-        `./data/impacts/${selectedCoffee.value.serveId.replace("#", "-")}.json`
+        `./data/impacts/${serveId.replace("#", "-")}.json`
       ); // Corrected the filename
       const json = await response.json();
-
       selectedCoffeeImpacts.value = json;
     } catch (error) {
       console.error("Failed to load JSON:", error);
@@ -206,21 +203,15 @@ export const useCoffeeStore = defineStore("coffee", () => {
     }
   };
 
-  watch(selectedCoffee, (newCoffee) => {
-    if (newCoffee) {
-      loadImpacts();
+  watch(selectedCoffeeServeId, (newCoffeeServeId) => {
+    if (newCoffeeServeId) {
+      loadImpacts(newCoffeeServeId);
     }
   });
 
   const sunburstData = computed(() =>
     selectedCoffeeImpacts.value
       ? generateSunburstData(selectedCoffeeImpacts.value)
-      : null
-  );
-
-  const treemapData = computed(() =>
-    selectedCoffeeImpacts.value
-      ? generateTreemapData(selectedCoffeeImpacts.value)
       : null
   );
 
@@ -234,7 +225,6 @@ export const useCoffeeStore = defineStore("coffee", () => {
     listCoffee,
 
     sunburstData,
-    treemapData,
 
     selectedCoffeeImpacts,
 
