@@ -1,0 +1,2266 @@
+{
+    "serveId": "ch-epfl-klee_ris-decaf",
+    "salePointId": "ch-epfl-klee",
+    "recipeId": "ris-decaf",
+    "productId": "decaf-braz-ara-ft",
+    "productName": "Decaf, Brazil, Arabica, Fairtrade",
+    "recipe": 3.6,
+    "impacts": [
+        {
+            "stage": "Cultivation",
+            "impactCategory": "Biodiversity",
+            "impactValue": 17.3072,
+            "costValue": 0.6131,
+            "details": [
+                {
+                    "indicators": "eco-costs of land-use (brazil) [m2/kg]",
+                    "unit": "m2/kg",
+                    "impactValue": 3.5362,
+                    "costValue": 0.0675,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, robusta (Brazil), Fonctional unit: 1 kg grean coffe bean, Sustainability Impact Metrics (2024): https://www.ecocostsvalue.com/ecocosts/eco-costs-land-use/"
+                },
+                {
+                    "indicators": "eco-costs of land-use (peru) [m2/kg]",
+                    "unit": "m2/kg",
+                    "impactValue": 13.771,
+                    "costValue": 0.5457,
+                    "impactDefinition": "To fill",
+                    "reference": "FAOSTAT(2022)"
+                }
+            ]
+        },
+        {
+            "stage": "Cultivation",
+            "impactCategory": "Environment",
+            "impactValue": 71.8999,
+            "costValue": 0.0564,
+            "details": [
+                {
+                    "indicators": "fine particulate matter formation [kg PM2.5 eq]",
+                    "unit": "kg PM2.5 eq",
+                    "impactValue": 0.0193,
+                    "costValue": 0.0059,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Brazil), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "fossil resource scarcity [kg oil eq]",
+                    "unit": "kg oil eq",
+                    "impactValue": 1.5435,
+                    "costValue": 0.0026,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Brazil), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "freshwater ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.6888,
+                    "costValue": 0.0001,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Brazil), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "freshwater eutrophication [kg P eq]",
+                    "unit": "kg P eq",
+                    "impactValue": 0.0027,
+                    "costValue": 0.002,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Brazil), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "global warming [kg CO2 eq]",
+                    "unit": "kg CO2 eq",
+                    "impactValue": 6.841,
+                    "costValue": 0.004,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Brazil), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "land use [m2a crop eq]",
+                    "unit": "m2a crop eq",
+                    "impactValue": 6.7352,
+                    "costValue": 0.0025,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Brazil), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "marine ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.5243,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Brazil), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "marine eutrophication [kg N eq]",
+                    "unit": "kg N eq",
+                    "impactValue": 0.0095,
+                    "costValue": 0.0005,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Brazil), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "mineral resource scarcity [kg Cu eq]",
+                    "unit": "kg Cu eq",
+                    "impactValue": 0.0409,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Brazil), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "terrestrial acidification [kg SO2 eq]",
+                    "unit": "kg SO2 eq",
+                    "impactValue": 0.0879,
+                    "costValue": 0.0015,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Brazil), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "terrestrial ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 27.3157,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Brazil), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "water consumption [m3]",
+                    "unit": "m3",
+                    "impactValue": 0.9833,
+                    "costValue": 0.0047,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Brazil), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "water depletion - wdp [m3]",
+                    "unit": "m3",
+                    "impactValue": 0.0007,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais to Santos Port ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "agricultural land occupation - alop [m2a]",
+                    "unit": "m2a",
+                    "impactValue": 14.6478,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Honduras), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "climate change - gwp100 [kg CO2-Eq]",
+                    "unit": "kg CO2-Eq",
+                    "impactValue": 7.8913,
+                    "costValue": 0.007,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Honduras), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "fossil resource scarcity [kg oil eq]",
+                    "unit": "kg oil eq",
+                    "impactValue": 1.4605,
+                    "costValue": 0.0036,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Honduras), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "freshwater ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.4007,
+                    "costValue": 0.0001,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Honduras), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "freshwater eutrophication [kg P eq]",
+                    "unit": "kg P eq",
+                    "impactValue": 0.0025,
+                    "costValue": 0.0028,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Honduras), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "marine ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.2834,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Honduras), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "marine eutrophication [kg N eq]",
+                    "unit": "kg N eq",
+                    "impactValue": 0.0854,
+                    "costValue": 0.0067,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Honduras), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "metal depletion - mdp [kg Fe-Eq]",
+                    "unit": "kg Fe-Eq",
+                    "impactValue": 0.7698,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Honduras), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "natural land transformation - nltp [m2]",
+                    "unit": "m2",
+                    "impactValue": 0.0009,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Honduras), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "particulate matter formation - pmfp [kg PM10-Eq]",
+                    "unit": "kg PM10-Eq",
+                    "impactValue": 0.0297,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Honduras), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "photochemical oxidant formation - pofp [kg NMVOC]",
+                    "unit": "kg NMVOC",
+                    "impactValue": 0.0401,
+                    "costValue": 0.0007,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Honduras), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "terrestrial acidification [kg SO2 eq]",
+                    "unit": "kg SO2 eq",
+                    "impactValue": 0.1462,
+                    "costValue": 0.0038,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Honduras), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "terrestrial ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.1539,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Honduras), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "urban land occupation - ulop [m2a]",
+                    "unit": "m2a",
+                    "impactValue": 0.1414,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Honduras), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "water depletion - wdp [m3]",
+                    "unit": "m3",
+                    "impactValue": 1.0538,
+                    "costValue": 0.0076,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Honduras), Fonctional unit: 1 kg grean coffe bean"
+                }
+            ]
+        },
+        {
+            "stage": "Cultivation",
+            "impactCategory": "Health",
+            "impactValue": 156.9574,
+            "costValue": 0.0025,
+            "details": [
+                {
+                    "indicators": "human carcinogenic toxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.3732,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Brazil), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "human non-carcinogenic toxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 14.0439,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Brazil), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "ionizing radiation [kBq Co-60 eq]",
+                    "unit": "kBq Co-60 eq",
+                    "impactValue": 0.166,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Brazil), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "ozone formation, human health [kg NOx eq]",
+                    "unit": "kg NOx eq",
+                    "impactValue": 0.0254,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Brazil), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "ozone formation, terrestrial ecosystems [kg NOx eq]",
+                    "unit": "kg NOx eq",
+                    "impactValue": 0.0263,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Brazil), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "stratospheric ozone depletion [kg CFC11 eq]",
+                    "unit": "kg CFC11 eq",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Brazil), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "aldicarb [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.1273,
+                    "costValue": 0.0001,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "azoxystrobin [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0382,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "boscalid [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0637,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "buprofezin [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0637,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "carbendazim [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.1273,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "carbofuran [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.1273,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "chlorantraniliprole [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0255,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "chlorpyrifos [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.2546,
+                    "costValue": 0.0001,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "clothianidin [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0637,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "cyantraniliprole [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0637,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "cyhalothrin (includes lambda-cyhalothrin) [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0637,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "cypermethrins(including alpha- andzeta-cypermethrin) [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.1273,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "cyproconazole [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.1273,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "cyproconazole [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.1273,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "diquat [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0255,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "disulfoton [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.1273,
+                    "costValue": 0.0001,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "endosulfan [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.1273,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "fenpropathrin [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0255,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "flutriafol [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.191,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "glufosinate-ammonium [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.1273,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "haloxyfop [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0637,
+                    "costValue": 0.0001,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "imidacloprid [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 1.273,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "permethrin [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.1273,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "phorate [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0637,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "propiconazole [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0637,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "pyraclostrobin [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.6365,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "saflufenacil [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0382,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "spirodiclofen [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0637,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "tebuconazole [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.2546,
+                    "costValue": 0.0002,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "terbufos [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0637,
+                    "costValue": 0.0004,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "thiamethoxam [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.2546,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "triadimefon [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.1273,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "triadimenol [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.6365,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL; "
+                },
+                {
+                    "indicators": "human toxicity - htpinf [kg 1,4-DCB-Eq]",
+                    "unit": "kg 1,4-DCB-Eq",
+                    "impactValue": 3.4413,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Honduras), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "ionising radiation - irp_he [kg U235-Eq]",
+                    "unit": "kg U235-Eq",
+                    "impactValue": 0.278,
+                    "costValue": 0.0001,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Honduras), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "ozone depletion - odpinf [kg CFC-11-Eq]",
+                    "unit": "kg CFC-11-Eq",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee green bean production, arabica (Honduras), Fonctional unit: 1 kg grean coffe bean"
+                },
+                {
+                    "indicators": "aldicarb [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.1273,
+                    "costValue": 0.0002,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL, https://icocoffee.org/wp-content/uploads/2023/01/icc-122-10-r1e-maximum-residue-limits.pdf"
+                },
+                {
+                    "indicators": "azoxystrobin [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0382,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "http://www.digesa.minsa.gob.pe/NormasLegales/Normas/RM-N1006-2016-MINSA.pdf"
+                },
+                {
+                    "indicators": "boscalid [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0637,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL, https://icocoffee.org/wp-content/uploads/2023/01/icc-122-10-r1e-maximum-residue-limits.pdf"
+                },
+                {
+                    "indicators": "buprofezin [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0637,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL, https://icocoffee.org/wp-content/uploads/2023/01/icc-122-10-r1e-maximum-residue-limits.pdf"
+                },
+                {
+                    "indicators": "carbendazim [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.1273,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL, https://icocoffee.org/wp-content/uploads/2023/01/icc-122-10-r1e-maximum-residue-limits.pdf"
+                },
+                {
+                    "indicators": "carbofuran [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 1.273,
+                    "costValue": 0.0007,
+                    "impactDefinition": "To fill",
+                    "reference": "http://www.digesa.minsa.gob.pe/NormasLegales/Normas/RM-N1006-2016-MINSA.pdf"
+                },
+                {
+                    "indicators": "chlorothalonil [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0637,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "http://www.digesa.minsa.gob.pe/NormasLegales/Normas/RM-N1006-2016-MINSA.pdf"
+                },
+                {
+                    "indicators": "chlorpyrifos [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0637,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "http://www.digesa.minsa.gob.pe/NormasLegales/Normas/RM-N1006-2016-MINSA.pdf"
+                },
+                {
+                    "indicators": "clothianidin [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0637,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL, https://icocoffee.org/wp-content/uploads/2023/01/icc-122-10-r1e-maximum-residue-limits.pdf"
+                },
+                {
+                    "indicators": "cyantraniliprole [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0637,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL, https://icocoffee.org/wp-content/uploads/2023/01/icc-122-10-r1e-maximum-residue-limits.pdf"
+                },
+                {
+                    "indicators": "copper oxychloride [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 63.6525,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "http://www.digesa.minsa.gob.pe/NormasLegales/Normas/RM-N1006-2016-MINSA.pdf"
+                },
+                {
+                    "indicators": "copper hydroxide [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 63.6525,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "http://www.digesa.minsa.gob.pe/NormasLegales/Normas/RM-N1006-2016-MINSA.pdf"
+                },
+                {
+                    "indicators": "cyproconazole [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0891,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "http://www.digesa.minsa.gob.pe/NormasLegales/Normas/RM-N1006-2016-MINSA.pdf"
+                },
+                {
+                    "indicators": "difenoconazole [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0637,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "http://www.digesa.minsa.gob.pe/NormasLegales/Normas/RM-N1006-2016-MINSA.pdf"
+                },
+                {
+                    "indicators": "ethoprophos [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0255,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "http://www.digesa.minsa.gob.pe/NormasLegales/Normas/RM-N1006-2016-MINSA.pdf"
+                },
+                {
+                    "indicators": "ethephon [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.6365,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "http://www.digesa.minsa.gob.pe/NormasLegales/Normas/RM-N1006-2016-MINSA.pdf"
+                },
+                {
+                    "indicators": "finipronil [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0064,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "http://www.digesa.minsa.gob.pe/NormasLegales/Normas/RM-N1006-2016-MINSA.pdf"
+                },
+                {
+                    "indicators": "fenpropathrin [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0255,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL, https://icocoffee.org/wp-content/uploads/2023/01/icc-122-10-r1e-maximum-residue-limits.pdf"
+                },
+                {
+                    "indicators": "flutriafol [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.191,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL, https://icocoffee.org/wp-content/uploads/2023/01/icc-122-10-r1e-maximum-residue-limits.pdf"
+                },
+                {
+                    "indicators": "glufosinate-ammonium [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.1273,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "http://www.digesa.minsa.gob.pe/NormasLegales/Normas/RM-N1006-2016-MINSA.pdf"
+                },
+                {
+                    "indicators": "glyphosate [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0637,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "http://www.digesa.minsa.gob.pe/NormasLegales/Normas/RM-N1006-2016-MINSA.pdf"
+                },
+                {
+                    "indicators": "kresoxim methyl [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0637,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "http://www.digesa.minsa.gob.pe/NormasLegales/Normas/RM-N1006-2016-MINSA.pdf"
+                },
+                {
+                    "indicators": "mancozeb [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.1273,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "http://www.digesa.minsa.gob.pe/NormasLegales/Normas/RM-N1006-2016-MINSA.pdf"
+                },
+                {
+                    "indicators": "oxyfluorfen [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0637,
+                    "costValue": 0.0001,
+                    "impactDefinition": "To fill",
+                    "reference": "http://www.digesa.minsa.gob.pe/NormasLegales/Normas/RM-N1006-2016-MINSA.pdf"
+                },
+                {
+                    "indicators": "propiconazole [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0255,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL, https://icocoffee.org/wp-content/uploads/2023/01/icc-122-10-r1e-maximum-residue-limits.pdf"
+                },
+                {
+                    "indicators": "pyraclostrobin [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.3819,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "http://www.digesa.minsa.gob.pe/NormasLegales/Normas/RM-N1006-2016-MINSA.pdf"
+                },
+                {
+                    "indicators": "propioconazole [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0255,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "http://www.digesa.minsa.gob.pe/NormasLegales/Normas/RM-N1006-2016-MINSA.pdf"
+                },
+                {
+                    "indicators": "spirodiclofen [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0637,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "International Coffee Council, MRL, https://icocoffee.org/wp-content/uploads/2023/01/icc-122-10-r1e-maximum-residue-limits.pdf"
+                },
+                {
+                    "indicators": "tebuconazole [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.1273,
+                    "costValue": 0.0001,
+                    "impactDefinition": "To fill",
+                    "reference": "http://www.digesa.minsa.gob.pe/NormasLegales/Normas/RM-N1006-2016-MINSA.pdf"
+                },
+                {
+                    "indicators": "trifloxystrobin [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.0255,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "http://www.digesa.minsa.gob.pe/NormasLegales/Normas/RM-N1006-2016-MINSA.pdf"
+                },
+                {
+                    "indicators": "thiamethoxam [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.2546,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "http://www.digesa.minsa.gob.pe/NormasLegales/Normas/RM-N1006-2016-MINSA.pdf"
+                },
+                {
+                    "indicators": "triadimefon [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.6365,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "http://www.digesa.minsa.gob.pe/NormasLegales/Normas/RM-N1006-2016-MINSA.pdf"
+                },
+                {
+                    "indicators": "triadimenol [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.6365,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "http://www.digesa.minsa.gob.pe/NormasLegales/Normas/RM-N1006-2016-MINSA.pdf"
+                }
+            ]
+        },
+        {
+            "stage": "Cultivation",
+            "impactCategory": "Livelihoods",
+            "impactValue": 0.9667,
+            "costValue": 0.0071,
+            "details": [
+                {
+                    "indicators": "wage gap of workers earning below minimum wage [CHF/month]",
+                    "unit": "CHF/month",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "https://wageindicator.org/salary/minimum-wage/minimum-wages-news/2024/general-minimum-wage-revised-in-brazil-from-01-january-2024-january-08-2024; https://www.globalcoffeeplatform.org/wp-content/uploads/2023/05/1-LIVING-INCOME_GCP_english_OK-FINAL.pdf; https://www.fairtrade.net/standard/minimum-price-info"
+                },
+                {
+                    "indicators": "wage gap of workers earning above minimum wage but below decent living wage [CHF/month]",
+                    "unit": "CHF/month",
+                    "impactValue": 0.0633,
+                    "costValue": 0.0002,
+                    "impactDefinition": "To fill",
+                    "reference": "https://www.globalcoffeeplatform.org/wp-content/uploads/2023/05/1-LIVING-INCOME_GCP_english_OK-FINAL.pdf ;https://www.globallivingwage.org/living-wage-benchmarks/urban-brazil/; https://www.fairtrade.net/standard/minimum-price-info"
+                },
+                {
+                    "indicators": "underage workers below minimum age involved in hazardous work [child FTE/kg]",
+                    "unit": "child FTE/kg",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "https://files.fairtrade.net/standards/Coffee_SPO_EN.pdf; https://www.fairtrade.net/issue/child-labour"
+                },
+                {
+                    "indicators": "forced workers (medium severe) [FTE/kg]",
+                    "unit": "FTE/kg",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "https://files.fairtrade.net/standards/Coffee_SPO_EN.pdf; https://www.fairtrade.net/issue/child-labour"
+                },
+                {
+                    "indicators": "wage gap from gender discrimination [CHF]",
+                    "unit": "CHF",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "https://files.fairtrade.net/standards/Coffee_SPO_EN.pdf; https://www.fairtrade.net/issue/child-labour"
+                },
+                {
+                    "indicators": "workers with denied paid leave [FTE/kg]",
+                    "unit": "FTE/kg",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "https://old.danwatch.dk/en/undersogelseskapitel/kapitel-3-cirka-halvdelen-af-brasiliens-kaffeplukkere-arbejder-uden-kontrakt/; https://foreignpolicy.com/2016/04/13/in-brazils-coffee-industry-some-workers-face-conditions-analogous-to-slavery/; FAOSTAT"
+                },
+                {
+                    "indicators": "workers without legal social security [FTE/kg]",
+                    "unit": "FTE/kg",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "https://old.danwatch.dk/en/undersogelseskapitel/kapitel-3-cirka-halvdelen-af-brasiliens-kaffeplukkere-arbejder-uden-kontrakt/; https://foreignpolicy.com/2016/04/13/in-brazils-coffee-industry-some-workers-face-conditions-analogous-to-slavery/; FAOSTAT"
+                },
+                {
+                    "indicators": "excessive and underpaid overtime [FTE/kg]",
+                    "unit": "FTE/kg",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "; 1.5 to 2 workers are needed per hectare (Arabica), 1 to 1.5 workers per hectare (Robusta),  0.5 workers or fewer on highly mechanized farms (45% in Brazil), Brazil: ~0.3 to 0.6 farmers per hectare (large, mechanized farms dominate); Agribalyse (v301, 2014), Open LCA"
+                },
+                {
+                    "indicators": "fatal occupational incidents [incidents/kg]",
+                    "unit": "incidents/kg",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "https://old.danwatch.dk/en/undersogelseskapitel/kapitel-3-cirka-halvdelen-af-brasiliens-kaffeplukkere-arbejder-uden-kontrakt/;https://www.ilo.org/resource/news/decent-work-smartlab-series-2022-reported-work-related-accidents-and-deaths; https://www.scielosp.org/pdf/csc/2018.v23n5/1353-1362"
+                },
+                {
+                    "indicators": "insured non-fatal occupational incidents [incidents/kg]",
+                    "unit": "incidents/kg",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "https://old.danwatch.dk/en/undersogelseskapitel/kapitel-3-cirka-halvdelen-af-brasiliens-kaffeplukkere-arbejder-uden-kontrakt/; https://www.scielosp.org/pdf/csc/2018.v23n5/1353-1362; https://www.ilo.org/resource/news/decent-work-smartlab-series-2022-reported-work-related-accidents-and-deaths; 3172562000"
+                },
+                {
+                    "indicators": "uninsured non-fatal occupational incidents [incidents/kg]",
+                    "unit": "incidents/kg",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "https://old.danwatch.dk/en/undersogelseskapitel/kapitel-3-cirka-halvdelen-af-brasiliens-kaffeplukkere-arbejder-uden-kontrakt/; https://www.scielosp.org/pdf/csc/2018.v23n5/1353-1362; https://www.ilo.org/resource/news/decent-work-smartlab-series-2022-reported-work-related-accidents-and-deaths; 3172562000"
+                },
+                {
+                    "indicators": "wage gap of workers earning below minimum wage [CHF/month]",
+                    "unit": "CHF/month",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "FAOSTAT(2022); https://www.undp.org/facs/peru-sustainable-coffee; https://ec.europa.eu/eurostat/databrowser/view/ERT_BIL_EUR_A/default/table?lang=en; https://www.globallivingwage.org/wp-content/uploads/2023/09/Update-report_Peru_CoffeCocoa_2023_JUNE.pdf; https://estadisticas.bcrp.gob.pe/estadisticas/series/mensuales/resultados/PN02124PM/html/2023-1/2024-7/; 1.02917649495913; https://www.kakaoplattform.ch/fileadmin/redaktion/dokumente/Issue_Brief_Price_EN.pdf"
+                },
+                {
+                    "indicators": "wage gap of workers earning above minimum wage but below decent living wage [CHF/month]",
+                    "unit": "CHF/month",
+                    "impactValue": 0.9034,
+                    "costValue": 0.0053,
+                    "impactDefinition": "To fill",
+                    "reference": "FAOSTAT(2022); https://www.undp.org/facs/peru-sustainable-coffee; https://ec.europa.eu/eurostat/databrowser/view/ERT_BIL_EUR_A/default/table?lang=en; https://www.globallivingwage.org/wp-content/uploads/2023/09/Update-report_Peru_CoffeCocoa_2023_JUNE.pdf; https://www.globallivingwage.org/wp-content/uploads/2023/09/Update-report_Peru_CoffeCocoa_2023_JUNE.pdf; 1.02917649495913; computation"
+                },
+                {
+                    "indicators": "underage workers below minimum age involved in hazardous work [child FTE/kg]",
+                    "unit": "child FTE/kg",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "https://files.fairtrade.net/standards/Coffee_SPO_EN.pdf; https://www.fairtrade.net/issue/child-labour"
+                },
+                {
+                    "indicators": "forced workers (medium severe) [FTE/kg]",
+                    "unit": "FTE/kg",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "https://files.fairtrade.net/standards/Coffee_SPO_EN.pdf; https://www.fairtrade.net/issue/child-labour"
+                },
+                {
+                    "indicators": "wage gap from gender discrimination [CHF]",
+                    "unit": "CHF",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "https://files.fairtrade.net/standards/Coffee_SPO_EN.pdf; https://www.fairtrade.net/issue/child-labour"
+                },
+                {
+                    "indicators": "workers with denied paid leave [FTE/kg]",
+                    "unit": "FTE/kg",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "https://old.danwatch.dk/en/undersogelseskapitel/kapitel-3-cirka-halvdelen-af-brasiliens-kaffeplukkere-arbejder-uden-kontrakt/; https://foreignpolicy.com/2016/04/13/in-brazils-coffee-industry-some-workers-face-conditions-analogous-to-slavery/; FAOSTAT"
+                },
+                {
+                    "indicators": "workers without legal social security [FTE/kg]",
+                    "unit": "FTE/kg",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "https://old.danwatch.dk/en/undersogelseskapitel/kapitel-3-cirka-halvdelen-af-brasiliens-kaffeplukkere-arbejder-uden-kontrakt/; https://foreignpolicy.com/2016/04/13/in-brazils-coffee-industry-some-workers-face-conditions-analogous-to-slavery/; FAOSTAT"
+                },
+                {
+                    "indicators": "excessive and underpaid overtime [FTE/kg]",
+                    "unit": "FTE/kg",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "; 1.5 to 2 workers are needed per hectare (Arabica), 1 to 1.5 workers per hectare (Robusta),  0.5 workers or fewer on highly mechanized farms (45% in Brazil), Brazil: ~0.3 to 0.6 farmers per hectare (large, mechanized farms dominate); Agribalyse (v301, 2014), Open LCA"
+                },
+                {
+                    "indicators": "fatal occupational incidents [incidents/kg]",
+                    "unit": "incidents/kg",
+                    "impactValue": 0.0,
+                    "costValue": 0.0011,
+                    "impactDefinition": "To fill",
+                    "reference": "GPT; https://www.undp.org/facs/peru-sustainable-coffee; FAOSTAT(2022)"
+                },
+                {
+                    "indicators": "insured non-fatal occupational incidents [incidents/kg]",
+                    "unit": "incidents/kg",
+                    "impactValue": 0.0,
+                    "costValue": 0.0004,
+                    "impactDefinition": "To fill",
+                    "reference": "GPT; ILO stat \"Informal employment rate by economic activity\" https://rshiny.ilo.org/dataexplorer35/?lang=en&id=SDG_0831_SEX_ECO_RT_A\nAssuming informal labor implies no social security and no paid overtime benefits: https://www.morrisons-corporate.com/globalassets/sustainability/morrisons-hria_coffee-from-peru_final-report-draft---2024-clean.pdf\n; FAOSTAT(2022)"
+                },
+                {
+                    "indicators": "uninsured non-fatal occupational incidents [incidents/kg]",
+                    "unit": "incidents/kg",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "GPT; ILO stat \"Informal employment rate by economic activity\" https://rshiny.ilo.org/dataexplorer35/?lang=en&id=SDG_0831_SEX_ECO_RT_A\nAssuming informal labor implies no social security and no paid overtime benefits: https://www.morrisons-corporate.com/globalassets/sustainability/morrisons-hria_coffee-from-peru_final-report-draft---2024-clean.pdf\n; FAOSTAT(2022)"
+                }
+            ]
+        },
+        {
+            "stage": "Decaffeination",
+            "impactCategory": "Environment",
+            "impactValue": 6.9017,
+            "costValue": 0.0036,
+            "details": [
+                {
+                    "indicators": "fine particulate matter formation [kg PM2.5 eq]",
+                    "unit": "kg PM2.5 eq",
+                    "impactValue": 0.0007,
+                    "costValue": 0.0002,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "fossil resource scarcity [kg oil eq]",
+                    "unit": "kg oil eq",
+                    "impactValue": 0.2453,
+                    "costValue": 0.0004,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "freshwater ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.0209,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "freshwater eutrophication [kg P eq]",
+                    "unit": "kg P eq",
+                    "impactValue": 0.0004,
+                    "costValue": 0.0003,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "global warming [kg CO2 eq]",
+                    "unit": "kg CO2 eq",
+                    "impactValue": 0.8163,
+                    "costValue": 0.0005,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "land use [m2a crop eq]",
+                    "unit": "m2a crop eq",
+                    "impactValue": 0.0118,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "marine ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.0288,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "marine eutrophication [kg N eq]",
+                    "unit": "kg N eq",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "mineral resource scarcity [kg Cu eq]",
+                    "unit": "kg Cu eq",
+                    "impactValue": 0.001,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "terrestrial acidification [kg SO2 eq]",
+                    "unit": "kg SO2 eq",
+                    "impactValue": 0.0018,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "terrestrial ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 2.3174,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "water consumption [m3]",
+                    "unit": "m3",
+                    "impactValue": 0.0065,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "fine particulate matter formation [kg PM2.5 eq]",
+                    "unit": "kg PM2.5 eq",
+                    "impactValue": 0.0007,
+                    "costValue": 0.0003,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "fossil resource scarcity [kg oil eq]",
+                    "unit": "kg oil eq",
+                    "impactValue": 0.2453,
+                    "costValue": 0.0006,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "freshwater ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.0209,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "freshwater eutrophication [kg P eq]",
+                    "unit": "kg P eq",
+                    "impactValue": 0.0004,
+                    "costValue": 0.0004,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "global warming [kg CO2 eq]",
+                    "unit": "kg CO2 eq",
+                    "impactValue": 0.8163,
+                    "costValue": 0.0007,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "land use [m2a crop eq]",
+                    "unit": "m2a crop eq",
+                    "impactValue": 0.0118,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "marine ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.0288,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "marine eutrophication [kg N eq]",
+                    "unit": "kg N eq",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "mineral resource scarcity [kg Cu eq]",
+                    "unit": "kg Cu eq",
+                    "impactValue": 0.001,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "terrestrial acidification [kg SO2 eq]",
+                    "unit": "kg SO2 eq",
+                    "impactValue": 0.0018,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "terrestrial ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 2.3174,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "water consumption [m3]",
+                    "unit": "m3",
+                    "impactValue": 0.0065,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                }
+            ]
+        },
+        {
+            "stage": "Decaffeination",
+            "impactCategory": "Health",
+            "impactValue": 1.324,
+            "costValue": 0.0,
+            "details": [
+                {
+                    "indicators": "human carcinogenic toxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.0228,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "human non-carcinogenic toxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.5251,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "ionizing radiation [kBq Co-60 eq]",
+                    "unit": "kBq Co-60 eq",
+                    "impactValue": 0.1114,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "ozone formation, human health [kg NOx eq]",
+                    "unit": "kg NOx eq",
+                    "impactValue": 0.0014,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "ozone formation, terrestrial ecosystems [kg NOx eq]",
+                    "unit": "kg NOx eq",
+                    "impactValue": 0.0014,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "stratospheric ozone depletion [kg CFC11 eq]",
+                    "unit": "kg CFC11 eq",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "human carcinogenic toxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.0228,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "human non-carcinogenic toxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.5251,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "ionizing radiation [kBq Co-60 eq]",
+                    "unit": "kBq Co-60 eq",
+                    "impactValue": 0.1114,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "ozone formation, human health [kg NOx eq]",
+                    "unit": "kg NOx eq",
+                    "impactValue": 0.0014,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "ozone formation, terrestrial ecosystems [kg NOx eq]",
+                    "unit": "kg NOx eq",
+                    "impactValue": 0.0014,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                },
+                {
+                    "indicators": "stratospheric ozone depletion [kg CFC11 eq]",
+                    "unit": "kg CFC11 eq",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Decaffeination, green coffee, supercritical CO2 process, Fonctional unit: 1 kg decafeinate coffe bean (1.02-1.05 input)"
+                }
+            ]
+        },
+        {
+            "stage": "End-use",
+            "impactCategory": "Environment",
+            "impactValue": 0.1188,
+            "costValue": 0.0002,
+            "details": [
+                {
+                    "indicators": "agricultural land occupation - alop [m2a]",
+                    "unit": "m2a",
+                    "impactValue": 0.0043,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "climate change - gwp100 [kg CO2-Eq]",
+                    "unit": "kg CO2-Eq",
+                    "impactValue": 0.0436,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "fossil depletion - fdp [kg oil-Eq]",
+                    "unit": "kg oil-Eq",
+                    "impactValue": 0.0057,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "freshwater ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.0003,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "freshwater eutrophication [kg P eq]",
+                    "unit": "kg P eq",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "marine ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.0003,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "marine eutrophication [kg N eq]",
+                    "unit": "kg N eq",
+                    "impactValue": 0.0001,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "metal depletion - mdp [kg Fe-Eq]",
+                    "unit": "kg Fe-Eq",
+                    "impactValue": 0.0023,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "natural land transformation - nltp [m2]",
+                    "unit": "m2",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "particulate matter formation - pmfp [kg PM10-Eq]",
+                    "unit": "kg PM10-Eq",
+                    "impactValue": 0.0003,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "photochemical oxidant formation - pofp [kg NMVOC]",
+                    "unit": "kg NMVOC",
+                    "impactValue": 0.0001,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "terrestrial acidification [kg SO2 eq]",
+                    "unit": "kg SO2 eq",
+                    "impactValue": 0.0018,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "terrestrial ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "urban land occupation - ulop [m2a]",
+                    "unit": "m2a",
+                    "impactValue": 0.0006,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "water depletion - wdp [m3]",
+                    "unit": "m3",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "agricultural land occupation - alop [m2a]",
+                    "unit": "m2a",
+                    "impactValue": 0.0043,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "climate change - gwp100 [kg CO2-Eq]",
+                    "unit": "kg CO2-Eq",
+                    "impactValue": 0.0436,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "fossil resource scarcity [kg oil eq]",
+                    "unit": "kg oil eq",
+                    "impactValue": 0.0057,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "freshwater ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.0003,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "freshwater eutrophication [kg P eq]",
+                    "unit": "kg P eq",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "marine ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.0003,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "marine eutrophication [kg N eq]",
+                    "unit": "kg N eq",
+                    "impactValue": 0.0001,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "metal depletion - mdp [kg Fe-Eq]",
+                    "unit": "kg Fe-Eq",
+                    "impactValue": 0.0023,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "natural land transformation - nltp [m2]",
+                    "unit": "m2",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "particulate matter formation - pmfp [kg PM10-Eq]",
+                    "unit": "kg PM10-Eq",
+                    "impactValue": 0.0003,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "photochemical oxidant formation - pofp [kg NMVOC]",
+                    "unit": "kg NMVOC",
+                    "impactValue": 0.0001,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "terrestrial acidification [kg SO2 eq]",
+                    "unit": "kg SO2 eq",
+                    "impactValue": 0.0018,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "terrestrial ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "urban land occupation - ulop [m2a]",
+                    "unit": "m2a",
+                    "impactValue": 0.0006,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "water depletion - wdp [m3]",
+                    "unit": "m3",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                }
+            ]
+        },
+        {
+            "stage": "End-use",
+            "impactCategory": "Health",
+            "impactValue": 0.0147,
+            "costValue": 0.0,
+            "details": [
+                {
+                    "indicators": "human carcinogenic toxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.0037,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "ionising radiation - irp_he [kg U235-Eq]",
+                    "unit": "kg U235-Eq",
+                    "impactValue": 0.0036,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "ozone depletion - odpinf [kg CFC-11-Eq]",
+                    "unit": "kg CFC-11-Eq",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "human toxicity - htpinf [kg 1,4-DCB-Eq]",
+                    "unit": "kg 1,4-DCB-Eq",
+                    "impactValue": 0.0037,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "ionising radiation - irp_he [kg U235-Eq]",
+                    "unit": "kg U235-Eq",
+                    "impactValue": 0.0036,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "ozone depletion - odpinf [kg CFC-11-Eq]",
+                    "unit": "kg CFC-11-Eq",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, treatment of biowaste, industrial composting (Switzerland), Fonctional unit: 1 kg roast coffe"
+                }
+            ]
+        },
+        {
+            "stage": "Roasting & Ground",
+            "impactCategory": "Environment",
+            "impactValue": 115.5085,
+            "costValue": 0.0808,
+            "details": [
+                {
+                    "indicators": "fine particulate matter formation [kg PM2.5 eq]",
+                    "unit": "kg PM2.5 eq",
+                    "impactValue": 0.0237,
+                    "costValue": 0.0073,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "fossil resource scarcity [kg oil eq]",
+                    "unit": "kg oil eq",
+                    "impactValue": 1.6754,
+                    "costValue": 0.0028,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "freshwater ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.7445,
+                    "costValue": 0.0001,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "freshwater eutrophication [kg P eq]",
+                    "unit": "kg P eq",
+                    "impactValue": 0.003,
+                    "costValue": 0.0023,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "global warming [kg CO2 eq]",
+                    "unit": "kg CO2 eq",
+                    "impactValue": 8.9752,
+                    "costValue": 0.0053,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "land use [m2a crop eq]",
+                    "unit": "m2a crop eq",
+                    "impactValue": 9.2325,
+                    "costValue": 0.0035,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "marine ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.5672,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "marine eutrophication [kg N eq]",
+                    "unit": "kg N eq",
+                    "impactValue": 0.0208,
+                    "costValue": 0.0011,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "mineral resource scarcity [kg Cu eq]",
+                    "unit": "kg Cu eq",
+                    "impactValue": 0.0446,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "terrestrial acidification [kg SO2 eq]",
+                    "unit": "kg SO2 eq",
+                    "impactValue": 0.1165,
+                    "costValue": 0.002,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "terrestrial ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 28.7132,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "water consumption [m3]",
+                    "unit": "m3",
+                    "impactValue": 0.6998,
+                    "costValue": 0.0034,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "fine particulate matter formation [kg PM2.5 eq]",
+                    "unit": "kg PM2.5 eq",
+                    "impactValue": 0.0302,
+                    "costValue": 0.0139,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "fossil resource scarcity [kg oil eq]",
+                    "unit": "kg oil eq",
+                    "impactValue": 2.1329,
+                    "costValue": 0.0053,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "freshwater ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.9478,
+                    "costValue": 0.0002,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "freshwater eutrophication [kg P eq]",
+                    "unit": "kg P eq",
+                    "impactValue": 0.0039,
+                    "costValue": 0.0044,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "global warming [kg CO2 eq]",
+                    "unit": "kg CO2 eq",
+                    "impactValue": 11.4259,
+                    "costValue": 0.0101,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "land use [m2a crop eq]",
+                    "unit": "m2a crop eq",
+                    "impactValue": 11.7534,
+                    "costValue": 0.0066,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "marine ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.722,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "marine eutrophication [kg N eq]",
+                    "unit": "kg N eq",
+                    "impactValue": 0.0265,
+                    "costValue": 0.0021,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "mineral resource scarcity [kg Cu eq]",
+                    "unit": "kg Cu eq",
+                    "impactValue": 0.0568,
+                    "costValue": 0.0001,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "terrestrial acidification [kg SO2 eq]",
+                    "unit": "kg SO2 eq",
+                    "impactValue": 0.1483,
+                    "costValue": 0.0039,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "terrestrial ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 36.5533,
+                    "costValue": 0.0001,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "water consumption [m3]",
+                    "unit": "m3",
+                    "impactValue": 0.8909,
+                    "costValue": 0.0064,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                }
+            ]
+        },
+        {
+            "stage": "Roasting & Ground",
+            "impactCategory": "Health",
+            "impactValue": 36.788,
+            "costValue": 0.0,
+            "details": [
+                {
+                    "indicators": "human carcinogenic toxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.3869,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "human non-carcinogenic toxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 15.5102,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "ionizing radiation [kBq Co-60 eq]",
+                    "unit": "kBq Co-60 eq",
+                    "impactValue": 0.2261,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "ozone formation, human health [kg NOx eq]",
+                    "unit": "kg NOx eq",
+                    "impactValue": 0.03,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "ozone formation, terrestrial ecosystems [kg NOx eq]",
+                    "unit": "kg NOx eq",
+                    "impactValue": 0.0312,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "stratospheric ozone depletion [kg CFC11 eq]",
+                    "unit": "kg CFC11 eq",
+                    "impactValue": 0.0001,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "human carcinogenic toxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.4925,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "human non-carcinogenic toxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 19.7453,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "ionizing radiation [kBq Co-60 eq]",
+                    "unit": "kBq Co-60 eq",
+                    "impactValue": 0.2878,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "ozone formation, human health [kg NOx eq]",
+                    "unit": "kg NOx eq",
+                    "impactValue": 0.0382,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "ozone formation, terrestrial ecosystems [kg NOx eq]",
+                    "unit": "kg NOx eq",
+                    "impactValue": 0.0397,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                },
+                {
+                    "indicators": "stratospheric ozone depletion [kg CFC11 eq]",
+                    "unit": "kg CFC11 eq",
+                    "impactValue": 0.0001,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), Coffee, roast and ground, at plant (France), Fonctional unit: 1 kg roast coffe"
+                }
+            ]
+        },
+        {
+            "stage": "Transport",
+            "impactCategory": "Environment",
+            "impactValue": 2.1863,
+            "costValue": 0.0026,
+            "details": [
+                {
+                    "indicators": "agricultural land occupation - alop [m2a]",
+                    "unit": "m2a",
+                    "impactValue": 0.0207,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais to Santos Port ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "climate change - gwp100 [kg CO2-Eq]",
+                    "unit": "kg CO2-Eq",
+                    "impactValue": 0.6257,
+                    "costValue": 0.0004,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais to Santos Port ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "fossil depletion - fdp [kg oil-Eq]",
+                    "unit": "kg oil-Eq",
+                    "impactValue": 0.2249,
+                    "costValue": 0.0004,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais to Santos Port ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "freshwater ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.0075,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais to Santos Port ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "freshwater eutrophication [kg P eq]",
+                    "unit": "kg P eq",
+                    "impactValue": 0.0001,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais to Santos Port ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "marine ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.0076,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais to Santos Port ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "marine eutrophication [kg N eq]",
+                    "unit": "kg N eq",
+                    "impactValue": 0.0009,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais to Santos Port ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "metal depletion - mdp [kg Fe-Eq]",
+                    "unit": "kg Fe-Eq",
+                    "impactValue": 0.0358,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais to Santos Port ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "natural land transformation - nltp [m2]",
+                    "unit": "m2",
+                    "impactValue": 0.0002,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais to Santos Port ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "particulate matter formation - pmfp [kg PM10-Eq]",
+                    "unit": "kg PM10-Eq",
+                    "impactValue": 0.0012,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais to Santos Port ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "photochemical oxidant formation - pofp [kg NMVOC]",
+                    "unit": "kg NMVOC",
+                    "impactValue": 0.0028,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais to Santos Port ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "terrestrial acidification [kg SO2 eq]",
+                    "unit": "kg SO2 eq",
+                    "impactValue": 0.0027,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais to Santos Port ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "terrestrial ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.0002,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais to Santos Port ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "urban land occupation - ulop [m2a]",
+                    "unit": "m2a",
+                    "impactValue": 0.0252,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais to Santos Port ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "agricultural land occupation - alop [m2a]",
+                    "unit": "m2a",
+                    "impactValue": 0.0239,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 16-32 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "climate change - gwp100 [kg CO2-Eq]",
+                    "unit": "kg CO2-Eq",
+                    "impactValue": 0.795,
+                    "costValue": 0.0007,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 16-32 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "fossil resource scarcity [kg oil eq]",
+                    "unit": "kg oil eq",
+                    "impactValue": 0.2871,
+                    "costValue": 0.0007,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 16-32 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "freshwater ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.0145,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 16-32 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "freshwater eutrophication [kg P eq]",
+                    "unit": "kg P eq",
+                    "impactValue": 0.0001,
+                    "costValue": 0.0001,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 16-32 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "marine ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.0139,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 16-32 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "marine eutrophication [kg N eq]",
+                    "unit": "kg N eq",
+                    "impactValue": 0.001,
+                    "costValue": 0.0001,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 16-32 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "metal depletion - mdp [kg Fe-Eq]",
+                    "unit": "kg Fe-Eq",
+                    "impactValue": 0.0531,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 16-32 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "natural land transformation - nltp [m2]",
+                    "unit": "m2",
+                    "impactValue": 0.0008,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 16-32 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "particulate matter formation - pmfp [kg PM10-Eq]",
+                    "unit": "kg PM10-Eq",
+                    "impactValue": 0.0012,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 16-32 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "photochemical oxidant formation - pofp [kg NMVOC]",
+                    "unit": "kg NMVOC",
+                    "impactValue": 0.0031,
+                    "costValue": 0.0001,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 16-32 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "terrestrial acidification [kg SO2 eq]",
+                    "unit": "kg SO2 eq",
+                    "impactValue": 0.0023,
+                    "costValue": 0.0001,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 16-32 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "terrestrial ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.0002,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 16-32 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "urban land occupation - ulop [m2a]",
+                    "unit": "m2a",
+                    "impactValue": 0.0337,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 16-32 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "water depletion - wdp [m3]",
+                    "unit": "m3",
+                    "impactValue": 0.0009,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 16-32 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                }
+            ]
+        },
+        {
+            "stage": "Transport",
+            "impactCategory": "Health",
+            "impactValue": 0.4644,
+            "costValue": 0.0,
+            "details": [
+                {
+                    "indicators": "human carcinogenic toxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.1483,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais to Santos Port ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "ionising radiation - irp_he [kg U235-Eq]",
+                    "unit": "kg U235-Eq",
+                    "impactValue": 0.05,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais to Santos Port ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "ozone depletion - odpinf [kg CFC-11-Eq]",
+                    "unit": "kg CFC-11-Eq",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO5 (Brazil), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Minas Gerais to Santos Port ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "human toxicity - htpinf [kg 1,4-DCB-Eq]",
+                    "unit": "kg 1,4-DCB-Eq",
+                    "impactValue": 0.1967,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 16-32 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "ionising radiation - irp_he [kg U235-Eq]",
+                    "unit": "kg U235-Eq",
+                    "impactValue": 0.069,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 16-32 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                },
+                {
+                    "indicators": "ozone depletion - odpinf [kg CFC-11-Eq]",
+                    "unit": "kg CFC-11-Eq",
+                    "impactValue": 0.0004,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 7.5-16 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, lorry 16-32 metric ton, EURO3 (RoW), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H), transport, freight, sea, bulk carrier for dry goods (Global), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Santos Port (Brazil) to Hambourg (Germany) Port;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, lorry 3.5-7.5 metric ton, EURO6 (Europe), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland);  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; https://www.mdpi.com/2071-1050/15/18/13987; Hambourg (Germany) Port to Bale (Switzerland)"
+                }
+            ]
+        }
+    ]
+}

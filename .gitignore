@@ -24,3 +24,8 @@ dist-ssr
 *.sw?
 
 backend/*
+
+data_processing/impacts/*
+data_processing/*.csv
+data_processing/*.json
+data_processing/*.xlsx

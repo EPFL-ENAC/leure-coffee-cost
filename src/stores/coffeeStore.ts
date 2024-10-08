@@ -6,6 +6,8 @@ import {
   salePointDetails,
   MilkType,
   Recipe,
+  generateSunburstData,
+  generateTreemapData,
 } from "@/utils/coffeeData";
 import Papa from "papaparse";
 
@@ -17,7 +19,7 @@ export const useCoffeeStore = defineStore("coffee", () => {
     if (listCoffee.value && listCoffee.value.length !== 0) return;
 
     try {
-      const response = await fetch("/data/coffeeData.csv"); // Corrected the filename
+      const response = await fetch("./data/coffeeData.csv"); // Corrected the filename
       const csvText = await response.text();
 
       const parsedData = Papa.parse<CoffeeData>(csvText, {
@@ -178,8 +180,49 @@ export const useCoffeeStore = defineStore("coffee", () => {
   });
 
   const isPriceVisible = computed(() => {
-    return selectedCoffee.value !== null;
+    return selectedRecipe.value !== null && selectedSalePoint.value !== null;
   });
+
+  const selectedCoffeeImpacts = ref<CoffeeImpactData | null>(null);
+
+  const loadImpacts = async () => {
+    if (
+      !selectedCoffee.value ||
+      (selectedCoffee.value &&
+        selectedCoffeeImpacts.value?.serveId === selectedCoffee.value.serveId)
+    )
+      return;
+
+    try {
+      const response = await fetch(
+        `./data/impacts/${selectedCoffee.value.serveId.replace("#", "-")}.json`
+      ); // Corrected the filename
+      const json = await response.json();
+
+      selectedCoffeeImpacts.value = json;
+    } catch (error) {
+      console.error("Failed to load JSON:", error);
+      selectedCoffeeImpacts.value = null;
+    }
+  };
+
+  watch(selectedCoffee, (newCoffee) => {
+    if (newCoffee) {
+      loadImpacts();
+    }
+  });
+
+  const sunburstData = computed(() =>
+    selectedCoffeeImpacts.value
+      ? generateSunburstData(selectedCoffeeImpacts.value)
+      : null
+  );
+
+  const treemapData = computed(() =>
+    selectedCoffeeImpacts.value
+      ? generateTreemapData(selectedCoffeeImpacts.value)
+      : null
+  );
 
   return {
     // State
@@ -189,6 +232,11 @@ export const useCoffeeStore = defineStore("coffee", () => {
     sugarLevel,
     selectedImpact,
     listCoffee,
+
+    sunburstData,
+    treemapData,
+
+    selectedCoffeeImpacts,
 
     selectedSalePoint,
     isPriceVisible,
