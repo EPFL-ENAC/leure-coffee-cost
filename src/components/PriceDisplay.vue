@@ -19,15 +19,15 @@ const truePrice = computed(() => retailPrice.value + hiddenCost.value);
   <div class="price-display">
     <div class="price-item">
       <span>Retail Price:</span>
-      <span>{{ retailPrice.toFixed(2) }} $</span>
+      <span>{{ retailPrice.toFixed(2) }} CHF</span>
     </div>
     <div class="price-item">
       <span>Hidden Cost:</span>
-      <span>{{ hiddenCost.toFixed(2) }} $</span>
+      <span>{{ hiddenCost.toFixed(2) }} CHF</span>
     </div>
     <div class="price-item total">
       <span>True Price:</span>
-      <span>{{ truePrice.toFixed(2) }} $</span>
+      <span>{{ truePrice.toFixed(2) }} CHF</span>
     </div>
   </div>
 </template>

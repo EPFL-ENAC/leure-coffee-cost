@@ -21,7 +21,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, watch } from "vue";
+import { ref, onMounted, watch, computed } from "vue";
 import * as echarts from "echarts";
 import { useCoffeeStore } from "@/stores/coffeeStore";
 
@@ -29,45 +29,28 @@ import { useCoffeeStore } from "@/stores/coffeeStore";
 const chart = ref<HTMLDivElement | null>(null);
 const store = useCoffeeStore();
 
-const getLevelOption = () => {
+const echartInstance = ref<echarts.ECharts | null>(null);
+
+const getLevelOption = (depth: number = 0) => {
+  console.log("depth", depth);
   return [
+    {},
     {
-      itemStyle: {
-        borderColor: "#777",
-        borderWidth: 0,
-        gapWidth: 1,
-      },
-      upperLabel: {
-        show: false,
-      },
-    },
-    {
-      itemStyle: {
-        borderColor: "#555",
-        borderWidth: 5,
-        gapWidth: 1,
-      },
-      emphasis: {
-        itemStyle: {
-          borderColor: "#ddd",
+      label: {
+        formatter: (params: any) => {
+          return params.name + "\n" + params.value.toPrecision(2) + " CHF";
         },
       },
     },
     {
-      colorSaturation: [0.35, 0.5],
-      itemStyle: {
-        borderWidth: 1,
-        gapWidth: 1,
-        borderColorSaturation: 0.6,
+      label: {
+        formatter: (params: any) => {
+          return params.name + "\n" + params.value.toPrecision(2) + " CHF";
+        },
       },
     },
+    {},
     {
-      label: {
-        minAngle: 10,
-        fontSize: 12,
-        overflow: "break",
-        width: 80,
-      },
       downplay: {
         label: {
           opacity: 0.5,
@@ -75,76 +58,124 @@ const getLevelOption = () => {
       },
     },
   ];
+  // .map((d, i) => {
+  //   const isRootVisible = depth > 0 && i == 0;
+  //   const show =
+  //     isRootVisible || (i > depth && i - depth - 1 < listRadius.length);
+  //   const indexRadius = isRootVisible ? 0 : i - depth - 1;
+
+  //   console.log({
+  //     d,
+  //     i,
+  //     show,
+  //     indexRadius,
+  //     radius: listRadius[indexRadius],
+  //   });
+
+  //   return {
+  //     ...d,
+  //     // radius: show ? listRadius[indexRadius] : [0, 0],
+  //     radius: undefined,
+  //     label: {
+  //       ...d.label,
+  //       show,
+  //     },
+  //   };
+  // });
 };
+
+// Transform sunburst data for the chart
+const sunburstData = computed(() => {
+  console.log(store.sunburstData);
+  return store.sunburstData;
+});
+
+const generateSunburstDataDepth = (depth: number) => {
+  return store.generateSunburstDataDepth(depth);
+};
+
+const coffeeName = computed(() => store.selectedRecipe);
+
+const option = computed(() => ({
+  tooltip: {
+    formatter: function (info: any) {
+      const value = info.value;
+      const treePathInfo = info.treePathInfo;
+      const treePath = [];
+      for (let i = 1; i < treePathInfo.length; i++) {
+        treePath.push(treePathInfo[i].name);
+      }
+      return [
+        `<div class="tooltip-title">${echarts.format.encodeHTML(
+          treePath.join("/")
+        )}</div>`,
+        "Value: " + echarts.format.addCommas(value.toPrecision(3)) + " CHF",
+      ].join("");
+    },
+  },
+
+  series: [
+    {
+      name: coffeeName.value,
+      type: "sunburst",
+      data: sunburstData.value, // Add the transformed data here
+      radius: [0, "100%"],
+      startAngle: 180,
+      // nodeClick: false,
+      label: {
+        show: true,
+        formatter: (params: any) => {
+          const name = params.name;
+          return name;
+          // return name + "\n" + params.value.toPrecision(2) + " .-";
+        }, // Shows the name of the node
+        color: "#000",
+        textBorderColor: "#fff",
+        textBorderWidth: 2,
+        fontSize: 14,
+        minAngle: 6,
+        minMargin: 20,
+        overflow: "break",
+        width: 80,
+      },
+      itemStyle: {
+        borderColor: "#fff",
+      },
+      levels: getLevelOption(), // Apply the custom levels configuration
+      emphasis: {
+        focus: "ancestor",
+      },
+    },
+  ],
+}));
 
 const initChart = () => {
   if (chart.value) {
     const myChart = echarts.init(chart.value);
-
-    // Generate sunburst data grouped by stage
-    const sunburstDataByStage = store.sunburstData;
-
-    // Transform sunburst data for the chart
-    const sunburstData = sunburstDataByStage
-      ? Object.values(sunburstDataByStage)
-      : []; // Get an array of Root objects or an empty array if null
-
-    // Define the ECharts option
-    const option = {
-      tooltip: {
-        formatter: function (info: any) {
-          const value = info.value;
-          const treePathInfo = info.treePathInfo;
-          const treePath = [];
-          for (let i = 1; i < treePathInfo.length; i++) {
-            treePath.push(treePathInfo[i].name);
-          }
-          return [
-            `<div class="tooltip-title">${echarts.format.encodeHTML(
-              treePath.join("/")
-            )}</div>`,
-            "Value: " + echarts.format.addCommas(value.toPrecision(3)) + " CHF",
-          ].join("");
-        },
-      },
-
-      series: [
-        {
-          name: "Coffee Impact Data",
-          type: "sunburst",
-          leafDepth: 2, // Limits the depth of leaf nodes visible
-          data: sunburstData, // Add the transformed data here
-          startAngle: 180,
-          radius: [0, "100%"],
-          label: {
-            show: true,
-            formatter: (params: any) => {
-              const name = params.name;
-              return name + "\n" + params.value.toPrecision(2) + " .-";
-            }, // Shows the name of the node
-            color: "#000",
-            textBorderColor: "#fff",
-            textBorderWidth: 2,
-            fontSize: 14,
-          },
-          upperLabel: {
-            show: true,
-            height: 30,
-          },
-          itemStyle: {
-            borderColor: "#fff",
-          },
-          levels: getLevelOption(), // Apply the custom levels configuration
-          emphasis: {
-            focus: "ancestor",
-          },
-        },
-      ],
-    };
+    echartInstance.value = myChart;
 
     // Set chart options
-    myChart.setOption(option);
+    myChart.setOption(option.value);
     myChart.on("click", (params: any) => {
+      // console.log(params);
+      // const newSunburstData = generateSunburstDataDepth(
+      //   params.treePathInfo.length + 2
+      // );
+      // myChart.setOption({
+      //   series: [
+      //     {
+      //       data: newSunburstData,
+      //     },
+      //   ],
+      // });
+      console.log(getLevelOption(params.treePathInfo.length - 1));
+      // myChart.setOption({
+      //   series: [
+      //     {
+      //       levels: getLevelOption(params.treePathInfo.length - 1),
+      //     },
+      //   ],
+      // });
       if (params.data.indicators) store.selectImpact(params.data);
       else store.selectImpact(undefined);
     });
@@ -165,6 +196,7 @@ watch(
   () => store.sunburstData,
   () => {
     initChart();
+    // echartInstance.value?.setOption(option.value);
   }
 );
 </script>

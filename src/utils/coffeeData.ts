@@ -9,14 +9,14 @@ export enum MilkType {
   // Add more as needed
 }
 
-export const milkName: Map<MilkType, string> = new Map([
-  [MilkType.NONE, "none"],
-  [MilkType.DAIRY, "Dairy"],
-  [MilkType.ALMOND, "Almond"],
-  [MilkType.SOY, "Soy"],
-  [MilkType.CLF, "Lactose-free cow"],
-  [MilkType.OAT, "Oat"],
-]);
+// export const milkName: Map<MilkType, string> = new Map([
+//   [MilkType.NONE, "none"],
+//   [MilkType.DAIRY, "Dairy"],
+//   [MilkType.ALMOND, "Almond"],
+//   [MilkType.SOY, "Soy"],
+//   [MilkType.CLF, "Lactose-free cow"],
+//   [MilkType.OAT, "Oat"],
+// ]);
 
 export enum Recipe {
   RIS = "Ristretto",
@@ -86,6 +86,9 @@ export type CoffeeImpactData = {
   productId: string;
   productName: string;
   recipe: number;
+  ingredient: string;
+  ingredientId: string;
+  details: ImpactDetail[];
   impacts: Impact[];
   stage: string;
   impactCategory: string;
@@ -115,31 +118,63 @@ export type Root = {
   children: Layer[];
 };
 
+const recursiveSum = (node: any, depth: number) => {
+  if (node.children) {
+    // console.log("Node.children", node.children);
+
+    if (!Array.isArray(node.children))
+      node.children = Object.values(node.children);
+
+    node.value = node.children.reduce(
+      (sum: any, child: any) => sum + recursiveSum(child, depth - 1),
+      0
+    );
+
+    if (depth <= 0) delete node.children;
+  }
+
+  return node.value || 0;
+};
+
 export type SunburstNode = Root | Layer | Leaf;
+
 // Function to generate sunburstData split by stage from a CoffeeImpactData object
 export function generateSunburstData(
-  data: CoffeeImpactData,
-  definitions: ImpactDefinition[]
-): Record<string, Root> {
+  impacts: CoffeeImpactData[],
+  definitions: ImpactDefinition[],
+  depth: number = 10
+): Record<string, any> {
   // Object to store sunburst data for each stage
-  const sunburstDataByStage: Record<string, Root> = {};
+
+  console.log("GenerateSunburstData", impacts, definitions, depth);
+  const sunburstData: any = {
+    value: 0,
+    name: "Coffee",
+    children: {},
+  };
 
   // Validate impacts
-  if (!data.impacts || !Array.isArray(data.impacts)) {
+  if (!impacts || !Array.isArray(impacts)) {
     console.warn("No impacts data available.");
-    return sunburstDataByStage;
+    return sunburstData;
   }
 
   // Iterate through each impact in the CoffeeImpactData
-  data.impacts
+  impacts
     .filter((d) => d.impactValue > 0)
     .forEach((impact) => {
-      const { impactCategory, details, stage } = impact;
+      const { impactCategory, ingredient, details, stage } = impact;
 
-      // Ensure we have a valid stage and details
+      // Ensure we have valid data
       if (!stage) {
         console.warn(
           `No stage available for impactCategory: ${impactCategory}`
+        );
+        return;
+      }
+      if (!ingredient) {
+        console.warn(
+          `No ingredient available for impactCategory: ${impactCategory}`
         );
         return;
       }
@@ -148,67 +183,54 @@ export function generateSunburstData(
         return;
       }
 
-      // If the stage doesn't exist yet in sunburstDataByStage, create a new Root for it
-      if (!sunburstDataByStage[stage]) {
-        sunburstDataByStage[stage] = {
+      // If the ingredient doesn't exist yet in sunburstData, create a new Root for it
+      if (!sunburstData.children[ingredient]) {
+        sunburstData.children[ingredient] = {
+          value: 0,
+          name: ingredient,
+          children: {},
+        };
+      }
+
+      if (!sunburstData.children[ingredient].children[stage]) {
+        sunburstData.children[ingredient].children[stage] = {
           value: 0,
           name: stage,
+          children: {},
+        };
+      }
+
+      if (
+        !sunburstData.children[ingredient].children[stage].children[
+          impactCategory
+        ]
+      ) {
+        sunburstData.children[ingredient].children[stage].children[
+          impactCategory
+        ] = {
+          value: 0,
+          name: impactCategory,
           children: [],
         };
       }
 
-      // Record to keep track of categories within this stage
-      const categories: Record<string, Layer> = {};
-
       // Iterate through each detail within the impact
       details.forEach((detail) => {
-        const impactVal = isNaN(detail.costValue) ? 0 : detail.costValue;
-
-        // If the category doesn't exist for this stage, create it
-        if (!categories[impactCategory]) {
-          categories[impactCategory] = {
-            name: impactCategory,
-            value: 0,
-            children: [],
-          };
-          sunburstDataByStage[stage].children.push(categories[impactCategory]);
-        }
-
-        const category = categories[impactCategory];
-
-        // Check if the indicator already exists within the category
-        const existingLeaf = category.children.find(
-          (child: Leaf) => child.name === detail.indicators
-        );
-
-        if (existingLeaf) {
-          // If it exists, update its value
-          existingLeaf.value += impactVal;
-          category.value += impactVal;
-        } else {
-          // If not, create a new Leaf
-          const newLeaf: any = {
-            name: detail.indicators,
-            value: impactVal,
-            indicators: detail.indicators,
-            unit: detail.unit,
-            impactValue: detail.impactValue,
-            costValue: detail.costValue,
-            impactDefinition: definitions.find(
-              (d) => d.indicator == detail.indicators
-            ),
-            reference: detail.reference || "", // Default to empty string if reference is missing
-          };
-          category.children.push(newLeaf);
-          category.value += impactVal;
-        }
+        const value = isNaN(detail.costValue) ? 0 : detail.costValue;
+        sunburstData.children[ingredient].children[stage].children[
+          impactCategory
+        ].children.push({
+          ...detail,
+          name: detail.indicators,
+          definition:
+            definitions.find((d) => d.indicator === detail.indicators)
+              ?.indicatorDefinition ?? "",
+          value,
+        });
       });
-
-      // Update the total value for this stage
-      sunburstDataByStage[stage].value = sunburstDataByStage[
-        stage
-      ].children.reduce((sum, layer) => sum + layer.value, 0);
     });
 
-  return sunburstDataByStage;
+  recursiveSum(sunburstData, depth);
+
+  return sunburstData.children;
 }

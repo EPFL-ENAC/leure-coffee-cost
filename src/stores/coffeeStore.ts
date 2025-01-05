@@ -55,16 +55,24 @@ export const useCoffeeStore = defineStore("coffee", () => {
   loadListCoffee();
 
   const listImpactDefinitions = ref<ImpactDefinition[]>([]);
+  function camelize(str: string) {
+    return str
+      .replace(/(?:^\w|[A-Z]|\b\w)/g, function (word, index) {
+        return index === 0 ? word.toLowerCase() : word.toUpperCase();
+      })
+      .replace(/\s+/g, "");
+  }
 
   const loadListImpactDefinitions = async () => {
     if (listImpactDefinitions.value && listImpactDefinitions.value.length !== 0)
       return;
 
     try {
-      const response = await fetch("./data/impact_definitions.csv"); // Corrected filename
+      const response = await fetch("./data/impacts_definitions.csv"); // Corrected filename
       const csvText = await response.text();
       const parsedData = Papa.parse<ImpactDefinition>(csvText, {
         header: true,
+        transformHeader: camelize,
         dynamicTyping: true,
         skipEmptyLines: true,
       });
@@ -171,7 +179,8 @@ export const useCoffeeStore = defineStore("coffee", () => {
   const isPriceVisible = computed(() => !!selectedCoffee.value);
 
   // Load impacts
-  const selectedCoffeeImpacts = ref<CoffeeImpactData | null>(null);
+  const selectedCoffeeImpacts = ref<CoffeeImpactData[] | null>(null);
+  const sunburstData = ref<Record<string, any> | null>(null);
 
   const loadImpacts = async (serveId: string) => {
     try {
@@ -179,16 +188,28 @@ export const useCoffeeStore = defineStore("coffee", () => {
         .toLowerCase()
         .replace(" ", "_")
         .replace(",", "")}.json`;
-      console.log("Loading impacts from:", fileName);
       const response = await fetch(fileName);
-      console.log("Response:", response);
       const json = await response.json();
+      console.log("Fetch impacts ", fileName, json);
       selectedCoffeeImpacts.value = json;
+      sunburstData.value = generateSunburstData(
+        json,
+        listImpactDefinitions.value
+      );
     } catch (error) {
       console.error("Failed to load JSON:", error);
       selectedCoffeeImpacts.value = null;
     }
   };
+
+  function generateSunburstDataDepth(depth: number) {
+    if (!selectedCoffeeImpacts.value) return null;
+    return generateSunburstData(
+      selectedCoffeeImpacts.value,
+      listImpactDefinitions.value,
+      depth
+    );
+  }
 
   watch(selectedServeId, (newServeId) => {
     if (newServeId) {
@@ -196,15 +217,6 @@ export const useCoffeeStore = defineStore("coffee", () => {
       loadImpacts(newServeId);
     }
   });
-
-  const sunburstData = computed(() =>
-    selectedCoffeeImpacts.value
-      ? generateSunburstData(
-          selectedCoffeeImpacts.value,
-          listImpactDefinitions.value
-        )
-      : null
-  );
 
   const clearSelection = () => {
     selectedRecipe.value = null;
@@ -234,6 +246,7 @@ export const useCoffeeStore = defineStore("coffee", () => {
     selectedCoffeeImpacts,
 
     sunburstData,
+    generateSunburstDataDepth,
 
     // Derived state
     availableMilkTypes,

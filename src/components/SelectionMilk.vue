@@ -1,7 +1,7 @@
 <!-- src/components/SelectionMilk.vue -->
 <script setup lang="ts">
 import { useCoffeeStore } from "@/stores/coffeeStore";
-import { milkName, MilkType } from "@/utils/coffeeData";
+import { MilkType } from "@/utils/coffeeData";
 import { computed } from "vue";
 
 // Use the coffee store
