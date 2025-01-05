@@ -105,7 +105,7 @@ const availableBeverages = computed(() => coffeeStore.availableCoffees);
         <div v-if="coffee.labels.length > 0" class="labels">
           <img
             v-for="label in coffee.labels"
-            :src="'/labels/' + labelImages.get(label)"
+            :src="'./labels/' + labelImages.get(label)"
             :alt="label"
             class="label-image"
           />
