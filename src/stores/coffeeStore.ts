@@ -1,34 +1,48 @@
 import { defineStore } from "pinia";
 import { computed, ref, watch } from "vue";
 import {
-  CoffeeImpactData,
   CoffeeData,
-  salePointDetails,
   MilkType,
-  Recipe,
   generateSunburstData,
-  ImpactDetail,
+  CoffeeImpactData,
+  ImpactDefinition,
+  Recipe,
 } from "@/utils/coffeeData";
 import Papa from "papaparse";
 
 export const useCoffeeStore = defineStore("coffee", () => {
   // State
+
   const listCoffee = ref<CoffeeData[] | null>(null);
 
   const loadListCoffee = async () => {
     if (listCoffee.value && listCoffee.value.length !== 0) return;
 
     try {
-      const response = await fetch("./data/coffeeData.csv"); // Corrected the filename
+      const response = await fetch("./data/coffee_data.csv"); // Corrected filename
       const csvText = await response.text();
-
       const parsedData = Papa.parse<CoffeeData>(csvText, {
         header: true,
         dynamicTyping: true,
-        skipEmptyLines: true, // Skip empty lines
+        skipEmptyLines: true,
+        transform(value, field) {
+          if (field === "labels") {
+            if (value === "") return [];
+            return value.split("#") ?? []; // Parse `labels` back into an array
+          }
+          if (
+            ["retailPrice", "hiddenCost", "truePrice"].includes(field as string)
+          ) {
+            return parseFloat(value); // Ensure numeric fields are parsed as numbers
+          }
+          if (field === "isDecaf" || field === "hasMilk")
+            return value == "True" || value == "true"; // Parse boolean fields
+          return value;
+        },
       });
+      console.log("Parsed data:", parsedData);
 
-      // Validate and filter parsed data
+      // Filter and validate data
       listCoffee.value = parsedData.data.filter(
         (coffee) => coffee.serveId && coffee.recipeId
       );
@@ -40,72 +54,65 @@ export const useCoffeeStore = defineStore("coffee", () => {
   // Load data immediately when the store is initialized
   loadListCoffee();
 
+  const listImpactDefinitions = ref<ImpactDefinition[]>([]);
+
+  const loadListImpactDefinitions = async () => {
+    if (listImpactDefinitions.value && listImpactDefinitions.value.length !== 0)
+      return;
+
+    try {
+      const response = await fetch("./data/impact_definitions.csv"); // Corrected filename
+      const csvText = await response.text();
+      const parsedData = Papa.parse<ImpactDefinition>(csvText, {
+        header: true,
+        dynamicTyping: true,
+        skipEmptyLines: true,
+      });
+      console.log("Parsed data:", parsedData);
+      listImpactDefinitions.value = parsedData.data;
+    } catch (error) {
+      console.error("Failed to load CSV:", error);
+    }
+  };
+
+  // Load data immediately when the store is initialized
+  loadListImpactDefinitions();
+
   // Selections
   const selectedRecipe = ref<Recipe | null>(null);
-  const selectedSalePoint = ref<string | null>(null);
-  const isDecaf = ref<boolean>(true);
+  const selectedServeId = ref<string | null>(null);
+
+  const selectedRecipeDescription = computed(
+    () =>
+      listCoffee.value?.find((d) => d.recipeId === selectedRecipe.value)
+        ?.coffeeDetails
+  );
+  const isDecaf = ref<boolean>(false);
   const milkType = ref<MilkType>(MilkType.NONE);
   const sugarLevel = ref<number>(0);
-  const selectedImpact = ref<ImpactDetail | undefined>(undefined);
 
-  const filterWithCurrentMilkType = (d: CoffeeData) =>
-    milkType.value === MilkType.NONE || d.milkType === milkType.value;
+  // Filtering
+  // const filterWithCurrentMilkType = (d: CoffeeData) =>
+  //   milkType.value === MilkType.NONE || d.milkType === milkType.value;
 
   const filterWithCurrentRecipe = (d: CoffeeData) =>
-    selectedRecipe.value === null || d.mainRecipe === selectedRecipe.value;
-
-  const filterWithCurrentSalePoint = (d: CoffeeData) =>
-    selectedSalePoint.value === null ||
-    d.salePointId === selectedSalePoint.value;
+    selectedRecipe.value === null || d.recipeId === selectedRecipe.value;
 
   const filterWithCurrentDecaf = (d: CoffeeData) => d.isDecaf === isDecaf.value;
 
-  const filterWithCurrentSelection = (d: CoffeeData) => {
-    return (
-      filterWithCurrentDecaf(d) &&
-      filterWithCurrentMilkType(d) &&
-      filterWithCurrentRecipe(d) &&
-      filterWithCurrentSalePoint(d)
-    );
-  };
+  // const filterWithCurrentSelection = (d: CoffeeData) => {
+  //   return (
+  //     filterWithCurrentDecaf(d) &&
+  //     filterWithCurrentMilkType(d) &&
+  //     filterWithCurrentRecipe(d)
+  //   );
+  // };
 
-  // Computed property for available recipes (if needed)
-  const availableRecipes = computed(() => {
-    if (!listCoffee.value) return [];
-
-    const recipes = new Set<Recipe>();
-    listCoffee.value.forEach((coffee) => {
-      recipes.add(coffee.mainRecipe as Recipe);
-    });
-
-    return Array.from(recipes);
-  });
-
-  // Computed property for available sales points based on selected recipe
-  const availableSalePoints = computed(() => {
-    if (!listCoffee.value || !selectedRecipe.value) return [];
-
-    const salePoints = new Set<string>();
-    listCoffee.value.forEach((coffee) => {
-      if (coffee.mainRecipe === selectedRecipe.value) {
-        salePoints.add(coffee.salePointId);
-      }
-    });
-
-    return Array.from(salePoints)
-      .map((id) => ({
-        id,
-        details: salePointDetails.get(id),
-      }))
-      .filter((item) => item.details !== undefined);
-  });
-
-  // Derived state: Available milk types based on selected recipe
+  // Derived state: Available milk types
   const availableMilkTypes = computed<MilkType[]>(() => {
     if (!selectedRecipe.value) return [MilkType.NONE];
     const list = listCoffee.value
       ?.filter(filterWithCurrentRecipe)
-      .filter(filterWithCurrentSalePoint)
       .filter(filterWithCurrentDecaf)
       .map((d) => d.milkType);
     if (!list) return [MilkType.NONE];
@@ -116,30 +123,22 @@ export const useCoffeeStore = defineStore("coffee", () => {
     if (!newList.includes(milkType.value)) milkType.value = newList[0];
   });
 
-  // Computed property for coffees based on selected recipe and sale point
+  // Computed property for coffees based on selection
   const availableCoffees = computed(() => {
-    if (!listCoffee.value || !selectedRecipe.value || !selectedSalePoint.value)
-      return [];
-
-    return listCoffee.value.filter(
-      (coffee) =>
-        coffee.mainRecipe === selectedRecipe.value &&
-        coffee.salePointId === selectedSalePoint.value
-    );
+    if (!listCoffee.value) return [];
+    return listCoffee.value.filter((d) => d.recipeId === selectedRecipe.value);
   });
 
   // Actions
   const selectRecipe = (recipe: Recipe) => {
     selectedRecipe.value = recipe;
-    // Reset dependent selections
-    selectedSalePoint.value = null;
     milkType.value = MilkType.NONE;
     sugarLevel.value = 0;
     isDecaf.value = false;
   };
 
-  const selectSalePoint = (salePoint: string) => {
-    selectedSalePoint.value = salePoint;
+  const selectServeId = (serveId: string) => {
+    selectedServeId.value = serveId;
   };
 
   const toggleCaffeine = () => {
@@ -160,40 +159,29 @@ export const useCoffeeStore = defineStore("coffee", () => {
     sugarLevel.value = level;
   };
 
-  const selectImpact = (impactData?: CoffeeImpactData) => {
-    selectedImpact.value = impactData;
-  };
-
-  const clearSelection = () => {
-    selectedRecipe.value = null;
-    selectedSalePoint.value = null;
-    isDecaf.value = true;
-    milkType.value = MilkType.NONE;
-    sugarLevel.value = 0;
-    selectedImpact.value = undefined;
-  };
-
+  // Selected coffee
   const selectedCoffee = computed<CoffeeData | null>(() => {
     if (!listCoffee.value) return null;
-    return listCoffee.value.find(filterWithCurrentSelection) ?? null;
+
+    return (
+      listCoffee.value.find((d) => d.serveId == selectedServeId.value) ?? null
+    );
   });
 
-  const selectedCoffeeServeId = computed<string | null>(() => {
-    if (!listCoffee.value) return null;
-    return listCoffee.value.find(filterWithCurrentSelection)?.serveId ?? null;
-  });
+  const isPriceVisible = computed(() => !!selectedCoffee.value);
 
-  const isPriceVisible = computed(() => {
-    return selectedRecipe.value !== null && selectedSalePoint.value !== null;
-  });
-
+  // Load impacts
   const selectedCoffeeImpacts = ref<CoffeeImpactData | null>(null);
 
   const loadImpacts = async (serveId: string) => {
     try {
-      const response = await fetch(
-        `./data/impacts/${serveId.replace("#", "-")}.json`
-      ); // Corrected the filename
+      const fileName = `./data/impacts/${serveId
+        .toLowerCase()
+        .replace(" ", "_")
+        .replace(",", "")}.json`;
+      console.log("Loading impacts from:", fileName);
+      const response = await fetch(fileName);
+      console.log("Response:", response);
       const json = await response.json();
       selectedCoffeeImpacts.value = json;
     } catch (error) {
@@ -202,54 +190,64 @@ export const useCoffeeStore = defineStore("coffee", () => {
     }
   };
 
-  watch(selectedCoffeeServeId, (newCoffeeServeId) => {
-    if (newCoffeeServeId) {
-      loadImpacts(newCoffeeServeId);
+  watch(selectedServeId, (newServeId) => {
+    if (newServeId) {
+      console.log("Loading impacts for serveId:", newServeId);
+      loadImpacts(newServeId);
     }
   });
 
   const sunburstData = computed(() =>
     selectedCoffeeImpacts.value
-      ? generateSunburstData(selectedCoffeeImpacts.value)
+      ? generateSunburstData(
+          selectedCoffeeImpacts.value,
+          listImpactDefinitions.value
+        )
       : null
   );
 
+  const clearSelection = () => {
+    selectedRecipe.value = null;
+    selectedServeId.value = null;
+    isDecaf.value = false;
+    milkType.value = MilkType.NONE;
+    sugarLevel.value = 0;
+  };
+
+  const selectedImpact = ref<CoffeeImpactData | undefined>(undefined);
+
+  const selectImpact = (impact?: CoffeeImpactData) => {
+    selectedImpact.value = impact;
+  };
+
   return {
     // State
+    selectedRecipe,
+    selectedServeId,
+    selectedRecipeDescription,
     selectedCoffee,
+    selectedImpact,
     isDecaf,
     milkType,
     sugarLevel,
-    selectedImpact,
     listCoffee,
+    selectedCoffeeImpacts,
 
     sunburstData,
 
-    selectedCoffeeImpacts,
-
-    selectedSalePoint,
-    isPriceVisible,
-    selectedRecipe,
-
     // Derived state
     availableMilkTypes,
-    availableSalePoints,
-    availableRecipes,
     availableCoffees,
-
-    filterWithCurrentSelection,
-    filterWithCurrentMilkType,
-    filterWithCurrentRecipe,
-    filterWithCurrentSalePoint,
-    filterWithCurrentDecaf,
+    isPriceVisible,
 
     // Actions
     selectRecipe,
-    selectSalePoint,
+    selectImpact,
+    selectServeId,
     toggleCaffeine,
     setMilkType,
     setSugarLevel,
-    selectImpact,
+
     clearSelection,
   };
 });

@@ -26,7 +26,7 @@ const selectedMilk = computed({
         :key="option"
         :value="option"
       >
-        {{ milkName.get(option) }}
+        {{ option }}
       </option>
     </select>
   </div>

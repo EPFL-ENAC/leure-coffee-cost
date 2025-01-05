@@ -10,14 +10,18 @@ import SelectionSugar from "@/components/SelectionSugar.vue";
 import PriceDisplay from "@/components/PriceDisplay.vue";
 // import ResultPie from "@/components/ResultPie.vue";
 import EchartsSunburst from "@/components/EchartsSunburst.vue";
+import { computed, watch } from "vue";
 // import TreemapChart from "@/components/TreemapChart.vue";
+
+const selectedCoffee = computed(() => store.selectedCoffee);
+watch(selectedCoffee, () => console.log(selectedCoffee.value));
 </script>
 
 <template>
   <SelectionType />
-  <SelectionCaffeine />
-  <SelectionMilk />
-  <SelectionSugar />
+  <SelectionCaffeine v-if="selectedCoffee && selectedCoffee.isDecaf" />
+  <SelectionMilk v-if="selectedCoffee && selectedCoffee.hasMilk" />
+  <SelectionSugar v-if="selectedCoffee" />
   <PriceDisplay v-if="store.isPriceVisible" />
   <EchartsSunburst v-if="store.isPriceVisible && store.selectedCoffeeImpacts" />
   <h3 v-if="store.isPriceVisible && !store.selectedCoffeeImpacts">

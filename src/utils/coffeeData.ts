@@ -1,7 +1,7 @@
 // Define enums for better type safety
 export enum MilkType {
   NONE = "none",
-  COW = "cow",
+  DAIRY = "dairy",
   ALMOND = "almond",
   SOY = "soy",
   CLF = "clf",
@@ -10,8 +10,8 @@ export enum MilkType {
 }
 
 export const milkName: Map<MilkType, string> = new Map([
-  [MilkType.NONE, "None"],
-  [MilkType.COW, "Cow"],
+  [MilkType.NONE, "none"],
+  [MilkType.DAIRY, "Dairy"],
   [MilkType.ALMOND, "Almond"],
   [MilkType.SOY, "Soy"],
   [MilkType.CLF, "Lactose-free cow"],
@@ -19,10 +19,10 @@ export const milkName: Map<MilkType, string> = new Map([
 ]);
 
 export enum Recipe {
-  RIS = "ris",
-  ESP = "esp",
-  CAF = "caf",
-  CAP = "cap",
+  RIS = "Ristretto",
+  ESP = "Espresso",
+  CAF = "Café",
+  CAP = "Cappuccino",
   REN = "ren",
   LAMA = "lama",
   RENV = "renv",
@@ -34,114 +34,46 @@ export enum Recipe {
   CAFMOC = "cafmoc",
   SUG = "sug",
 }
-
 export type CoffeeData = {
   serveId: string;
   recipeId: string;
   retailName: string;
-  salePointId: string;
-  coffeeDetails: string;
-  unit: string;
-  marketPrice: number;
-  trueCost: number | null;
-  truePrice: number | null;
+  retailPrice: number;
+  hiddenCost: number;
+  truePrice: number;
+  labels: string[];
   isDecaf: boolean;
   hasMilk: boolean;
   milkType: string | null;
-  mainRecipe: Recipe;
+  coffeeDetails: string;
 };
 
-export const recipeDetails: Map<string, { name: string; img: string }> =
-  new Map([
-    ["ris", { name: "Ristretto", img: "Ristretto.svg" }],
-    ["esp", { name: "Espresso", img: "Espresso.svg" }],
-    ["caf", { name: "Café", img: "Café.svg" }],
-    ["cap", { name: "Cappuccino", img: "Cappuccino.svg" }],
-    ["ren", { name: "Renversé", img: "Renversé.svg" }],
-    ["lama", { name: "Latte Macchiato", img: "Latte_Macchiato.svg" }],
-    ["renv", { name: "Renversé", img: "Renversé.svg" }],
-    ["moc", { name: "Mocaccino", img: "Mocaccino.svg" }],
-    ["capva", { name: "Cappuccino vanille", img: "Cappuccino_vanille.svg" }],
-    ["latmac", { name: "Latte Macchiato", img: "Latte_Macchiato.svg" }],
-    [
-      "latmacva",
-      {
-        name: "Latte Macchiato vanille",
-        img: "Latte_Macchiato_vanille.svg",
-      },
-    ],
-    ["espmoc", { name: "Espresso Macchiato", img: "Espresso_Macchiato.svg" }],
-    ["cafmoc", { name: "Café Macchiato", img: "Café_Macchiato.svg" }],
-  ]);
-
-export const salePointDetails = new Map<
-  string,
-  {
-    country: string;
-    organisation: string;
-    provider: string;
-    salePoint: string;
-    type: string;
-    name: string;
-  }
->([
-  [
-    "ch-epfl-klee",
-    {
-      country: "Switzerland",
-      organisation: "EPFL",
-      provider: "Compass Group",
-      salePoint: "Le Klee",
-      type: "Cafeteria",
-      name: "EPFL Compass Group Le Klee Cafeteria",
-    },
-  ],
-  [
-    "ch-epfl-vm#1",
-    {
-      country: "Switzerland",
-      organisation: "EPFL",
-      provider: "Compass Group",
-      salePoint: "Rolex centre",
-      type: "Vending-machine",
-      name: "EPFL Compass Group Rolex centre Vending-machine 1",
-    },
-  ],
-  [
-    "ch-epfl-vm#2",
-    {
-      country: "Switzerland",
-      organisation: "EPFL",
-      provider: "Dallmayr",
-      salePoint: "Rolex centre",
-      type: "Vending-machine",
-      name: "EPFL Dallmayr Rolex centre Vending-machine 2",
-    },
-  ],
-  [
-    "ch-epfl-vm#3",
-    {
-      country: "Switzerland",
-      organisation: "EPFL",
-      provider: "Dallmayr",
-      salePoint: "Rolex centre",
-      type: "Vending-machine",
-      name: "EPFL Dallmayr Rolex centre Vending-machine 3",
-    },
-  ],
+export const labelImages: Map<string, string> = new Map([
+  ["Organic", "organic.jpg"],
+  ["Fair Trade", "fairtrade.svg"],
+  ["Rainforest Alliance", "rainforest.png"],
+  ["Blue Planet", "blueplanet.png"],
 ]);
+
+export type ImpactDefinition = {
+  indicator: string;
+  unit: string;
+  indicatorDefinition: string;
+  monetisationMethod: string;
+};
 
 export type ImpactDetail = {
   indicators: string;
   unit: string;
   impactValue: number;
   costValue: number;
-  impactDefinition: string;
   reference: string;
 };
 
 export type Impact = {
   stage: string;
+  ingredient: string;
+  ingredientID: string;
   impactCategory: string;
   impactValue: number;
   costValue: number;
@@ -186,7 +118,8 @@ export type Root = {
 export type SunburstNode = Root | Layer | Leaf;
 // Function to generate sunburstData split by stage from a CoffeeImpactData object
 export function generateSunburstData(
-  data: CoffeeImpactData
+  data: CoffeeImpactData,
+  definitions: ImpactDefinition[]
 ): Record<string, Root> {
   // Object to store sunburst data for each stage
   const sunburstDataByStage: Record<string, Root> = {};
@@ -261,7 +194,9 @@ export function generateSunburstData(
             unit: detail.unit,
             impactValue: detail.impactValue,
             costValue: detail.costValue,
-            impactDefinition: detail.impactDefinition,
+            impactDefinition: definitions.find(
+              (d) => d.indicator == detail.indicators
+            ),
             reference: detail.reference || "", // Default to empty string if reference is missing
           };
           category.children.push(newLeaf);

@@ -8,9 +8,9 @@ const coffeeStore = useCoffeeStore();
 const selectedCoffee = computed(() => coffeeStore.selectedCoffee);
 
 // Computed properties to get prices from the store
-const retailPrice = computed(() => selectedCoffee.value?.marketPrice ?? 0);
+const retailPrice = computed(() => selectedCoffee.value?.retailPrice ?? 0);
 const hiddenCost = computed(
-  () => (selectedCoffee.value?.trueCost ?? 0) + 0.2 * coffeeStore.sugarLevel
+  () => (selectedCoffee.value?.hiddenCost ?? 0) + 0.2 * coffeeStore.sugarLevel
 );
 const truePrice = computed(() => retailPrice.value + hiddenCost.value);
 </script>

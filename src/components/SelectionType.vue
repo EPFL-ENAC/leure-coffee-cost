@@ -1,16 +1,11 @@
 <script setup lang="ts">
 import { useCoffeeStore } from "@/stores/coffeeStore";
-import {
-  CoffeeData,
-  Recipe,
-  recipeDetails,
-  salePointDetails,
-} from "@/utils/coffeeData";
+import { CoffeeData, Recipe, labelImages } from "@/utils/coffeeData";
 import { computed } from "vue";
 
 const generateCoffeeImage = (imgName?: string) => {
   // const baseURL = import.meta.env.BASE_URL ?? "";
-  return `./coffee/${imgName}`;
+  return `./coffee/${imgName?.replace(" ", "_")}.svg`;
 };
 // Use the coffee store
 
@@ -21,9 +16,9 @@ const listCoffee = computed(() => coffeeStore.listCoffee);
 const listRecipes = computed<Record<Recipe, CoffeeData[]>>(() => {
   if (!listCoffee.value) return {} as Record<Recipe, CoffeeData[]>;
   return listCoffee.value
-    .filter((d) => d.marketPrice && d.marketPrice > 0)
+    .filter((d) => d.retailPrice && d.retailPrice > 0)
     .reduce((acc, coffee) => {
-      const key = coffee.mainRecipe as Recipe;
+      const key = coffee.recipeId as Recipe;
       if (!acc[key]) {
         acc[key] = [];
       }
@@ -34,9 +29,8 @@ const listRecipes = computed<Record<Recipe, CoffeeData[]>>(() => {
 
 // Computed property for the selected coffee image
 const selectedCoffeeImage = computed(() => {
-  return selectedRecipe.value
-    ? generateCoffeeImage(recipeDetails.get(selectedRecipe.value)?.img)
-    : "";
+  console.log(selectedRecipe.value);
+  return selectedRecipe.value ? generateCoffeeImage(selectedRecipe.value) : "";
 });
 
 const selectRecipe = (recipe: Recipe) => {
@@ -44,8 +38,12 @@ const selectRecipe = (recipe: Recipe) => {
 };
 const selectedRecipe = computed(() => coffeeStore.selectedRecipe);
 
-const selectSalePoint = (salePoint: string) => {
-  coffeeStore.selectSalePoint(salePoint);
+const selectedRecipeDescription = computed(
+  () => coffeeStore.selectedRecipeDescription
+);
+
+const selectServeId = (salePoint: string) => {
+  coffeeStore.selectServeId(salePoint);
 };
 
 // Function to return to selection view
@@ -56,18 +54,7 @@ const returnToSelection = () => {
 // Expose the selected coffee image to the template
 const getSelectedCoffeeImage = selectedCoffeeImage;
 
-const listSalesPoint = computed(() => {
-  if (!listRecipes.value) return {};
-  else if (selectedRecipe.value)
-    return listRecipes.value[selectedRecipe.value].reduce((acc, coffee) => {
-      const key = coffee.salePointId;
-      if (!acc[key]) {
-        acc[key] = [];
-      }
-      acc[key].push(coffee);
-      return acc;
-    }, {} as Record<string, CoffeeData[]>);
-});
+const availableBeverages = computed(() => coffeeStore.availableCoffees);
 </script>
 
 <template>
@@ -78,29 +65,23 @@ const listSalesPoint = computed(() => {
       class="coffee-card"
       @click="selectRecipe(name)"
     >
-      <img
-        :src="generateCoffeeImage(recipeDetails.get(name)?.img)"
-        :alt="name"
-        class="coffee-image"
-      />
-      <span class="coffee-name">{{ recipeDetails.get(name)?.name }}</span>
+      <img :src="generateCoffeeImage(name)" :alt="name" class="coffee-image" />
+      <span class="coffee-name">{{ name }}</span>
     </div>
   </div>
 
   <div v-else class="coffee-detail">
     <div class="coffee-infos">
       <div class="coffee-title">
-        {{ recipeDetails.get(selectedRecipe)?.name }}
+        {{ selectedRecipe }}
         <img
           :src="getSelectedCoffeeImage"
-          :alt="recipeDetails.get(selectedRecipe)?.name"
+          :alt="selectedRecipe"
           class="coffee-image"
         />
       </div>
       <p class="coffee-description">
-        {{ recipeDetails.get(selectedRecipe)?.name }} is a popular coffee type
-        known for its rich flavor and strong aroma. Enjoy the smooth and bold
-        taste with every sip!
+        {{ selectedRecipeDescription }}
       </p>
       <div></div>
     </div>
@@ -111,21 +92,28 @@ const listSalesPoint = computed(() => {
     <h2>Comparez les fournisseurs</h2>
     <div class="selection-coffee-sale-point">
       <div
-        v-for="(_, name) in listSalesPoint"
-        :key="name"
+        v-for="coffee in availableBeverages"
+        :key="coffee.serveId"
         :class="`coffee-card sale-point ${
-          coffeeStore.selectedSalePoint === name ? 'selected' : ''
+          coffeeStore.selectedServeId === coffee.serveId ? 'selected' : ''
         }`"
-        @click="selectSalePoint(name)"
+        @click="selectServeId(coffee.serveId)"
       >
         <img
           :src="getSelectedCoffeeImage"
-          :alt="name"
+          :alt="coffee.serveId"
           class="coffee-image selected-image"
         />
-        <span class="coffee-name">{{
-          salePointDetails.get(name)?.name.replace("EPFL", "")
-        }}</span>
+        <div v-if="coffee.labels.length > 0" class="labels">
+          <img
+            v-for="label in coffee.labels"
+            :src="'/labels/' + labelImages.get(label)"
+            :alt="label"
+            class="label-image"
+          />
+        </div>
+
+        <span class="coffee-name">{{ coffee.serveId }}</span>
       </div>
     </div>
   </div>
@@ -144,6 +132,18 @@ const listSalesPoint = computed(() => {
   flex-wrap: wrap;
   gap: 2em;
   justify-content: center;
+}
+
+.labels {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 1em;
+}
+
+.label-image {
+  height: 30px;
 }
 
 .coffee-card {
