@@ -7,6 +7,7 @@ import {
   CoffeeImpactData,
   ImpactDefinition,
   Recipe,
+  ImpactDetail,
 } from "@/utils/coffeeData";
 import Papa from "papaparse";
 
@@ -221,14 +222,15 @@ export const useCoffeeStore = defineStore("coffee", () => {
   const clearSelection = () => {
     selectedRecipe.value = null;
     selectedServeId.value = null;
+    selectImpact(undefined);
     isDecaf.value = false;
     milkType.value = MilkType.NONE;
     sugarLevel.value = 0;
   };
 
-  const selectedImpact = ref<CoffeeImpactData | undefined>(undefined);
+  const selectedImpact = ref<ImpactDetail | undefined>(undefined);
 
-  const selectImpact = (impact?: CoffeeImpactData) => {
+  const selectImpact = (impact?: ImpactDetail) => {
     selectedImpact.value = impact;
   };
 

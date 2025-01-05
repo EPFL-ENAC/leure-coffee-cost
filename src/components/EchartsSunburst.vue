@@ -1,26 +1,18 @@
 <template>
-  <div class="title">
+  <div v-if="depth == 0" class="title">
     <h3 class="title">Analyse hidden cost:</h3>
     <div>
       Click on a node to navigate thourgh coffee impacts. Select a specific
       impact to get more details below.
     </div>
   </div>
-
-  <ReturnButton v-if="depth > 0" :click="() => depth--">
-    Back {{ depth }}</ReturnButton
+  <ReturnButton
+    v-else
+    :click="() => depth--"
+    :style="{ visibility: depth > 0 ? 'visible' : 'hidden' }"
+    >Previous impact category</ReturnButton
   >
-  <div ref="chart" class="sunburst" style="width: 100%; height: 800px"></div>
-
-  <div v-if="store.selectedImpact" class="impact">
-    <h3>Selected Impact:</h3>
-    <p>{{ store.selectedImpact?.indicators.toLocaleUpperCase() }}</p>
-    <p>{{ store.selectedImpact?.costValue }} CHF</p>
-    <h3>Impact Definition:</h3>
-    <p>{{ store.selectedImpact?.impactDefinition }}</p>
-    <h3>Reference:</h3>
-    <p>{{ store.selectedImpact?.reference }}</p>
-  </div>
+  <div ref="chart" class="sunburst"></div>
 </template>
 
 <script setup lang="ts">
@@ -215,6 +207,8 @@ watch(
 <style scoped>
 .sunburst {
   padding-top: 20px;
+  width: 100%;
+  height: 60vh;
 }
 .title {
   padding-top: 30px;

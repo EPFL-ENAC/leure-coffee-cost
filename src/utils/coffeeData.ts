@@ -67,6 +67,7 @@ export type ImpactDetail = {
   unit: string;
   impactValue: number;
   costValue: number;
+  definition: string;
   reference: string;
 };
 
