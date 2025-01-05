@@ -7,6 +7,9 @@
     </div>
   </div>
 
+  <ReturnButton v-if="depth > 0" :click="() => depth--">
+    Back {{ depth }}</ReturnButton
+  >
   <div ref="chart" class="sunburst" style="width: 100%; height: 800px"></div>
 
   <div v-if="store.selectedImpact" class="impact">
@@ -24,6 +27,7 @@
 import { ref, onMounted, watch, computed } from "vue";
 import * as echarts from "echarts";
 import { useCoffeeStore } from "@/stores/coffeeStore";
+import ReturnButton from "./ReturnButton.vue";
 
 // Create a reference for the chart container
 const chart = ref<HTMLDivElement | null>(null);
@@ -31,11 +35,30 @@ const store = useCoffeeStore();
 
 const echartInstance = ref<echarts.ECharts | null>(null);
 
+const listRadius = [
+  ["0%", "50%"],
+  ["50%", "100%"],
+];
+
+const depth = ref<number>(0);
+watch(depth, (newDepth) => {
+  echartInstance.value?.setOption({
+    series: [
+      {
+        levels: getLevelOption(newDepth),
+      },
+    ],
+  });
+});
+
 const getLevelOption = (depth: number = 0) => {
   console.log("depth", depth);
   return [
-    {},
     {
+      radius: ["0%", "15%"],
+    },
+    {
+      radius: ["15%", "30%"],
       label: {
         formatter: (params: any) => {
           return params.name + "\n" + params.value.toPrecision(2) + " CHF";
@@ -43,45 +66,43 @@ const getLevelOption = (depth: number = 0) => {
       },
     },
     {
+      radius: ["30%", "60%"],
       label: {
         formatter: (params: any) => {
           return params.name + "\n" + params.value.toPrecision(2) + " CHF";
         },
       },
     },
-    {},
     {
+      radius: ["60%", "90%"],
+      colorSaturation: [0.1, 0.5],
+    },
+    {
+      radius: ["90%", "100%"],
+      label: {
+        show: false,
+      },
       downplay: {
         label: {
           opacity: 0.5,
         },
       },
     },
-  ];
-  // .map((d, i) => {
-  //   const isRootVisible = depth > 0 && i == 0;
-  //   const show =
-  //     isRootVisible || (i > depth && i - depth - 1 < listRadius.length);
-  //   const indexRadius = isRootVisible ? 0 : i - depth - 1;
+  ].map((d, i) => {
+    const isRootVisible = depth > 0 && i == 0;
+    const show =
+      isRootVisible || (i > depth && i - depth - 1 < listRadius.length);
+    const indexRadius = isRootVisible ? 0 : i - depth - 1;
 
-  //   console.log({
-  //     d,
-  //     i,
-  //     show,
-  //     indexRadius,
-  //     radius: listRadius[indexRadius],
-  //   });
-
-  //   return {
-  //     ...d,
-  //     // radius: show ? listRadius[indexRadius] : [0, 0],
-  //     radius: undefined,
-  //     label: {
-  //       ...d.label,
-  //       show,
-  //     },
-  //   };
-  // });
+    return {
+      ...d,
+      radius: show ? listRadius[indexRadius] : [0, 0],
+      label: {
+        ...d.label,
+        show,
+      },
+    };
+  });
 };
 
 // Transform sunburst data for the chart
@@ -89,10 +110,6 @@ const sunburstData = computed(() => {
   console.log(store.sunburstData);
   return store.sunburstData;
 });
-
-const generateSunburstDataDepth = (depth: number) => {
-  return store.generateSunburstDataDepth(depth);
-};
 
 const coffeeName = computed(() => store.selectedRecipe);
 
@@ -168,14 +185,8 @@ const initChart = () => {
       //     },
       //   ],
       // });
-      console.log(getLevelOption(params.treePathInfo.length - 1));
-      // myChart.setOption({
-      //   series: [
-      //     {
-      //       levels: getLevelOption(params.treePathInfo.length - 1),
-      //     },
-      //   ],
-      // });
+      depth.value = Math.min(2, params.treePathInfo.length - 1);
+
       if (params.data.indicators) store.selectImpact(params.data);
       else store.selectImpact(undefined);
     });

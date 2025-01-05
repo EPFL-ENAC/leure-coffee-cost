@@ -2,6 +2,7 @@
 import { useCoffeeStore } from "@/stores/coffeeStore";
 import { CoffeeData, Recipe, labelImages } from "@/utils/coffeeData";
 import { computed } from "vue";
+import ReturnButton from "@/components/ReturnButton.vue";
 
 const generateCoffeeImage = (imgName?: string) => {
   // const baseURL = import.meta.env.BASE_URL ?? "";
@@ -85,10 +86,7 @@ const availableBeverages = computed(() => coffeeStore.availableCoffees);
       </p>
       <div></div>
     </div>
-    <button class="return-button" @click="returnToSelection">
-      <vue-feather type="arrow-left"></vue-feather>
-      Choix du café
-    </button>
+    <ReturnButton :click="returnToSelection"> Coffee choice </ReturnButton>
     <h2>Comparez les fournisseurs</h2>
     <div class="selection-coffee-sale-point">
       <div
@@ -211,27 +209,10 @@ const availableBeverages = computed(() => coffeeStore.availableCoffees);
   align-items: center;
 }
 
-.return-button {
-  border: none;
-  font-size: medium;
-  cursor: pointer;
-  align-self: flex-start;
-  color: var(--color-secondary-dark);
-  transition: color 0.2s;
-  display: flex;
-  gap: 0.5em;
-  margin: 2em 0px;
-  align-items: center;
-  background-color: white;
-}
-
 .coffee-card.icon {
   border-radius: 100px;
   width: 120px;
   height: 120px;
-}
-.return-button:hover {
-  filter: brightness(0.8);
 }
 
 .selected {
