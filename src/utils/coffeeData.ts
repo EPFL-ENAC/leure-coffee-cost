@@ -102,21 +102,21 @@ export type CoffeeImpactData = {
   reference: string;
 };
 
-export type Leaf = CoffeeImpactData & {
+export type LeafSunburst = CoffeeImpactData & {
   name: string;
   value: number;
 };
 
-export type Layer = {
+export type LayerSunburst = {
   name: string;
   value: number;
-  children: Leaf[];
+  children: LeafSunburst[];
 };
 
-export type Root = {
+export type RootSunburst = {
   name: string;
   value: number;
-  children: Layer[];
+  children: LayerSunburst[];
 };
 
 const recursiveSum = (node: any, depth: number) => {
@@ -137,14 +137,14 @@ const recursiveSum = (node: any, depth: number) => {
   return node.value || 0;
 };
 
-export type SunburstNode = Root | Layer | Leaf;
+export type SunburstNode = RootSunburst | LayerSunburst | LeafSunburst;
 
 // Function to generate sunburstData split by stage from a CoffeeImpactData object
 export function generateSunburstData(
   impacts: CoffeeImpactData[],
   definitions: ImpactDefinition[],
   depth: number = 10
-): Record<string, any> {
+): RootSunburst {
   // Object to store sunburst data for each stage
 
   console.log("GenerateSunburstData", impacts, definitions, depth);
@@ -184,7 +184,7 @@ export function generateSunburstData(
         return;
       }
 
-      // If the ingredient doesn't exist yet in sunburstData, create a new Root for it
+      // If the ingredient doesn't exist yet in sunburstData, create a new RootSunburst for it
       if (!sunburstData.children[ingredient]) {
         sunburstData.children[ingredient] = {
           value: 0,
@@ -233,5 +233,5 @@ export function generateSunburstData(
 
   recursiveSum(sunburstData, depth);
 
-  return sunburstData.children;
+  return sunburstData;
 }

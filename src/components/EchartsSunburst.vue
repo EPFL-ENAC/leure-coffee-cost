@@ -1,18 +1,20 @@
 <template>
-  <div v-if="depth == 0" class="title">
-    <h3 class="title">Analyse hidden cost:</h3>
-    <div>
-      Click on a node to navigate thourgh coffee impacts. Select a specific
-      impact to get more details below.
+  <div>
+    <div v-if="ancestors.length == 0" class="title">
+      <h3 class="title">Analyse hidden cost:</h3>
+      <div>
+        Click on a node to navigate thourgh coffee impacts. Select a specific
+        impact to get more details below.
+      </div>
     </div>
+    <ReturnButton
+      v-else
+      :click="returnToAncestor"
+      :style="{ visibility: ancestors.length > 0 ? 'visible' : 'hidden' }"
+      >Previous impact category</ReturnButton
+    >
+    <div ref="chart" class="sunburst"></div>
   </div>
-  <ReturnButton
-    v-else
-    :click="() => depth--"
-    :style="{ visibility: depth > 0 ? 'visible' : 'hidden' }"
-    >Previous impact category</ReturnButton
-  >
-  <div ref="chart" class="sunburst"></div>
 </template>
 
 <script setup lang="ts">
@@ -27,136 +29,109 @@ const store = useCoffeeStore();
 
 const echartInstance = ref<echarts.ECharts | null>(null);
 
-const listRadius = [
-  ["0%", "50%"],
-  ["50%", "100%"],
-];
-
-const depth = ref<number>(0);
-watch(depth, (newDepth) => {
-  echartInstance.value?.setOption({
-    series: [
-      {
-        levels: getLevelOption(newDepth),
-      },
-    ],
-  });
-});
-
-const getLevelOption = (depth: number = 0) => {
-  console.log("depth", depth);
-  return [
-    {
-      radius: ["0%", "15%"],
-    },
-    {
-      radius: ["15%", "30%"],
-      label: {
-        formatter: (params: any) => {
-          return params.name + "\n" + params.value.toPrecision(2) + " CHF";
-        },
-      },
-    },
-    {
-      radius: ["30%", "60%"],
-      label: {
-        formatter: (params: any) => {
-          return params.name + "\n" + params.value.toPrecision(2) + " CHF";
-        },
-      },
-    },
-    {
-      radius: ["60%", "90%"],
-      colorSaturation: [0.1, 0.5],
-    },
-    {
-      radius: ["90%", "100%"],
-      label: {
-        show: false,
-      },
-      downplay: {
-        label: {
-          opacity: 0.5,
-        },
-      },
-    },
-  ].map((d, i) => {
-    const isRootVisible = depth > 0 && i == 0;
-    const show =
-      isRootVisible || (i > depth && i - depth - 1 < listRadius.length);
-    const indexRadius = isRootVisible ? 0 : i - depth - 1;
-
-    return {
-      ...d,
-      radius: show ? listRadius[indexRadius] : [0, 0],
-      label: {
-        ...d.label,
-        show,
-      },
-    };
-  });
-};
-
 // Transform sunburst data for the chart
 const sunburstData = computed(() => {
-  console.log(store.sunburstData);
   return store.sunburstData;
 });
 
+type Impact = {
+  value: number;
+  name: string;
+};
+type ImpactLevel = Impact & {
+  children: Impact[];
+};
+
+const ancestors = ref<ImpactLevel[]>([]);
+
+const current = ref<ImpactLevel>(
+  (sunburstData.value as ImpactLevel) ?? {
+    value: 0,
+    name: "root",
+    children: [],
+  }
+);
+
+const returnToAncestor = () => {
+  if (ancestors.value.length > 0)
+    current.value = ancestors.value.pop() as ImpactLevel;
+  else console.error("No ancestor in ancestors array.");
+};
 const coffeeName = computed(() => store.selectedRecipe);
 
-const option = computed(() => ({
-  tooltip: {
-    formatter: function (info: any) {
-      const value = info.value;
-      const treePathInfo = info.treePathInfo;
-      const treePath = [];
-      for (let i = 1; i < treePathInfo.length; i++) {
-        treePath.push(treePathInfo[i].name);
-      }
-      return [
-        `<div class="tooltip-title">${echarts.format.encodeHTML(
-          treePath.join("/")
-        )}</div>`,
-        "Value: " + echarts.format.addCommas(value.toPrecision(3)) + " CHF",
-      ].join("");
-    },
-  },
+const option = {
+  // tooltip: {
+  //   formatter: function (info: any) {
+  //     const value = info.value;
+  //     const treePathInfo = info.treePathInfo;
+  //     const treePath = [];
+  //     for (let i = 1; i < treePathInfo.length; i++) {
+  //       treePath.push(treePathInfo[i].name);
+  //     }
+  //     return [
+  //       `<div class="tooltip-title">${echarts.format.encodeHTML(
+  //         treePath.join("/")
+  //       )}</div>`,
+  //       "Value: " + echarts.format.addCommas(value.toPrecision(3)) + " CHF",
+  //     ].join("");
+  //   },
+  // },
 
   series: [
     {
       name: coffeeName.value,
-      type: "sunburst",
-      data: sunburstData.value, // Add the transformed data here
-      radius: [0, "100%"],
+      type: "pie",
+      data: sunburstData.value?.children, // Add the transformed data here
+      radius: "80%",
       startAngle: 180,
       // nodeClick: false,
       label: {
         show: true,
         formatter: (params: any) => {
           const name = params.name;
-          return name;
-          // return name + "\n" + params.value.toPrecision(2) + " .-";
+          return name + "\n" + params.value.toPrecision(2) + " .-";
         }, // Shows the name of the node
-        color: "#000",
-        textBorderColor: "#fff",
-        textBorderWidth: 2,
         fontSize: 14,
         minAngle: 6,
-        minMargin: 20,
-        overflow: "break",
-        width: 80,
+        // minMargin: 20,
+        // overflow: "break",
+        color: "white",
+        // width: 80,
       },
       itemStyle: {
         borderColor: "#fff",
       },
-      levels: getLevelOption(), // Apply the custom levels configuration
+      tooltip: {
+        trigger: "item",
+      },
       emphasis: {
-        focus: "ancestor",
+        itemStyle: {
+          shadowBlur: 10,
+          shadowOffsetX: 0,
+          shadowColor: "rgba(0, 0, 0, 0.5)",
+        },
       },
     },
   ],
-}));
+};
+
+const updateData = (data: ImpactLevel) => {
+  console.log("Update data with", data);
+  echartInstance.value?.setOption({
+    series: [
+      {
+        data: data.children,
+      },
+    ],
+  });
+};
+
+watch(
+  () => current.value,
+  (newImpactLevel) => {
+    updateData(newImpactLevel);
+  }
+);
 
 const initChart = () => {
   if (chart.value) {
@@ -164,21 +139,14 @@ const initChart = () => {
     echartInstance.value = myChart;
 
     // Set chart options
-    myChart.setOption(option.value);
+    myChart.setOption(option);
     myChart.on("click", (params: any) => {
-      // console.log(params);
-      // const newSunburstData = generateSunburstDataDepth(
-      //   params.treePathInfo.length + 2
-      // );
-      // myChart.setOption({
-      //   series: [
-      //     {
-      //       data: newSunburstData,
-      //     },
-      //   ],
-      // });
-      depth.value = Math.min(2, params.treePathInfo.length - 1);
-
+      console.log(params);
+      if (params.data.children) {
+        ancestors.value.push(current.value);
+        current.value = params.data;
+      }
+      // updateData(current.value);
       if (params.data.indicators) store.selectImpact(params.data);
       else store.selectImpact(undefined);
     });
@@ -199,6 +167,7 @@ watch(
   () => store.sunburstData,
   () => {
     initChart();
+    // if (store.sunburstData) updateData(store.sunburstData);
     // echartInstance.value?.setOption(option.value);
   }
 );
@@ -206,7 +175,7 @@ watch(
 
 <style scoped>
 .sunburst {
-  padding-top: 20px;
+  /* padding-top: 20px; */
   width: 100%;
   height: 60vh;
 }

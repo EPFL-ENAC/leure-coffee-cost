@@ -9,6 +9,7 @@ import {
   Recipe,
   ImpactDetail,
 } from "@/utils/coffeeData";
+import { type RootSunburst } from "@/utils/coffeeData";
 import Papa from "papaparse";
 
 export const useCoffeeStore = defineStore("coffee", () => {
@@ -181,7 +182,7 @@ export const useCoffeeStore = defineStore("coffee", () => {
 
   // Load impacts
   const selectedCoffeeImpacts = ref<CoffeeImpactData[] | null>(null);
-  const sunburstData = ref<Record<string, any> | null>(null);
+  const sunburstData = ref<RootSunburst | undefined>(undefined);
 
   const loadImpacts = async (serveId: string) => {
     try {
@@ -202,15 +203,6 @@ export const useCoffeeStore = defineStore("coffee", () => {
       selectedCoffeeImpacts.value = null;
     }
   };
-
-  function generateSunburstDataDepth(depth: number) {
-    if (!selectedCoffeeImpacts.value) return null;
-    return generateSunburstData(
-      selectedCoffeeImpacts.value,
-      listImpactDefinitions.value,
-      depth
-    );
-  }
 
   watch(selectedServeId, (newServeId) => {
     if (newServeId) {
@@ -248,7 +240,6 @@ export const useCoffeeStore = defineStore("coffee", () => {
     selectedCoffeeImpacts,
 
     sunburstData,
-    generateSunburstDataDepth,
 
     // Derived state
     availableMilkTypes,
