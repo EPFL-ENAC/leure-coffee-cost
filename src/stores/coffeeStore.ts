@@ -185,6 +185,7 @@ export const useCoffeeStore = defineStore("coffee", () => {
   const sunburstData = ref<RootSunburst | undefined>(undefined);
 
   const loadImpacts = async (serveId: string) => {
+    sunburstData.value = undefined;
     try {
       const fileName = `./data/impacts/${serveId
         .toLowerCase()
@@ -218,6 +219,7 @@ export const useCoffeeStore = defineStore("coffee", () => {
     isDecaf.value = false;
     milkType.value = MilkType.NONE;
     sugarLevel.value = 0;
+    sunburstData.value = undefined;
   };
 
   const selectedImpact = ref<ImpactDetail | undefined>(undefined);

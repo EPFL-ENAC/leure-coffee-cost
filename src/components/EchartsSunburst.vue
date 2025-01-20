@@ -127,6 +127,13 @@ const updateData = (data: ImpactLevel) => {
 };
 
 watch(
+  () => sunburstData.value,
+  (newData) => {
+    if (newData !== undefined) current.value = newData;
+  }
+);
+
+watch(
   () => current.value,
   (newImpactLevel) => {
     updateData(newImpactLevel);
