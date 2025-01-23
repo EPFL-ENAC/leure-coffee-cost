@@ -193,24 +193,24 @@ export function generateSunburstData(
         };
       }
 
-      if (!sunburstData.children[ingredient].children[stage]) {
-        sunburstData.children[ingredient].children[stage] = {
+      if (!sunburstData.children[ingredient].children[impactCategory]) {
+        sunburstData.children[ingredient].children[impactCategory] = {
           value: 0,
-          name: stage,
+          name: impactCategory,
           children: {},
         };
       }
 
       if (
-        !sunburstData.children[ingredient].children[stage].children[
-          impactCategory
+        !sunburstData.children[ingredient].children[impactCategory].children[
+          stage
         ]
       ) {
-        sunburstData.children[ingredient].children[stage].children[
-          impactCategory
+        sunburstData.children[ingredient].children[impactCategory].children[
+          stage
         ] = {
           value: 0,
-          name: impactCategory,
+          name: stage,
           children: [],
         };
       }
@@ -218,8 +218,8 @@ export function generateSunburstData(
       // Iterate through each detail within the impact
       details.forEach((detail) => {
         const value = isNaN(detail.costValue) ? 0 : detail.costValue;
-        sunburstData.children[ingredient].children[stage].children[
-          impactCategory
+        sunburstData.children[ingredient].children[impactCategory].children[
+          stage
         ].children.push({
           ...detail,
           name: detail.indicators,
