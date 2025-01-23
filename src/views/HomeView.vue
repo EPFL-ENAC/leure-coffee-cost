@@ -26,7 +26,7 @@ watch(
 
 <template>
   <h3 v-if="!store.isPriceVisible">
-    Select a coffee and its sale point to visualize its true cost!
+    Select a coffee and its sale point to visualize its hidden costs!
   </h3>
   <SelectionType />
 

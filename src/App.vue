@@ -4,7 +4,7 @@ import HomeView from "./views/HomeView.vue";
 
 <template>
   <div>
-    <h1 class="app-title">True Cost of Coffee</h1>
+    <h1 class="app-title">Hidden Costs of Coffee</h1>
   </div>
   <div class="app-container">
     <HomeView />
