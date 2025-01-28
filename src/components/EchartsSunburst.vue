@@ -1,18 +1,21 @@
 <template>
-  <div>
-    <div v-if="ancestors.length == 0" class="title">
-      <h3 class="title">Analyse hidden cost:</h3>
-      <div>
-        Click on a node to navigate thourgh coffee impacts. Select a specific
-        impact to get more details below.
+  <div class="container-chart">
+    <div class="title">
+      <div class="hint">
+        <h3>Analyse hidden cost:</h3>
+        <div>
+          Click on a node to navigate thourgh coffee impacts. Select a specific
+          impact to get more details below.
+        </div>
       </div>
+
+      <ReturnButton
+        :click="returnToAncestor"
+        :style="{ opacity: ancestors.length == 0 ? '0.4' : '1' }"
+        >Previous impact category</ReturnButton
+      >
     </div>
-    <ReturnButton
-      v-else
-      :click="returnToAncestor"
-      :style="{ visibility: ancestors.length > 0 ? 'visible' : 'hidden' }"
-      >Previous impact category</ReturnButton
-    >
+
     <div ref="chart" class="sunburst"></div>
   </div>
 </template>
@@ -52,6 +55,16 @@ const current = ref<ImpactLevel>(
   }
 );
 
+const addAmountToLabel = computed(() => current.value.children.length <= 10);
+
+const formatterLabel = (params: any) => {
+  let name = params.name;
+
+  return addAmountToLabel.value
+    ? name + "\n" + params.value.toPrecision(2) + " .- \n"
+    : name;
+};
+
 const returnToAncestor = () => {
   if (ancestors.value.length > 0)
     current.value = ancestors.value.pop() as ImpactLevel;
@@ -60,23 +73,6 @@ const returnToAncestor = () => {
 const coffeeName = computed(() => store.selectedRecipe);
 
 const option = {
-  // tooltip: {
-  //   formatter: function (info: any) {
-  //     const value = info.value;
-  //     const treePathInfo = info.treePathInfo;
-  //     const treePath = [];
-  //     for (let i = 1; i < treePathInfo.length; i++) {
-  //       treePath.push(treePathInfo[i].name);
-  //     }
-  //     return [
-  //       `<div class="tooltip-title">${echarts.format.encodeHTML(
-  //         treePath.join("/")
-  //       )}</div>`,
-  //       "Value: " + echarts.format.addCommas(value.toPrecision(3)) + " CHF",
-  //     ].join("");
-  //   },
-  // },
-
   series: [
     {
       name: coffeeName.value,
@@ -84,20 +80,18 @@ const option = {
       data: sunburstData.value?.children, // Add the transformed data here
       radius: "80%",
       startAngle: 180,
-      // nodeClick: false,
       label: {
-        show: true,
-        formatter: (params: any) => {
-          const name = params.name;
-          return name + "\n" + params.value.toPrecision(2) + " .-";
-        }, // Shows the name of the node
-        fontSize: 14,
-        minAngle: 6,
-        // minMargin: 20,
-        // overflow: "break",
+        padding: [10, 1, 10, 1],
+        formatter: formatterLabel, // Shows the name of the node
         color: "white",
-        // width: 80,
+        fontWeight: "bold",
+        overflow: "truncate",
+        bleedMargin: 5,
+        position: "outer",
+        // lineHeight: 14,
       },
+      minShowLabelAngle: 0,
+      avoidLabelOverlap: true,
       itemStyle: {
         borderColor: "#fff",
       },
@@ -110,13 +104,20 @@ const option = {
           shadowOffsetX: 0,
           shadowColor: "rgba(0, 0, 0, 0.5)",
         },
+        label: {
+          textShadowBlur: 20,
+          textShadowOffsetX: 1,
+          textShadowColor: "rgba(0, 0, 0, 0.9)",
+          fontWeight: "bold",
+          textBorderColor: "#333",
+        },
       },
     },
   ],
 };
 
 const updateData = (data: ImpactLevel) => {
-  console.log("Update data with", data);
+  console.log("Width", echartInstance.value?.getWidth());
   echartInstance.value?.setOption({
     series: [
       {
@@ -161,6 +162,7 @@ const initChart = () => {
     // Handle responsive behavior
     window.addEventListener("resize", () => {
       myChart.resize();
+      console.log("Resized");
     });
   }
 };
@@ -181,14 +183,35 @@ watch(
 </script>
 
 <style scoped>
+.container-chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding: 1.2em; */
+  width: 100%;
+}
 .sunburst {
   /* padding-top: 20px; */
-  width: 100%;
-  height: 60vh;
+  position: relative;
+  width: 100vw;
+  min-height: 30vh;
 }
-.title {
-  padding-top: 30px;
-  text-align: left;
+
+@media screen and (min-width: 768px) {
+  .sunburst {
+    height: 40vh;
+  }
+  .title > .hint {
+    max-width: 50%;
+  }
+  .title {
+    padding-top: 30px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+  }
 }
 
 .title h3 {

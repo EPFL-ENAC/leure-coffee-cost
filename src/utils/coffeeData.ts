@@ -188,6 +188,7 @@ export function generateSunburstData(
       if (!sunburstData.children[ingredient]) {
         sunburstData.children[ingredient] = {
           value: 0,
+          treeSelection: "Ingredient",
           name: ingredient,
           children: {},
         };
@@ -196,6 +197,7 @@ export function generateSunburstData(
       if (!sunburstData.children[ingredient].children[impactCategory]) {
         sunburstData.children[ingredient].children[impactCategory] = {
           value: 0,
+          treeSelection: "Impact Category",
           name: impactCategory,
           children: {},
         };
@@ -210,6 +212,7 @@ export function generateSunburstData(
           stage
         ] = {
           value: 0,
+          treeSelection: "Stage",
           name: stage,
           children: [],
         };

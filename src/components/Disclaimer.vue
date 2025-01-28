@@ -56,7 +56,6 @@
 
 @media screen and (max-width: 600px) {
   .disclaimer-footer {
-    padding: 1.5em 1em;
     font-size: 0.9em;
   }
 }

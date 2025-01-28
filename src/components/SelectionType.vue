@@ -87,7 +87,7 @@ const availableBeverages = computed(() => coffeeStore.availableCoffees);
       <div></div>
     </div>
     <ReturnButton :click="returnToSelection"> Coffee choice </ReturnButton>
-    <h2>Comparez les fournisseurs</h2>
+    <h2>Select sale point :</h2>
     <div class="selection-coffee-sale-point">
       <div
         v-for="coffee in availableBeverages"
@@ -238,10 +238,10 @@ const availableBeverages = computed(() => coffeeStore.availableCoffees);
 .coffee-description {
   margin-top: 1em;
   font-size: 1em;
-  max-width: 300px;
+  /* max-width: 300px; */
 }
 .selection-coffee-sale-point > .coffee-card {
-  height: 180px;
+  /* height: 180px; */
   justify-content: space-between;
 }
 /* .selection-coffee-sale-point > .coffee-card > .coffee-name {
@@ -267,7 +267,7 @@ const availableBeverages = computed(() => coffeeStore.availableCoffees);
     text-align: center;
   }
 
-  .selection-coffee-sale-point {
+  /* .selection-coffee-sale-point {
     gap: 1em;
     margin-bottom: 0.5em;
   }
@@ -284,6 +284,6 @@ const availableBeverages = computed(() => coffeeStore.availableCoffees);
   .selection-coffee-sale-point > .coffee-card > .coffee-image {
     width: 20px;
     height: 20px;
-  }
+  } */
 }
 </style>
