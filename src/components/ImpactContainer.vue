@@ -33,21 +33,21 @@
 
 <script setup lang="ts">
 import { useCoffeeStore } from "@/stores/coffeeStore";
-import { computed } from "vue";
+// import { computed } from "vue";
 
 const store = useCoffeeStore();
 function capitalizeFirstLetter(val: string) {
   return String(val).charAt(0).toUpperCase() + String(val).slice(1);
 }
 
-const percentageOfCost = computed(() => {
-  if (store.selectedImpact)
-    return (
-      (store.selectedImpact?.costValue * 100) /
-      (store.selectedCoffee?.hiddenCost ?? 1)
-    ).toPrecision(2);
-  else return 0;
-});
+// const percentageOfCost = computed(() => {
+//   if (store.selectedImpact)
+//     return (
+//       (store.selectedImpact?.costValue * 100) /
+//       (store.selectedCoffee?.hiddenCost ?? 1)
+//     ).toPrecision(2);
+//   else return 0;
+// });
 </script>
 
 <style scoped>

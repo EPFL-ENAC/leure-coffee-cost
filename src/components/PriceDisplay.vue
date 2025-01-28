@@ -75,9 +75,6 @@ const truePrice = computed(() => retailPrice.value + hiddenCost.value);
 }
 
 @media screen and (max-width: 600px) {
-  .price-display {
-    /* width: 90%; */
-  }
   /*
   .price-item {
     max-width: 60vw;
