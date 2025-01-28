@@ -16,23 +16,29 @@ const truePrice = computed(() => retailPrice.value + hiddenCost.value);
 </script>
 
 <template>
-  <div class="price-display">
-    <div class="price-item">
-      <span>Retail Price:</span>
-      <span>{{ retailPrice.toFixed(2) }} CHF</span>
-    </div>
-    <div class="price-item">
-      <span>Hidden Cost:</span>
-      <span>{{ hiddenCost.toFixed(2) }} CHF</span>
-    </div>
-    <div class="price-item total">
-      <span>True Price:</span>
-      <span>{{ truePrice.toFixed(2) }} CHF</span>
+  <div class="price-container">
+    <div class="price-display">
+      <div class="price-item">
+        <span>Retail Price:</span>
+        <span>{{ retailPrice.toFixed(2) }} CHF</span>
+      </div>
+      <div class="price-item">
+        <span>Hidden Cost:</span>
+        <span>{{ hiddenCost.toFixed(2) }} CHF</span>
+      </div>
+      <div class="price-item total">
+        <span>True Price:</span>
+        <span>{{ truePrice.toFixed(2) }} CHF</span>
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
+.price-container {
+  width: 100%;
+  max-width: 600px;
+}
 .price-display {
   display: flex;
   flex-direction: column;
@@ -69,13 +75,10 @@ const truePrice = computed(() => retailPrice.value + hiddenCost.value);
 }
 
 @media screen and (max-width: 600px) {
-  /* .price-display {
-    width: 100%;
-    border-radius: 0px;
-    justify-content: center;
-    align-items: center;
+  .price-display {
+    /* width: 90%; */
   }
-
+  /*
   .price-item {
     max-width: 60vw;
   } */

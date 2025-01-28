@@ -66,6 +66,7 @@ const formatterLabel = (params: any) => {
 };
 
 const returnToAncestor = () => {
+  store.selectImpact(undefined);
   if (ancestors.value.length > 0)
     current.value = ancestors.value.pop() as ImpactLevel;
   else console.error("No ancestor in ancestors array.");
@@ -211,6 +212,7 @@ watch(
     display: flex;
     flex-direction: row;
     gap: 2em;
+    justify-content: space-between;
   }
 }
 
