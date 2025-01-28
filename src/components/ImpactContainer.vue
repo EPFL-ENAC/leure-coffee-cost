@@ -9,25 +9,21 @@
       </div>
       <div class="impact-value">
         <h2>
-          {{ store.selectedImpact.impactValue.toFixed(4) }}
-          {{ store.selectedImpact.unit }} =
-          {{ store.selectedImpact?.costValue.toFixed(4) }} CHF
+          {{ store.selectedImpact.impactValue.toExponential(2) }}
+          <span class="unit">
+            {{ store.selectedImpact.unit }}
+          </span>
         </h2>
-        <div class="progress-bar">
-          <div
-            class="progress-bar-fill"
-            :style="{
-              width:
-                (store.selectedImpact?.costValue * 100) /
-                  (store.selectedCoffee?.hiddenCost ?? 1) +
-                '%',
-            }"
-          ></div>
-        </div>
+        <h2>:</h2>
+
+        <h2>
+          {{ store.selectedImpact?.costValue.toFixed(4) }}
+          <span class="unit">CHF</span>
+        </h2>
       </div>
       <div class="impact-details">
         <h4>Definition</h4>
-        <p>{{ store.selectedImpact?.definition }}</p>
+        <p>{{ capitalizeFirstLetter(store.selectedImpact?.definition) }}</p>
         <h4>Reference</h4>
         <p>{{ store.selectedImpact?.reference }}</p>
       </div>
@@ -37,8 +33,21 @@
 
 <script setup lang="ts">
 import { useCoffeeStore } from "@/stores/coffeeStore";
+import { computed } from "vue";
 
 const store = useCoffeeStore();
+function capitalizeFirstLetter(val: string) {
+  return String(val).charAt(0).toUpperCase() + String(val).slice(1);
+}
+
+const percentageOfCost = computed(() => {
+  if (store.selectedImpact)
+    return (
+      (store.selectedImpact?.costValue * 100) /
+      (store.selectedCoffee?.hiddenCost ?? 1)
+    ).toPrecision(2);
+  else return 0;
+});
 </script>
 
 <style scoped>
@@ -82,16 +91,28 @@ const store = useCoffeeStore();
 .impact-value {
   text-align: center;
   margin: 1em 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: space-between;
 }
 
 .progress-bar {
   width: 100%;
-  height: 10px;
+  height: 20px;
   background: #e0e0e0;
   border-radius: 5px;
   margin-top: 1em;
   position: relative;
   overflow: hidden;
+  color: var(--color-secondary-dark);
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.unit {
+  font-size: small;
 }
 
 .progress-bar-fill {
