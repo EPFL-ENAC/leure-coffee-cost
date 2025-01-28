@@ -40,19 +40,7 @@ watch(
   </h3>
   <ImpactContainer />
   <!-- Project information and disclaimer -->
-  <div id="project-info" class="project-info">
-    <p>
-      This application is part of a bigger project called
-      <a
-        href="https://truecostoffood.ch/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        True Cost of Food </a
-      >, aiming to raise awareness about the hidden costs of food production and
-      consumption.
-    </p>
-  </div>
+
   <Disclaimer></Disclaimer>
 </template>
 <style scoped>

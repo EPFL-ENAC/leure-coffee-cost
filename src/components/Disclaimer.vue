@@ -1,6 +1,26 @@
 <template>
   <div class="disclaimer-footer">
+    <h2>Contact</h2>
+    <div id="project-info" class="project-info">
+      <p>
+        For any questions or feedback,
+        <a href="mailto:gino.baudry@epfl.ch">please write us !</a>
+      </p>
+    </div>
     <h2>Disclaimer</h2>
+    <div id="project-info" class="project-info">
+      <p>
+        This application is part of a bigger project called
+        <a
+          href="https://truecostoffood.ch/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          True Cost of Food </a
+        >, aiming to raise awareness about the hidden costs of food production
+        and consumption.
+      </p>
+    </div>
     <p>
       <strong
         >LEUrE (Laboratory of Environmental and Urban Economics, EPFL)</strong
@@ -53,7 +73,11 @@
 .disclaimer-footer em {
   font-style: italic;
 }
-
+a {
+  color: var(--color-primary);
+  font-weight: bold;
+  text-decoration: dotted white underline;
+}
 @media screen and (max-width: 600px) {
   .disclaimer-footer {
     font-size: 0.9em;
