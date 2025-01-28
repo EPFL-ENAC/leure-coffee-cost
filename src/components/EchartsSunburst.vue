@@ -79,7 +79,7 @@ const option = {
       name: coffeeName.value,
       type: "pie",
       data: sunburstData.value?.children, // Add the transformed data here
-      radius: "80%",
+      radius: "70%",
       startAngle: 180,
       label: {
         padding: [10, 1, 10, 1],
