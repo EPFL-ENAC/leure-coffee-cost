@@ -1,0 +1,2224 @@
+[
+    {
+        "stage": "Consumption",
+        "ingredient": "Cow milk",
+        "impactCategory": "Health",
+        "impactValue": 0.04987599999999999,
+        "costValue": 0.0,
+        "details": [
+            {
+                "indicators": "1,3-Dichloropropene ",
+                "unit": "mg/kg",
+                "impactValue": 0.0004,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "2-Phenylphenol ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "2,4-D ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "2,4-Db ",
+                "unit": "mg/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Abamectin ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Acephate ",
+                "unit": "mg/kg",
+                "impactValue": 0.0004,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Acetamiprid ",
+                "unit": "mg/kg",
+                "impactValue": 0.004,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Acrinathrin ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Aldrin ",
+                "unit": "mg/kg",
+                "impactValue": 0.00012,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Amitraz ",
+                "unit": "mg/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Amitrole ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Anilazine ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Aramite ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Asulam ",
+                "unit": "mg/kg",
+                "impactValue": 0.0004,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Atrazine ",
+                "unit": "mg/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Azimsulfuron ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Beflubutamid ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Benalaxyl ",
+                "unit": "mg/kg",
+                "impactValue": 0.0004,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Bentazone ",
+                "unit": "mg/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Biphenyl ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Boscalid ",
+                "unit": "mg/kg",
+                "impactValue": 0.0004,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Bromophos-Ethyl ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Bromoxynil ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Buprofezin ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Butylate ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Cadusafos ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Captafol ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Carbaryl ",
+                "unit": "mg/kg",
+                "impactValue": 0.001,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Carbendazim ",
+                "unit": "mg/kg",
+                "impactValue": 0.001,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Carbofuran ",
+                "unit": "mg/kg",
+                "impactValue": 2e-05,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Carboxin ",
+                "unit": "mg/kg",
+                "impactValue": 0.0006,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Cartap ",
+                "unit": "mg/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Chlorantraniliprole ",
+                "unit": "mg/kg",
+                "impactValue": 0.001,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Chlorfenapyr ",
+                "unit": "mg/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Chlorfenson ",
+                "unit": "mg/kg",
+                "impactValue": 0.001,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Chlorfenvinphos ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Chlorobenzilate ",
+                "unit": "mg/kg",
+                "impactValue": 0.002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Chlorothalonil ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Chlorpropham ",
+                "unit": "mg/kg",
+                "impactValue": 0.001,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Chlorpyrifos-Methyl ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Chlorsulfuron ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Chlozolinate ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Clofentezine ",
+                "unit": "mg/kg",
+                "impactValue": 0.001,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Clothianidin ",
+                "unit": "mg/kg",
+                "impactValue": 0.0004,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Cyazofamid ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Cyfluthrin ",
+                "unit": "mg/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Cyhalofop-Butyl ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Cypermethrin ",
+                "unit": "mg/kg",
+                "impactValue": 0.001,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Cyromazine ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Dalapon ",
+                "unit": "mg/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Daminozide ",
+                "unit": "mg/kg",
+                "impactValue": 0.0012,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Diazinon ",
+                "unit": "mg/kg",
+                "impactValue": 0.0004,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Dicamba ",
+                "unit": "mg/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Dichlorvos ",
+                "unit": "mg/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Diflubenzuron ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Dimethipin ",
+                "unit": "mg/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Dimethoate ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Dinocap ",
+                "unit": "mg/kg",
+                "impactValue": 0.0006,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Dinotefuran ",
+                "unit": "mg/kg",
+                "impactValue": 0.002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Diphenylamine ",
+                "unit": "mg/kg",
+                "impactValue": 0.001,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Diquat ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Diuron ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Dodine ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Endrin ",
+                "unit": "mg/kg",
+                "impactValue": 1.6e-05,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Epoxiconazole ",
+                "unit": "mg/kg",
+                "impactValue": 4e-05,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Ethametsulfuron-Methyl ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Ethephon ",
+                "unit": "mg/kg",
+                "impactValue": 0.001,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Ethion ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Ethoxyquin ",
+                "unit": "mg/kg",
+                "impactValue": 0.001,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Ethoxysulfuron ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Etofenprox ",
+                "unit": "mg/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Etoxazole ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Famoxadone ",
+                "unit": "mg/kg",
+                "impactValue": 0.0006,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Fenamidone ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Fenarimol ",
+                "unit": "mg/kg",
+                "impactValue": 0.0004,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Fenazaquin ",
+                "unit": "mg/kg",
+                "impactValue": 0.0004,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Fenbutatin Oxide ",
+                "unit": "mg/kg",
+                "impactValue": 0.0004,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Fenhexamid ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Fenitrothion ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Fenoxaprop-P ",
+                "unit": "mg/kg",
+                "impactValue": 0.001,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Fenpropathrin ",
+                "unit": "mg/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Fenpyroximate ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Fenvalerate ",
+                "unit": "mg/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Fipronil ",
+                "unit": "mg/kg",
+                "impactValue": 0.0001,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Florasulam ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Flubendiamide ",
+                "unit": "mg/kg",
+                "impactValue": 0.002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Flufenoxuron ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Fluometuron ",
+                "unit": "mg/kg",
+                "impactValue": 0.0001,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Fluopicolide ",
+                "unit": "mg/kg",
+                "impactValue": 0.0004,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Flusilazole ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Flutolanil ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Fluvalinate ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Fomesafen ",
+                "unit": "mg/kg",
+                "impactValue": 0.001,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Forchlorfenuron ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Formothion ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Hexachlorobenzene ",
+                "unit": "mg/kg",
+                "impactValue": 8e-05,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Hexaconazole ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Imazaquin ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Imazosulfuron ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Imidacloprid ",
+                "unit": "mg/kg",
+                "impactValue": 0.0004,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Ipconazole ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Iprovalicarb ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Isoxaben ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Linuron ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Maleic Hydrazide ",
+                "unit": "mg/kg",
+                "impactValue": 0.0004,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Mecarbam ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Mepanipyrim ",
+                "unit": "mg/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Mepronil ",
+                "unit": "mg/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Mesotrione ",
+                "unit": "mg/kg",
+                "impactValue": 0.0004,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Metalaxyl ",
+                "unit": "mg/kg",
+                "impactValue": 0.0004,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Methidathion ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Methomyl ",
+                "unit": "mg/kg",
+                "impactValue": 0.0006,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Methoprene ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Methoxychlor ",
+                "unit": "mg/kg",
+                "impactValue": 0.001,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Metolachlor ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Metribuzin ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Metsulfuron-Methyl ",
+                "unit": "mg/kg",
+                "impactValue": 0.002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Molinate ",
+                "unit": "mg/kg",
+                "impactValue": 0.0004,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Monuron ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Nitrofen ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Oryzalin ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Oxadiargyl ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Oxadiazon ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Oxamyl ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Oxyfluorfen ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Paraquat ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Parathion ",
+                "unit": "mg/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Pendimethalin ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Phenmedipham ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Phosalone ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Phosmet ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Phosphamidon ",
+                "unit": "mg/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Phoxim ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Picloram ",
+                "unit": "mg/kg",
+                "impactValue": 0.0004,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Picoxystrobin ",
+                "unit": "mg/kg",
+                "impactValue": 0.0002,
+                "costValue": 0.0,
+                "reference": "?"
+            }
+        ]
+    },
+    {
+        "stage": "End of life, industrial-composting",
+        "ingredient": "Cow milk",
+        "impactCategory": "Environment",
+        "impactValue": 0.0,
+        "costValue": 0.0,
+        "details": [
+            {
+                "indicators": "Agricultural land occupation",
+                "unit": "m2a",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Milk, powder, skimmed, non rehydrated; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Global warming",
+                "unit": "kg CO2 eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Milk, powder, skimmed, non rehydrated; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fossil resource scarcity",
+                "unit": "kg oil eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Milk, powder, skimmed, non rehydrated; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Milk, powder, skimmed, non rehydrated; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater eutrophication",
+                "unit": "kg P eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Milk, powder, skimmed, non rehydrated; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Human toxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Milk, powder, skimmed, non rehydrated; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ionising radiation",
+                "unit": "kg U235-Eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Milk, powder, skimmed, non rehydrated; World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Milk, powder, skimmed, non rehydrated; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine eutrophication",
+                "unit": "kg N eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Milk, powder, skimmed, non rehydrated; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Metal depletion",
+                "unit": "kg Fe eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Milk, powder, skimmed, non rehydrated; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Natural land transformation",
+                "unit": "m2",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Milk, powder, skimmed, non rehydrated; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Stratospheric ozone depletion",
+                "unit": "kg CFC11 eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Milk, powder, skimmed, non rehydrated; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fine particulate matter formation",
+                "unit": "kg PM10 eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Milk, powder, skimmed, non rehydrated; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Photochemical oxidant formation",
+                "unit": "kg NMVOC",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Milk, powder, skimmed, non rehydrated; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial acidification",
+                "unit": "kg SO2 eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Milk, powder, skimmed, non rehydrated; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Milk, powder, skimmed, non rehydrated; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Urban land occupation",
+                "unit": "m2a",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Milk, powder, skimmed, non rehydrated; World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Water consumption",
+                "unit": "m3",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Milk, powder, skimmed, non rehydrated; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            }
+        ]
+    },
+    {
+        "stage": "Offsetting schemes",
+        "ingredient": "Cow milk",
+        "impactCategory": "Biodiversity",
+        "impactValue": 0.0,
+        "costValue": 0.0,
+        "details": [
+            {
+                "indicators": "Biodiversity restoration through Reforestation (none)",
+                "unit": "m²/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "No specific anti-deforestation regulation, No specific regulation on reforestation, none; World Bank, Inflation (annual %), 2024; Not applicable; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            }
+        ]
+    },
+    {
+        "stage": "Offsetting schemes",
+        "ingredient": "Cow milk",
+        "impactCategory": "Environment",
+        "impactValue": 0.0,
+        "costValue": 0.0,
+        "details": [
+            {
+                "indicators": "Carbon Offsetting through Reforestation",
+                "unit": "kgCO2/kg",
+                "impactValue": 0.0,
+                "costValue": -0.0,
+                "reference": "No specific anti-deforestation regulation, No specific regulation on reforestation, none; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            }
+        ]
+    },
+    {
+        "stage": "Production",
+        "ingredient": "Cow milk",
+        "impactCategory": "Biodiversity",
+        "impactValue": 0.0002321546106761,
+        "costValue": 0.0010578717763427001,
+        "details": [
+            {
+                "indicators": "Eco-costs of land-use (Switzerland), practice-related",
+                "unit": "m²/kg",
+                "impactValue": -0.0,
+                "costValue": -0.0,
+                "reference": "FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022, missing, none: Conservative, conventional, none: Conservative, conventional, Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024 (Cereals); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Eco-costs of land-use (Switzerland), practice-related",
+                "unit": "m²/kg",
+                "impactValue": -0.0,
+                "costValue": -0.0,
+                "reference": "FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, none: Conservative, conventional, none: Conservative, conventional, Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024 (Soybeans); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Eco-costs of land-use (Switzerland), practice-related",
+                "unit": "m²/kg",
+                "impactValue": -0.0,
+                "costValue": -0.0,
+                "reference": "FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, none: Conservative, conventional, none: Conservative, conventional, Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024 (Pasture); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Eco-costs of land-use (Switzerland), deforestation-related",
+                "unit": "m²/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022, missing, No specific anti-deforestation regulation (Cereals); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Eco-costs of land-use (Switzerland), deforestation-related",
+                "unit": "m²/kg",
+                "impactValue": 1.230073727e-07,
+                "costValue": 5.605145101e-07,
+                "reference": "FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, No specific anti-deforestation regulation (Soybeans); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Eco-costs of land-use (Switzerland), deforestation-related",
+                "unit": "m²/kg",
+                "impactValue": 0.0002320316033034,
+                "costValue": 0.0010573112618326,
+                "reference": "FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, No specific anti-deforestation regulation (Pasture); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            }
+        ]
+    },
+    {
+        "stage": "Production",
+        "ingredient": "Cow milk",
+        "impactCategory": "Livelihoods",
+        "impactValue": 3.5150299999999995e-11,
+        "costValue": 2.2430812013e-06,
+        "details": [
+            {
+                "indicators": "Labour force to be audited for Health and Safety",
+                "unit": "FTE/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Labour force to be audited for gender discrimination",
+                "unit": "FTE/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "World population review, Total Fertility Rate, 2024, Eurostat, Duration of working life, 2052; missing; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Labour force to be audited for forced labour",
+                "unit": "FTE/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Swiss Confederation, Work and rest period, 2024; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Labour force to be audited for forced labour",
+                "unit": "FTE/kg",
+                "impactValue": 1.52166e-11,
+                "costValue": 1.495416e-10,
+                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Swiss Confederation, Work and rest period, 2024; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Labour force to be audited for insufficient social security",
+                "unit": "FTE/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Labour force to be audited for illegal overtime",
+                "unit": "FTE/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Prevalence of excessive working time",
+                "unit": "FTE/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Wage gap from gender discrimination",
+                "unit": "USD/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; True Price, Monestisation factors for true pricing (2023)."
+            },
+            {
+                "indicators": "Wage gap of workers earning below minimum wage",
+                "unit": "USD/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; True Price, Monestisation factors for true pricing (2023)."
+            },
+            {
+                "indicators": "Wage gap of workers earning above minimum wage but below decent living wage",
+                "unit": "USD/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; True Price, Monestisation factors for true pricing (2023)."
+            },
+            {
+                "indicators": "Children in hazardous work by sex, age and economic activity (5-11)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Children in hazardous work by sex, age and economic activity (12-14)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Children in hazardous work by sex, age and economic activity (15-17)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Children in non-hazardous work by sex, age and economic activity (5-11)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024"
+            },
+            {
+                "indicators": "Children in non-hazardous work by sex, age and economic activity (12-14)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024"
+            },
+            {
+                "indicators": "Children in non-hazardous work by sex, age and economic activity (15-17)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024"
+            },
+            {
+                "indicators": "Children in hazardous work by sex, age and economic activity (5-11)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Children in hazardous work by sex, age and economic activity (12-14)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Children in hazardous work by sex, age and economic activity (15-17)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Children in non-hazardous work by sex, age and economic activity (5-11)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024"
+            },
+            {
+                "indicators": "Children in non-hazardous work by sex, age and economic activity (12-14)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024"
+            },
+            {
+                "indicators": "Children in non-hazardous work by sex, age and economic activity (15-17)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024"
+            },
+            {
+                "indicators": "Prevalence of modern slavery (forced workers, most severe)",
+                "unit": "FTE/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Swiss Confederation, Work and rest period, 2024; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Prevalence of modern slavery (forced workers, most severe)",
+                "unit": "FTE/kg",
+                "impactValue": 1.52166e-11,
+                "costValue": 2.1513002608e-06,
+                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Swiss Confederation, Work and rest period, 2024; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Prevalence of Forced workers in situations of debt bondage",
+                "unit": "FTE/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022, Global Estimates of Modern Slavery: Forced Labour and Forced Marriage International Labour Organization (ILO), Walk Free, and International Organization for Migration (IOM), Geneva, 2022, ISBN: 978-92-2-037483-2 (web PDF); International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Swiss Confederation, Work and rest period, 2024; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Prevalence of Forced workers in situations of debt bondage",
+                "unit": "FTE/kg",
+                "impactValue": 4.7171e-12,
+                "costValue": 9.16313989e-08,
+                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022, Global Estimates of Modern Slavery: Forced Labour and Forced Marriage International Labour Organization (ILO), Walk Free, and International Organization for Migration (IOM), Geneva, 2022, ISBN: 978-92-2-037483-2 (web PDF); International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Swiss Confederation, Work and rest period, 2024; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Female workers without maternity leave provision",
+                "unit": "USD/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "World population review, Total Fertility Rate, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; World population review, Total Fertility Rate, 2024, Eurostat, Duration of working life, 2052; missing; True Price, Monestisation factors for true pricing (2023)."
+            },
+            {
+                "indicators": "Women with denied maternity leave",
+                "unit": "women/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "World population review, Total Fertility Rate, 2024, Eurostat, Duration of working life, 2052; missing; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Workers without paid leave provision",
+                "unit": "USD/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Employing Workers, Doing Business: Measuring Business Regulations. World Bank Group, 2014; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; 0.0; True Price, Monestisation factors for true pricing (2023)."
+            },
+            {
+                "indicators": "Informal employment rate of agricultural workers & uncovered by social protection floors/systems",
+                "unit": "FTE/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Cases of fatal occupational injury",
+                "unit": "incidents/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Cases of non-fatal occupational injury, insured",
+                "unit": "incidents/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Cases of non-fatal occupational injury, uninsured",
+                "unit": "incidents/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            }
+        ]
+    },
+    {
+        "stage": "Production & Processing",
+        "ingredient": "Cow milk",
+        "impactCategory": "Environment",
+        "impactValue": 0.8224033489055198,
+        "costValue": 0.1905915621999439,
+        "details": [
+            {
+                "indicators": "Fine particulate matter formation",
+                "unit": "kg PM2.5 eq",
+                "impactValue": 0.0003192046710158,
+                "costValue": 0.0343687834140211,
+                "reference": "Milk, powder, skimmed, non rehydrated, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fossil resource scarcity",
+                "unit": "kg oil eq",
+                "impactValue": 0.0112200388096,
+                "costValue": 0.0059323847334737,
+                "reference": "Milk, powder, skimmed, non rehydrated, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0001958475618864,
+                "costValue": 9.3870977898e-06,
+                "reference": "Milk, powder, skimmed, non rehydrated, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater eutrophication",
+                "unit": "kg P eq",
+                "impactValue": 2.2604497556e-05,
+                "costValue": 0.0054302304667442,
+                "reference": "Milk, powder, skimmed, non rehydrated, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Global warming",
+                "unit": "kg CO2 eq",
+                "impactValue": 0.333494069716142,
+                "costValue": 0.0624817000690644,
+                "reference": "Milk, powder, skimmed, non rehydrated, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Human carcinogenic toxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0002783704023166,
+                "costValue": 0.0,
+                "reference": "Milk, powder, skimmed, non rehydrated, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Human non-carcinogenic toxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0071281537304034,
+                "costValue": 0.0,
+                "reference": "Milk, powder, skimmed, non rehydrated, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ionizing radiation",
+                "unit": "kBq Co-60 eq",
+                "impactValue": 0.0041649965468142,
+                "costValue": 0.0,
+                "reference": "Milk, powder, skimmed, non rehydrated, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Land use",
+                "unit": "m2a crop eq",
+                "impactValue": 0.43061540907326,
+                "costValue": 0.0514754347889524,
+                "reference": "Milk, powder, skimmed, non rehydrated, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0002463807162538,
+                "costValue": 5.380683317e-07,
+                "reference": "Milk, powder, skimmed, non rehydrated, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine eutrophication",
+                "unit": "kg N eq",
+                "impactValue": 0.0011327860463636,
+                "costValue": 0.018879609653875,
+                "reference": "Milk, powder, skimmed, non rehydrated, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Mineral resource scarcity",
+                "unit": "kg Cu eq",
+                "impactValue": 2.36884866804e-05,
+                "costValue": 6.0718257259e-06,
+                "reference": "Milk, powder, skimmed, non rehydrated, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ozone formation, Human health",
+                "unit": "kg NOx eq",
+                "impactValue": 0.0005860951808224,
+                "costValue": 0.0,
+                "reference": "Milk, powder, skimmed, non rehydrated, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ozone formation, Terrestrial ecosystems",
+                "unit": "kg NOx eq",
+                "impactValue": 0.0005872426311874,
+                "costValue": 0.0,
+                "reference": "Milk, powder, skimmed, non rehydrated, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Stratospheric ozone depletion",
+                "unit": "kg CFC11 eq",
+                "impactValue": 2.9848375234e-06,
+                "costValue": 0.0001986444232965,
+                "reference": "Milk, powder, skimmed, non rehydrated, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial acidification",
+                "unit": "kg SO2 eq",
+                "impactValue": 0.0020866320129831,
+                "costValue": 0.011560324422537,
+                "reference": "Milk, powder, skimmed, non rehydrated, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0301431197847112,
+                "costValue": 1.03940923679e-05,
+                "reference": "Milk, powder, skimmed, non rehydrated, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Water consumption",
+                "unit": "m3",
+                "impactValue": 0.0001557242,
+                "costValue": 0.0002380591437643,
+                "reference": "Milk, powder, skimmed, non rehydrated, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            }
+        ]
+    },
+    {
+        "stage": "Transport, Field to Storage",
+        "ingredient": "Cow milk",
+        "impactCategory": "Environment",
+        "impactValue": 0.0466212332738868,
+        "costValue": 0.0017404826019832,
+        "details": [
+            {
+                "indicators": "Fine particulate matter formation",
+                "unit": "kg PM2.5 eq",
+                "impactValue": 3.3618957327e-06,
+                "costValue": 0.0003619754871696,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (50); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fossil resource scarcity",
+                "unit": "kg oil eq",
+                "impactValue": 0.0010630304123318,
+                "costValue": 0.000562057359725,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (50); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.000112272475506,
+                "costValue": 5.381290921e-06,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (50); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater eutrophication",
+                "unit": "kg P eq",
+                "impactValue": 2.602398192e-07,
+                "costValue": 6.25168593802e-05,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (50); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Global warming",
+                "unit": "kg CO2 eq",
+                "impactValue": 0.0035681528788378,
+                "costValue": 0.0006685104120918,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (50); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Human carcinogenic toxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0001449953723878,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (50); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Human non-carcinogenic toxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0016803645943402,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (50); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ionizing radiation",
+                "unit": "kBq Co-60 eq",
+                "impactValue": 5.38312070933e-05,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (50); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Land use",
+                "unit": "m2a crop eq",
+                "impactValue": 8.94388961333e-05,
+                "costValue": 1.0691456851e-05,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (50); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0001616622102586,
+                "costValue": 3.53052451e-07,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (50); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine eutrophication",
+                "unit": "kg N eq",
+                "impactValue": 4.74765904e-08,
+                "costValue": 7.91269894e-07,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (50); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Mineral resource scarcity",
+                "unit": "kg Cu eq",
+                "impactValue": 7.4143355787e-06,
+                "costValue": 1.9004402482e-06,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (50); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ozone formation, Human health",
+                "unit": "kg NOx eq",
+                "impactValue": 9.689722071e-06,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (50); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ozone formation, Terrestrial ecosystems",
+                "unit": "kg NOx eq",
+                "impactValue": 9.9336930173e-06,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (50); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Stratospheric ozone depletion",
+                "unit": "kg CFC11 eq",
+                "impactValue": 2.5921489e-09,
+                "costValue": 1.725105423e-07,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (50); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial acidification",
+                "unit": "kg SO2 eq",
+                "impactValue": 7.9154965991e-06,
+                "costValue": 4.38533043114e-05,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (50); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0397032416872518,
+                "costValue": 1.36906585765e-05,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (50); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Water consumption",
+                "unit": "m3",
+                "impactValue": 5.6180881889e-06,
+                "costValue": 8.5884998212e-06,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (50); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            }
+        ]
+    },
+    {
+        "stage": "Transport, Manufacture-to-Retail",
+        "ingredient": "Cow milk",
+        "impactCategory": "Environment",
+        "impactValue": 0.0018890271266978002,
+        "costValue": 0.0004893255778708,
+        "details": [
+            {
+                "indicators": "Agricultural land occupation",
+                "unit": "m2a",
+                "impactValue": 9.2117296957e-06,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, light commercial vehicle (35); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Global warming",
+                "unit": "kg CO2 eq",
+                "impactValue": 0.0009939866358952,
+                "costValue": 0.000186228123665,
+                "reference": "Road; transport, freight, light commercial vehicle (35); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fossil resource scarcity",
+                "unit": "kg oil eq",
+                "impactValue": 0.0003625721843679,
+                "costValue": 0.0001917032309626,
+                "reference": "Road; transport, freight, light commercial vehicle (35); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 2.9550021744e-05,
+                "costValue": 1.416351274e-06,
+                "reference": "Road; transport, freight, light commercial vehicle (35); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater eutrophication",
+                "unit": "kg P eq",
+                "impactValue": 1.284824541e-07,
+                "costValue": 3.08650672475e-05,
+                "reference": "Road; transport, freight, light commercial vehicle (35); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Human toxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0002323876044398,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, light commercial vehicle (35); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ionising radiation",
+                "unit": "kg U235-Eq",
+                "impactValue": 9.59682554535e-05,
+                "costValue": 6.1477547433e-06,
+                "reference": "Road; transport, freight, light commercial vehicle (35); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 2.69875228957e-05,
+                "costValue": 5.89377758e-08,
+                "reference": "Road; transport, freight, light commercial vehicle (35); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine eutrophication",
+                "unit": "kg N eq",
+                "impactValue": 1.5975946094e-06,
+                "costValue": 2.66263542962e-05,
+                "reference": "Road; transport, freight, light commercial vehicle (35); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Metal depletion",
+                "unit": "kg Fe eq",
+                "impactValue": 8.73314403514e-05,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, light commercial vehicle (35); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Natural land transformation",
+                "unit": "m2",
+                "impactValue": 3.605584502e-07,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, light commercial vehicle (35); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Stratospheric ozone depletion",
+                "unit": "kg CFC11 eq",
+                "impactValue": 1.720311e-10,
+                "costValue": 1.14488749e-08,
+                "reference": "Road; transport, freight, light commercial vehicle (35); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fine particulate matter formation",
+                "unit": "kg PM10 eq",
+                "impactValue": 1.6963221436e-06,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, light commercial vehicle (35); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Photochemical oxidant formation",
+                "unit": "kg NMVOC",
+                "impactValue": 6.0264550695e-06,
+                "costValue": 2.09649614685e-05,
+                "reference": "Road; transport, freight, light commercial vehicle (35); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial acidification",
+                "unit": "kg SO2 eq",
+                "impactValue": 4.0060153345e-06,
+                "costValue": 2.21940603907e-05,
+                "reference": "Road; transport, freight, light commercial vehicle (35); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 1.27793396e-07,
+                "costValue": 4.40663e-11,
+                "reference": "Road; transport, freight, light commercial vehicle (35); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Urban land occupation",
+                "unit": "m2a",
+                "impactValue": 3.61761896186e-05,
+                "costValue": 1.7148204674e-06,
+                "reference": "Road; transport, freight, light commercial vehicle (35); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Water consumption",
+                "unit": "m3",
+                "impactValue": 9.121487476e-07,
+                "costValue": 1.3944226386e-06,
+                "reference": "Road; transport, freight, light commercial vehicle (35); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            }
+        ]
+    },
+    {
+        "stage": "Transport, Port-to-Manufacture",
+        "ingredient": "Cow milk",
+        "impactCategory": "Environment",
+        "impactValue": 0.0023164567484257,
+        "costValue": 0.0005597387181817,
+        "details": [
+            {
+                "indicators": "Agricultural land occupation",
+                "unit": "m2a",
+                "impactValue": 1.4257341988e-05,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (125); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Global warming",
+                "unit": "kg CO2 eq",
+                "impactValue": 0.0012622269269258,
+                "costValue": 0.0002364842179484,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (125); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fossil resource scarcity",
+                "unit": "kg oil eq",
+                "impactValue": 0.0004655604734916,
+                "costValue": 0.0002461563540303,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (125); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 1.4767813724e-05,
+                "costValue": 7.078306731e-07,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (125); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater eutrophication",
+                "unit": "kg P eq",
+                "impactValue": 1.191759455e-07,
+                "costValue": 2.862938443e-05,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (125); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Human toxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0003092535267516,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (125); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ionising radiation",
+                "unit": "kg U235-Eq",
+                "impactValue": 0.0001059550918538,
+                "costValue": 6.787514428e-06,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (125); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 1.54891605087e-05,
+                "costValue": 3.38266195e-08,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (125); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine eutrophication",
+                "unit": "kg N eq",
+                "impactValue": 6.848181168e-07,
+                "costValue": 1.14135398931e-05,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (125); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Metal depletion",
+                "unit": "kg Fe eq",
+                "impactValue": 7.46228821635e-05,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (125); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Natural land transformation",
+                "unit": "m2",
+                "impactValue": 4.62704529e-07,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (125); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Stratospheric ozone depletion",
+                "unit": "kg CFC11 eq",
+                "impactValue": 2.214436e-10,
+                "costValue": 1.47373337e-08,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (125); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fine particulate matter formation",
+                "unit": "kg PM10 eq",
+                "impactValue": 1.473031758e-06,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (125); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Photochemical oxidant formation",
+                "unit": "kg NMVOC",
+                "impactValue": 2.855780696e-06,
+                "costValue": 9.9347512863e-06,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (125); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial acidification",
+                "unit": "kg SO2 eq",
+                "impactValue": 2.7955908311e-06,
+                "costValue": 1.54880864282e-05,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (125); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 4.066143056e-07,
+                "costValue": 1.402106e-10,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (125); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Urban land occupation",
+                "unit": "m2a",
+                "impactValue": 4.4222476168e-05,
+                "costValue": 2.0962298145e-06,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (125); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Water consumption",
+                "unit": "m3",
+                "impactValue": 1.3031172251e-06,
+                "costValue": 1.992105086e-06,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (125); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            }
+        ]
+    },
+    {
+        "stage": "Transport, Port-to-Port",
+        "ingredient": "Cow milk",
+        "impactCategory": "Environment",
+        "impactValue": 0.0,
+        "costValue": 0.0,
+        "details": [
+            {
+                "indicators": "Fine particulate matter formation",
+                "unit": "kg PM2.5 eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (0); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fossil resource scarcity",
+                "unit": "kg oil eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (0); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (0); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater eutrophication",
+                "unit": "kg P eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (0); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Global warming",
+                "unit": "kg CO2 eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (0); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Human carcinogenic toxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (0); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Human non-carcinogenic toxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (0); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ionizing radiation",
+                "unit": "kBq Co-60 eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (0); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Land use",
+                "unit": "m2a crop eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (0); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (0); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine eutrophication",
+                "unit": "kg N eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (0); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Mineral resource scarcity",
+                "unit": "kg Cu eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (0); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ozone formation, Human health",
+                "unit": "kg NOx eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (0); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ozone formation, Terrestrial ecosystems",
+                "unit": "kg NOx eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (0); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Stratospheric ozone depletion",
+                "unit": "kg CFC11 eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (0); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial acidification",
+                "unit": "kg SO2 eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (0); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (0); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Water consumption",
+                "unit": "m3",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling (0); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            }
+        ]
+    },
+    {
+        "stage": "Transport, Retail-to-Waste",
+        "ingredient": "Cow milk",
+        "impactCategory": "Environment",
+        "impactValue": 0.0,
+        "costValue": 0.0,
+        "details": [
+            {
+                "indicators": "Agricultural land occupation",
+                "unit": "m2a",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (0); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Global warming",
+                "unit": "kg CO2 eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (0); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fossil resource scarcity",
+                "unit": "kg oil eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (0); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (0); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater eutrophication",
+                "unit": "kg P eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (0); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Human toxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (0); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ionising radiation",
+                "unit": "kg U235-Eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (0); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (0); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine eutrophication",
+                "unit": "kg N eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (0); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Metal depletion",
+                "unit": "kg Fe eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (0); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Natural land transformation",
+                "unit": "m2",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (0); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Stratospheric ozone depletion",
+                "unit": "kg CFC11 eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (0); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fine particulate matter formation",
+                "unit": "kg PM10 eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (0); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Photochemical oxidant formation",
+                "unit": "kg NMVOC",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (0); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial acidification",
+                "unit": "kg SO2 eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (0); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (0); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Urban land occupation",
+                "unit": "m2a",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (0); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Water consumption",
+                "unit": "m3",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (0); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            }
+        ]
+    }
+]

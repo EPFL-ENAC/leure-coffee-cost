@@ -1,0 +1,1521 @@
+[
+    {
+        "stage": "Consumption",
+        "ingredient": "Cocoa beans",
+        "impactCategory": "Health",
+        "impactValue": 0.08295,
+        "costValue": 0.0,
+        "details": [
+            {
+                "indicators": "Clothianidin ",
+                "unit": "mg/kg",
+                "impactValue": 0.0003,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Endosulfan ",
+                "unit": "mg/kg",
+                "impactValue": 0.003,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Flupyradifurone ",
+                "unit": "mg/kg",
+                "impactValue": 0.00015,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Hydrogen Phosphide ",
+                "unit": "mg/kg",
+                "impactValue": 0.00015,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Mandipropamid ",
+                "unit": "mg/kg",
+                "impactValue": 0.0009,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Metalaxyl ",
+                "unit": "mg/kg",
+                "impactValue": 0.003,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Methyl Bromide ",
+                "unit": "mg/kg",
+                "impactValue": 0.075,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Pyraclostrobin ",
+                "unit": "mg/kg",
+                "impactValue": 0.00015,
+                "costValue": 0.0,
+                "reference": "?"
+            },
+            {
+                "indicators": "Thiamethoxam ",
+                "unit": "mg/kg",
+                "impactValue": 0.0003,
+                "costValue": 0.0,
+                "reference": "?"
+            }
+        ]
+    },
+    {
+        "stage": "End of life, industrial-composting",
+        "ingredient": "Cocoa beans",
+        "impactCategory": "Environment",
+        "impactValue": 0.0,
+        "costValue": 0.0,
+        "details": [
+            {
+                "indicators": "Agricultural land occupation",
+                "unit": "m2a",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Cocoa; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Global warming",
+                "unit": "kg CO2 eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Cocoa; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fossil resource scarcity",
+                "unit": "kg oil eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Cocoa; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Cocoa; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater eutrophication",
+                "unit": "kg P eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Cocoa; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Human toxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Cocoa; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ionising radiation",
+                "unit": "kg U235-Eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Cocoa; World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Cocoa; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine eutrophication",
+                "unit": "kg N eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Cocoa; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Metal depletion",
+                "unit": "kg Fe eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Cocoa; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Natural land transformation",
+                "unit": "m2",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Cocoa; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Stratospheric ozone depletion",
+                "unit": "kg CFC11 eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Cocoa; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fine particulate matter formation",
+                "unit": "kg PM10 eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Cocoa; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Photochemical oxidant formation",
+                "unit": "kg NMVOC",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Cocoa; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial acidification",
+                "unit": "kg SO2 eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Cocoa; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Cocoa; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Urban land occupation",
+                "unit": "m2a",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Cocoa; World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Water consumption",
+                "unit": "m3",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Cocoa; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            }
+        ]
+    },
+    {
+        "stage": "Offsetting schemes",
+        "ingredient": "Cocoa beans",
+        "impactCategory": "Biodiversity",
+        "impactValue": 0.0,
+        "costValue": 0.0,
+        "details": [
+            {
+                "indicators": "Biodiversity restoration through Reforestation (none)",
+                "unit": "m²/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Rainforest Alliance regulation, No specific regulation enforced, rainforest-alliance; World Bank, Inflation (annual %), 2024; Not applicable; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            }
+        ]
+    },
+    {
+        "stage": "Offsetting schemes",
+        "ingredient": "Cocoa beans",
+        "impactCategory": "Environment",
+        "impactValue": 0.0,
+        "costValue": 0.0,
+        "details": [
+            {
+                "indicators": "Carbon Offsetting through Reforestation",
+                "unit": "kgCO2/kg",
+                "impactValue": 0.0,
+                "costValue": -0.0,
+                "reference": "Rainforest Alliance regulation, No specific regulation enforced, rainforest-alliance; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            }
+        ]
+    },
+    {
+        "stage": "Processing, Cocoa processing",
+        "ingredient": "Cocoa beans",
+        "impactCategory": "Environment",
+        "impactValue": 0.08436772755699881,
+        "costValue": 0.0077528043246893,
+        "details": [
+            {
+                "indicators": "Fine particulate matter formation",
+                "unit": "kg PM2.5 eq",
+                "impactValue": 2.7553268396e-05,
+                "costValue": 0.0029666618312323,
+                "reference": "Cocoa beans processing, at plant (WFLDB 3.1)/RER U Misssing data at the country level, Europe has been used as a proxy; World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fossil resource scarcity",
+                "unit": "kg oil eq",
+                "impactValue": 0.0034342167907036,
+                "costValue": 0.0018157776106066,
+                "reference": "Cocoa beans processing, at plant (WFLDB 3.1)/RER U Misssing data at the country level, Europe has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0001226069067467,
+                "costValue": 5.8766267614e-06,
+                "reference": "Cocoa beans processing, at plant (WFLDB 3.1)/RER U Misssing data at the country level, Europe has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater eutrophication",
+                "unit": "kg P eq",
+                "impactValue": 1.655558939e-06,
+                "costValue": 0.0003977114097702,
+                "reference": "Cocoa beans processing, at plant (WFLDB 3.1)/RER U Misssing data at the country level, Europe has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Global warming",
+                "unit": "kg CO2 eq",
+                "impactValue": 0.0103862552138469,
+                "costValue": 0.0019459143116538,
+                "reference": "Cocoa beans processing, at plant (WFLDB 3.1)/RER U Misssing data at the country level, Europe has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Human carcinogenic toxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.000253227966258,
+                "costValue": 0.0,
+                "reference": "Cocoa beans processing, at plant (WFLDB 3.1)/RER U Misssing data at the country level, Europe has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Human non-carcinogenic toxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0052256471660355,
+                "costValue": 0.0,
+                "reference": "Cocoa beans processing, at plant (WFLDB 3.1)/RER U Misssing data at the country level, Europe has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ionizing radiation",
+                "unit": "kBq Co-60 eq",
+                "impactValue": 0.0005883438650875,
+                "costValue": 0.0,
+                "reference": "Cocoa beans processing, at plant (WFLDB 3.1)/RER U Misssing data at the country level, Europe has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Land use",
+                "unit": "m2a crop eq",
+                "impactValue": 0.0001655228093429,
+                "costValue": 1.97864693155e-05,
+                "reference": "Cocoa beans processing, at plant (WFLDB 3.1)/RER U Misssing data at the country level, Europe has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.000203275957942,
+                "costValue": 4.439322899e-07,
+                "reference": "Cocoa beans processing, at plant (WFLDB 3.1)/RER U Misssing data at the country level, Europe has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine eutrophication",
+                "unit": "kg N eq",
+                "impactValue": 1.446514819e-07,
+                "costValue": 2.4108378841e-06,
+                "reference": "Cocoa beans processing, at plant (WFLDB 3.1)/RER U Misssing data at the country level, Europe has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Mineral resource scarcity",
+                "unit": "kg Cu eq",
+                "impactValue": 1.77743633194e-05,
+                "costValue": 4.5559194186e-06,
+                "reference": "Cocoa beans processing, at plant (WFLDB 3.1)/RER U Misssing data at the country level, Europe has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ozone formation, Human health",
+                "unit": "kg NOx eq",
+                "impactValue": 9.59282325347e-05,
+                "costValue": 0.0,
+                "reference": "Cocoa beans processing, at plant (WFLDB 3.1)/RER U Misssing data at the country level, Europe has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ozone formation, Terrestrial ecosystems",
+                "unit": "kg NOx eq",
+                "impactValue": 9.73267102494e-05,
+                "costValue": 0.0,
+                "reference": "Cocoa beans processing, at plant (WFLDB 3.1)/RER U Misssing data at the country level, Europe has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Stratospheric ozone depletion",
+                "unit": "kg CFC11 eq",
+                "impactValue": 5.1527145e-09,
+                "costValue": 3.429191715e-07,
+                "reference": "Cocoa beans processing, at plant (WFLDB 3.1)/RER U Misssing data at the country level, Europe has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial acidification",
+                "unit": "kg SO2 eq",
+                "impactValue": 6.69833719145e-05,
+                "costValue": 0.0003711001774294,
+                "reference": "Cocoa beans processing, at plant (WFLDB 3.1)/RER U Misssing data at the country level, Europe has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0635502295490981,
+                "costValue": 2.19136891156e-05,
+                "reference": "Cocoa beans processing, at plant (WFLDB 3.1)/RER U Misssing data at the country level, Europe has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Water consumption",
+                "unit": "m3",
+                "impactValue": 0.0001310300223882,
+                "costValue": 0.0002003085900404,
+                "reference": "Cocoa beans processing, at plant (WFLDB 3.1)/RER U Misssing data at the country level, Europe has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            }
+        ]
+    },
+    {
+        "stage": "Production",
+        "ingredient": "Cocoa beans",
+        "impactCategory": "Biodiversity",
+        "impactValue": 0.0,
+        "costValue": 0.0,
+        "details": [
+            {
+                "indicators": "Eco-costs of land-use (Ecuador), practice-related",
+                "unit": "m²/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, missing (Cocoa beans); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Eco-costs of land-use (Ecuador), deforestation-related",
+                "unit": "m²/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, Rainforest Alliance regulation (Cocoa beans); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            }
+        ]
+    },
+    {
+        "stage": "Production",
+        "ingredient": "Cocoa beans",
+        "impactCategory": "Environment",
+        "impactValue": 1.7962577167065956,
+        "costValue": 0.2752375956411828,
+        "details": [
+            {
+                "indicators": "Fine particulate matter formation",
+                "unit": "kg PM2.5 eq",
+                "impactValue": 0.0004080612188226,
+                "costValue": 0.0439359725054904,
+                "reference": "Cocoa beans, sun-dried, at farm (WFLDB 3.1)/GH U Misssing data at the country level, Ghana has been used as a proxy; World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fossil resource scarcity",
+                "unit": "kg oil eq",
+                "impactValue": 0.0104656473794193,
+                "costValue": 0.0055335144372643,
+                "reference": "Cocoa beans, sun-dried, at farm (WFLDB 3.1)/GH U Misssing data at the country level, Ghana has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0047758627589251,
+                "costValue": 0.0002289101294764,
+                "reference": "Cocoa beans, sun-dried, at farm (WFLDB 3.1)/GH U Misssing data at the country level, Ghana has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater eutrophication",
+                "unit": "kg P eq",
+                "impactValue": 3.52398184556e-05,
+                "costValue": 0.0084655867862805,
+                "reference": "Cocoa beans, sun-dried, at farm (WFLDB 3.1)/GH U Misssing data at the country level, Ghana has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Global warming",
+                "unit": "kg CO2 eq",
+                "impactValue": 0.4241192072860462,
+                "costValue": 0.079460750608644,
+                "reference": "Cocoa beans, sun-dried, at farm (WFLDB 3.1)/GH U Misssing data at the country level, Ghana has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Human carcinogenic toxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0032036452349015,
+                "costValue": 0.0,
+                "reference": "Cocoa beans, sun-dried, at farm (WFLDB 3.1)/GH U Misssing data at the country level, Ghana has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Human non-carcinogenic toxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.1965182408533181,
+                "costValue": 0.0,
+                "reference": "Cocoa beans, sun-dried, at farm (WFLDB 3.1)/GH U Misssing data at the country level, Ghana has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ionizing radiation",
+                "unit": "kBq Co-60 eq",
+                "impactValue": 0.0022288441192398,
+                "costValue": 0.0,
+                "reference": "Cocoa beans, sun-dried, at farm (WFLDB 3.1)/GH U Misssing data at the country level, Ghana has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Land use",
+                "unit": "m2a crop eq",
+                "impactValue": 0.7364072493091425,
+                "costValue": 0.0880295561682409,
+                "reference": "Cocoa beans, sun-dried, at farm (WFLDB 3.1)/GH U Misssing data at the country level, Ghana has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0048084187432182,
+                "costValue": 1.05010566196e-05,
+                "reference": "Cocoa beans, sun-dried, at farm (WFLDB 3.1)/GH U Misssing data at the country level, Ghana has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine eutrophication",
+                "unit": "kg N eq",
+                "impactValue": 0.0002922248011401,
+                "costValue": 0.0048703726484073,
+                "reference": "Cocoa beans, sun-dried, at farm (WFLDB 3.1)/GH U Misssing data at the country level, Ghana has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Mineral resource scarcity",
+                "unit": "kg Cu eq",
+                "impactValue": 0.000578066134317,
+                "costValue": 0.0001481697363361,
+                "reference": "Cocoa beans, sun-dried, at farm (WFLDB 3.1)/GH U Misssing data at the country level, Ghana has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ozone formation, Human health",
+                "unit": "kg NOx eq",
+                "impactValue": 0.0004169082666061,
+                "costValue": 0.0,
+                "reference": "Cocoa beans, sun-dried, at farm (WFLDB 3.1)/GH U Misssing data at the country level, Ghana has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ozone formation, Terrestrial ecosystems",
+                "unit": "kg NOx eq",
+                "impactValue": 0.0004538499384372,
+                "costValue": 0.0,
+                "reference": "Cocoa beans, sun-dried, at farm (WFLDB 3.1)/GH U Misssing data at the country level, Ghana has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Stratospheric ozone depletion",
+                "unit": "kg CFC11 eq",
+                "impactValue": 3.75044199e-07,
+                "costValue": 2.49596294769e-05,
+                "reference": "Cocoa beans, sun-dried, at farm (WFLDB 3.1)/GH U Misssing data at the country level, Ghana has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial acidification",
+                "unit": "kg SO2 eq",
+                "impactValue": 0.0003867553426144,
+                "costValue": 0.0021426955998725,
+                "reference": "Cocoa beans, sun-dried, at farm (WFLDB 3.1)/GH U Misssing data at the country level, Ghana has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.3835188196622363,
+                "costValue": 0.0001322467636024,
+                "reference": "Cocoa beans, sun-dried, at farm (WFLDB 3.1)/GH U Misssing data at the country level, Ghana has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Water consumption",
+                "unit": "m3",
+                "impactValue": 0.0276403007955566,
+                "costValue": 0.0422543595714715,
+                "reference": "Cocoa beans, sun-dried, at farm (WFLDB 3.1)/GH U Misssing data at the country level, Ghana has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            }
+        ]
+    },
+    {
+        "stage": "Production",
+        "ingredient": "Cocoa beans",
+        "impactCategory": "Livelihoods",
+        "impactValue": 0.047998395024206095,
+        "costValue": 0.0859557797465464,
+        "details": [
+            {
+                "indicators": "Labour force to be audited for Health and Safety",
+                "unit": "FTE/kg",
+                "impactValue": 6.88337e-11,
+                "costValue": 6.764637e-10,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Labour force to be audited for gender discrimination",
+                "unit": "FTE/kg",
+                "impactValue": 5.459031276e-07,
+                "costValue": 5.3648652114e-06,
+                "reference": "World population review, Total Fertility Rate, 2024, Estimates; Estimates; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Labour force to be audited for forced labour",
+                "unit": "FTE/kg",
+                "impactValue": 3.90038011e-08,
+                "costValue": 3.83310015e-07,
+                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Papaya Global, Payroll and Benefits Guide Ecuador, 2024; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Labour force to be audited for insufficient social security",
+                "unit": "FTE/kg",
+                "impactValue": 2.46500906207e-05,
+                "costValue": 0.0002422488659988,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Estimates; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Labour force to be audited for illegal overtime",
+                "unit": "FTE/kg",
+                "impactValue": 5.7855686452e-06,
+                "costValue": 5.6857699431e-05,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Prevalence of excessive working time",
+                "unit": "FTE/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Wage gap from gender discrimination",
+                "unit": "USD/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Estimates; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; True Price, Monestisation factors for true pricing (2023)."
+            },
+            {
+                "indicators": "Wage gap of workers earning below minimum wage",
+                "unit": "USD/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Estimates; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; True Price, Monestisation factors for true pricing (2023)."
+            },
+            {
+                "indicators": "Wage gap of workers earning above minimum wage but below decent living wage",
+                "unit": "USD/kg",
+                "impactValue": 0.0479550492750339,
+                "costValue": 0.052271003709787,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Estimates; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; True Price, Monestisation factors for true pricing (2023)."
+            },
+            {
+                "indicators": "Children in hazardous work by sex, age and economic activity (5-11)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Papaya Global, Payroll and Benefits Guide Ecuador, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Children in hazardous work by sex, age and economic activity (12-14)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Papaya Global, Payroll and Benefits Guide Ecuador, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Children in hazardous work by sex, age and economic activity (15-17)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Papaya Global, Payroll and Benefits Guide Ecuador, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Children in non-hazardous work by sex, age and economic activity (5-11)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Papaya Global, Payroll and Benefits Guide Ecuador, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Children in non-hazardous work by sex, age and economic activity (12-14)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Papaya Global, Payroll and Benefits Guide Ecuador, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Children in non-hazardous work by sex, age and economic activity (15-17)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Papaya Global, Payroll and Benefits Guide Ecuador, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Prevalence of modern slavery (forced workers, most severe)",
+                "unit": "FTE/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Papaya Global, Payroll and Benefits Guide Ecuador, 2024; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Prevalence of Forced workers in situations of debt bondage",
+                "unit": "FTE/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022, Global Estimates of Modern Slavery: Forced Labour and Forced Marriage International Labour Organization (ILO), Walk Free, and International Organization for Migration (IOM), Geneva, 2022, ISBN: 978-92-2-037483-2 (web PDF); International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Papaya Global, Payroll and Benefits Guide Ecuador, 2024; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Female workers without maternity leave provision",
+                "unit": "USD/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "World population review, Total Fertility Rate, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; World population review, Total Fertility Rate, 2024, Estimates; Estimates; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; True Price, Monestisation factors for true pricing (2023)."
+            },
+            {
+                "indicators": "Women with denied maternity leave",
+                "unit": "women/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "World population review, Total Fertility Rate, 2024, Estimates; Estimates; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Workers without paid leave provision",
+                "unit": "USD/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Employing Workers, Doing Business: Measuring Business Regulations. World Bank Group, 2014; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; 0.001314671499773448; True Price, Monestisation factors for true pricing (2023)."
+            },
+            {
+                "indicators": "Informal employment rate of agricultural workers & uncovered by social protection floors/systems",
+                "unit": "FTE/kg",
+                "impactValue": 1.23250453103e-05,
+                "costValue": 0.0331498448208973,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Estimates; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Cases of fatal occupational injury",
+                "unit": "incidents/kg",
+                "impactValue": 6.35388e-11,
+                "costValue": 0.0002300524543168,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Cases of non-fatal occupational injury, insured",
+                "unit": "incidents/kg",
+                "impactValue": 1.738e-13,
+                "costValue": 7.415016e-10,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Cases of non-fatal occupational injury, uninsured",
+                "unit": "incidents/kg",
+                "impactValue": 5.121e-12,
+                "costValue": 2.26029238e-08,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            }
+        ]
+    },
+    {
+        "stage": "Transport, Field to Storage",
+        "ingredient": "Cocoa beans",
+        "impactCategory": "Environment",
+        "impactValue": 7.611298338349999e-05,
+        "costValue": 2.08763547663e-05,
+        "details": [
+            {
+                "indicators": "Agricultural land occupation",
+                "unit": "m2a",
+                "impactValue": 3.524375526e-07,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (10); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Global warming",
+                "unit": "kg CO2 eq",
+                "impactValue": 4.12510715838e-05,
+                "costValue": 7.7285844525e-06,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (10); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fossil resource scarcity",
+                "unit": "kg oil eq",
+                "impactValue": 1.52424652099e-05,
+                "costValue": 8.0591671246e-06,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (10); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 3.767991672e-07,
+                "costValue": 1.80602229e-08,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (10); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater eutrophication",
+                "unit": "kg P eq",
+                "impactValue": 3.5674323e-09,
+                "costValue": 8.569967059e-07,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (10); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Human toxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 1.12775339261e-05,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (10); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ionising radiation",
+                "unit": "kg U235-Eq",
+                "impactValue": 2.7812517664e-06,
+                "costValue": 1.781678082e-07,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (10); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 4.284777412e-07,
+                "costValue": 9.357481e-10,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (10); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine eutrophication",
+                "unit": "kg N eq",
+                "impactValue": 1.014343558e-07,
+                "costValue": 1.6905584691e-06,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (10); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Metal depletion",
+                "unit": "kg Fe eq",
+                "impactValue": 1.8344720782e-06,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (10); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Natural land transformation",
+                "unit": "m2",
+                "impactValue": 1.5041542e-08,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (10); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Stratospheric ozone depletion",
+                "unit": "kg CFC11 eq",
+                "impactValue": 7.1176e-12,
+                "costValue": 4.736868e-10,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (10); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fine particulate matter formation",
+                "unit": "kg PM10 eq",
+                "impactValue": 1.012537295e-07,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (10); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Photochemical oxidant formation",
+                "unit": "kg NMVOC",
+                "impactValue": 3.043197835e-07,
+                "costValue": 1.058674206e-06,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (10); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial acidification",
+                "unit": "kg SO2 eq",
+                "impactValue": 2.058351023e-07,
+                "costValue": 1.140364255e-06,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (10); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 1.60551973e-08,
+                "costValue": 5.5362e-12,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (10); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Urban land occupation",
+                "unit": "m2a",
+                "impactValue": 1.7817723949e-06,
+                "costValue": 8.44594138e-08,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (10); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Water consumption",
+                "unit": "m3",
+                "impactValue": 3.91877029e-08,
+                "costValue": 5.99071372e-08,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (10); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            }
+        ]
+    },
+    {
+        "stage": "Transport, Manufacture-to-Retail",
+        "ingredient": "Cocoa beans",
+        "impactCategory": "Environment",
+        "impactValue": 0.008095830542994698,
+        "costValue": 0.0020971096194487,
+        "details": [
+            {
+                "indicators": "Agricultural land occupation",
+                "unit": "m2a",
+                "impactValue": 3.94788415531e-05,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, light commercial vehicle (200); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Global warming",
+                "unit": "kg CO2 eq",
+                "impactValue": 0.0042599427252654,
+                "costValue": 0.0007981205299931,
+                "reference": "Road; transport, freight, light commercial vehicle (200); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fossil resource scarcity",
+                "unit": "kg oil eq",
+                "impactValue": 0.0015538807901485,
+                "costValue": 0.0008215852755543,
+                "reference": "Road; transport, freight, light commercial vehicle (200); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0001266429503315,
+                "costValue": 6.0700768889e-06,
+                "reference": "Road; transport, freight, light commercial vehicle (200); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater eutrophication",
+                "unit": "kg P eq",
+                "impactValue": 5.506390893e-07,
+                "costValue": 0.0001322788596323,
+                "reference": "Road; transport, freight, light commercial vehicle (200); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Human toxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0009959468761706,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, light commercial vehicle (200); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ionising radiation",
+                "unit": "kg U235-Eq",
+                "impactValue": 0.0004112925233725,
+                "costValue": 2.63475203287e-05,
+                "reference": "Road; transport, freight, light commercial vehicle (200); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0001156608124105,
+                "costValue": 2.525904678e-07,
+                "reference": "Road; transport, freight, light commercial vehicle (200); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine eutrophication",
+                "unit": "kg N eq",
+                "impactValue": 6.8468340406e-06,
+                "costValue": 0.000114112946984,
+                "reference": "Road; transport, freight, light commercial vehicle (200); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Metal depletion",
+                "unit": "kg Fe eq",
+                "impactValue": 0.000374277601506,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, light commercial vehicle (200); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Natural land transformation",
+                "unit": "m2",
+                "impactValue": 1.5452505012e-06,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, light commercial vehicle (200); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Stratospheric ozone depletion",
+                "unit": "kg CFC11 eq",
+                "impactValue": 7.372764e-10,
+                "costValue": 4.90666068e-08,
+                "reference": "Road; transport, freight, light commercial vehicle (200); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fine particulate matter formation",
+                "unit": "kg PM10 eq",
+                "impactValue": 7.2699520443e-06,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, light commercial vehicle (200); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Photochemical oxidant formation",
+                "unit": "kg NMVOC",
+                "impactValue": 2.58276645839e-05,
+                "costValue": 8.98498348652e-05,
+                "reference": "Road; transport, freight, light commercial vehicle (200); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial acidification",
+                "unit": "kg SO2 eq",
+                "impactValue": 1.71686371482e-05,
+                "costValue": 9.51174016747e-05,
+                "reference": "Road; transport, freight, light commercial vehicle (200); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 5.476859829e-07,
+                "costValue": 1.888556e-10,
+                "reference": "Road; transport, freight, light commercial vehicle (200); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Urban land occupation",
+                "unit": "m2a",
+                "impactValue": 0.0001550408126512,
+                "costValue": 7.3492305747e-06,
+                "reference": "Road; transport, freight, light commercial vehicle (200); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Water consumption",
+                "unit": "m3",
+                "impactValue": 3.9092089186e-06,
+                "costValue": 5.9760970226e-06,
+                "reference": "Road; transport, freight, light commercial vehicle (200); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            }
+        ]
+    },
+    {
+        "stage": "Transport, Port-to-Manufacture",
+        "ingredient": "Cocoa beans",
+        "impactCategory": "Environment",
+        "impactValue": 0.0136763606427103,
+        "costValue": 0.0033046973921484995,
+        "details": [
+            {
+                "indicators": "Agricultural land occupation",
+                "unit": "m2a",
+                "impactValue": 8.41753470977e-05,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (800); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Global warming",
+                "unit": "kg CO2 eq",
+                "impactValue": 0.0074521877765703,
+                "costValue": 0.0013962028227678,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (800); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fossil resource scarcity",
+                "unit": "kg oil eq",
+                "impactValue": 0.0027486690354947,
+                "costValue": 0.0014533071141954,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (800); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 8.71891722269e-05,
+                "costValue": 4.1790322944e-06,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (800); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater eutrophication",
+                "unit": "kg P eq",
+                "impactValue": 7.036147824e-07,
+                "costValue": 0.0001690278856751,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (800); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Human toxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0018258328219415,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (800); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ionising radiation",
+                "unit": "kg U235-Eq",
+                "impactValue": 0.0006255588623052,
+                "costValue": 4.00734851833e-05,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (800); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 9.14480036436e-05,
+                "costValue": 1.997123618e-07,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (800); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine eutrophication",
+                "unit": "kg N eq",
+                "impactValue": 4.043166162e-06,
+                "costValue": 6.73855395293e-05,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (800); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Metal depletion",
+                "unit": "kg Fe eq",
+                "impactValue": 0.0004405734962936,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (800); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Natural land transformation",
+                "unit": "m2",
+                "impactValue": 2.7318075395e-06,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (800); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Stratospheric ozone depletion",
+                "unit": "kg CFC11 eq",
+                "impactValue": 1.3074033e-09,
+                "costValue": 8.70092183e-08,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (800); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fine particulate matter formation",
+                "unit": "kg PM10 eq",
+                "impactValue": 8.6967794994e-06,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (800); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Photochemical oxidant formation",
+                "unit": "kg NMVOC",
+                "impactValue": 1.68605292292e-05,
+                "costValue": 5.86547715943e-05,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (800); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial acidification",
+                "unit": "kg SO2 eq",
+                "impactValue": 1.65051682672e-05,
+                "costValue": 9.14416622722e-05,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (800); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 2.4006508603e-06,
+                "costValue": 8.278037e-10,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (800); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Urban land occupation",
+                "unit": "m2a",
+                "impactValue": 0.0002610894992962,
+                "costValue": 1.23761408248e-05,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (800); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Water consumption",
+                "unit": "m3",
+                "impactValue": 7.6936040973e-06,
+                "costValue": 1.17613884281e-05,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (800); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            }
+        ]
+    },
+    {
+        "stage": "Transport, Port-to-Port",
+        "ingredient": "Cocoa beans",
+        "impactCategory": "Environment",
+        "impactValue": 0.0019970305109995,
+        "costValue": 0.0008491117751343001,
+        "details": [
+            {
+                "indicators": "Agricultural land occupation",
+                "unit": "m2a",
+                "impactValue": 6.6275324506e-06,
+                "costValue": 0.0,
+                "reference": "Sea; transport, freight, sea, bulk carrier for dry goods (10523); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Global warming",
+                "unit": "kg CO2 eq",
+                "impactValue": 0.0012622088532441,
+                "costValue": 0.0002364808317582,
+                "reference": "Sea; transport, freight, sea, bulk carrier for dry goods (10523); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fossil resource scarcity",
+                "unit": "kg oil eq",
+                "impactValue": 0.0004073588980312,
+                "costValue": 0.0002153833644191,
+                "reference": "Sea; transport, freight, sea, bulk carrier for dry goods (10523); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 8.0419894018e-06,
+                "costValue": 3.854576498e-07,
+                "reference": "Sea; transport, freight, sea, bulk carrier for dry goods (10523); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater eutrophication",
+                "unit": "kg P eq",
+                "impactValue": 4.89926171e-08,
+                "costValue": 1.1769392418e-05,
+                "reference": "Sea; transport, freight, sea, bulk carrier for dry goods (10523); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Human toxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 8.6804392017e-05,
+                "costValue": 0.0,
+                "reference": "Sea; transport, freight, sea, bulk carrier for dry goods (10523); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ionising radiation",
+                "unit": "kg U235-Eq",
+                "impactValue": 7.34221825778e-05,
+                "costValue": 4.7034466665e-06,
+                "reference": "Sea; transport, freight, sea, bulk carrier for dry goods (10523); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 8.2383476314e-06,
+                "costValue": 1.79916433e-08,
+                "reference": "Sea; transport, freight, sea, bulk carrier for dry goods (10523); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine eutrophication",
+                "unit": "kg N eq",
+                "impactValue": 8.3293561841e-06,
+                "costValue": 0.0001388214428742,
+                "reference": "Sea; transport, freight, sea, bulk carrier for dry goods (10523); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Metal depletion",
+                "unit": "kg Fe eq",
+                "impactValue": 7.01078687124e-05,
+                "costValue": 0.0,
+                "reference": "Sea; transport, freight, sea, bulk carrier for dry goods (10523); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Natural land transformation",
+                "unit": "m2",
+                "impactValue": 4.142631719e-07,
+                "costValue": 0.0,
+                "reference": "Sea; transport, freight, sea, bulk carrier for dry goods (10523); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Stratospheric ozone depletion",
+                "unit": "kg CFC11 eq",
+                "impactValue": 1.998364e-10,
+                "costValue": 1.32993517e-08,
+                "reference": "Sea; transport, freight, sea, bulk carrier for dry goods (10523); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fine particulate matter formation",
+                "unit": "kg PM10 eq",
+                "impactValue": 9.333843125e-06,
+                "costValue": 0.0,
+                "reference": "Sea; transport, freight, sea, bulk carrier for dry goods (10523); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Photochemical oxidant formation",
+                "unit": "kg NMVOC",
+                "impactValue": 2.4445028037e-05,
+                "costValue": 8.50398891182e-05,
+                "reference": "Sea; transport, freight, sea, bulk carrier for dry goods (10523); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial acidification",
+                "unit": "kg SO2 eq",
+                "impactValue": 2.81117544182e-05,
+                "costValue": 0.0001557442803231,
+                "reference": "Sea; transport, freight, sea, bulk carrier for dry goods (10523); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 6.91596078e-08,
+                "costValue": 2.38479e-11,
+                "reference": "Sea; transport, freight, sea, bulk carrier for dry goods (10523); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Urban land occupation",
+                "unit": "m2a",
+                "impactValue": 3.0709255846e-06,
+                "costValue": 1.455677367e-07,
+                "reference": "Sea; transport, freight, sea, bulk carrier for dry goods (10523); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Water consumption",
+                "unit": "m3",
+                "impactValue": 3.969243511e-07,
+                "costValue": 6.067873276e-07,
+                "reference": "Sea; transport, freight, sea, bulk carrier for dry goods (10523); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            }
+        ]
+    },
+    {
+        "stage": "Transport, Retail-to-Waste",
+        "ingredient": "Cocoa beans",
+        "impactCategory": "Environment",
+        "impactValue": 0.0004596589225595001,
+        "costValue": 0.0001491065621372,
+        "details": [
+            {
+                "indicators": "Agricultural land occupation",
+                "unit": "m2a",
+                "impactValue": 6.983021942e-07,
+                "costValue": 0.0,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Global warming",
+                "unit": "kg CO2 eq",
+                "impactValue": 0.0003122934436661,
+                "costValue": 5.85096619477e-05,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fossil resource scarcity",
+                "unit": "kg oil eq",
+                "impactValue": 0.0001045940002961,
+                "costValue": 5.53021126842e-05,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 7.026240385e-07,
+                "costValue": 3.36772155e-08,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater eutrophication",
+                "unit": "kg P eq",
+                "impactValue": 4.8220481e-09,
+                "costValue": 1.1583903934e-06,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Human toxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 1.03567971092e-05,
+                "costValue": 0.0,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ionising radiation",
+                "unit": "kg U235-Eq",
+                "impactValue": 1.88136301488e-05,
+                "costValue": 1.205206695e-06,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 6.223858326e-07,
+                "costValue": 1.359222e-09,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine eutrophication",
+                "unit": "kg N eq",
+                "impactValue": 8.18343274e-07,
+                "costValue": 1.36389405803e-05,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Metal depletion",
+                "unit": "kg Fe eq",
+                "impactValue": 3.3227226755e-06,
+                "costValue": 0.0,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Natural land transformation",
+                "unit": "m2",
+                "impactValue": 1.086112026e-07,
+                "costValue": 0.0,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Stratospheric ozone depletion",
+                "unit": "kg CFC11 eq",
+                "impactValue": 5.39343e-11,
+                "costValue": 3.5893936e-09,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fine particulate matter formation",
+                "unit": "kg PM10 eq",
+                "impactValue": 7.305927611e-07,
+                "costValue": 0.0,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Photochemical oxidant formation",
+                "unit": "kg NMVOC",
+                "impactValue": 3.1514443247e-06,
+                "costValue": 1.09633122747e-05,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial acidification",
+                "unit": "kg SO2 eq",
+                "impactValue": 1.4505403539e-06,
+                "costValue": 8.0362598555e-06,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 1.31401812e-08,
+                "costValue": 4.531e-12,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Urban land occupation",
+                "unit": "m2a",
+                "impactValue": 1.8692464882e-06,
+                "costValue": 8.86058529e-08,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Water consumption",
+                "unit": "m3",
+                "impactValue": 1.082220304e-07,
+                "costValue": 1.654414914e-07,
+                "reference": "Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            }
+        ]
+    },
+    {
+        "stage": "Transport, Storage-to-Port",
+        "ingredient": "Cocoa beans",
+        "impactCategory": "Environment",
+        "impactValue": 0.00038056491692099997,
+        "costValue": 0.0001043817738349,
+        "details": [
+            {
+                "indicators": "Agricultural land occupation",
+                "unit": "m2a",
+                "impactValue": 1.762187763e-06,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (50); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Global warming",
+                "unit": "kg CO2 eq",
+                "impactValue": 0.000206255357919,
+                "costValue": 3.86429222627e-05,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (50); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fossil resource scarcity",
+                "unit": "kg oil eq",
+                "impactValue": 7.62123260497e-05,
+                "costValue": 4.02958356234e-05,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (50); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 1.8839958361e-06,
+                "costValue": 9.03011147e-08,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (50); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater eutrophication",
+                "unit": "kg P eq",
+                "impactValue": 1.78371618e-08,
+                "costValue": 4.2849835299e-06,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (50); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Human toxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 5.63876696306e-05,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (50); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ionising radiation",
+                "unit": "kg U235-Eq",
+                "impactValue": 1.39062588321e-05,
+                "costValue": 8.908390414e-07,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (50); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 2.1423887063e-06,
+                "costValue": 4.6787408e-09,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (50); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine eutrophication",
+                "unit": "kg N eq",
+                "impactValue": 5.071717793e-07,
+                "costValue": 8.4527923459e-06,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (50); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Metal depletion",
+                "unit": "kg Fe eq",
+                "impactValue": 9.1723603913e-06,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (50); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Natural land transformation",
+                "unit": "m2",
+                "impactValue": 7.52077102e-08,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (50); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Stratospheric ozone depletion",
+                "unit": "kg CFC11 eq",
+                "impactValue": 3.55881e-11,
+                "costValue": 2.3684343e-09,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (50); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fine particulate matter formation",
+                "unit": "kg PM10 eq",
+                "impactValue": 5.062686477e-07,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (50); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Photochemical oxidant formation",
+                "unit": "kg NMVOC",
+                "impactValue": 1.5215989176e-06,
+                "costValue": 5.29337103e-06,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (50); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial acidification",
+                "unit": "kg SO2 eq",
+                "impactValue": 1.0291755119e-06,
+                "costValue": 5.7018212754e-06,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (50); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 8.02759868e-08,
+                "costValue": 2.76811e-11,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (50); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Urban land occupation",
+                "unit": "m2a",
+                "impactValue": 8.9088619747e-06,
+                "costValue": 4.222970693e-07,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (50); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Water consumption",
+                "unit": "m3",
+                "impactValue": 1.959385148e-07,
+                "costValue": 2.99535686e-07,
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO3 (50); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            }
+        ]
+    }
+]
