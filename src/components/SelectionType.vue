@@ -103,6 +103,8 @@ const availableBeverages = computed(() => coffeeStore.availableCoffees);
           :alt="coffee.serveId"
           class="coffee-image selected-image"
         />
+
+        <span class="coffee-name">{{ coffee.serveId }}</span>
         <div v-if="coffee.labels.length > 0" class="labels">
           <img
             v-for="label in coffee.labels"
@@ -111,8 +113,6 @@ const availableBeverages = computed(() => coffeeStore.availableCoffees);
             class="label-image"
           />
         </div>
-
-        <span class="coffee-name">{{ coffee.serveId }}</span>
       </div>
     </div>
   </div>
@@ -138,7 +138,7 @@ const availableBeverages = computed(() => coffeeStore.availableCoffees);
   justify-content: space-evenly;
   flex-direction: row;
   width: 100%;
-  padding-top: 1em;
+  /* padding-top: 1em; */
 }
 
 .label-image {
@@ -231,8 +231,8 @@ const availableBeverages = computed(() => coffeeStore.availableCoffees);
 }
 
 .selected-image {
-  width: 120px;
-  height: 120px;
+  width: 60px;
+  height: 60px;
   margin-bottom: 0.5em;
 }
 
@@ -242,8 +242,9 @@ const availableBeverages = computed(() => coffeeStore.availableCoffees);
   /* max-width: 300px; */
 }
 .selection-coffee-sale-point > .coffee-card {
-  /* height: 180px; */
-  justify-content: space-between;
+  height: 200px;
+  gap: 1rem;
+  justify-content: space-around;
 }
 /* .selection-coffee-sale-point > .coffee-card > .coffee-name {
   font-size: medium;
@@ -264,10 +265,14 @@ const availableBeverages = computed(() => coffeeStore.availableCoffees);
   }
 
   .coffee-name {
-    font-size: medium;
+    font-size: small;
     text-align: center;
   }
-
+  .selection-coffee-sale-point > .coffee-card {
+    width: 100px;
+    height: 180px;
+    min-height: fit-content;
+  }
   /* .selection-coffee-sale-point {
     gap: 1em;
     margin-bottom: 0.5em;
