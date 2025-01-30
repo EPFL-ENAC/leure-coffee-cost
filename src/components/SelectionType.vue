@@ -6,7 +6,8 @@ import ReturnButton from "@/components/ReturnButton.vue";
 
 const generateCoffeeImage = (imgName?: string) => {
   // const baseURL = import.meta.env.BASE_URL ?? "";
-  return `./coffee/${imgName?.replace(" ", "_")}.svg`;
+  console.log(imgName);
+  return `./coffee/${imgName?.replaceAll(" ", "_")}.svg`;
 };
 // Use the coffee store
 

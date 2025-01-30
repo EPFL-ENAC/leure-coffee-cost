@@ -59,10 +59,10 @@ export const useCoffeeStore = defineStore("coffee", () => {
   const listImpactDefinitions = ref<ImpactDefinition[]>([]);
   function camelize(str: string) {
     return str
-      .replace(/(?:^\w|[A-Z]|\b\w)/g, function (word, index) {
+      .replaceAll(/(?:^\w|[A-Z]|\b\w)/g, function (word, index) {
         return index === 0 ? word.toLowerCase() : word.toUpperCase();
       })
-      .replace(/\s+/g, "");
+      .replaceAll(/\s+/g, "");
   }
 
   const loadListImpactDefinitions = async () => {
@@ -189,8 +189,8 @@ export const useCoffeeStore = defineStore("coffee", () => {
     try {
       const fileName = `./data/impacts/${serveId
         .toLowerCase()
-        .replace(" ", "_")
-        .replace(",", "")}.json`;
+        .replaceAll(" ", "_")
+        .replaceAll(",", "")}.json`;
       const response = await fetch(fileName);
       const json = await response.json();
       console.log("Fetch impacts ", fileName, json);
