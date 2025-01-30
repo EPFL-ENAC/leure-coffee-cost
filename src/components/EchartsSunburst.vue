@@ -67,9 +67,9 @@ const formatterLabel = (params: any) => {
 
 const returnToAncestor = () => {
   store.selectImpact(undefined);
-  if (ancestors.value.length > 0)
+  if (ancestors.value.length > 0) {
     current.value = ancestors.value.pop() as ImpactLevel;
-  else console.error("No ancestor in ancestors array.");
+  } else console.error("No ancestor in ancestors array.");
 };
 const coffeeName = computed(() => store.selectedRecipe);
 
@@ -118,7 +118,6 @@ const option = {
 };
 
 const updateData = (data: ImpactLevel) => {
-  console.log("Width", echartInstance.value?.getWidth());
   echartInstance.value?.setOption({
     series: [
       {
@@ -131,7 +130,9 @@ const updateData = (data: ImpactLevel) => {
 watch(
   () => sunburstData.value,
   (newData) => {
+    ancestors.value = [];
     if (newData !== undefined) current.value = newData;
+    // initChart();
   }
 );
 
@@ -150,7 +151,6 @@ const initChart = () => {
     // Set chart options
     myChart.setOption(option);
     myChart.on("click", (params: any) => {
-      console.log(params);
       if (params.data.children) {
         ancestors.value.push(current.value);
         current.value = params.data;
@@ -163,7 +163,6 @@ const initChart = () => {
     // Handle responsive behavior
     window.addEventListener("resize", () => {
       myChart.resize();
-      console.log("Resized");
     });
   }
 };
@@ -172,15 +171,6 @@ const initChart = () => {
 onMounted(() => {
   initChart();
 });
-
-watch(
-  () => store.sunburstData,
-  () => {
-    initChart();
-    // if (store.sunburstData) updateData(store.sunburstData);
-    // echartInstance.value?.setOption(option.value);
-  }
-);
 </script>
 
 <style scoped>
