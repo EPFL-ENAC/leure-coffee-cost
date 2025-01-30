@@ -50,6 +50,7 @@ export type CoffeeData = {
 
 export const labelImages: Map<string, string> = new Map([
   ["Organic", "organic.jpg"],
+  ["Via Verde", "viaverde.png"],
   ["Fair Trade", "fairtrade.svg"],
   ["Rainforest Alliance", "rainforest.png"],
   ["Blue Planet", "blueplanet.png"],
