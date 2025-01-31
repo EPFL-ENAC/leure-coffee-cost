@@ -56,6 +56,35 @@ export const useCoffeeStore = defineStore("coffee", () => {
   // Load data immediately when the store is initialized
   loadListCoffee();
 
+  const sugarIDs = [
+    "swiss_sugar_default",
+    "swiss_sugar_low",
+    "swiss_sugar_moderate",
+    "swiss_sugar_high",
+  ];
+  const listSugar = ref<CoffeeImpactData[]>([]);
+
+  const loadListSugar = async () => {
+    if (listSugar.value.length == sugarIDs.length) return;
+
+    sugarIDs.forEach(async (sugarID, index) => {
+      try {
+        const fileName = `./data/sugar/${sugarID
+          .toLowerCase()
+          .replaceAll(" ", "_")
+          .replaceAll(",", "")}.json`;
+        const response = await fetch(fileName);
+        const json = await response.json();
+        console.log("Fetch impacts ", fileName, json);
+        listSugar.value[index] = json;
+      } catch (error) {
+        console.error("Failed to load JSON:", error);
+      }
+    });
+  };
+
+  loadListSugar();
+
   const listImpactDefinitions = ref<ImpactDefinition[]>([]);
   function camelize(str: string) {
     return str
@@ -195,15 +224,23 @@ export const useCoffeeStore = defineStore("coffee", () => {
       const json = await response.json();
       console.log("Fetch impacts ", fileName, json);
       selectedCoffeeImpacts.value = json;
-      sunburstData.value = generateSunburstData(
-        json,
-        listImpactDefinitions.value
-      );
     } catch (error) {
       console.error("Failed to load JSON:", error);
       selectedCoffeeImpacts.value = null;
     }
   };
+
+  watch(
+    () => [selectedCoffeeImpacts.value, sugarLevel.value],
+    () => {
+      const coffeeImpacts = selectedCoffeeImpacts.value ?? [];
+      const sugarImpact = listSugar.value[sugarLevel.value];
+      sunburstData.value = generateSunburstData(
+        coffeeImpacts.concat(sugarImpact),
+        listImpactDefinitions.value
+      );
+    }
+  );
 
   watch(selectedServeId, (newServeId) => {
     if (newServeId) {
