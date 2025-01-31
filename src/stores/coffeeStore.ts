@@ -235,6 +235,7 @@ export const useCoffeeStore = defineStore("coffee", () => {
     () => {
       const coffeeImpacts = selectedCoffeeImpacts.value ?? [];
       const sugarImpact = listSugar.value[sugarLevel.value];
+      selectedImpact.value = undefined;
       sunburstData.value = generateSunburstData(
         coffeeImpacts.concat(sugarImpact),
         listImpactDefinitions.value
