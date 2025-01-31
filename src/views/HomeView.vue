@@ -30,8 +30,10 @@ watch(
   </h3>
   <SelectionType />
 
-  <SelectionCaffeine v-if="selectedCoffee && selectedCoffee.isDecaf" />
-  <SelectionMilk v-if="selectedCoffee && selectedCoffee.hasMilk" />
+  <SelectionCaffeine
+    v-if="false && selectedCoffee && selectedCoffee?.isDecaf"
+  />
+  <SelectionMilk v-if="false && selectedCoffee && selectedCoffee?.hasMilk" />
   <SelectionSugar v-if="selectedCoffee" />
   <PriceDisplay v-if="store.isPriceVisible" />
   <EchartsSunburst v-if="store.isPriceVisible && store.selectedCoffeeImpacts" />
