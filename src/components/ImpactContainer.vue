@@ -4,7 +4,7 @@
       <div class="impact-header">
         <span class="impact-category">
           <i class="impact-icon" />
-          {{ store.selectedImpact?.indicators.toLocaleUpperCase() }}
+          {{ store.selectedImpact?.indicators }}
         </span>
       </div>
       <div class="impact-value">
@@ -94,8 +94,9 @@ function capitalizeFirstLetter(val: string) {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 0.5rem;
-  justify-content: space-between;
+  gap: 2rem;
+  justify-content: center;
+  font-size: small;
 }
 
 .progress-bar {
@@ -112,7 +113,7 @@ function capitalizeFirstLetter(val: string) {
 }
 
 .unit {
-  font-size: small;
+  font-size: 12px;
 }
 
 .progress-bar-fill {
@@ -131,5 +132,12 @@ function capitalizeFirstLetter(val: string) {
   margin: 0;
   font-size: 1em;
   line-height: 1.4em;
+}
+
+@media (max-width: 768px) {
+  .impact-value {
+    justify-content: space-around;
+    gap: 0.5rem;
+  }
 }
 </style>
