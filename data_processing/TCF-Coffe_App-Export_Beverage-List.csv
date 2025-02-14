@@ -1,64 +1,64 @@
-"Beverage ID";"Retail name";"Retail price";"Hidden Costs";"True Price";"Salepoint";"Price Excluding Tax";"Value Added Tax";"Smart Value Added Tax";"Smart Pricing rounded"
-"Café Blue Planet, Dallmayr";"Café Blue Planet";1.7;0.008;1.71;"Dallmayr";1.573;0.127;0.027;1.6
-"Café Macchiato Blue Planet, Dallmayr";"Café Macchiato Blue Planet";1.8;0.062;1.86;"Dallmayr";1.665;0.135;0.03;1.7
-"Café Macchiato Via Verde, Dallmayr";"Café Macchiato Via Verde";1.7;0.199;1.9;"Dallmayr";1.573;0.127;0.039;1.65
-"Café Via Verde, Dallmayr";"Café Via Verde";1.6;0.146;1.75;"Dallmayr";1.48;0.12;0.035;1.55
-"Café, Compass Machine";"Café";1.5;0.146;1.65;"Compass Machine";1.388;0.112;0.035;1.45
-"Café, Le Klee";"Café";1.6;0.146;1.75;"Le Klee";1.48;0.12;0.035;1.55
-"Café, décaféiné, Le Klee";"Café, décaféiné";1.6;0.631;2.23;"Le Klee";1.48;0.12;0.066;1.6
-"Cappuccino Blue Planet, Dallmayr";"Cappuccino Blue Planet";1.8;0.072;1.87;"Dallmayr";1.665;0.135;0.031;1.7
-"Cappuccino Vanille Blue Planet, Dallmayr";"Cappuccino Vanille Blue Planet";1.8;0.125;1.93;"Dallmayr";1.665;0.135;0.034;1.7
-"Cappuccino Vanille Via Verde, Dallmayr";"Cappuccino Vanille Via Verde";1.7;0.262;1.96;"Dallmayr";1.573;0.127;0.043;1.65
-"Cappuccino Via Verde, Dallmayr";"Cappuccino Via Verde";1.7;0.209;1.91;"Dallmayr";1.573;0.127;0.039;1.65
-"Cappuccino, Compass Machine";"Cappuccino";2.2;0.209;2 .41;"Compass Machine";2.035;0.165;0.039;2.1
-"Cappuccino, Le Klee";"Cappuccino";2.7;0.265;2.96;"Le Klee";2.498;0.202;0.043;2.6
-"Cappuccino, décaféiné, Le Klee";"Cappuccino, décaféiné";2.7;0.75;3.45;"Le Klee";2.498;0.202;0.074;2.7
-"Cappuccino, décaféiné, lait d'amande, Le Klee";"Cappuccino, décaféiné, lait d'amande";2.7;0.784;3.48;"Le Klee";2.498;0.202;0.076;2.7
-"Cappuccino, décaféiné, lait d'avoine, Le Klee";"Cappuccino, décaféiné, lait d'avoine";2.7;0.677;3.38;"Le Klee";2.498;0.202;0.069;2.65
-"Cappuccino, décaféiné, lait de soja, Le Klee";"Cappuccino, décaféiné, lait de soja";2.7;0.814;3.51;"Le Klee";2.498;0.202;0.078;2.7
-"Cappuccino, décaféiné, sans-lactose, Le Klee";"Cappuccino, décaféiné, sans-lactose";2.7;0.75;3.45;"Le Klee";2.498;0.202;0.074;2.7
-"Cappuccino, lait d'amande, Le Klee";"Cappuccino, lait d'amande";2.7;0.298;3;"Le Klee";2.498;0.202;0.045;2.6
-"Cappuccino, lait d'avoine, Le Klee";"Cappuccino, lait d'avoine";2.7;0.192;2.89;"Le Klee";2.498;0.202;0.038;2.6
-"Cappuccino, lait de soja, Le Klee";"Cappuccino, lait de soja";2.7;0.329;3.03;"Le Klee";2.498;0.202;0.047;2.6
-"Cappuccino, sans-lactose, Le Klee";"Cappuccino, sans-lactose";2.7;0.265;2.96;"Le Klee";2.498;0.202;0.043;2.6
-"Chocolait, Dallmayr";"Chocolait";1.7;0.453;2.15;"Dallmayr";1.573;0.127;0.055;1.65
-"Chocolat, Dallmayr";"Chocolat";1.6;0.375;1.98;"Dallmayr";1.48;0.12;0.05;1.55
-"Espresso Blue Planet, Dallmayr";"Espresso Blue Planet";1.7;0.008;1.71;"Dallmayr";1.573;0.127;0.027;1.6
-"Espresso Macchiato Blue Planet, Dallmayr";"Espresso Macchiato Blue Planet";1.8;0.057;1.86;"Dallmayr";1.665;0.135;0.03;1.7
-"Espresso Macchiato Via Verde, Dallmayr";"Espresso Macchiato Via Verde";1.7;0.194;1.89;"Dallmayr";1.573;0.127;0.038;1.65
-"Espresso Via Verde, Dallmayr";"Espresso Via Verde";1.6;0.146;1.75;"Dallmayr";1.48;0.12;0.035;1.55
-"Espresso, Compass Machine";"Espresso";1.5;0.146;1.65;"Compass Machine";1.388;0.112;0.035;1.45
-"Espresso, Le Klee";"Espresso";1.6;0.146;1.75;"Le Klee";1.48;0.12;0.035;1.55
-"Espresso, décaféiné, Le Klee";"Espresso, décaféiné";1.6;0.631;2.23;"Le Klee";1.48;0.12;0.066;1.6
-"Frappé Vanille, Dallmayr";"Frappé Vanille";1.7;0.194;1.89;"Dallmayr";1.573;0.127;0.038;1.65
-"Latte Macchiato Blue Planet, Dallmayr";"Latte Macchiato Blue Planet";1.8;0.101;1.9;"Dallmayr";1.665;0.135;0.032;1.7
-"Latte Macchiato Vanille Blue Planet, Dallmayr";"Latte Macchiato Vanille Blue Planet";1.8;0.135;1.93;"Dallmayr";1.665;0.135;0.035;1.7
-"Latte Macchiato Vanille Via Verde, Dallmayr";"Latte Macchiato Vanille Via Verde";1.7;0.272;1.97;"Dallmayr";1.573;0.127;0.043;1.65
-"Latte Macchiato Via Verde, Dallmayr";"Latte Macchiato Via Verde";1.7;0.238;1.94;"Dallmayr";1.573;0.127;0.041;1.65
-"Latte Macchiato, Le Klee";"Latte Macchiato";2.7;0.295;2.99;"Le Klee";2.498;0.202;0.045;2.6
-"Latte Macchiato, décaféiné, Le Klee";"Latte Macchiato, décaféiné";2.7;0.78;3.48;"Le Klee";2.498;0.202;0.076;2.7
-"Latte Macchiato, décaféiné, lait d'amande, Le Klee";"Latte Macchiato, décaféiné, lait d'amande";2.7;0.822;3.52;"Le Klee";2.498;0.202;0.079;2.7
-"Latte Macchiato, décaféiné, lait d'avoine, Le Klee";"Latte Macchiato, décaféiné, lait d'avoine";2.7;0.689;3.39;"Le Klee";2.498;0.202;0.07;2.65
-"Latte Macchiato, décaféiné, lait de soja, Le Klee";"Latte Macchiato, décaféiné, lait de soja";2.7;0.86;3.56;"Le Klee";2.498;0.202;0.081;2.7
-"Latte Macchiato, décaféiné, sans-lactose, Le Klee";"Latte Macchiato, décaféiné, sans-lactose";2.7;0.78;3.48;"Le Klee";2.498;0.202;0.076;2.7
-"Latte Macchiato, lait d'amande, Le Klee";"Latte Macchiato, lait d'amande";2.7;0.337;3.04;"Le Klee";2.498;0.202;0.048;2.6
-"Latte Macchiato, lait d'avoine, Le Klee";"Latte Macchiato, lait d'avoine";2.7;0.204;2.9;"Le Klee";2.498;0.202;0.039;2.6
-"Latte Macchiato, lait de soja, Le Klee";"Latte Macchiato, lait de soja";2.7;0.375;3.07;"Le Klee";2.498;0.202;0.05;2.6
-"Latte Macchiato, sans-lactose, Le Klee";"Latte Macchiato, sans-lactose";2.7;0.295;2.99;"Le Klee";2.498;0.202;0.045;2.6
-"Macchiato, Compass Machine";"Macchiato";2.2;0.199;2.4;"Compass Machine";2.035;0.165;0.039;2.1
-"Mocaccino Blue Planet, Dallmayr";"Mocaccino Blue Planet";1.8;0.275;2.07;"Dallmayr";1.665;0.135;0.044;1.75
-"Mocaccino Via Verde, Dallmayr";"Mocaccino Via Verde";1.7;0.412;2.11;"Dallmayr";1.573;0.127;0.052;1.65
-"Renversé, Compass Machine";"Renversé";2.2;0.199;2.4;"Compass Machine";2.035;0.165;0.039;2.1
-"Renversé, Le Klee";"Renversé";2.7;0.295;2.99;"Le Klee";2.498;0.202;0.045;2.6
-"Renversé, décaféiné, Le Klee";"Renversé, décaféiné";2.7;0.78;3.48;"Le Klee";2.498;0.202;0.076;2.7
-"Renversé, décaféiné, lait d'amande, Le Klee";"Renversé, décaféiné, lait d'amande";2.7;0.822;3.52;"Le Klee";2.498;0.202;0.079;2.7
-"Renversé, décaféiné, lait d'avoine, Le Klee";"Renversé, décaféiné, lait d'avoine";2.7;0.689;3.39;"Le Klee";2.498;0.202;0.07;2.65
-"Renversé, décaféiné, lait de soja, Le Klee";"Renversé, décaféiné, lait de soja";2.7;0.86;3.56;"Le Klee";2.498;0.202;0.081;2.7
-"Renversé, décaféiné, sans-lactose, Le Klee";"Renversé, décaféiné, sans-lactose";2.7;0.78;3.48;"Le Klee";2.498;0.202;0.076;2.7
-"Renversé, lait d'amande, Le Klee";"Renversé, lait d'amande";2.7;0.337;3.04;"Le Klee";2.498;0.202;0.048;2.6
-"Renversé, lait d'avoine, Le Klee";"Renversé, lait d'avoine";2.7;0.204;2.9;"Le Klee";2.498;0.202;0.039;2.6
-"Renversé, lait de soja, Le Klee";"Renversé, lait de soja";2.7;0.375;3.07;"Le Klee";2.498;0.202;0.05;2.6
-"Renversé, sans-lactose, Le Klee";"Renversé, sans-lactose";2.7;0.295;2.99;"Le Klee";2.498;0.202;0.045;2.6
-"Ristretto, Compass Machine";"Ristretto";1.5;0.146;1.65;"Compass Machine";1.388;0.112;0.035;1.45
-"Ristretto, Le Klee";"Ristretto";1.6;0.146;1.75;"Le Klee";1.48;0.12;0.035;1.55
-"Ristretto, décaféiné, Le Klee";"Ristretto, décaféiné";1.6;0.631;2.23;"Le Klee";1.48;0.12;0.066;1.6
+"Beverage ID";"Retail name";"Retail price";"Hidden Costs";"True Price";"Beverage-type";"Salepoint";"Deca";"Milk Type";"Price Excluding Tax";"Value Added Tax";"Smart Value Added Tax";"Smart Pricing rounded";"Labels"
+"Café Blue Planet, Dallmayr";"Café Blue Planet";1.7;-0.014;1.69;"Café";"Dallmayr";"False";"none";1.573;0.127;0.025;1.6;"blue-planet, fairtrade, eu-organic."
+"Café Macchiato Blue Planet, Dallmayr";"Café Macchiato Blue Planet";1.8;0.041;1.84;"Café Macchiato";"Dallmayr";"False";"none";1.665;0.135;0.03;1.7;"blue-planet, fairtrade, eu-organic; none."
+"Café Macchiato Via Verde, Dallmayr";"Café Macchiato Via Verde";1.7;0.148;1.85;"Café Macchiato";"Dallmayr";"False";"none";1.573;0.127;0.04;1.65;"via-verde, fairtrade, eu-organic; none."
+"Café Via Verde, Dallmayr";"Café Via Verde";1.6;0.094;1.69;"Café";"Dallmayr";"False";"none";1.48;0.12;0.035;1.55;"via-verde, fairtrade, eu-organic."
+"Café, Compass Machine";"Café Via Verde";1.5;0.094;1.59;"Café";"Compass Machine";"False";"none";1.388;0.112;0.035;1.45;"via-verde, fairtrade, eu-organic."
+"Café, Le Klee";"Café Via Verde";1.6;0.094;1.69;"Café";"Le Klee";"False";"none";1.48;0.12;0.035;1.55;"via-verde, fairtrade, eu-organic."
+"Café, décaféiné, Le Klee";"Café";1.6;0.342;1.94;"Café";"Le Klee";"True";"none";1.48;0.12;0.059;1.55;"none."
+"Cappuccino Blue Planet, Dallmayr";"Cappuccino Blue Planet";1.8;0.051;1.85;"Cappuccino";"Dallmayr";"False";"Cow milk";1.665;0.135;0.031;1.7;"blue-planet, fairtrade, eu-organic; none."
+"Cappuccino Vanille Blue Planet, Dallmayr";"Cappuccino Vanille Blue Planet";1.8;0.105;1.91;"Cappuccino";"Dallmayr";"False";"Cow milk";1.665;0.135;0.036;1.75;"blue-planet, fairtrade, eu-organic; none."
+"Cappuccino Vanille Via Verde, Dallmayr";"Cappuccino Vanille Via Verde";1.7;0.212;1.91;"Cappuccino";"Dallmayr";"False";"Cow milk";1.573;0.127;0.046;1.65;"via-verde, fairtrade, eu-organic; none."
+"Cappuccino Via Verde, Dallmayr";"Cappuccino Via Verde";1.7;0.158;1.86;"Cappuccino";"Dallmayr";"False";"Cow milk";1.573;0.127;0.041;1.65;"via-verde, fairtrade, eu-organic; none."
+"Cappuccino, Compass Machine";"Cappuccino Via Verde";2.2;0.158;2.36;"Cappuccino";"Compass Machine";"False";"Cow milk";2.035;0.165;0.041;2.1;"via-verde, fairtrade, eu-organic; none."
+"Cappuccino, Le Klee";"Cappuccino Via Verde";2.7;0.234;2.93;"Cappuccino";"Le Klee";"False";"Cow milk";2.498;0.202;0.049;2.6;"via-verde, fairtrade, eu-organic; none."
+"Cappuccino, décaféiné, Le Klee";"Cappuccino";2.7;0.482;3.18;"Cappuccino";"Le Klee";"True";"Cow milk";2.498;0.202;0.073;2.7;"none."
+"Cappuccino, décaféiné, lait d'amande, Le Klee";"Cappuccino";2.7;0.494;3.19;"Cappuccino";"Le Klee";"True";"Almond milk";2.498;0.202;0.074;2.7;"none."
+"Cappuccino, décaféiné, lait d'avoine, Le Klee";"Cappuccino";2.7;0.388;3.09;"Cappuccino";"Le Klee";"True";"Oat milk";2.498;0.202;0.063;2.65;"none; eu-organic."
+"Cappuccino, décaféiné, lait de soja, Le Klee";"Cappuccino";2.7;0.524;3.22;"Cappuccino";"Le Klee";"True";"Soya milk";2.498;0.202;0.077;2.7;"none."
+"Cappuccino, décaféiné, sans-lactose, Le Klee";"Cappuccino";2.7;0.482;3.18;"Cappuccino";"Le Klee";"True";"Cow milk";2.498;0.202;0.073;2.7;"none."
+"Cappuccino, lait d'amande, Le Klee";"Cappuccino Via Verde";2.7;0.246;2.95;"Cappuccino";"Le Klee";"False";"Almond milk";2.498;0.202;0.05;2.6;"via-verde, fairtrade, eu-organic; none."
+"Cappuccino, lait d'avoine, Le Klee";"Cappuccino Via Verde";2.7;0.14;2.84;"Cappuccino";"Le Klee";"False";"Oat milk";2.498;0.202;0.039;2.6;"via-verde, fairtrade, eu-organic; eu-organic."
+"Cappuccino, lait de soja, Le Klee";"Cappuccino Via Verde";2.7;0.276;2.98;"Cappuccino";"Le Klee";"False";"Soya milk";2.498;0.202;0.053;2.65;"via-verde, fairtrade, eu-organic; none."
+"Cappuccino, sans-lactose, Le Klee";"Cappuccino Via Verde";2.7;0.234;2.93;"Cappuccino";"Le Klee";"False";"Cow milk";2.498;0.202;0.049;2.6;"via-verde, fairtrade, eu-organic; none."
+"Chocolait, Dallmayr";"Chocolait";1.7;0.369;2.07;"Chocolait";"Dallmayr";"False";"Cow milk";1.573;0.127;0.062;1.65;"rainforest-alliance; none."
+"Chocolat, Dallmayr";"Chocolat";1.6;0.29;1.89;"Chocolat";"Dallmayr";"False";"none";1.48;0.12;0.054;1.55;"rainforest-alliance."
+"Espresso Blue Planet, Dallmayr";"Espresso Blue Planet";1.7;-0.014;1.69;"Espresso";"Dallmayr";"False";"none";1.573;0.127;0.025;1.6;"blue-planet, fairtrade, eu-organic."
+"Espresso Macchiato Blue Planet, Dallmayr";"Espresso Macchiato Blue Planet";1.8;0.036;1.84;"Espresso";"Dallmayr";"False";"none";1.665;0.135;0.029;1.7;"blue-planet, fairtrade, eu-organic; none."
+"Espresso Macchiato Via Verde, Dallmayr";"Espresso Macchiato Via Verde";1.7;0.143;1.84;"Espresso Macchiato";"Dallmayr";"False";"none";1.573;0.127;0.04;1.65;"via-verde, fairtrade, eu-organic; none."
+"Espresso Via Verde, Dallmayr";"Espresso Via Verde";1.6;0.094;1.69;"Espresso";"Dallmayr";"False";"none";1.48;0.12;0.035;1.55;"via-verde, fairtrade, eu-organic."
+"Espresso, Compass Machine";"Espresso Via Verde";1.5;0.094;1.59;"Espresso";"Compass Machine";"False";"none";1.388;0.112;0.035;1.45;"via-verde, fairtrade, eu-organic."
+"Espresso, Le Klee";"Espresso Via Verde";1.6;0.094;1.69;"Espresso";"Le Klee";"False";"none";1.48;0.12;0.035;1.55;"via-verde, fairtrade, eu-organic."
+"Espresso, décaféiné, Le Klee";"Espresso";1.6;0.342;1.94;"Espresso";"Le Klee";"True";"none";1.48;0.12;0.059;1.55;"none."
+"Frappé Vanille, Dallmayr";"Frappé Vanille";1.7;0.198;1.9;"Frappé";"Dallmayr";"False";"Cow milk";1.573;0.127;0.045;1.65;"none."
+"Latte Macchiato Blue Planet, Dallmayr";"Latte Macchiato Blue Planet";1.8;0.08;1.88;"Latte Macchiato";"Dallmayr";"False";"Cow milk";1.665;0.135;0.034;1.7;"blue-planet, fairtrade, eu-organic; none."
+"Latte Macchiato Vanille Blue Planet, Dallmayr";"Latte Macchiato Vanille Blue Planet";1.8;0.115;1.92;"Latte Macchiato";"Dallmayr";"False";"Cow milk";1.665;0.135;0.037;1.75;"blue-planet, fairtrade, eu-organic; none."
+"Latte Macchiato Vanille Via Verde, Dallmayr";"Latte Macchiato Vanille Via Verde";1.7;0.222;1.92;"Latte Macchiato";"Dallmayr";"False";"Cow milk";1.573;0.127;0.047;1.65;"via-verde, fairtrade, eu-organic; none."
+"Latte Macchiato Via Verde, Dallmayr";"Latte Macchiato Via Verde";1.7;0.188;1.89;"Latte Macchiato";"Dallmayr";"False";"Cow milk";1.573;0.127;0.044;1.65;"via-verde, fairtrade, eu-organic; none."
+"Latte Macchiato, Le Klee";"Latte Macchiato Via Verde";2.7;0.269;2.97;"Latte Macchiato";"Le Klee";"False";"Cow milk";2.498;0.202;0.052;2.65;"via-verde, fairtrade, eu-organic; none."
+"Latte Macchiato, décaféiné, Le Klee";"Latte Macchiato";2.7;0.517;3.22;"Latte Macchiato";"Le Klee";"True";"Cow milk";2.498;0.202;0.076;2.7;"none."
+"Latte Macchiato, décaféiné, lait d'amande, Le Klee";"Latte Macchiato";2.7;0.532;3.23;"Latte Macchiato";"Le Klee";"True";"Almond milk";2.498;0.202;0.077;2.7;"none."
+"Latte Macchiato, décaféiné, lait d'avoine, Le Klee";"Latte Macchiato";2.7;0.399;3.1;"Latte Macchiato";"Le Klee";"True";"Oat milk";2.498;0.202;0.065;2.65;"none; eu-organic."
+"Latte Macchiato, décaféiné, lait de soja, Le Klee";"Latte Macchiato";2.7;0.57;3.27;"Latte Macchiato";"Le Klee";"True";"Soya milk";2.498;0.202;0.081;2.7;"none."
+"Latte Macchiato, décaféiné, sans-lactose, Le Klee";"Latte Macchiato";2.7;0.517;3.22;"Latte Macchiato";"Le Klee";"True";"Cow milk";2.498;0.202;0.076;2.7;"none."
+"Latte Macchiato, lait d'amande, Le Klee";"Latte Macchiato Via Verde";2.7;0.284;2.98;"Latte Macchiato";"Le Klee";"False";"Almond milk";2.498;0.202;0.053;2.65;"via-verde, fairtrade, eu-organic; none."
+"Latte Macchiato, lait d'avoine, Le Klee";"Latte Macchiato Via Verde";2.7;0.151;2.85;"Latte Macchiato";"Le Klee";"False";"Oat milk";2.498;0.202;0.041;2.6;"via-verde, fairtrade, eu-organic; eu-organic."
+"Latte Macchiato, lait de soja, Le Klee";"Latte Macchiato Via Verde";2.7;0.322;3.02;"Latte Macchiato";"Le Klee";"False";"Soya milk";2.498;0.202;0.057;2.65;"via-verde, fairtrade, eu-organic; none."
+"Latte Macchiato, sans-lactose, Le Klee";"Latte Macchiato Via Verde";2.7;0.269;2.97;"Latte Macchiato";"Le Klee";"False";"Cow milk";2.498;0.202;0.052;2.65;"via-verde, fairtrade, eu-organic; none."
+"Macchiato, Compass Machine";"Macchiato Via Verde";2.2;0.148;2.35;"Macchiato";"Compass Machine";"False";"Cow milk";2.035;0.165;0.04;2.1;"via-verde, fairtrade, eu-organic; none."
+"Mocaccino Blue Planet, Dallmayr";"Mocaccino Blue Planet";1.8;0.205;2.01;"Mocaccino";"Dallmayr";"False";"Cow milk";1.665;0.135;0.046;1.75;"blue-planet, fairtrade, eu-organic; none; rainforest-alliance."
+"Mocaccino Via Verde, Dallmayr";"Mocaccino Via Verde";1.7;0.312;2.01;"Mocaccino";"Dallmayr";"False";"Cow milk";1.573;0.127;0.056;1.65;"via-verde, fairtrade, eu-organic; none; rainforest-alliance"
+"Renversé, Compass Machine";"Renversé Via Verde";2.2;0.148;2.35;"Renversé";"Compass Machine";"False";"Cow milk";2.035;0.165;0.04;2.1;"via-verde, fairtrade, eu-organic; none."
+"Renversé, Le Klee";"Renversé Via Verde";2.7;0.269;2.97;"Renversé";"Le Klee";"False";"Cow milk";2.498;0.202;0.052;2.65;"via-verde, fairtrade, eu-organic; none."
+"Renversé, décaféiné, Le Klee";"Renversé";2.7;0.517;3.22;"Renversé";"Le Klee";"True";"Cow milk";2.498;0.202;0.076;2.7;"none."
+"Renversé, décaféiné, lait d'amande, Le Klee";"Renversé";2.7;0.532;3.23;"Renversé";"Le Klee";"True";"Almond milk";2.498;0.202;0.077;2.7;"none."
+"Renversé, décaféiné, lait d'avoine, Le Klee";"Renversé";2.7;0.399;3.1;"Renversé";"Le Klee";"True";"Oat milk";2.498;0.202;0.065;2.65;"none; eu-organic."
+"Renversé, décaféiné, lait de soja, Le Klee";"Renversé";2.7;0.57;3.27;"Renversé";"Le Klee";"True";"Soya milk";2.498;0.202;0.081;2.7;"none."
+"Renversé, décaféiné, sans-lactose, Le Klee";"Renversé";2.7;0.517;3.22;"Renversé";"Le Klee";"True";"Cow milk";2.498;0.202;0.076;2.7;"none."
+"Renversé, lait d'amande, Le Klee";"Renversé Via Verde";2.7;0.284;2.98;"Renversé";"Le Klee";"False";"Almond milk";2.498;0.202;0.053;2.65;"via-verde, fairtrade, eu-organic; none."
+"Renversé, lait d'avoine, Le Klee";"Renversé Via Verde";2.7;0.151;2.85;"Renversé";"Le Klee";"False";"Oat milk";2.498;0.202;0.041;2.6;"via-verde, fairtrade, eu-organic; eu-organic."
+"Renversé, lait de soja, Le Klee";"Renversé Via Verde";2.7;0.322;3.02;"Renversé";"Le Klee";"False";"Soya milk";2.498;0.202;0.057;2.65;"via-verde, fairtrade, eu-organic; none."
+"Renversé, sans-lactose, Le Klee";"Renversé Via Verde";2.7;0.269;2.97;"Renversé";"Le Klee";"False";"Cow milk";2.498;0.202;0.052;2.65;"via-verde, fairtrade, eu-organic; none."
+"Ristretto, Compass Machine";"Ristretto Via Verde";1.5;0.094;1.59;"Ristretto";"Compass Machine";"False";"none";1.388;0.112;0.035;1.45;"via-verde, fairtrade, eu-organic."
+"Ristretto, Le Klee";"Ristretto Via Verde";1.6;0.094;1.69;"Ristretto";"Le Klee";"False";"none";1.48;0.12;0.035;1.55;"via-verde, fairtrade, eu-organic."
+"Ristretto, décaféiné, Le Klee";"Ristretto";1.6;0.342;1.94;"Ristretto";"Le Klee";"True";"none";1.48;0.12;0.059;1.55;"none."

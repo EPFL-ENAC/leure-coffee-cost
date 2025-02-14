@@ -1513,36 +1513,36 @@
         "stage": "Production",
         "ingredient": "Coffee beans",
         "impactCategory": "Biodiversity",
-        "impactValue": 0.00010676383069659999,
-        "costValue": 0.0003651361459826,
+        "impactValue": 7.12584776877e-05,
+        "costValue": 0.0002564011018443,
         "details": [
-            {
-                "indicators": "Eco-costs of land-use (Brazil), practice-related",
-                "unit": "m²/kg",
-                "impactValue": -0.0,
-                "costValue": -0.0,
-                "reference": "FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, none: Conservative, conventional, none: Conservative, conventional, Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024 (Coffee, Arabica); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
             {
                 "indicators": "Eco-costs of land-use (Brazil), deforestation-related",
                 "unit": "m²/kg",
-                "impactValue": 2.65798276806e-05,
-                "costValue": 0.0001453977932101,
+                "impactValue": 2.23907951072e-05,
+                "costValue": 0.0001224828180202,
                 "reference": "FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, No specific anti-deforestation regulation (Coffee, Arabica); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
-                "indicators": "Eco-costs of land-use (Ethiopia), practice-related",
+                "indicators": "Eco-costs of land-use (Brazil), practice-related",
                 "unit": "m²/kg",
-                "impactValue": -5.815117059e-07,
-                "costValue": -1.5935899878e-06,
-                "reference": "FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, eu-organic: Conservative, organic, eu-organic: Conservative, organic, Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024 (Coffee, Arabica); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, none: Conservative, conventional, none: Conservative, conventional, Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024 (Coffee, Arabica); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Eco-costs of land-use (Ethiopia), deforestation-related",
                 "unit": "m²/kg",
-                "impactValue": 8.07655147219e-05,
-                "costValue": 0.0002213319427603,
+                "impactValue": 4.92220815677e-05,
+                "costValue": 0.0001348894881386,
                 "reference": "FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, No specific anti-deforestation regulation (Coffee, Arabica); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Eco-costs of land-use (Ethiopia), practice-related",
+                "unit": "m²/kg",
+                "impactValue": -3.543989872e-07,
+                "costValue": -9.712043145e-07,
+                "reference": "FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, eu-organic: Conservative, organic, eu-organic: Conservative, organic, Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024 (Coffee, Arabica); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             }
         ]
     },
@@ -1550,260 +1550,134 @@
         "stage": "Production",
         "ingredient": "Coffee beans",
         "impactCategory": "Environment",
-        "impactValue": 0.4487964690961007,
-        "costValue": 0.06560750114665359,
+        "impactValue": 0.4487964690961015,
+        "costValue": 0.0656075011466542,
         "details": [
             {
                 "indicators": "Fine particulate matter formation",
                 "unit": "kg PM2.5 eq",
-                "impactValue": 8.38248493356e-05,
-                "costValue": 0.0090254258572132,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "impactValue": 0.0001656195689884,
+                "costValue": 0.0178322675466266,
+                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy."
             },
             {
                 "indicators": "Fossil resource scarcity",
                 "unit": "kg oil eq",
-                "impactValue": 0.0067108920307781,
-                "costValue": 0.0035482580859983,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "impactValue": 0.0102227017435373,
+                "costValue": 0.0054050614964297,
+                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy."
             },
             {
                 "indicators": "Freshwater ecotoxicity",
                 "unit": "kg 1,4-DCB",
-                "impactValue": 0.0029946413804532,
-                "costValue": 0.0001435350596819,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "impactValue": 0.0057523193329336,
+                "costValue": 0.0002757123120489,
+                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy."
             },
             {
                 "indicators": "Freshwater eutrophication",
                 "unit": "kg P eq",
-                "impactValue": 1.17675321543e-05,
-                "costValue": 0.0028268892712453,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "impactValue": 2.03613504308e-05,
+                "costValue": 0.0048913639942615,
+                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy."
             },
             {
                 "indicators": "Global warming",
                 "unit": "kg CO2 eq",
-                "impactValue": 0.0297435594521304,
-                "costValue": 0.0055725973246127,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "impactValue": 0.0571072340633025,
+                "costValue": 0.0106993119054687,
+                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy."
             },
             {
                 "indicators": "Human carcinogenic toxicity",
                 "unit": "kg 1,4-DCB",
-                "impactValue": 0.0016224067306668,
+                "impactValue": 0.0033477284373864,
                 "costValue": 0.0,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy."
             },
             {
                 "indicators": "Human non-carcinogenic toxicity",
                 "unit": "kg 1,4-DCB",
-                "impactValue": 0.0610602729572082,
+                "impactValue": 0.0970941336677017,
                 "costValue": 0.0,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy."
             },
             {
                 "indicators": "Ionizing radiation",
                 "unit": "kBq Co-60 eq",
-                "impactValue": 0.0007216255215058,
+                "impactValue": 0.0012202340561084,
                 "costValue": 0.0,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy."
             },
             {
                 "indicators": "Land use",
                 "unit": "m2a crop eq",
-                "impactValue": 0.029283432083311,
-                "costValue": 0.0035005189476272,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "impactValue": 0.0686821627341197,
+                "costValue": 0.0082102129057414,
+                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy."
             },
             {
                 "indicators": "Marine ecotoxicity",
                 "unit": "kg 1,4-DCB",
-                "impactValue": 0.0022793804303922,
-                "costValue": 4.977915659e-06,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "impactValue": 0.0044289587887392,
+                "costValue": 9.6723578977e-06,
+                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy."
             },
             {
                 "indicators": "Marine eutrophication",
                 "unit": "kg N eq",
-                "impactValue": 4.13687257972e-05,
-                "costValue": 0.000689473001047,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "impactValue": 0.0001318275627704,
+                "costValue": 0.0021971076839427,
+                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy."
             },
             {
                 "indicators": "Mineral resource scarcity",
                 "unit": "kg Cu eq",
-                "impactValue": 0.0001777295792947,
-                "costValue": 4.55555918949e-05,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "impactValue": 0.0002747601449634,
+                "costValue": 7.04264370771e-05,
+                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy."
             },
             {
                 "indicators": "Ozone formation, Human health",
                 "unit": "kg NOx eq",
-                "impactValue": 0.0001102365266406,
+                "impactValue": 0.0002133889074697,
                 "costValue": 0.0,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy."
             },
             {
                 "indicators": "Ozone formation, Terrestrial ecosystems",
                 "unit": "kg NOx eq",
-                "impactValue": 0.0001145583428536,
+                "impactValue": 0.0002217259895595,
                 "costValue": 0.0,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy."
             },
             {
                 "indicators": "Stratospheric ozone depletion",
                 "unit": "kg CFC11 eq",
-                "impactValue": 1.713316159e-07,
-                "costValue": 1.14023191475e-05,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "impactValue": 4.40161071e-07,
+                "costValue": 2.92932333597e-05,
+                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy."
             },
             {
                 "indicators": "Terrestrial acidification",
                 "unit": "kg SO2 eq",
-                "impactValue": 0.0003820942284932,
-                "costValue": 0.0021168721719391,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "impactValue": 0.0008541225020486,
+                "costValue": 0.004731995463903,
+                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy."
             },
             {
                 "indicators": "Terrestrial ecotoxicity",
                 "unit": "kg 1,4-DCB",
-                "impactValue": 0.1187638794105972,
-                "costValue": 4.09527196051e-05,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "impactValue": 0.191739595264261,
+                "costValue": 6.6116549249e-05,
+                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy."
             },
             {
                 "indicators": "Water consumption",
                 "unit": "m3",
-                "impactValue": 0.0042750376159284,
-                "costValue": 0.0065353477135113,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Fine particulate matter formation",
-                "unit": "kg PM2.5 eq",
-                "impactValue": 8.17947196528e-05,
-                "costValue": 0.0088068416894133,
-                "reference": "Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy; World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Fossil resource scarcity",
-                "unit": "kg oil eq",
-                "impactValue": 0.0035118097127592,
-                "costValue": 0.0018568034104313,
-                "reference": "Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Freshwater ecotoxicity",
-                "unit": "kg 1,4-DCB",
-                "impactValue": 0.0027576779524803,
-                "costValue": 0.000132177252367,
-                "reference": "Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Freshwater eutrophication",
-                "unit": "kg P eq",
-                "impactValue": 8.5938182765e-06,
-                "costValue": 0.0020644747230162,
-                "reference": "Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Global warming",
-                "unit": "kg CO2 eq",
-                "impactValue": 0.027363674611172,
-                "costValue": 0.0051267145808559,
-                "reference": "Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Human carcinogenic toxicity",
-                "unit": "kg 1,4-DCB",
-                "impactValue": 0.0017253217067196,
-                "costValue": 0.0,
-                "reference": "Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Human non-carcinogenic toxicity",
-                "unit": "kg 1,4-DCB",
-                "impactValue": 0.0360338607104935,
-                "costValue": 0.0,
-                "reference": "Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Ionizing radiation",
-                "unit": "kBq Co-60 eq",
-                "impactValue": 0.0004986085346026,
-                "costValue": 0.0,
-                "reference": "Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Land use",
-                "unit": "m2a crop eq",
-                "impactValue": 0.0393987306508086,
-                "costValue": 0.0047096939581141,
-                "reference": "Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Marine ecotoxicity",
-                "unit": "kg 1,4-DCB",
-                "impactValue": 0.0021495783583469,
-                "costValue": 4.6944422386e-06,
-                "reference": "Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Marine eutrophication",
-                "unit": "kg N eq",
-                "impactValue": 9.04588369732e-05,
-                "costValue": 0.0015076346828957,
-                "reference": "Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Mineral resource scarcity",
-                "unit": "kg Cu eq",
-                "impactValue": 9.70305656687e-05,
-                "costValue": 2.48708451822e-05,
-                "reference": "Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Ozone formation, Human health",
-                "unit": "kg NOx eq",
-                "impactValue": 0.0001031523808291,
-                "costValue": 0.0,
-                "reference": "Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Ozone formation, Terrestrial ecosystems",
-                "unit": "kg NOx eq",
-                "impactValue": 0.0001071676467059,
-                "costValue": 0.0,
-                "reference": "Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Stratospheric ozone depletion",
-                "unit": "kg CFC11 eq",
-                "impactValue": 2.68829455e-07,
-                "costValue": 1.78909142122e-05,
-                "reference": "Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Terrestrial acidification",
-                "unit": "kg SO2 eq",
-                "impactValue": 0.0004720282735553,
-                "costValue": 0.0026151232919639,
-                "reference": "Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Terrestrial ecotoxicity",
-                "unit": "kg 1,4-DCB",
-                "impactValue": 0.0729757158536637,
-                "costValue": 2.51638296439e-05,
-                "reference": "Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Water consumption",
-                "unit": "m3",
-                "impactValue": 0.0030441172047814,
-                "costValue": 0.0046536115471368,
-                "reference": "Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "impactValue": 0.0073191548207099,
+                "costValue": 0.0111889592606482,
+                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {RoW}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; Organic values derivated from Ecoinvent and Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014 Misssing data at the country level, Rest-of-World has been used as a proxy."
             }
         ]
     },
@@ -1811,407 +1685,176 @@
         "stage": "Production",
         "ingredient": "Coffee beans",
         "impactCategory": "Livelihoods",
-        "impactValue": 0.23195459841227942,
-        "costValue": 0.45442532981971784,
+        "impactValue": 0.0840581302946673,
+        "costValue": 0.1654908801832509,
         "details": [
             {
+                "indicators": "Cases of fatal occupational injury",
+                "unit": "incidents/kg",
+                "impactValue": 7.2742e-12,
+                "costValue": 2.63374341086e-05,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022 Misssing data at the country level, Kenya has been used as a proxy."
+            },
+            {
+                "indicators": "Cases of non-fatal occupational injury, insured",
+                "unit": "incidents/kg",
+                "impactValue": 2.15888e-10,
+                "costValue": 9.20618161e-07,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Eastern Africa has been used as a proxy; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022 Misssing data at the country level, Kenya has been used as a proxy."
+            },
+            {
+                "indicators": "Cases of non-fatal occupational injury, uninsured",
+                "unit": "incidents/kg",
+                "impactValue": 2.716794e-10,
+                "costValue": 1.1991268955e-06,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Eastern Africa has been used as a proxy; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022 Misssing data at the country level, Kenya has been used as a proxy."
+            },
+            {
+                "indicators": "Children in hazardous work by sex, age and economic activity (12-14)",
+                "unit": "FTE-child/kg",
+                "impactValue": 1.280886496e-07,
+                "costValue": 0.0016194981275992,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; International Labour Organization. Decent work country programme for Ethiopia 2021–2025, 2021."
+            },
+            {
+                "indicators": "Children in hazardous work by sex, age and economic activity (15-17)",
+                "unit": "FTE-child/kg",
+                "impactValue": 1.091259485e-07,
+                "costValue": 0.0013797418414482,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; International Labour Organization. Decent work country programme for Ethiopia 2021–2025, 2021."
+            },
+            {
+                "indicators": "Children in hazardous work by sex, age and economic activity (5-11)",
+                "unit": "FTE-child/kg",
+                "impactValue": 2.519633572e-07,
+                "costValue": 0.0072692269105059,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; International Labour Organization. Decent work country programme for Ethiopia 2021–2025, 2021."
+            },
+            {
+                "indicators": "Children in non-hazardous work by sex, age and economic activity (12-14)",
+                "unit": "FTE-child/kg",
+                "impactValue": 2.623133778e-07,
+                "costValue": 0.0007175869214449,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; International Labour Organization. Decent work country programme for Ethiopia 2021–2025, 2021."
+            },
+            {
+                "indicators": "Children in non-hazardous work by sex, age and economic activity (15-17)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; International Labour Organization. Decent work country programme for Ethiopia 2021–2025, 2021."
+            },
+            {
+                "indicators": "Children in non-hazardous work by sex, age and economic activity (5-11)",
+                "unit": "FTE-child/kg",
+                "impactValue": 4.747782796e-07,
+                "costValue": 0.0054080614125414,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; International Labour Organization. Decent work country programme for Ethiopia 2021–2025, 2021."
+            },
+            {
+                "indicators": "Female workers without maternity leave provision",
+                "unit": "USD/kg",
+                "impactValue": 5.744936942e-06,
+                "costValue": 6.2619812668e-06,
+                "reference": "World population review, Total Fertility Rate, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; World population review, Total Fertility Rate, 2024, ILO estimates (labor participation rates).; Derived from Fairtrade, True Pricing, Assessing coffee farmer household income, 2017 (Vietnam, used as proxy); FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; True Price, Monestisation factors for true pricing (2023); World population review, Total Fertility Rate, 2024, Regional average for Sub-Saharan Africa.; Estimates, based on Uganda and Kenya, Fairtrade, True Pricing, Assessing coffee farmer household income, 2019; Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014."
+            },
+            {
+                "indicators": "Informal employment rate of agricultural workers & uncovered by social protection floors/systems",
+                "unit": "FTE/kg",
+                "impactValue": 1.90999172897e-05,
+                "costValue": 0.0513717619938836,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Derived from Fairtrade, True Pricing, Assessing coffee farmer household income, 2017 (Vietnam, used as proxy); FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Eastern Africa has been used as a proxy; Estimates, based on Uganda and Kenya, Fairtrade, True Pricing, Assessing coffee farmer household income, 2019; Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014."
+            },
+            {
                 "indicators": "Labour force to be audited for Health and Safety",
                 "unit": "FTE/kg",
-                "impactValue": 3.756318e-10,
-                "costValue": 3.6915234e-09,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "impactValue": 4.948416e-10,
+                "costValue": 4.8630585e-09,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022 Misssing data at the country level, Kenya has been used as a proxy."
+            },
+            {
+                "indicators": "Labour force to be audited for forced labour",
+                "unit": "FTE/kg",
+                "impactValue": 2.85694614e-08,
+                "costValue": 2.807664983e-07,
+                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; International Labour Organization. Decent work country programme for Ethiopia 2021–2025, 2021."
             },
             {
                 "indicators": "Labour force to be audited for gender discrimination",
                 "unit": "FTE/kg",
-                "impactValue": 3.14444862e-08,
-                "costValue": 3.090208167e-07,
-                "reference": "World population review, Total Fertility Rate, 2024, ILO estimates (labor participation rates).; Estimates; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Labour force to be audited for forced labour",
-                "unit": "FTE/kg",
-                "impactValue": 9.387231e-10,
-                "costValue": 9.2253058e-09,
-                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Labour force to be audited for forced labour",
-                "unit": "FTE/kg",
-                "impactValue": 2.05795516e-08,
-                "costValue": 2.022456273e-07,
-                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Labour force to be audited for insufficient social security",
-                "unit": "FTE/kg",
-                "impactValue": 3.4115614942e-06,
-                "costValue": 3.35271344832e-05,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Estimates; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "impactValue": 6.02774715e-07,
+                "costValue": 5.9237709675e-06,
+                "reference": "World population review, Total Fertility Rate, 2024, ILO estimates (labor participation rates).; Derived from Fairtrade, True Pricing, Assessing coffee farmer household income, 2017 (Vietnam, used as proxy); FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; World population review, Total Fertility Rate, 2024, Regional average for Sub-Saharan Africa.; Estimates, based on Uganda and Kenya, Fairtrade, True Pricing, Assessing coffee farmer household income, 2019; Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014."
             },
             {
                 "indicators": "Labour force to be audited for illegal overtime",
                 "unit": "FTE/kg",
-                "impactValue": 4.929078814e-07,
-                "costValue": 4.8440542129e-06,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "impactValue": 3.6775590471e-06,
+                "costValue": 3.6141226518e-05,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014."
+            },
+            {
+                "indicators": "Labour force to be audited for insufficient social security",
+                "unit": "FTE/kg",
+                "impactValue": 1.90999172897e-05,
+                "costValue": 0.0001877045149776,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Derived from Fairtrade, True Pricing, Assessing coffee farmer household income, 2017 (Vietnam, used as proxy); FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Eastern Africa has been used as a proxy; Estimates, based on Uganda and Kenya, Fairtrade, True Pricing, Assessing coffee farmer household income, 2019; Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014."
+            },
+            {
+                "indicators": "Prevalence of Forced workers in situations of debt bondage",
+                "unit": "FTE/kg",
+                "impactValue": 8.856533e-09,
+                "costValue": 0.0001720392613927,
+                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022, Global Estimates of Modern Slavery: Forced Labour and Forced Marriage International Labour Organization (ILO), Walk Free, and International Organization for Migration (IOM), Geneva, 2022, ISBN: 978-92-2-037483-2 (web PDF); International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; International Labour Organization. Decent work country programme for Ethiopia 2021–2025, 2021."
             },
             {
                 "indicators": "Prevalence of excessive working time",
                 "unit": "FTE/kg",
-                "impactValue": 4.929078814e-07,
-                "costValue": 6.2321165313e-05,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "impactValue": 3.6775590471e-06,
+                "costValue": 0.0004649748440913,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014."
+            },
+            {
+                "indicators": "Prevalence of modern slavery (forced workers, most severe)",
+                "unit": "FTE/kg",
+                "impactValue": 2.85694614e-08,
+                "costValue": 0.0040390969939506,
+                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; International Labour Organization. Decent work country programme for Ethiopia 2021–2025, 2021."
             },
             {
                 "indicators": "Wage gap from gender discrimination",
                 "unit": "USD/kg",
-                "impactValue": 0.0001481773564364,
-                "costValue": 0.0001615133185157,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Estimates; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; True Price, Monestisation factors for true pricing (2023)."
+                "impactValue": 0.0014521197339532,
+                "costValue": 0.001582810510009,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Derived from Fairtrade, True Pricing, Assessing coffee farmer household income, 2017 (Vietnam, used as proxy); FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; True Price, Monestisation factors for true pricing (2023); Estimates, based on Uganda and Kenya, Fairtrade, True Pricing, Assessing coffee farmer household income, 2019; Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014."
+            },
+            {
+                "indicators": "Wage gap of workers earning above minimum wage but below decent living wage",
+                "unit": "USD/kg",
+                "impactValue": 0.0815174924329351,
+                "costValue": 0.0888540667518993,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Derived from Fairtrade, True Pricing, Assessing coffee farmer household income, 2017 (Vietnam, used as proxy); FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; True Price, Monestisation factors for true pricing (2023); Estimates, based on Uganda and Kenya, Fairtrade, True Pricing, Assessing coffee farmer household income, 2019; Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014."
             },
             {
                 "indicators": "Wage gap of workers earning below minimum wage",
                 "unit": "USD/kg",
                 "impactValue": 0.0,
                 "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Estimates; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; True Price, Monestisation factors for true pricing (2023)."
-            },
-            {
-                "indicators": "Wage gap of workers earning above minimum wage but below decent living wage",
-                "unit": "USD/kg",
-                "impactValue": 0.0104555619811756,
-                "costValue": 0.0113965625594814,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Estimates; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; True Price, Monestisation factors for true pricing (2023)."
-            },
-            {
-                "indicators": "Children in hazardous work by sex, age and economic activity (5-11)",
-                "unit": "FTE-child/kg",
-                "impactValue": 1.153722e-10,
-                "costValue": 3.3285281738e-06,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in hazardous work by sex, age and economic activity (12-14)",
-                "unit": "FTE-child/kg",
-                "impactValue": 2.095691e-10,
-                "costValue": 2.6497028466e-06,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in hazardous work by sex, age and economic activity (15-17)",
-                "unit": "FTE-child/kg",
-                "impactValue": 8.100411e-10,
-                "costValue": 1.02418143767e-05,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in non-hazardous work by sex, age and economic activity (5-11)",
-                "unit": "FTE-child/kg",
-                "impactValue": 1.026444e-10,
-                "costValue": 1.1691926629e-06,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in non-hazardous work by sex, age and economic activity (12-14)",
-                "unit": "FTE-child/kg",
-                "impactValue": 1.718185e-10,
-                "costValue": 4.700284759e-07,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in non-hazardous work by sex, age and economic activity (15-17)",
-                "unit": "FTE-child/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in hazardous work by sex, age and economic activity (5-11)",
-                "unit": "FTE-child/kg",
-                "impactValue": 2.5292966e-09,
-                "costValue": 7.29710518038e-05,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in hazardous work by sex, age and economic activity (12-14)",
-                "unit": "FTE-child/kg",
-                "impactValue": 4.5943675e-09,
-                "costValue": 5.80892194956e-05,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in hazardous work by sex, age and economic activity (15-17)",
-                "unit": "FTE-child/kg",
-                "impactValue": 1.77584667e-08,
-                "costValue": 0.0002245304616361,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in non-hazardous work by sex, age and economic activity (5-11)",
-                "unit": "FTE-child/kg",
-                "impactValue": 2.250265e-09,
-                "costValue": 2.56321154325e-05,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in non-hazardous work by sex, age and economic activity (12-14)",
-                "unit": "FTE-child/kg",
-                "impactValue": 3.7667644e-09,
-                "costValue": 1.03043959603e-05,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in non-hazardous work by sex, age and economic activity (15-17)",
-                "unit": "FTE-child/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Prevalence of modern slavery (forced workers, most severe)",
-                "unit": "FTE/kg",
-                "impactValue": 9.387231e-10,
-                "costValue": 0.0001327149257706,
-                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Prevalence of modern slavery (forced workers, most severe)",
-                "unit": "FTE/kg",
-                "impactValue": 2.05795516e-08,
-                "costValue": 0.0029094984983306,
-                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Prevalence of Forced workers in situations of debt bondage",
-                "unit": "FTE/kg",
-                "impactValue": 2.910041e-10,
-                "costValue": 5.6527926513e-06,
-                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022, Global Estimates of Modern Slavery: Forced Labour and Forced Marriage International Labour Organization (ILO), Walk Free, and International Organization for Migration (IOM), Geneva, 2022, ISBN: 978-92-2-037483-2 (web PDF); International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Prevalence of Forced workers in situations of debt bondage",
-                "unit": "FTE/kg",
-                "impactValue": 6.379661e-09,
-                "costValue": 0.0001239257124614,
-                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022, Global Estimates of Modern Slavery: Forced Labour and Forced Marriage International Labour Organization (ILO), Walk Free, and International Organization for Migration (IOM), Geneva, 2022, ISBN: 978-92-2-037483-2 (web PDF); International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Female workers without maternity leave provision",
-                "unit": "USD/kg",
-                "impactValue": 1.5588502934e-06,
-                "costValue": 1.6991468198e-06,
-                "reference": "World population review, Total Fertility Rate, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; World population review, Total Fertility Rate, 2024, ILO estimates (labor participation rates).; Estimates; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; True Price, Monestisation factors for true pricing (2023)."
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Derived from Fairtrade, True Pricing, Assessing coffee farmer household income, 2017 (Vietnam, used as proxy); FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; True Price, Monestisation factors for true pricing (2023); Estimates, based on Uganda and Kenya, Fairtrade, True Pricing, Assessing coffee farmer household income, 2019; Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014."
             },
             {
                 "indicators": "Women with denied maternity leave",
                 "unit": "women/kg",
-                "impactValue": 3.14444862e-08,
-                "costValue": 6.36113026301e-05,
-                "reference": "World population review, Total Fertility Rate, 2024, ILO estimates (labor participation rates).; Estimates; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "impactValue": 6.02774715e-07,
+                "costValue": 0.0012193961289929,
+                "reference": "World population review, Total Fertility Rate, 2024, ILO estimates (labor participation rates).; Derived from Fairtrade, True Pricing, Assessing coffee farmer household income, 2017 (Vietnam, used as proxy); FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; World population review, Total Fertility Rate, 2024, Regional average for Sub-Saharan Africa.; Estimates, based on Uganda and Kenya, Fairtrade, True Pricing, Assessing coffee farmer household income, 2019; Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014."
             },
             {
                 "indicators": "Workers without paid leave provision",
                 "unit": "USD/kg",
-                "impactValue": 0.0006731634304568,
-                "costValue": 0.000733748139198,
-                "reference": "Employing Workers, Doing Business: Measuring Business Regulations. World Bank Group, 2014; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; 6.163616069103673E-4; True Price, Monestisation factors for true pricing (2023)."
-            },
-            {
-                "indicators": "Informal employment rate of agricultural workers & uncovered by social protection floors/systems",
-                "unit": "FTE/kg",
-                "impactValue": 3.4115614942e-06,
-                "costValue": 0.0091758473322682,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Estimates; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Cases of fatal occupational injury",
-                "unit": "incidents/kg",
-                "impactValue": 2.7554e-12,
-                "costValue": 9.9764551164e-06,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Cases of non-fatal occupational injury, insured",
-                "unit": "incidents/kg",
-                "impactValue": 9.41512e-11,
-                "costValue": 4.014923918e-07,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Cases of non-fatal occupational injury, uninsured",
-                "unit": "incidents/kg",
-                "impactValue": 2.787251e-10,
-                "costValue": 1.2302247196e-06,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Labour force to be audited for Health and Safety",
-                "unit": "FTE/kg",
-                "impactValue": 1.192098e-10,
-                "costValue": 1.1715351e-09,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022 Misssing data at the country level, Kenya has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Labour force to be audited for gender discrimination",
-                "unit": "FTE/kg",
-                "impactValue": 2.1872985274e-06,
-                "costValue": 2.14956851898e-05,
-                "reference": "World population review, Total Fertility Rate, 2024, Regional average for Sub-Saharan Africa.; Estimates, based on Uganda and Kenya, Fairtrade, True Pricing, Assessing coffee farmer household income, 2019; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Labour force to be audited for forced labour",
-                "unit": "FTE/kg",
-                "impactValue": 7.0511866e-09,
-                "costValue": 6.92955652e-08,
-                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. Decent work country programme for Ethiopia 2021–2025, 2021; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Labour force to be audited for insufficient social security",
-                "unit": "FTE/kg",
-                "impactValue": 6.15077911166e-05,
-                "costValue": 0.0006044680677789,
-                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Eastern Africa has been used as a proxy; Estimates, based on Uganda and Kenya, Fairtrade, True Pricing, Assessing coffee farmer household income, 2019; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Labour force to be audited for illegal overtime",
-                "unit": "FTE/kg",
-                "impactValue": 9.5837359093e-06,
-                "costValue": 9.41842036932e-05,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Prevalence of excessive working time",
-                "unit": "FTE/kg",
-                "impactValue": 9.5837359093e-06,
-                "costValue": 0.0012117265972225,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Wage gap from gender discrimination",
-                "unit": "USD/kg",
-                "impactValue": 0.0039801779447276,
-                "costValue": 0.0043383939597531,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Estimates, based on Uganda and Kenya, Fairtrade, True Pricing, Assessing coffee farmer household income, 2019; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014; True Price, Monestisation factors for true pricing (2023)."
-            },
-            {
-                "indicators": "Wage gap of workers earning below minimum wage",
-                "unit": "USD/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Estimates, based on Uganda and Kenya, Fairtrade, True Pricing, Assessing coffee farmer household income, 2019; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014; True Price, Monestisation factors for true pricing (2023)."
-            },
-            {
-                "indicators": "Wage gap of workers earning above minimum wage but below decent living wage",
-                "unit": "USD/kg",
-                "impactValue": 0.2144189411292702,
-                "costValue": 0.2337166458309045,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Estimates, based on Uganda and Kenya, Fairtrade, True Pricing, Assessing coffee farmer household income, 2019; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014; True Price, Monestisation factors for true pricing (2023)."
-            },
-            {
-                "indicators": "Children in hazardous work by sex, age and economic activity (5-11)",
-                "unit": "FTE-child/kg",
-                "impactValue": 2.493186883e-07,
-                "costValue": 0.0071929273305282,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. Decent work country programme for Ethiopia 2021–2025, 2021; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in hazardous work by sex, age and economic activity (12-14)",
-                "unit": "FTE-child/kg",
-                "impactValue": 1.232847129e-07,
-                "costValue": 0.0015587592052569,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. Decent work country programme for Ethiopia 2021–2025, 2021; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in hazardous work by sex, age and economic activity (15-17)",
-                "unit": "FTE-child/kg",
-                "impactValue": 9.05574406e-08,
-                "costValue": 0.0011449695654353,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. Decent work country programme for Ethiopia 2021–2025, 2021; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in non-hazardous work by sex, age and economic activity (5-11)",
-                "unit": "FTE-child/kg",
-                "impactValue": 4.724253701e-07,
-                "costValue": 0.005381260104446,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. Decent work country programme for Ethiopia 2021–2025, 2021; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in non-hazardous work by sex, age and economic activity (12-14)",
-                "unit": "FTE-child/kg",
-                "impactValue": 2.583747947e-07,
-                "costValue": 0.0007068124970085,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. Decent work country programme for Ethiopia 2021–2025, 2021; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in non-hazardous work by sex, age and economic activity (15-17)",
-                "unit": "FTE-child/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. Decent work country programme for Ethiopia 2021–2025, 2021; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Prevalence of modern slavery (forced workers, most severe)",
-                "unit": "FTE/kg",
-                "impactValue": 7.0511866e-09,
-                "costValue": 0.0009968835698492,
-                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. Decent work country programme for Ethiopia 2021–2025, 2021; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Prevalence of Forced workers in situations of debt bondage",
-                "unit": "FTE/kg",
-                "impactValue": 2.1858678e-09,
-                "costValue": 4.246075628e-05,
-                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022, Global Estimates of Modern Slavery: Forced Labour and Forced Marriage International Labour Organization (ILO), Walk Free, and International Organization for Migration (IOM), Geneva, 2022, ISBN: 978-92-2-037483-2 (web PDF); International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. Decent work country programme for Ethiopia 2021–2025, 2021; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Female workers without maternity leave provision",
-                "unit": "USD/kg",
-                "impactValue": 2.00912464484e-05,
-                "costValue": 2.18994586288e-05,
-                "reference": "World population review, Total Fertility Rate, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; World population review, Total Fertility Rate, 2024, Regional average for Sub-Saharan Africa.; Estimates, based on Uganda and Kenya, Fairtrade, True Pricing, Assessing coffee farmer household income, 2019; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014; True Price, Monestisation factors for true pricing (2023)."
-            },
-            {
-                "indicators": "Women with denied maternity leave",
-                "unit": "women/kg",
-                "impactValue": 2.1872985274e-06,
-                "costValue": 0.0044248427993164,
-                "reference": "World population review, Total Fertility Rate, 2024, Regional average for Sub-Saharan Africa.; Estimates, based on Uganda and Kenya, Fairtrade, True Pricing, Assessing coffee farmer household income, 2019; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Workers without paid leave provision",
-                "unit": "USD/kg",
-                "impactValue": 0.0021012037398902,
-                "costValue": 0.0022903120764803,
-                "reference": "Employing Workers, Doing Business: Measuring Business Regulations. World Bank Group, 2014; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; 0.011112518720260301; True Price, Monestisation factors for true pricing (2023)."
-            },
-            {
-                "indicators": "Informal employment rate of agricultural workers & uncovered by social protection floors/systems",
-                "unit": "FTE/kg",
-                "impactValue": 6.15077911166e-05,
-                "costValue": 0.1654333659184411,
-                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Eastern Africa has been used as a proxy; Estimates, based on Uganda and Kenya, Fairtrade, True Pricing, Assessing coffee farmer household income, 2019; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; Lyngbæk, A.E., Muschler, R. & sinclair, F.L. Productivity and profitability of multistrata organic versus conventional coffee farms in Costa Rica. Agroforestry Systems 53, 205–213 (2001). https://doi.org/10.1023/A:1013332722014; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Cases of fatal occupational injury",
-                "unit": "incidents/kg",
-                "impactValue": 4.5187e-12,
-                "costValue": 1.63609789921e-05,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022 Misssing data at the country level, Kenya has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Cases of non-fatal occupational injury, insured",
-                "unit": "incidents/kg",
-                "impactValue": 2.8069e-12,
-                "costValue": 1.19697265e-08,
-                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Eastern Africa has been used as a proxy; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022 Misssing data at the country level, Kenya has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Cases of non-fatal occupational injury, uninsured",
-                "unit": "incidents/kg",
-                "impactValue": 1.118841e-10,
-                "costValue": 4.938291849e-07,
-                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Eastern Africa has been used as a proxy; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022 Misssing data at the country level, Kenya has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "impactValue": 0.0010347194339817,
+                "costValue": 0.0011278441830401,
+                "reference": "Employing Workers, Doing Business: Measuring Business Regulations. World Bank Group, 2014; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; 5.242486091264845E-4; True Price, Monestisation factors for true pricing (2023); 0.002926504288757662."
             }
         ]
     },
@@ -4110,8 +3753,8 @@
         "stage": "Production",
         "ingredient": "Soyabeans",
         "impactCategory": "Livelihoods",
-        "impactValue": 0.000623955010947,
-        "costValue": 0.0016151068493185001,
+        "impactValue": 2.0483236774e-06,
+        "costValue": 0.0004761105532531,
         "details": [
             {
                 "indicators": "Labour force to be audited for Health and Safety",
@@ -4123,9 +3766,9 @@
             {
                 "indicators": "Labour force to be audited for gender discrimination",
                 "unit": "FTE/kg",
-                "impactValue": 1.7349091e-09,
-                "costValue": 1.70498267e-08,
-                "reference": "World population review, Total Fertility Rate, 2024, ILO estimates (labor participation rates).; Estimates; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "World population review, Total Fertility Rate, 2024, ILO estimates (labor participation rates).; missing; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Labour force to be audited for forced labour",
@@ -4144,44 +3787,44 @@
             {
                 "indicators": "Labour force to be audited for insufficient social security",
                 "unit": "FTE/kg",
-                "impactValue": 1.88228525e-07,
-                "costValue": 1.8498165963e-06,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Estimates; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Labour force to be audited for illegal overtime",
                 "unit": "FTE/kg",
-                "impactValue": 6.458945373e-07,
-                "costValue": 6.3475311969e-06,
+                "impactValue": 1.0198334799e-06,
+                "costValue": 1.00224176794e-05,
                 "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Prevalence of excessive working time",
                 "unit": "FTE/kg",
-                "impactValue": 6.458945373e-07,
-                "costValue": 8.16641440546e-05,
+                "impactValue": 1.0198334799e-06,
+                "costValue": 0.0001289433853494,
                 "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Wage gap from gender discrimination",
                 "unit": "USD/kg",
-                "impactValue": 8.1754953821e-06,
-                "costValue": 8.9112899665e-06,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Estimates; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; True Price, Monestisation factors for true pricing (2023)."
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; True Price, Monestisation factors for true pricing (2023)."
             },
             {
                 "indicators": "Wage gap of workers earning below minimum wage",
                 "unit": "USD/kg",
                 "impactValue": 0.0,
                 "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Estimates; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; True Price, Monestisation factors for true pricing (2023)."
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; True Price, Monestisation factors for true pricing (2023)."
             },
             {
                 "indicators": "Wage gap of workers earning above minimum wage but below decent living wage",
                 "unit": "USD/kg",
-                "impactValue": 0.0005768722074054,
-                "costValue": 0.0006287907060718,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Estimates; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; True Price, Monestisation factors for true pricing (2023)."
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; True Price, Monestisation factors for true pricing (2023)."
             },
             {
                 "indicators": "Children in hazardous work by sex, age and economic activity (5-11)",
@@ -4298,30 +3941,30 @@
             {
                 "indicators": "Female workers without maternity leave provision",
                 "unit": "USD/kg",
-                "impactValue": 8.60075633e-08,
-                "costValue": 9.3748244e-08,
-                "reference": "World population review, Total Fertility Rate, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; World population review, Total Fertility Rate, 2024, ILO estimates (labor participation rates).; Estimates; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; True Price, Monestisation factors for true pricing (2023)."
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "World population review, Total Fertility Rate, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; World population review, Total Fertility Rate, 2024, ILO estimates (labor participation rates).; missing; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; True Price, Monestisation factors for true pricing (2023)."
             },
             {
                 "indicators": "Women with denied maternity leave",
                 "unit": "women/kg",
-                "impactValue": 1.7349091e-09,
-                "costValue": 3.5096719459e-06,
-                "reference": "World population review, Total Fertility Rate, 2024, ILO estimates (labor participation rates).; Estimates; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "World population review, Total Fertility Rate, 2024, ILO estimates (labor participation rates).; missing; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Workers without paid leave provision",
                 "unit": "USD/kg",
-                "impactValue": 3.71409279359e-05,
-                "costValue": 4.04836114501e-05,
-                "reference": "Employing Workers, Doing Business: Measuring Business Regulations. World Bank Group, 2014; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; 1.011981317267989E-5; True Price, Monestisation factors for true pricing (2023)."
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Employing Workers, Doing Business: Measuring Business Regulations. World Bank Group, 2014; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; 0.0; True Price, Monestisation factors for true pricing (2023)."
             },
             {
                 "indicators": "Informal employment rate of agricultural workers & uncovered by social protection floors/systems",
                 "unit": "FTE/kg",
-                "impactValue": 1.88228525e-07,
-                "costValue": 0.0005062655948011,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Estimates; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Cases of fatal occupational injury",
@@ -4333,15 +3976,15 @@
             {
                 "indicators": "Cases of non-fatal occupational injury, insured",
                 "unit": "incidents/kg",
-                "impactValue": 1.814281e-10,
-                "costValue": 7.736700075e-07,
+                "impactValue": 3.750713e-10,
+                "costValue": 1.5994286888e-06,
                 "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Cases of non-fatal occupational injury, uninsured",
                 "unit": "incidents/kg",
-                "impactValue": 5.370992e-10,
-                "costValue": 2.3706251657e-06,
+                "impactValue": 3.434561e-10,
+                "costValue": 1.5159315441e-06,
                 "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             }
         ]

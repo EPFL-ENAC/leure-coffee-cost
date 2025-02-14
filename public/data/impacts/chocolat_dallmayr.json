@@ -3,71 +3,99 @@
         "stage": "Consumption",
         "ingredient": "Cocoa beans",
         "impactCategory": "Health",
-        "impactValue": 0.08295,
-        "costValue": 0.0,
+        "impactValue": 0.0867,
+        "costValue": 0.00038942508763660006,
         "details": [
             {
-                "indicators": "Clothianidin ",
+                "indicators": "Clothianidin",
                 "unit": "mg/kg",
                 "impactValue": 0.0003,
-                "costValue": 0.0,
-                "reference": "?"
+                "costValue": 4.75858092e-06,
+                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2054 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
-                "indicators": "Endosulfan ",
+                "indicators": "Clothianidin",
+                "unit": "mg/kg",
+                "impactValue": 0.0003,
+                "costValue": 4.4050759916e-06,
+                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2054 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2081; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Endosulfan",
                 "unit": "mg/kg",
                 "impactValue": 0.003,
-                "costValue": 0.0,
-                "reference": "?"
+                "costValue": 0.0001565504157746,
+                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2055 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2032; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
-                "indicators": "Flupyradifurone ",
+                "indicators": "Endosulfan",
+                "unit": "mg/kg",
+                "impactValue": 0.003,
+                "costValue": 0.0001445415559745,
+                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2055 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2101; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Flupyradifurone",
                 "unit": "mg/kg",
                 "impactValue": 0.00015,
                 "costValue": 0.0,
-                "reference": "?"
+                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2056 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; No data; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
-                "indicators": "Hydrogen Phosphide ",
-                "unit": "mg/kg",
-                "impactValue": 0.00015,
-                "costValue": 0.0,
-                "reference": "?"
-            },
-            {
-                "indicators": "Mandipropamid ",
+                "indicators": "Mandipropamid",
                 "unit": "mg/kg",
                 "impactValue": 0.0009,
-                "costValue": 0.0,
-                "reference": "?"
+                "costValue": 1.8790402276e-06,
+                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2058 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2142; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
-                "indicators": "Metalaxyl ",
+                "indicators": "Metalaxyl",
                 "unit": "mg/kg",
                 "impactValue": 0.003,
-                "costValue": 0.0,
-                "reference": "?"
+                "costValue": 5.0245398029e-06,
+                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2059 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2147; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
-                "indicators": "Methyl Bromide ",
+                "indicators": "Pyraclostrobin",
                 "unit": "mg/kg",
-                "impactValue": 0.075,
-                "costValue": 0.0,
-                "reference": "?"
+                "impactValue": 0.00015,
+                "costValue": 1.5689524047e-06,
+                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2061 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2041; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
-                "indicators": "Pyraclostrobin ",
+                "indicators": "Pyraclostrobin",
+                "unit": "mg/kg",
+                "impactValue": 0.00015,
+                "costValue": 1.4454155597e-06,
+                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2061 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2176; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Thiamethoxam",
+                "unit": "mg/kg",
+                "impactValue": 0.0003,
+                "costValue": 4.6896159791e-06,
+                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2062 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2046; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Thiamethoxam",
+                "unit": "mg/kg",
+                "impactValue": 0.0003,
+                "costValue": 4.3362466792e-06,
+                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2062 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2179; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Hydrogen Phosphide",
                 "unit": "mg/kg",
                 "impactValue": 0.00015,
                 "costValue": 0.0,
-                "reference": "?"
+                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2057 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; No data; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
-                "indicators": "Thiamethoxam ",
+                "indicators": "Methyl Bromide",
                 "unit": "mg/kg",
-                "impactValue": 0.0003,
-                "costValue": 0.0,
-                "reference": "?"
+                "impactValue": 0.075,
+                "costValue": 6.02256483227e-05,
+                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2060 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2153; European Central Bank, Eurosystem, US dollar (USD), 2024."
             }
         ]
     },
@@ -535,8 +563,8 @@
         "stage": "Production",
         "ingredient": "Cocoa beans",
         "impactCategory": "Livelihoods",
-        "impactValue": 0.047998395024206095,
-        "costValue": 0.0859557797465464,
+        "impactValue": 3.9141468399999997e-08,
+        "costValue": 0.00023045953033250003,
         "details": [
             {
                 "indicators": "Labour force to be audited for Health and Safety",
@@ -548,9 +576,9 @@
             {
                 "indicators": "Labour force to be audited for gender discrimination",
                 "unit": "FTE/kg",
-                "impactValue": 5.459031276e-07,
-                "costValue": 5.3648652114e-06,
-                "reference": "World population review, Total Fertility Rate, 2024, Estimates; Estimates; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "World population review, Total Fertility Rate, 2024, Estimates; missing; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Labour force to be audited for forced labour",
@@ -562,15 +590,15 @@
             {
                 "indicators": "Labour force to be audited for insufficient social security",
                 "unit": "FTE/kg",
-                "impactValue": 2.46500906207e-05,
-                "costValue": 0.0002422488659988,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Estimates; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Labour force to be audited for illegal overtime",
                 "unit": "FTE/kg",
-                "impactValue": 5.7855686452e-06,
-                "costValue": 5.6857699431e-05,
+                "impactValue": 0.0,
+                "costValue": 0.0,
                 "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -585,21 +613,21 @@
                 "unit": "USD/kg",
                 "impactValue": 0.0,
                 "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Estimates; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; True Price, Monestisation factors for true pricing (2023)."
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; True Price, Monestisation factors for true pricing (2023)."
             },
             {
                 "indicators": "Wage gap of workers earning below minimum wage",
                 "unit": "USD/kg",
                 "impactValue": 0.0,
                 "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Estimates; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; True Price, Monestisation factors for true pricing (2023)."
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; True Price, Monestisation factors for true pricing (2023)."
             },
             {
                 "indicators": "Wage gap of workers earning above minimum wage but below decent living wage",
                 "unit": "USD/kg",
-                "impactValue": 0.0479550492750339,
-                "costValue": 0.052271003709787,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Estimates; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; True Price, Monestisation factors for true pricing (2023)."
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; True Price, Monestisation factors for true pricing (2023)."
             },
             {
                 "indicators": "Children in hazardous work by sex, age and economic activity (5-11)",
@@ -662,28 +690,28 @@
                 "unit": "USD/kg",
                 "impactValue": 0.0,
                 "costValue": 0.0,
-                "reference": "World population review, Total Fertility Rate, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; World population review, Total Fertility Rate, 2024, Estimates; Estimates; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; True Price, Monestisation factors for true pricing (2023)."
+                "reference": "World population review, Total Fertility Rate, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; World population review, Total Fertility Rate, 2024, Estimates; missing; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; True Price, Monestisation factors for true pricing (2023)."
             },
             {
                 "indicators": "Women with denied maternity leave",
                 "unit": "women/kg",
                 "impactValue": 0.0,
                 "costValue": 0.0,
-                "reference": "World population review, Total Fertility Rate, 2024, Estimates; Estimates; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "reference": "World population review, Total Fertility Rate, 2024, Estimates; missing; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Workers without paid leave provision",
                 "unit": "USD/kg",
                 "impactValue": 0.0,
                 "costValue": 0.0,
-                "reference": "Employing Workers, Doing Business: Measuring Business Regulations. World Bank Group, 2014; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; 0.001314671499773448; True Price, Monestisation factors for true pricing (2023)."
+                "reference": "Employing Workers, Doing Business: Measuring Business Regulations. World Bank Group, 2014; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; 0.0; True Price, Monestisation factors for true pricing (2023)."
             },
             {
                 "indicators": "Informal employment rate of agricultural workers & uncovered by social protection floors/systems",
                 "unit": "FTE/kg",
-                "impactValue": 1.23250453103e-05,
-                "costValue": 0.0331498448208973,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Estimates; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Cases of fatal occupational injury",
@@ -695,15 +723,15 @@
             {
                 "indicators": "Cases of non-fatal occupational injury, insured",
                 "unit": "incidents/kg",
-                "impactValue": 1.738e-13,
-                "costValue": 7.415016e-10,
+                "impactValue": 1.8796e-12,
+                "costValue": 8.0156239e-09,
                 "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Cases of non-fatal occupational injury, uninsured",
                 "unit": "incidents/kg",
-                "impactValue": 5.121e-12,
-                "costValue": 2.26029238e-08,
+                "impactValue": 3.4152e-12,
+                "costValue": 1.50739131e-08,
                 "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             }
         ]
