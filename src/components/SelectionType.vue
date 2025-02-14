@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useCoffeeStore } from "@/stores/coffeeStore";
 import { CoffeeData, Recipe, labelImages } from "@/utils/coffeeData";
-import { computed } from "vue";
+import { computed, watch } from "vue";
 import ReturnButton from "@/components/ReturnButton.vue";
 
 const generateCoffeeImage = (imgName?: string) => {
@@ -17,16 +17,14 @@ const listCoffee = computed(() => coffeeStore.listCoffee);
 
 const listRecipes = computed<Record<Recipe, CoffeeData[]>>(() => {
   if (!listCoffee.value) return {} as Record<Recipe, CoffeeData[]>;
-  return listCoffee.value
-    .filter((d) => d.retailPrice && d.retailPrice > 0)
-    .reduce((acc, coffee) => {
-      const key = coffee.recipeId as Recipe;
-      if (!acc[key]) {
-        acc[key] = [];
-      }
-      acc[key].push(coffee);
-      return acc;
-    }, {} as Record<Recipe, CoffeeData[]>);
+  return listCoffee.value.reduce((acc, coffee) => {
+    const key = coffee.recipeId as Recipe;
+    if (!acc[key]) {
+      acc[key] = [];
+    }
+    acc[key].push(coffee);
+    return acc;
+  }, {} as Record<Recipe, CoffeeData[]>);
 });
 
 // Computed property for the selected coffee image
@@ -44,8 +42,8 @@ const selectedRecipeDescription = computed(
   () => coffeeStore.selectedRecipeDescription
 );
 
-const selectServeId = (salePoint: string) => {
-  coffeeStore.selectServeId(salePoint);
+const selectRetailName = (retailName: string) => {
+  coffeeStore.selectRetailName(retailName);
 };
 
 // Function to return to selection view
@@ -57,6 +55,37 @@ const returnToSelection = () => {
 const getSelectedCoffeeImage = selectedCoffeeImage;
 
 const availableBeverages = computed(() => coffeeStore.availableCoffees);
+
+const availableBeveragesByRetailName = computed(() => {
+  const map = new Map<string, string[]>();
+
+  availableBeverages.value.forEach((coffee) => {
+    if (!map.has(coffee.retailName)) {
+      map.set(coffee.retailName, coffee.labels);
+    }
+    // If needed to merge labels if duplicate retailName:
+    // else {
+    //   const existingLabels = map.get(coffee.retailName)!;
+    //   coffee.labels.forEach(label => {
+    //     if (!existingLabels.includes(label)) {
+    //       existingLabels.push(label);
+    //     }
+    //   });
+    // }
+  });
+
+  return Array.from(map.entries()).map(([retailName, labels]) => ({
+    retailName,
+    labels,
+  }));
+});
+
+watch(
+  () => coffeeStore.selectedRecipe,
+  () => {
+    console.log(availableBeveragesByRetailName.value);
+  }
+);
 </script>
 
 <template>
@@ -88,23 +117,23 @@ const availableBeverages = computed(() => coffeeStore.availableCoffees);
       <div></div>
     </div>
     <ReturnButton :click="returnToSelection"> Coffee choice </ReturnButton>
-    <h2>Select sale point :</h2>
+    <h2>Select labels & sale point :</h2>
     <div class="selection-coffee-sale-point">
       <div
-        v-for="coffee in availableBeverages"
-        :key="coffee.serveId"
+        v-for="coffee in availableBeveragesByRetailName"
+        :key="coffee.retailName"
         :class="`coffee-card sale-point ${
-          coffeeStore.selectedServeId === coffee.serveId ? 'selected' : ''
+          coffeeStore.selectedRetailName === coffee.retailName ? 'selected' : ''
         }`"
-        @click="selectServeId(coffee.serveId)"
+        @click="selectRetailName(coffee.retailName)"
       >
         <img
           :src="getSelectedCoffeeImage"
-          :alt="coffee.serveId"
+          :alt="coffee.retailName"
           class="coffee-image selected-image"
         />
 
-        <span class="coffee-name">{{ coffee.serveId }}</span>
+        <span class="coffee-name">{{ coffee.retailName }}</span>
         <div v-if="coffee.labels.length > 0" class="labels">
           <img
             v-for="label in coffee.labels"

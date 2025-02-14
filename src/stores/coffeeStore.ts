@@ -30,7 +30,7 @@ export const useCoffeeStore = defineStore("coffee", () => {
         transform(value, field) {
           if (field === "labels") {
             if (value === "") return [];
-            return value.split("#") ?? []; // Parse `labels` back into an array
+            return value.split("|").filter((d) => d !== "none") ?? []; // Parse `labels` back into an array
           }
           if (
             ["retailPrice", "hiddenCost", "truePrice"].includes(field as string)
@@ -120,6 +120,7 @@ export const useCoffeeStore = defineStore("coffee", () => {
   // Selections
   const selectedRecipe = ref<Recipe | null>(null);
   const selectedServeId = ref<string | null>(null);
+  const selectedRetailName = ref<string | null>(null);
 
   const selectedRecipeDescription = computed(
     () =>
@@ -168,6 +169,10 @@ export const useCoffeeStore = defineStore("coffee", () => {
     return listCoffee.value.filter((d) => d.recipeId === selectedRecipe.value);
   });
 
+  const selectRetailName = (retailName: string) => {
+    selectedRetailName.value = retailName;
+  };
+
   // Actions
   const selectRecipe = (recipe: Recipe) => {
     selectedRecipe.value = recipe;
@@ -180,6 +185,48 @@ export const useCoffeeStore = defineStore("coffee", () => {
     selectedServeId.value = serveId;
   };
 
+  watch(
+    () => [selectedRetailName.value, isDecaf.value, milkType.value],
+    () => {
+      if (selectedRetailName.value) {
+        const coffees = listCoffee.value?.filter(
+          (d) =>
+            d.retailName === selectedRetailName.value &&
+            d.milkType === milkType.value
+        );
+        console.log("Coffees", coffees);
+        if (!coffees) return;
+        const possibleDecafStates = [...new Set(coffees.map((d) => d.isDecaf))];
+        if (possibleDecafStates.length == 1) isDecaf.value = coffees[0].isDecaf;
+
+        const coffee = coffees.find((d) => d.isDecaf === isDecaf.value);
+
+        if (coffee) {
+          selectedServeId.value = coffee.serveId;
+        }
+      }
+    }
+  );
+
+  const availableCoffeesAfterRetailName = computed(() => {
+    if (!listCoffee.value) return [];
+    const retailName = selectedRetailName.value;
+    return listCoffee.value.filter((d) => d.retailName === retailName);
+  });
+
+  const isDecafPossible = computed(() => {
+    return (
+      availableCoffeesAfterRetailName.value.some((d) => d.isDecaf) &&
+      availableCoffeesAfterRetailName.value.some((d) => !d.isDecaf)
+    );
+  });
+
+  const isMilkPossible = computed(() => {
+    return (
+      availableCoffeesAfterRetailName.value.filter((d) => d.hasMilk).length > 0
+    );
+  });
+
   const toggleCaffeine = () => {
     isDecaf.value = !isDecaf.value;
   };
@@ -187,6 +234,7 @@ export const useCoffeeStore = defineStore("coffee", () => {
   const setMilkType = (type: MilkType) => {
     if (availableMilkTypes.value.includes(type)) {
       milkType.value = type;
+      console.log("Set milk type to", type);
     } else {
       console.warn(
         `Milk type ${type} is not available for the selected recipe.`
@@ -253,6 +301,7 @@ export const useCoffeeStore = defineStore("coffee", () => {
   const clearSelection = () => {
     selectedRecipe.value = null;
     selectedServeId.value = null;
+    selectedRetailName.value = null;
     selectImpact(undefined);
     isDecaf.value = false;
     milkType.value = MilkType.NONE;
@@ -270,6 +319,7 @@ export const useCoffeeStore = defineStore("coffee", () => {
     // State
     selectedRecipe,
     selectedServeId,
+    selectedRetailName,
     selectedRecipeDescription,
     selectedCoffee,
     selectedImpact,
@@ -285,9 +335,13 @@ export const useCoffeeStore = defineStore("coffee", () => {
     availableMilkTypes,
     availableCoffees,
     isPriceVisible,
+    availableCoffeesAfterRetailName,
+    isDecafPossible,
+    isMilkPossible,
 
     // Actions
     selectRecipe,
+    selectRetailName,
     selectImpact,
     selectServeId,
     toggleCaffeine,

@@ -12,6 +12,8 @@ const disabled = computed(() => coffeeStore.availableMilkTypes.length <= 1);
 const selectedMilk = computed({
   get: () => coffeeStore.milkType,
   set: (value: MilkType) => {
+    console.log(value);
+    console.log(coffeeStore.setMilkType);
     coffeeStore.setMilkType(value);
   },
 });

@@ -15,6 +15,8 @@ import Disclaimer from "@/components/Disclaimer.vue";
 import ImpactContainer from "@/components/ImpactContainer.vue";
 // import TreemapChart from "@/components/TreemapChart.vue";
 
+const selectedRetailName = computed(() => store.selectedRetailName);
+
 const selectedCoffee = computed(() => store.selectedCoffee);
 watch(selectedCoffee, () => console.log(selectedCoffee.value));
 
@@ -30,11 +32,9 @@ watch(
   </h3>
   <SelectionType />
 
-  <SelectionCaffeine
-    v-if="false && selectedCoffee && selectedCoffee?.isDecaf"
-  />
-  <SelectionMilk v-if="false && selectedCoffee && selectedCoffee?.hasMilk" />
-  <SelectionSugar v-if="selectedCoffee" />
+  <SelectionCaffeine v-if="selectedRetailName && store.isDecafPossible" />
+  <SelectionMilk v-if="selectedRetailName && store.isMilkPossible" />
+  <SelectionSugar v-if="selectedRetailName" />
   <PriceDisplay v-if="store.isPriceVisible" />
   <EchartsSunburst v-if="store.isPriceVisible && store.selectedCoffeeImpacts" />
   <h3 v-if="store.isPriceVisible && !store.selectedCoffeeImpacts">

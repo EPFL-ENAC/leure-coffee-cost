@@ -1,11 +1,12 @@
 // Define enums for better type safety
+// 'none', 'Cow milk', 'Almond milk', 'Oat milk', 'Soya milk'
 export enum MilkType {
   NONE = "none",
-  DAIRY = "dairy",
-  ALMOND = "almond",
-  SOY = "soy",
+  DAIRY = "Cow milk",
+  ALMOND = "Almond milk",
+  SOY = "Soya milk",
   CLF = "clf",
-  OAT = "oat",
+  OAT = "Oat milk",
   // Add more as needed
 }
 
@@ -49,11 +50,11 @@ export type CoffeeData = {
 };
 
 export const labelImages: Map<string, string> = new Map([
-  ["Organic", "organic.jpg"],
-  ["Via Verde", "viaverde.png"],
-  ["Fair Trade", "fairtrade.svg"],
-  ["Rainforest Alliance", "rainforest.png"],
-  ["Blue Planet", "blueplanet.png"],
+  ["eu-organic", "organic.jpg"],
+  ["via-verde", "viaverde.png"],
+  ["fairtrade", "fairtrade.svg"],
+  ["rainforest-alliance", "rainforest.png"],
+  ["blue-planet", "blueplanet.png"],
 ]);
 
 export type ImpactDefinition = {
