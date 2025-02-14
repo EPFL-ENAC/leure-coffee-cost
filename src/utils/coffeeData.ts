@@ -35,6 +35,7 @@ export enum Recipe {
   CAFMOC = "cafmoc",
   SUG = "sug",
 }
+
 export type CoffeeData = {
   serveId: string;
   recipeId: string;
@@ -42,6 +43,10 @@ export type CoffeeData = {
   retailPrice: number;
   hiddenCost: number;
   truePrice: number;
+  priceWithoutTax: number;
+  valueAddedTax: number;
+  smartValueAddedTax: number;
+  smartPricingRounded: number;
   labels: string[];
   isDecaf: boolean;
   hasMilk: boolean;
