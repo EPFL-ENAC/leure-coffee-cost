@@ -6,7 +6,6 @@ import ReturnButton from "@/components/ReturnButton.vue";
 
 const generateCoffeeImage = (imgName?: string) => {
   // const baseURL = import.meta.env.BASE_URL ?? "";
-  console.log(imgName);
   return `./coffee/${imgName?.replaceAll(" ", "_")}.svg`;
 };
 // Use the coffee store
@@ -29,7 +28,6 @@ const listRecipes = computed<Record<Recipe, CoffeeData[]>>(() => {
 
 // Computed property for the selected coffee image
 const selectedCoffeeImage = computed(() => {
-  console.log(selectedRecipe.value);
   return selectedRecipe.value ? generateCoffeeImage(selectedRecipe.value) : "";
 });
 

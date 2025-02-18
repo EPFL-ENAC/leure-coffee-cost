@@ -2,11 +2,7 @@
   <div class="container-chart">
     <div class="title">
       <div class="hint">
-        <h3>Analyse hidden cost:</h3>
-        <div>
-          Click on a node to navigate thourgh coffee impacts. Select a specific
-          impact to get more details below.
-        </div>
+        <slot />
       </div>
 
       <ReturnButton
@@ -24,7 +20,12 @@
 import { ref, onMounted, watch, computed } from "vue";
 import * as echarts from "echarts";
 import { useCoffeeStore } from "@/stores/coffeeStore";
+import { type RootSunburst } from "@/utils/coffeeData";
 import ReturnButton from "./ReturnButton.vue";
+
+const props = defineProps<{
+  sunburstData?: RootSunburst;
+}>();
 
 // Create a reference for the chart container
 const chart = ref<HTMLDivElement | null>(null);
@@ -34,7 +35,7 @@ const echartInstance = ref<echarts.ECharts | null>(null);
 
 // Transform sunburst data for the chart
 const sunburstData = computed(() => {
-  return store.sunburstData;
+  return props.sunburstData;
 });
 
 type Impact = {

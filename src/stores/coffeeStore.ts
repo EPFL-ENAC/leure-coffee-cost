@@ -259,10 +259,12 @@ export const useCoffeeStore = defineStore("coffee", () => {
 
   // Load impacts
   const selectedCoffeeImpacts = ref<CoffeeImpactData[] | null>(null);
-  const sunburstData = ref<RootSunburst | undefined>(undefined);
+  const sunburstNegativeData = ref<RootSunburst | undefined>(undefined);
+  const sunburstPositiveData = ref<RootSunburst | undefined>(undefined);
 
   const loadImpacts = async (serveId: string) => {
-    sunburstData.value = undefined;
+    sunburstPositiveData.value = undefined;
+    sunburstNegativeData.value = undefined;
     try {
       const fileName = `./data/impacts/${serveId
         .toLowerCase()
@@ -283,9 +285,26 @@ export const useCoffeeStore = defineStore("coffee", () => {
     () => {
       const coffeeImpacts = selectedCoffeeImpacts.value ?? [];
       const sugarImpact = listSugar.value[sugarLevel.value];
+      const negativeImpacts = coffeeImpacts.filter((d) => d.costValue > 0);
+      const positiveImpacts = coffeeImpacts
+        .filter((d) => d.costValue < 0)
+        .map((d) => ({
+          ...d,
+          costValue: -d.costValue,
+          details: d.details.map((d) => ({
+            ...d,
+            costValue: -d.costValue,
+          })),
+        }));
+
+      console.log({ negativeImpacts, positiveImpacts });
       selectedImpact.value = undefined;
-      sunburstData.value = generateSunburstData(
-        coffeeImpacts.concat(sugarImpact),
+      sunburstNegativeData.value = generateSunburstData(
+        negativeImpacts.concat(sugarImpact),
+        listImpactDefinitions.value
+      );
+      sunburstPositiveData.value = generateSunburstData(
+        positiveImpacts.concat(sugarImpact),
         listImpactDefinitions.value
       );
     }
@@ -306,7 +325,8 @@ export const useCoffeeStore = defineStore("coffee", () => {
     isDecaf.value = false;
     milkType.value = MilkType.NONE;
     sugarLevel.value = 0;
-    sunburstData.value = undefined;
+    sunburstPositiveData.value = undefined;
+    sunburstNegativeData.value = undefined;
   };
 
   const selectedImpact = ref<ImpactDetail | undefined>(undefined);
@@ -329,7 +349,8 @@ export const useCoffeeStore = defineStore("coffee", () => {
     listCoffee,
     selectedCoffeeImpacts,
 
-    sunburstData,
+    sunburstNegativeData,
+    sunburstPositiveData,
 
     // Derived state
     availableMilkTypes,

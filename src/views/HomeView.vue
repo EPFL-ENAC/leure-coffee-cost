@@ -36,7 +36,29 @@ watch(
   <SelectionMilk v-if="selectedRetailName && store.isMilkPossible" />
   <SelectionSugar v-if="selectedRetailName" />
   <PriceDisplay v-if="store.isPriceVisible" />
-  <EchartsSunburst v-if="store.isPriceVisible && store.selectedCoffeeImpacts" />
+
+  <EchartsSunburst
+    v-if="store.isPriceVisible && store.selectedCoffeeImpacts"
+    :sunburstData="store.sunburstNegativeData"
+  >
+    <h3>Analyse hidden cost:</h3>
+    <div>
+      Click on a node to navigate thourgh coffee impacts. Select a specific
+      impact to get more details below.
+    </div>
+  </EchartsSunburst>
+
+  <EchartsSunburst
+    v-if="store.isPriceVisible && store.selectedCoffeeImpacts"
+    :sunburstData="store.sunburstPositiveData"
+  >
+    <h3>Analyse offsetting impacts:</h3>
+    <div>
+      Click on a node to navigate thourgh coffee impacts. Select a specific
+      impact to get more details below.
+    </div>
+  </EchartsSunburst>
+
   <h3 v-if="store.isPriceVisible && !store.selectedCoffeeImpacts">
     No impacts available for the selected coffee and sale point.
   </h3>
