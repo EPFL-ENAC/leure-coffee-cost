@@ -4,7 +4,7 @@
     <div id="project-info" class="project-info">
       <p>
         For any questions or feedback,
-        <a href="mailto:gino.baudry@epfl.ch">please write us !</a>
+        <a href="mailto:true-cost-of-food@epfl.ch">please write us !</a>
       </p>
     </div>
     <h2>Disclaimer</h2>
