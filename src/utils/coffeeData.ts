@@ -227,19 +227,25 @@ export function generateSunburstData(
       }
 
       // Iterate through each detail within the impact
-      details.forEach((detail) => {
-        const value = isNaN(detail.costValue) ? 0 : detail.costValue;
-        sunburstData.children[ingredient].children[impactCategory].children[
-          stage
-        ].children.push({
+      details
+        .map((detail) => ({
           ...detail,
-          name: detail.indicators,
-          definition:
-            definitions.find((d) => d.indicator === detail.indicators)
-              ?.indicatorDefinition ?? "",
-          value,
+          lowerCaseIndicator: detail.indicators.toLowerCase(),
+        }))
+        .forEach((detail) => {
+          const value = isNaN(detail.costValue) ? 0 : detail.costValue;
+          sunburstData.children[ingredient].children[impactCategory].children[
+            stage
+          ].children.push({
+            ...detail,
+            name: detail.indicators,
+            definition:
+              definitions.find(
+                (d) => d.indicator.toLowerCase() === detail.lowerCaseIndicator
+              )?.indicatorDefinition ?? "",
+            value,
+          });
         });
-      });
     });
 
   recursiveSum(sunburstData, depth);

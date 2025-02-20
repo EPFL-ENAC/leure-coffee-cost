@@ -108,6 +108,11 @@ export const useCoffeeStore = defineStore("coffee", () => {
         transformHeader: camelize,
         dynamicTyping: true,
         skipEmptyLines: true,
+        transform(value, field) {
+          if (field === "indicator") {
+            return value.toLowerCase();
+          } else return value;
+        },
       });
       console.log("Parsed data:", parsedData);
       listImpactDefinitions.value = parsedData.data;

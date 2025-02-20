@@ -23,7 +23,7 @@
       </div>
       <div class="impact-details">
         <h4>Definition</h4>
-        <p>{{ capitalizeFirstLetter(store.selectedImpact?.definition) }}</p>
+        <p>{{ capitalizeFirstLetter(impactDefinition) }}</p>
         <h4>Reference</h4>
         <p>{{ store.selectedImpact?.reference }}</p>
       </div>
@@ -33,9 +33,14 @@
 
 <script setup lang="ts">
 import { useCoffeeStore } from "@/stores/coffeeStore";
-// import { computed } from "vue";
+import { computed } from "vue";
 
 const store = useCoffeeStore();
+
+const impactDefinition = computed(() => {
+  return store.selectedImpact?.definition ?? "";
+});
+
 function capitalizeFirstLetter(val: string) {
   return String(val).charAt(0).toUpperCase() + String(val).slice(1);
 }
