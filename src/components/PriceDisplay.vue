@@ -9,20 +9,13 @@ const selectedCoffee = computed(() => coffeeStore.selectedCoffee);
 
 // Computed properties to get prices from the store
 const retailPrice = computed(() => selectedCoffee.value?.retailPrice ?? 0);
-const priceWithoutTax = computed(
-  () => selectedCoffee.value?.priceWithoutTax ?? 0
-);
-const valueAddedTax = computed(() => selectedCoffee.value?.valueAddedTax ?? 0);
-const smartValueAddedTax = computed(
-  () => selectedCoffee.value?.smartValueAddedTax ?? 0
-);
+
 const hiddenCost = computed(
   () =>
     (selectedCoffee.value?.hiddenCost ?? 0) + 0.00017 * coffeeStore.sugarLevel
 );
-const smartPricingRounded = computed(
-  () => selectedCoffee.value?.smartPricingRounded ?? 0
-);
+
+const offsetting = computed(() => selectedCoffee.value?.offsetting ?? 0);
 </script>
 
 <template>
@@ -32,25 +25,14 @@ const smartPricingRounded = computed(
         <span>Retail Price:</span>
         <span>{{ retailPrice.toFixed(2) }} CHF</span>
       </div>
-      <div class="price-item">
-        <span>Price Excluding Tax:</span>
-        <span>{{ priceWithoutTax.toFixed(2) }} CHF</span>
-      </div>
-      <div class="price-item">
-        <span>Value Added Tax (TVA):</span>
-        <span>{{ valueAddedTax.toFixed(2) }} CHF</span>
-      </div>
+
       <div class="price-item">
         <span>Hidden Cost:</span>
         <span>{{ hiddenCost.toFixed(2) }} CHF</span>
       </div>
       <div class="price-item">
-        <span>Smart Value Added Tax (Smart TVA):</span>
-        <span>{{ smartValueAddedTax.toFixed(2) }} CHF</span>
-      </div>
-      <div class="price-item">
-        <span>Smart Pricing Rounded:</span>
-        <span>{{ smartPricingRounded.toFixed(2) }} CHF</span>
+        <span>Offsetting:</span>
+        <span>{{ offsetting.toFixed(2) }} CHF</span>
       </div>
     </div>
   </div>

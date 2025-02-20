@@ -42,6 +42,7 @@ export type CoffeeData = {
   retailName: string;
   retailPrice: number;
   hiddenCost: number;
+  offsetting: number;
   truePrice: number;
   priceWithoutTax: number;
   valueAddedTax: number;

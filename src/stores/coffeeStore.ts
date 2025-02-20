@@ -33,7 +33,9 @@ export const useCoffeeStore = defineStore("coffee", () => {
             return value.split("|").filter((d) => d !== "none") ?? []; // Parse `labels` back into an array
           }
           if (
-            ["retailPrice", "hiddenCost", "truePrice"].includes(field as string)
+            ["retailPrice", "hiddenCost", "offsetting", "truePrice"].includes(
+              field as string
+            )
           ) {
             return parseFloat(value); // Ensure numeric fields are parsed as numbers
           }
