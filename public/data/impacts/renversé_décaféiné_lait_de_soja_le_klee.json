@@ -1110,673 +1110,17 @@
         ]
     },
     {
-        "stage": "End of life, industrial-composting",
-        "ingredient": "Soyabeans",
-        "impactCategory": "Environment",
-        "impactValue": 0.0,
-        "costValue": 0.0,
-        "details": [
-            {
-                "indicators": "Agricultural land occupation",
-                "unit": "m2a",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Global warming",
-                "unit": "kg CO2 eq",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Fossil resource scarcity",
-                "unit": "kg oil eq",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Freshwater ecotoxicity",
-                "unit": "kg 1,4-DCB",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Freshwater eutrophication",
-                "unit": "kg P eq",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Human toxicity",
-                "unit": "kg 1,4-DCB",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Ionising radiation",
-                "unit": "kg U235-Eq",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Marine ecotoxicity",
-                "unit": "kg 1,4-DCB",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Marine eutrophication",
-                "unit": "kg N eq",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Metal depletion",
-                "unit": "kg Fe eq",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Natural land transformation",
-                "unit": "m2",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Stratospheric ozone depletion",
-                "unit": "kg CFC11 eq",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Fine particulate matter formation",
-                "unit": "kg PM10 eq",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Photochemical oxidant formation",
-                "unit": "kg NMVOC",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Terrestrial acidification",
-                "unit": "kg SO2 eq",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Terrestrial ecotoxicity",
-                "unit": "kg 1,4-DCB",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Urban land occupation",
-                "unit": "m2a",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Water consumption",
-                "unit": "m3",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            }
-        ]
-    },
-    {
-        "stage": "Offsetting schemes",
-        "ingredient": "Soyabeans",
-        "impactCategory": "Environment",
-        "impactValue": 0.0,
-        "costValue": 0.0,
-        "details": [
-            {
-                "indicators": "Carbon Offsetting through Reforestation",
-                "unit": "kgCO2/kg",
-                "impactValue": 0.0,
-                "costValue": -0.0,
-                "reference": "No specific anti-deforestation regulation, No specific regulation on reforestation, none; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            }
-        ]
-    },
-    {
-        "stage": "Processing, Soybean beverage",
-        "ingredient": "Soyabeans",
-        "impactCategory": "Environment",
-        "impactValue": 0.026830789209831202,
-        "costValue": 0.0043057989080842,
-        "details": [
-            {
-                "indicators": "Fine particulate matter formation",
-                "unit": "kg PM2.5 eq",
-                "impactValue": 6.6058663174e-06,
-                "costValue": 0.0007112539675682,
-                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Fossil resource scarcity",
-                "unit": "kg oil eq",
-                "impactValue": 0.0007467078627001,
-                "costValue": 0.0003948077542527,
-                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Freshwater ecotoxicity",
-                "unit": "kg 1,4-DCB",
-                "impactValue": 0.0001003507243231,
-                "costValue": 4.8098738295e-06,
-                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Freshwater eutrophication",
-                "unit": "kg P eq",
-                "impactValue": 1.1341385803e-06,
-                "costValue": 0.0002724517037892,
-                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Global warming",
-                "unit": "kg CO2 eq",
-                "impactValue": 0.00959377375401,
-                "costValue": 0.0017974391410879,
-                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Human carcinogenic toxicity",
-                "unit": "kg 1,4-DCB",
-                "impactValue": 5.34228128936e-05,
-                "costValue": 0.0,
-                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Human non-carcinogenic toxicity",
-                "unit": "kg 1,4-DCB",
-                "impactValue": -0.001707958515434,
-                "costValue": -0.0,
-                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Ionizing radiation",
-                "unit": "kBq Co-60 eq",
-                "impactValue": 0.0002921545936093,
-                "costValue": 0.0,
-                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Land use",
-                "unit": "m2a crop eq",
-                "impactValue": 0.0076063275332301,
-                "costValue": 0.0009092545428479,
-                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Marine ecotoxicity",
-                "unit": "kg 1,4-DCB",
-                "impactValue": 7.43876510131e-05,
-                "costValue": 1.624544318e-07,
-                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Marine eutrophication",
-                "unit": "kg N eq",
-                "impactValue": 6.3180982575e-06,
-                "costValue": 0.0001053007575787,
-                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Mineral resource scarcity",
-                "unit": "kg Cu eq",
-                "impactValue": 5.2863159527e-06,
-                "costValue": 1.3549869027e-06,
-                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Ozone formation, Human health",
-                "unit": "kg NOx eq",
-                "impactValue": 8.8545420241e-06,
-                "costValue": 0.0,
-                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Ozone formation, Terrestrial ecosystems",
-                "unit": "kg NOx eq",
-                "impactValue": 9.2858285366e-06,
-                "costValue": 0.0,
-                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Stratospheric ozone depletion",
-                "unit": "kg CFC11 eq",
-                "impactValue": 2.10639089e-08,
-                "costValue": 1.4018277448e-06,
-                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Terrestrial acidification",
-                "unit": "kg SO2 eq",
-                "impactValue": 1.14426647343e-05,
-                "costValue": 6.33944633095e-05,
-                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Terrestrial ecotoxicity",
-                "unit": "kg 1,4-DCB",
-                "impactValue": 0.0099960372991019,
-                "costValue": 3.4468806063e-06,
-                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Water consumption",
-                "unit": "m3",
-                "impactValue": 2.66369760722e-05,
-                "costValue": 4.0720554135e-05,
-                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            }
-        ]
-    },
-    {
-        "stage": "Production",
-        "ingredient": "Soyabeans",
-        "impactCategory": "Biodiversity",
-        "impactValue": 0.0004019417482446,
-        "costValue": 0.0021987141487897,
-        "details": [
-            {
-                "indicators": "Eco-costs of land-use (Brazil), practice-related",
-                "unit": "m²/kg",
-                "impactValue": -0.0,
-                "costValue": -0.0,
-                "reference": "FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, none: Conservative, conventional, none: Conservative, conventional, Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024 (Soybeans); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Eco-costs of land-use (Brazil), deforestation-related",
-                "unit": "m²/kg",
-                "impactValue": 0.0004019417482446,
-                "costValue": 0.0021987141487897,
-                "reference": "FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, No specific anti-deforestation regulation (Soybeans); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            }
-        ]
-    },
-    {
-        "stage": "Production",
-        "ingredient": "Soyabeans",
-        "impactCategory": "Livelihoods",
-        "impactValue": 3.2558928640000003e-07,
-        "costValue": 0.000377521309537,
-        "details": [
-            {
-                "indicators": "Prevalence of excessive working time",
-                "unit": "FTE/kg",
-                "impactValue": 3.195478237e-07,
-                "costValue": 4.04022607428e-05,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Wage gap from gender discrimination",
-                "unit": "USD/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; True Price, Monestisation factors for true pricing (2023)."
-            },
-            {
-                "indicators": "Wage gap of workers earning below minimum wage",
-                "unit": "USD/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; True Price, Monestisation factors for true pricing (2023)."
-            },
-            {
-                "indicators": "Wage gap of workers earning above minimum wage but below decent living wage",
-                "unit": "USD/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; True Price, Monestisation factors for true pricing (2023)."
-            },
-            {
-                "indicators": "Children in hazardous work by sex, age and economic activity (5-11)",
-                "unit": "FTE-child/kg",
-                "impactValue": 1.0141e-11,
-                "costValue": 2.925716961e-07,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in hazardous work by sex, age and economic activity (12-14)",
-                "unit": "FTE-child/kg",
-                "impactValue": 1.84207e-11,
-                "costValue": 2.329041593e-07,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in hazardous work by sex, age and economic activity (15-17)",
-                "unit": "FTE-child/kg",
-                "impactValue": 7.12011e-11,
-                "costValue": 9.002372363e-07,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in non-hazardous work by sex, age and economic activity (5-11)",
-                "unit": "FTE-child/kg",
-                "impactValue": 9.0222e-12,
-                "costValue": 1.027699519e-07,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in non-hazardous work by sex, age and economic activity (12-14)",
-                "unit": "FTE-child/kg",
-                "impactValue": 1.51025e-11,
-                "costValue": 4.13146656e-08,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in non-hazardous work by sex, age and economic activity (15-17)",
-                "unit": "FTE-child/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in hazardous work by sex, age and economic activity (5-11)",
-                "unit": "FTE-child/kg",
-                "impactValue": 2.223206e-10,
-                "costValue": 6.4140254443e-06,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in hazardous work by sex, age and economic activity (12-14)",
-                "unit": "FTE-child/kg",
-                "impactValue": 4.038367e-10,
-                "costValue": 5.1059388987e-06,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in hazardous work by sex, age and economic activity (15-17)",
-                "unit": "FTE-child/kg",
-                "impactValue": 1.5609375e-09,
-                "costValue": 1.97358275421e-05,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in non-hazardous work by sex, age and economic activity (5-11)",
-                "unit": "FTE-child/kg",
-                "impactValue": 1.977942e-10,
-                "costValue": 2.2530172789e-06,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in non-hazardous work by sex, age and economic activity (12-14)",
-                "unit": "FTE-child/kg",
-                "impactValue": 3.310918e-10,
-                "costValue": 9.05738046e-07,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in non-hazardous work by sex, age and economic activity (15-17)",
-                "unit": "FTE-child/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Prevalence of modern slavery (forced workers, most severe)",
-                "unit": "FTE/kg",
-                "impactValue": 8.2512e-11,
-                "costValue": 1.1665405523e-05,
-                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Prevalence of modern slavery (forced workers, most severe)",
-                "unit": "FTE/kg",
-                "impactValue": 1.8089059e-09,
-                "costValue": 0.0002557397342821,
-                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Prevalence of Forced workers in situations of debt bondage",
-                "unit": "FTE/kg",
-                "impactValue": 2.55787e-11,
-                "costValue": 4.968704027e-07,
-                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022, Global Estimates of Modern Slavery: Forced Labour and Forced Marriage International Labour Organization (ILO), Walk Free, and International Organization for Migration (IOM), Geneva, 2022, ISBN: 978-92-2-037483-2 (web PDF); International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Prevalence of Forced workers in situations of debt bondage",
-                "unit": "FTE/kg",
-                "impactValue": 5.607608e-10,
-                "costValue": 1.08928493325e-05,
-                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022, Global Estimates of Modern Slavery: Forced Labour and Forced Marriage International Labour Organization (ILO), Walk Free, and International Organization for Migration (IOM), Geneva, 2022, ISBN: 978-92-2-037483-2 (web PDF); International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Female workers without maternity leave provision",
-                "unit": "USD/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "World population review, Total Fertility Rate, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; World population review, Total Fertility Rate, 2024, ILO estimates (labor participation rates).; missing; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; True Price, Monestisation factors for true pricing (2023)."
-            },
-            {
-                "indicators": "Women with denied maternity leave",
-                "unit": "women/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "World population review, Total Fertility Rate, 2024, ILO estimates (labor participation rates).; missing; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Workers without paid leave provision",
-                "unit": "USD/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Employing Workers, Doing Business: Measuring Business Regulations. World Bank Group, 2014; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; 0.0; True Price, Monestisation factors for true pricing (2023)."
-            },
-            {
-                "indicators": "Informal employment rate of agricultural workers & uncovered by social protection floors/systems",
-                "unit": "FTE/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Cases of fatal occupational injury",
-                "unit": "incidents/kg",
-                "impactValue": 5.3096e-12,
-                "costValue": 1.92244841018e-05,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Cases of non-fatal occupational injury, insured",
-                "unit": "incidents/kg",
-                "impactValue": 3.750713e-10,
-                "costValue": 1.5994286888e-06,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Cases of non-fatal occupational injury, uninsured",
-                "unit": "incidents/kg",
-                "impactValue": 3.434561e-10,
-                "costValue": 1.5159315441e-06,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in work by age and not attending school (5-14)",
-                "unit": "children/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            }
-        ]
-    },
-    {
-        "stage": "Transport",
-        "ingredient": "Soyabeans",
-        "impactCategory": "Environment",
-        "impactValue": 0.16139819498284871,
-        "costValue": 0.039703909186368694,
-        "details": [
-            {
-                "indicators": "Agricultural land occupation",
-                "unit": "m2a",
-                "impactValue": 0.0009416274595441,
-                "costValue": 0.0,
-                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
-            },
-            {
-                "indicators": "Fine particulate matter formation",
-                "unit": "kg PM10 eq",
-                "impactValue": 0.0001132420179917,
-                "costValue": 0.0,
-                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
-            },
-            {
-                "indicators": "Fossil resource scarcity",
-                "unit": "kg oil eq",
-                "impactValue": 0.0320716606670069,
-                "costValue": 0.0169572880581583,
-                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
-            },
-            {
-                "indicators": "Freshwater ecotoxicity",
-                "unit": "kg 1,4-DCB",
-                "impactValue": 0.0014040946280543,
-                "costValue": 6.72991455846e-05,
-                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
-            },
-            {
-                "indicators": "Freshwater eutrophication",
-                "unit": "kg P eq",
-                "impactValue": 8.974179804e-06,
-                "costValue": 0.0021558481654114,
-                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
-            },
-            {
-                "indicators": "Global warming",
-                "unit": "kg CO2 eq",
-                "impactValue": 0.0871879592118574,
-                "costValue": 0.0163350788268767,
-                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
-            },
-            {
-                "indicators": "Human toxicity",
-                "unit": "kg 1,4-DCB",
-                "impactValue": 0.0211227684772872,
-                "costValue": 0.0,
-                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
-            },
-            {
-                "indicators": "Ionising radiation",
-                "unit": "kg U235-Eq",
-                "impactValue": 0.0075873184116352,
-                "costValue": 0.0004860458547892,
-                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
-            },
-            {
-                "indicators": "Marine ecotoxicity",
-                "unit": "kg 1,4-DCB",
-                "impactValue": 0.0013868382406087,
-                "costValue": 3.0287018798e-06,
-                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
-            },
-            {
-                "indicators": "Marine eutrophication",
-                "unit": "kg N eq",
-                "impactValue": 6.99816759045e-05,
-                "costValue": 0.0011663515173439,
-                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
-            },
-            {
-                "indicators": "Metal depletion",
-                "unit": "kg Fe eq",
-                "impactValue": 0.005766702456468,
-                "costValue": 0.0,
-                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
-            },
-            {
-                "indicators": "Natural land transformation",
-                "unit": "m2",
-                "impactValue": 3.18794289228e-05,
-                "costValue": 0.0,
-                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
-            },
-            {
-                "indicators": "Photochemical oxidant formation",
-                "unit": "kg NMVOC",
-                "impactValue": 0.0002782100752514,
-                "costValue": 0.0009678431914717,
-                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
-            },
-            {
-                "indicators": "Stratospheric ozone depletion",
-                "unit": "kg CFC11 eq",
-                "impactValue": 1.52457407e-08,
-                "costValue": 1.0146218547e-06,
-                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
-            },
-            {
-                "indicators": "Terrestrial acidification",
-                "unit": "kg SO2 eq",
-                "impactValue": 0.0002317730271281,
-                "costValue": 0.0012840651199269,
-                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
-            },
-            {
-                "indicators": "Terrestrial ecotoxicity",
-                "unit": "kg 1,4-DCB",
-                "impactValue": 2.39636966679e-05,
-                "costValue": 8.2632746e-09,
-                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
-            },
-            {
-                "indicators": "Urban land occupation",
-                "unit": "m2a",
-                "impactValue": 0.0030836173192294,
-                "costValue": 0.0001461693491906,
-                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
-            },
-            {
-                "indicators": "Water consumption",
-                "unit": "m3",
-                "impactValue": 8.75687637464e-05,
-                "costValue": 0.0001338683706063,
-                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
-            }
-        ]
-    },
-    {
         "stage": "Consumption",
         "ingredient": "Soybeans",
         "impactCategory": "Health",
         "impactValue": 3.3172499999999996,
-        "costValue": 0.18140670508794962,
+        "costValue": 0.1814067050879502,
         "details": [
             {
                 "indicators": "1,3-Dichloropropene",
                 "unit": "mg/kg",
                 "impactValue": 0.0015,
                 "costValue": 8.35001528385e-05,
-                "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "2-Phenylphenol",
-                "unit": "mg/kg",
-                "impactValue": 0.0015,
-                "costValue": 8.3181498614e-06,
                 "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -1791,6 +1135,13 @@
                 "unit": "mg/kg",
                 "impactValue": 0.0075,
                 "costValue": 1.89280609014e-05,
+                "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "2-Phenylphenol",
+                "unit": "mg/kg",
+                "impactValue": 0.0015,
+                "costValue": 8.3181498614e-06,
                 "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -1908,15 +1259,8 @@
             {
                 "indicators": "Boscalid",
                 "unit": "mg/kg",
-                "impactValue": 0.4499999999999999,
-                "costValue": 0.0145343612883267,
-                "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Boscalid",
-                "unit": "mg/kg",
-                "impactValue": 0.4499999999999999,
-                "costValue": 0.0134217159119185,
+                "impactValue": 0.8999999999999999,
+                "costValue": 0.0279560772002452,
                 "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -1936,15 +1280,8 @@
             {
                 "indicators": "Buprofezin",
                 "unit": "mg/kg",
-                "impactValue": 0.0015,
-                "costValue": 5.20685303567e-05,
-                "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Buprofezin",
-                "unit": "mg/kg",
-                "impactValue": 0.0015,
-                "costValue": 4.81805186581e-05,
+                "impactValue": 0.003,
+                "costValue": 0.0001002490490149,
                 "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -1978,29 +1315,15 @@
             {
                 "indicators": "Carbendazim",
                 "unit": "mg/kg",
-                "impactValue": 0.03,
-                "costValue": 0.0001344816346962,
-                "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Carbendazim",
-                "unit": "mg/kg",
-                "impactValue": 0.03,
-                "costValue": 0.0001238927622638,
+                "impactValue": 0.06,
+                "costValue": 0.0002583743969601,
                 "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Carbofuran",
                 "unit": "mg/kg",
-                "impactValue": 0.003,
-                "costValue": 0.0003127560068448,
-                "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Carbofuran",
-                "unit": "mg/kg",
-                "impactValue": 0.003,
-                "costValue": 0.000289083111949,
+                "impactValue": 0.006,
+                "costValue": 0.0006018391187939,
                 "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -2020,15 +1343,8 @@
             {
                 "indicators": "Chlorantraniliprole",
                 "unit": "mg/kg",
-                "impactValue": 0.0075,
-                "costValue": 2.5861852826e-06,
-                "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Chlorantraniliprole",
-                "unit": "mg/kg",
-                "impactValue": 0.0075,
-                "costValue": 2.4090259329e-06,
+                "impactValue": 0.015,
+                "costValue": 4.9952112155e-06,
                 "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -2104,15 +1420,8 @@
             {
                 "indicators": "Clothianidin",
                 "unit": "mg/kg",
-                "impactValue": 0.003,
-                "costValue": 4.75858092002e-05,
-                "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Clothianidin",
-                "unit": "mg/kg",
-                "impactValue": 0.003,
-                "costValue": 4.4050759916e-05,
+                "impactValue": 0.006,
+                "costValue": 9.16365691162e-05,
                 "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -2230,15 +1539,8 @@
             {
                 "indicators": "Diquat",
                 "unit": "mg/kg",
-                "impactValue": 0.045,
-                "costValue": 0.0074844202079034,
-                "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Diquat",
-                "unit": "mg/kg",
-                "impactValue": 0.045,
-                "costValue": 0.0069173458930657,
+                "impactValue": 0.09,
+                "costValue": 0.0144017661009691,
                 "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -2377,15 +1679,8 @@
             {
                 "indicators": "Fenpropathrin",
                 "unit": "mg/kg",
-                "impactValue": 0.0015,
-                "costValue": 6.7240817348e-06,
-                "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Fenpropathrin",
-                "unit": "mg/kg",
-                "impactValue": 0.0015,
-                "costValue": 6.1946381131e-06,
+                "impactValue": 0.003,
+                "costValue": 1.2918719848e-05,
                 "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -2517,15 +1812,8 @@
             {
                 "indicators": "Imidacloprid",
                 "unit": "mg/kg",
-                "impactValue": 0.003,
-                "costValue": 1.65515858087e-05,
-                "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Imidacloprid",
-                "unit": "mg/kg",
-                "impactValue": 0.003,
-                "costValue": 1.51424487211e-05,
+                "impactValue": 0.006,
+                "costValue": 3.16940345299e-05,
                 "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -2846,15 +2134,8 @@
             {
                 "indicators": "Pyraclostrobin",
                 "unit": "mg/kg",
-                "impactValue": 0.003,
-                "costValue": 3.13790480957e-05,
-                "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Pyraclostrobin",
-                "unit": "mg/kg",
-                "impactValue": 0.003,
-                "costValue": 2.89083111949e-05,
+                "impactValue": 0.006,
+                "costValue": 6.02873592906e-05,
                 "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -2972,15 +2253,8 @@
             {
                 "indicators": "Thiamethoxam",
                 "unit": "mg/kg",
-                "impactValue": 0.0015,
-                "costValue": 2.34480798957e-05,
-                "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Thiamethoxam",
-                "unit": "mg/kg",
-                "impactValue": 0.0015,
-                "costValue": 2.16812333961e-05,
+                "impactValue": 0.003,
+                "costValue": 4.51293132919e-05,
                 "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -3073,6 +2347,599 @@
                 "impactValue": 0.0,
                 "costValue": 0.0,
                 "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            }
+        ]
+    },
+    {
+        "stage": "End of life, industrial-composting",
+        "ingredient": "Soybeans",
+        "impactCategory": "Environment",
+        "impactValue": 0.0,
+        "costValue": 0.0,
+        "details": [
+            {
+                "indicators": "Agricultural land occupation",
+                "unit": "m2a",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fine particulate matter formation",
+                "unit": "kg PM10 eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fossil resource scarcity",
+                "unit": "kg oil eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater eutrophication",
+                "unit": "kg P eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Global warming",
+                "unit": "kg CO2 eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Human toxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ionising radiation",
+                "unit": "kg U235-Eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine eutrophication",
+                "unit": "kg N eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Metal depletion",
+                "unit": "kg Fe eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Natural land transformation",
+                "unit": "m2",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Photochemical oxidant formation",
+                "unit": "kg NMVOC",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Stratospheric ozone depletion",
+                "unit": "kg CFC11 eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial acidification",
+                "unit": "kg SO2 eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Urban land occupation",
+                "unit": "m2a",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Water consumption",
+                "unit": "m3",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Soya milk; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            }
+        ]
+    },
+    {
+        "stage": "Offsetting schemes",
+        "ingredient": "Soybeans",
+        "impactCategory": "Environment",
+        "impactValue": 0.0,
+        "costValue": 0.0,
+        "details": [
+            {
+                "indicators": "Carbon Offsetting through Reforestation",
+                "unit": "kgCO2/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "No specific anti-deforestation regulation, No specific regulation on reforestation, none; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            }
+        ]
+    },
+    {
+        "stage": "Processing, Soybean beverage",
+        "ingredient": "Soybeans",
+        "impactCategory": "Environment",
+        "impactValue": 0.026830789209831202,
+        "costValue": 0.0043057989080842,
+        "details": [
+            {
+                "indicators": "Fine particulate matter formation",
+                "unit": "kg PM2.5 eq",
+                "impactValue": 6.6058663174e-06,
+                "costValue": 0.0007112539675682,
+                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Fossil resource scarcity",
+                "unit": "kg oil eq",
+                "impactValue": 0.0007467078627001,
+                "costValue": 0.0003948077542527,
+                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0001003507243231,
+                "costValue": 4.8098738295e-06,
+                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Freshwater eutrophication",
+                "unit": "kg P eq",
+                "impactValue": 1.1341385803e-06,
+                "costValue": 0.0002724517037892,
+                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Global warming",
+                "unit": "kg CO2 eq",
+                "impactValue": 0.00959377375401,
+                "costValue": 0.0017974391410879,
+                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Human carcinogenic toxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 5.34228128936e-05,
+                "costValue": 0.0,
+                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Human non-carcinogenic toxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": -0.001707958515434,
+                "costValue": 0.0,
+                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ionizing radiation",
+                "unit": "kBq Co-60 eq",
+                "impactValue": 0.0002921545936093,
+                "costValue": 0.0,
+                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Land use",
+                "unit": "m2a crop eq",
+                "impactValue": 0.0076063275332301,
+                "costValue": 0.0009092545428479,
+                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 7.43876510131e-05,
+                "costValue": 1.624544318e-07,
+                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Marine eutrophication",
+                "unit": "kg N eq",
+                "impactValue": 6.3180982575e-06,
+                "costValue": 0.0001053007575787,
+                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Mineral resource scarcity",
+                "unit": "kg Cu eq",
+                "impactValue": 5.2863159527e-06,
+                "costValue": 1.3549869027e-06,
+                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ozone formation, Human health",
+                "unit": "kg NOx eq",
+                "impactValue": 8.8545420241e-06,
+                "costValue": 0.0,
+                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Ozone formation, Terrestrial ecosystems",
+                "unit": "kg NOx eq",
+                "impactValue": 9.2858285366e-06,
+                "costValue": 0.0,
+                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Stratospheric ozone depletion",
+                "unit": "kg CFC11 eq",
+                "impactValue": 2.10639089e-08,
+                "costValue": 1.4018277448e-06,
+                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial acidification",
+                "unit": "kg SO2 eq",
+                "impactValue": 1.14426647343e-05,
+                "costValue": 6.33944633095e-05,
+                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Terrestrial ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0099960372991019,
+                "costValue": 3.4468806063e-06,
+                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Water consumption",
+                "unit": "m3",
+                "impactValue": 2.66369760722e-05,
+                "costValue": 4.0720554135e-05,
+                "reference": "Soybean beverage, at plant/FR U Misssing data at the country level, France has been used as a proxy; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            }
+        ]
+    },
+    {
+        "stage": "Production",
+        "ingredient": "Soybeans",
+        "impactCategory": "Biodiversity",
+        "impactValue": 0.0004019417482446,
+        "costValue": 0.0021987141487897,
+        "details": [
+            {
+                "indicators": "Eco-costs of land-use (Brazil), deforestation-related",
+                "unit": "m²/kg",
+                "impactValue": 0.0004019417482446,
+                "costValue": 0.0021987141487897,
+                "reference": "FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, No specific anti-deforestation regulation (Soybeans); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Eco-costs of land-use (Brazil), practice-related",
+                "unit": "m²/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, none: Conservative, conventional, none: Conservative, conventional, Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024 (Soybeans); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            }
+        ]
+    },
+    {
+        "stage": "Production",
+        "ingredient": "Soybeans",
+        "impactCategory": "Livelihoods",
+        "impactValue": 3.255892868e-07,
+        "costValue": 0.0003775213095374,
+        "details": [
+            {
+                "indicators": "Cases of fatal occupational injury",
+                "unit": "incidents/kg",
+                "impactValue": 5.3096e-12,
+                "costValue": 1.92244841018e-05,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Cases of non-fatal occupational injury, insured",
+                "unit": "incidents/kg",
+                "impactValue": 3.750713e-10,
+                "costValue": 1.5994286888e-06,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Cases of non-fatal occupational injury, uninsured",
+                "unit": "incidents/kg",
+                "impactValue": 3.434561e-10,
+                "costValue": 1.5159315441e-06,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Children in hazardous work by sex, age and economic activity (12-14)",
+                "unit": "FTE-child/kg",
+                "impactValue": 4.222574e-10,
+                "costValue": 5.3388430581e-06,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Children in hazardous work by sex, age and economic activity (15-17)",
+                "unit": "FTE-child/kg",
+                "impactValue": 1.6321387e-09,
+                "costValue": 2.06360647784e-05,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Children in hazardous work by sex, age and economic activity (5-11)",
+                "unit": "FTE-child/kg",
+                "impactValue": 2.324616e-10,
+                "costValue": 6.7065971405e-06,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Children in non-hazardous work by sex, age and economic activity (12-14)",
+                "unit": "FTE-child/kg",
+                "impactValue": 3.461944e-10,
+                "costValue": 9.470527116e-07,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Children in non-hazardous work by sex, age and economic activity (15-17)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Children in non-hazardous work by sex, age and economic activity (5-11)",
+                "unit": "FTE-child/kg",
+                "impactValue": 2.068165e-10,
+                "costValue": 2.3557872309e-06,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Children in work by age and not attending school (5-14)",
+                "unit": "children/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Female workers without maternity leave provision",
+                "unit": "USD/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "World population review, Total Fertility Rate, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; World population review, Total Fertility Rate, 2024, ILO estimates (labor participation rates).; missing; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; True Price, Monestisation factors for true pricing (2023)."
+            },
+            {
+                "indicators": "Informal employment rate of agricultural workers & uncovered by social protection floors/systems",
+                "unit": "FTE/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Prevalence of Forced workers in situations of debt bondage",
+                "unit": "FTE/kg",
+                "impactValue": 5.863395e-10,
+                "costValue": 1.13897197352e-05,
+                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022, Global Estimates of Modern Slavery: Forced Labour and Forced Marriage International Labour Organization (ILO), Walk Free, and International Organization for Migration (IOM), Geneva, 2022, ISBN: 978-92-2-037483-2 (web PDF); International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Prevalence of excessive working time",
+                "unit": "FTE/kg",
+                "impactValue": 3.195478237e-07,
+                "costValue": 4.04022607428e-05,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Prevalence of modern slavery (forced workers, most severe)",
+                "unit": "FTE/kg",
+                "impactValue": 1.891418e-09,
+                "costValue": 0.0002674051398052,
+                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Wage gap from gender discrimination",
+                "unit": "USD/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; True Price, Monestisation factors for true pricing (2023)."
+            },
+            {
+                "indicators": "Wage gap of workers earning above minimum wage but below decent living wage",
+                "unit": "USD/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; True Price, Monestisation factors for true pricing (2023)."
+            },
+            {
+                "indicators": "Wage gap of workers earning below minimum wage",
+                "unit": "USD/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; True Price, Monestisation factors for true pricing (2023)."
+            },
+            {
+                "indicators": "Women with denied maternity leave",
+                "unit": "women/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "World population review, Total Fertility Rate, 2024, ILO estimates (labor participation rates).; missing; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Workers without paid leave provision",
+                "unit": "USD/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Employing Workers, Doing Business: Measuring Business Regulations. World Bank Group, 2014; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; 0.0; True Price, Monestisation factors for true pricing (2023)."
+            }
+        ]
+    },
+    {
+        "stage": "Transport",
+        "ingredient": "Soybeans",
+        "impactCategory": "Environment",
+        "impactValue": 0.16139819498284871,
+        "costValue": 0.039703909186368694,
+        "details": [
+            {
+                "indicators": "Agricultural land occupation",
+                "unit": "m2a",
+                "impactValue": 0.0009416274595441,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
+            },
+            {
+                "indicators": "Fine particulate matter formation",
+                "unit": "kg PM10 eq",
+                "impactValue": 0.0001132420179917,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
+            },
+            {
+                "indicators": "Fossil resource scarcity",
+                "unit": "kg oil eq",
+                "impactValue": 0.0320716606670069,
+                "costValue": 0.0169572880581583,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
+            },
+            {
+                "indicators": "Freshwater ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0014040946280543,
+                "costValue": 6.72991455846e-05,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
+            },
+            {
+                "indicators": "Freshwater eutrophication",
+                "unit": "kg P eq",
+                "impactValue": 8.974179804e-06,
+                "costValue": 0.0021558481654114,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
+            },
+            {
+                "indicators": "Global warming",
+                "unit": "kg CO2 eq",
+                "impactValue": 0.0871879592118574,
+                "costValue": 0.0163350788268767,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
+            },
+            {
+                "indicators": "Human toxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0211227684772872,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
+            },
+            {
+                "indicators": "Ionising radiation",
+                "unit": "kg U235-Eq",
+                "impactValue": 0.0075873184116352,
+                "costValue": 0.0004860458547892,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
+            },
+            {
+                "indicators": "Marine ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 0.0013868382406087,
+                "costValue": 3.0287018798e-06,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
+            },
+            {
+                "indicators": "Marine eutrophication",
+                "unit": "kg N eq",
+                "impactValue": 6.99816759045e-05,
+                "costValue": 0.0011663515173439,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
+            },
+            {
+                "indicators": "Metal depletion",
+                "unit": "kg Fe eq",
+                "impactValue": 0.005766702456468,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
+            },
+            {
+                "indicators": "Natural land transformation",
+                "unit": "m2",
+                "impactValue": 3.18794289228e-05,
+                "costValue": 0.0,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
+            },
+            {
+                "indicators": "Photochemical oxidant formation",
+                "unit": "kg NMVOC",
+                "impactValue": 0.0002782100752514,
+                "costValue": 0.0009678431914717,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
+            },
+            {
+                "indicators": "Stratospheric ozone depletion",
+                "unit": "kg CFC11 eq",
+                "impactValue": 1.52457407e-08,
+                "costValue": 1.0146218547e-06,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
+            },
+            {
+                "indicators": "Terrestrial acidification",
+                "unit": "kg SO2 eq",
+                "impactValue": 0.0002317730271281,
+                "costValue": 0.0012840651199269,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
+            },
+            {
+                "indicators": "Terrestrial ecotoxicity",
+                "unit": "kg 1,4-DCB",
+                "impactValue": 2.39636966679e-05,
+                "costValue": 8.2632746e-09,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
+            },
+            {
+                "indicators": "Urban land occupation",
+                "unit": "m2a",
+                "impactValue": 0.0030836173192294,
+                "costValue": 0.0001461693491906,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
+            },
+            {
+                "indicators": "Water consumption",
+                "unit": "m3",
+                "impactValue": 8.75687637464e-05,
+                "costValue": 0.0001338683706063,
+                "reference": "Road; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (870); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (100)."
             }
         ]
     }

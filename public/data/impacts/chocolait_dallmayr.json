@@ -4,34 +4,20 @@
         "ingredient": "Cocoa beans",
         "impactCategory": "Health",
         "impactValue": 0.0867,
-        "costValue": 0.00038942508763660006,
+        "costValue": 0.0003894250876367,
         "details": [
             {
                 "indicators": "Clothianidin",
                 "unit": "mg/kg",
-                "impactValue": 0.0003,
-                "costValue": 4.75858092e-06,
-                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2054 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Clothianidin",
-                "unit": "mg/kg",
-                "impactValue": 0.0003,
-                "costValue": 4.4050759916e-06,
+                "impactValue": 0.0006,
+                "costValue": 9.1636569116e-06,
                 "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2054 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Endosulfan",
                 "unit": "mg/kg",
-                "impactValue": 0.003,
-                "costValue": 0.0001565504157746,
-                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2055 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Endosulfan",
-                "unit": "mg/kg",
-                "impactValue": 0.003,
-                "costValue": 0.0001445415559745,
+                "impactValue": 0.006,
+                "costValue": 0.0003010919717491,
                 "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2055 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -40,6 +26,13 @@
                 "impactValue": 0.00015,
                 "costValue": 0.0,
                 "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2056 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; No data; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Hydrogen Phosphide",
+                "unit": "mg/kg",
+                "impactValue": 0.00015,
+                "costValue": 0.0,
+                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2057 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; No data; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Mandipropamid",
@@ -56,46 +49,25 @@
                 "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2059 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
-                "indicators": "Pyraclostrobin",
-                "unit": "mg/kg",
-                "impactValue": 0.00015,
-                "costValue": 1.5689524047e-06,
-                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2061 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Pyraclostrobin",
-                "unit": "mg/kg",
-                "impactValue": 0.00015,
-                "costValue": 1.4454155597e-06,
-                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2061 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Thiamethoxam",
-                "unit": "mg/kg",
-                "impactValue": 0.0003,
-                "costValue": 4.6896159791e-06,
-                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2062 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Thiamethoxam",
-                "unit": "mg/kg",
-                "impactValue": 0.0003,
-                "costValue": 4.3362466792e-06,
-                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2062 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Hydrogen Phosphide",
-                "unit": "mg/kg",
-                "impactValue": 0.00015,
-                "costValue": 0.0,
-                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2057 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; No data; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
                 "indicators": "Methyl Bromide",
                 "unit": "mg/kg",
                 "impactValue": 0.075,
                 "costValue": 6.02256483227e-05,
                 "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2060 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Pyraclostrobin",
+                "unit": "mg/kg",
+                "impactValue": 0.0003,
+                "costValue": 3.0143679645e-06,
+                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2061 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Thiamethoxam",
+                "unit": "mg/kg",
+                "impactValue": 0.0006,
+                "costValue": 9.0258626583e-06,
+                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2062 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             }
         ]
     },
@@ -114,11 +86,11 @@
                 "reference": "Cocoa; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
-                "indicators": "Global warming",
-                "unit": "kg CO2 eq",
+                "indicators": "Fine particulate matter formation",
+                "unit": "kg PM10 eq",
                 "impactValue": 0.0,
                 "costValue": 0.0,
-                "reference": "Cocoa; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "reference": "Cocoa; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Fossil resource scarcity",
@@ -137,6 +109,13 @@
             {
                 "indicators": "Freshwater eutrophication",
                 "unit": "kg P eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Cocoa; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Global warming",
+                "unit": "kg CO2 eq",
                 "impactValue": 0.0,
                 "costValue": 0.0,
                 "reference": "Cocoa; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
@@ -184,22 +163,15 @@
                 "reference": "Cocoa; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
-                "indicators": "Stratospheric ozone depletion",
-                "unit": "kg CFC11 eq",
+                "indicators": "Photochemical oxidant formation",
+                "unit": "kg NMVOC",
                 "impactValue": 0.0,
                 "costValue": 0.0,
                 "reference": "Cocoa; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
-                "indicators": "Fine particulate matter formation",
-                "unit": "kg PM10 eq",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Cocoa; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Photochemical oxidant formation",
-                "unit": "kg NMVOC",
+                "indicators": "Stratospheric ozone depletion",
+                "unit": "kg CFC11 eq",
                 "impactValue": 0.0,
                 "costValue": 0.0,
                 "reference": "Cocoa; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
@@ -245,7 +217,7 @@
                 "indicators": "Carbon Offsetting through Reforestation",
                 "unit": "kgCO2/kg",
                 "impactValue": 0.0,
-                "costValue": -0.0,
+                "costValue": 0.0,
                 "reference": "Rainforest Alliance regulation, No specific regulation enforced, rainforest-alliance; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             }
         ]
@@ -393,18 +365,18 @@
         "costValue": 0.0,
         "details": [
             {
-                "indicators": "Eco-costs of land-use (Ecuador), practice-related",
-                "unit": "m²/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, missing (Cocoa beans); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
                 "indicators": "Eco-costs of land-use (Ecuador), deforestation-related",
                 "unit": "m²/kg",
                 "impactValue": 0.0,
                 "costValue": 0.0,
                 "reference": "FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, Rainforest Alliance regulation (Cocoa beans); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Eco-costs of land-use (Ecuador), practice-related",
+                "unit": "m²/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, missing (Cocoa beans); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             }
         ]
     },
@@ -551,118 +523,6 @@
         "costValue": 0.00023007554385380002,
         "details": [
             {
-                "indicators": "Prevalence of excessive working time",
-                "unit": "FTE/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Wage gap from gender discrimination",
-                "unit": "USD/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; True Price, Monestisation factors for true pricing (2023)."
-            },
-            {
-                "indicators": "Wage gap of workers earning below minimum wage",
-                "unit": "USD/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; True Price, Monestisation factors for true pricing (2023)."
-            },
-            {
-                "indicators": "Wage gap of workers earning above minimum wage but below decent living wage",
-                "unit": "USD/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; True Price, Monestisation factors for true pricing (2023)."
-            },
-            {
-                "indicators": "Children in hazardous work by sex, age and economic activity (5-11)",
-                "unit": "FTE-child/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Papaya Global, Payroll and Benefits Guide Ecuador, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in hazardous work by sex, age and economic activity (12-14)",
-                "unit": "FTE-child/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Papaya Global, Payroll and Benefits Guide Ecuador, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in hazardous work by sex, age and economic activity (15-17)",
-                "unit": "FTE-child/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Papaya Global, Payroll and Benefits Guide Ecuador, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in non-hazardous work by sex, age and economic activity (5-11)",
-                "unit": "FTE-child/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Papaya Global, Payroll and Benefits Guide Ecuador, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in non-hazardous work by sex, age and economic activity (12-14)",
-                "unit": "FTE-child/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Papaya Global, Payroll and Benefits Guide Ecuador, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in non-hazardous work by sex, age and economic activity (15-17)",
-                "unit": "FTE-child/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Papaya Global, Payroll and Benefits Guide Ecuador, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Prevalence of modern slavery (forced workers, most severe)",
-                "unit": "FTE/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Papaya Global, Payroll and Benefits Guide Ecuador, 2024; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Prevalence of Forced workers in situations of debt bondage",
-                "unit": "FTE/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022, Global Estimates of Modern Slavery: Forced Labour and Forced Marriage International Labour Organization (ILO), Walk Free, and International Organization for Migration (IOM), Geneva, 2022, ISBN: 978-92-2-037483-2 (web PDF); International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Papaya Global, Payroll and Benefits Guide Ecuador, 2024; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Female workers without maternity leave provision",
-                "unit": "USD/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "World population review, Total Fertility Rate, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; World population review, Total Fertility Rate, 2024, Estimates; missing; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; True Price, Monestisation factors for true pricing (2023)."
-            },
-            {
-                "indicators": "Women with denied maternity leave",
-                "unit": "women/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "World population review, Total Fertility Rate, 2024, Estimates; missing; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Workers without paid leave provision",
-                "unit": "USD/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Employing Workers, Doing Business: Measuring Business Regulations. World Bank Group, 2014; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; 0.0; True Price, Monestisation factors for true pricing (2023)."
-            },
-            {
-                "indicators": "Informal employment rate of agricultural workers & uncovered by social protection floors/systems",
-                "unit": "FTE/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
                 "indicators": "Cases of fatal occupational injury",
                 "unit": "incidents/kg",
                 "impactValue": 6.35388e-11,
@@ -684,11 +544,123 @@
                 "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
+                "indicators": "Children in hazardous work by sex, age and economic activity (12-14)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Papaya Global, Payroll and Benefits Guide Ecuador, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Children in hazardous work by sex, age and economic activity (15-17)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Papaya Global, Payroll and Benefits Guide Ecuador, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Children in hazardous work by sex, age and economic activity (5-11)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Papaya Global, Payroll and Benefits Guide Ecuador, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Children in non-hazardous work by sex, age and economic activity (12-14)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Papaya Global, Payroll and Benefits Guide Ecuador, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Children in non-hazardous work by sex, age and economic activity (15-17)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Papaya Global, Payroll and Benefits Guide Ecuador, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Children in non-hazardous work by sex, age and economic activity (5-11)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Papaya Global, Payroll and Benefits Guide Ecuador, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
                 "indicators": "Children in work by age and not attending school (5-14)",
                 "unit": "children/kg",
                 "impactValue": 0.0,
                 "costValue": 0.0,
                 "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Female workers without maternity leave provision",
+                "unit": "USD/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "World population review, Total Fertility Rate, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; World population review, Total Fertility Rate, 2024, Estimates; missing; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; True Price, Monestisation factors for true pricing (2023)."
+            },
+            {
+                "indicators": "Informal employment rate of agricultural workers & uncovered by social protection floors/systems",
+                "unit": "FTE/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Prevalence of Forced workers in situations of debt bondage",
+                "unit": "FTE/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022, Global Estimates of Modern Slavery: Forced Labour and Forced Marriage International Labour Organization (ILO), Walk Free, and International Organization for Migration (IOM), Geneva, 2022, ISBN: 978-92-2-037483-2 (web PDF); International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Papaya Global, Payroll and Benefits Guide Ecuador, 2024; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Prevalence of excessive working time",
+                "unit": "FTE/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Prevalence of modern slavery (forced workers, most severe)",
+                "unit": "FTE/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Papaya Global, Payroll and Benefits Guide Ecuador, 2024; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Wage gap from gender discrimination",
+                "unit": "USD/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; True Price, Monestisation factors for true pricing (2023)."
+            },
+            {
+                "indicators": "Wage gap of workers earning above minimum wage but below decent living wage",
+                "unit": "USD/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; True Price, Monestisation factors for true pricing (2023)."
+            },
+            {
+                "indicators": "Wage gap of workers earning below minimum wage",
+                "unit": "USD/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; True Price, Monestisation factors for true pricing (2023)."
+            },
+            {
+                "indicators": "Women with denied maternity leave",
+                "unit": "women/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "World population review, Total Fertility Rate, 2024, Estimates; missing; FAOSTAT, Crops and livestock products, Yield, Cocoa beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Workers without paid leave provision",
+                "unit": "USD/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Employing Workers, Doing Business: Measuring Business Regulations. World Bank Group, 2014; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; 0.0; True Price, Monestisation factors for true pricing (2023)."
             }
         ]
     },
@@ -831,21 +803,14 @@
         "stage": "Consumption",
         "ingredient": "Cow milk",
         "impactCategory": "Health",
-        "impactValue": 0.0213984,
-        "costValue": 0.0013897493498630999,
+        "impactValue": 0.021398400000000005,
+        "costValue": 0.0013897493498635,
         "details": [
             {
                 "indicators": "1,3-Dichloropropene",
                 "unit": "mg/kg",
                 "impactValue": 0.00016,
                 "costValue": 8.9066829694e-06,
-                "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "2-Phenylphenol",
-                "unit": "mg/kg",
-                "impactValue": 8e-05,
-                "costValue": 4.436346592e-07,
                 "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -860,6 +825,13 @@
                 "unit": "mg/kg",
                 "impactValue": 0.0,
                 "costValue": 0.0,
+                "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "2-Phenylphenol",
+                "unit": "mg/kg",
+                "impactValue": 8e-05,
+                "costValue": 4.436346592e-07,
                 "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -977,15 +949,8 @@
             {
                 "indicators": "Boscalid",
                 "unit": "mg/kg",
-                "impactValue": 0.00016,
-                "costValue": 5.1677729025e-06,
-                "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Boscalid",
-                "unit": "mg/kg",
-                "impactValue": 0.00016,
-                "costValue": 4.7721656575e-06,
+                "impactValue": 0.00032,
+                "costValue": 9.93993856e-06,
                 "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -1005,15 +970,8 @@
             {
                 "indicators": "Buprofezin",
                 "unit": "mg/kg",
-                "impactValue": 8e-05,
-                "costValue": 2.7769882856e-06,
-                "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Buprofezin",
-                "unit": "mg/kg",
-                "impactValue": 8e-05,
-                "costValue": 2.5696276617e-06,
+                "impactValue": 0.00016,
+                "costValue": 5.3466159474e-06,
                 "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -1047,29 +1005,15 @@
             {
                 "indicators": "Carbendazim",
                 "unit": "mg/kg",
-                "impactValue": 0.0004,
-                "costValue": 1.7930884626e-06,
-                "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Carbendazim",
-                "unit": "mg/kg",
-                "impactValue": 0.0004,
-                "costValue": 1.6519034968e-06,
+                "impactValue": 0.0008,
+                "costValue": 3.4449919594e-06,
                 "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Carbofuran",
                 "unit": "mg/kg",
-                "impactValue": 8e-06,
-                "costValue": 8.340160182e-07,
-                "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Carbofuran",
-                "unit": "mg/kg",
-                "impactValue": 8e-06,
-                "costValue": 7.708882985e-07,
+                "impactValue": 1.6e-05,
+                "costValue": 1.6049043167e-06,
                 "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -1089,15 +1033,8 @@
             {
                 "indicators": "Chlorantraniliprole",
                 "unit": "mg/kg",
-                "impactValue": 0.0004,
-                "costValue": 1.379298817e-07,
-                "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Chlorantraniliprole",
-                "unit": "mg/kg",
-                "impactValue": 0.0004,
-                "costValue": 1.28481383e-07,
+                "impactValue": 0.0008,
+                "costValue": 2.664112648e-07,
                 "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -1173,15 +1110,8 @@
             {
                 "indicators": "Clothianidin",
                 "unit": "mg/kg",
-                "impactValue": 0.00016,
-                "costValue": 2.537909824e-06,
-                "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Clothianidin",
-                "unit": "mg/kg",
-                "impactValue": 0.00016,
-                "costValue": 2.3493738621e-06,
+                "impactValue": 0.00032,
+                "costValue": 4.8872836862e-06,
                 "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -1299,15 +1229,8 @@
             {
                 "indicators": "Diquat",
                 "unit": "mg/kg",
-                "impactValue": 8e-05,
-                "costValue": 1.33056359251e-05,
-                "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Diquat",
-                "unit": "mg/kg",
-                "impactValue": 8e-05,
-                "costValue": 1.22975038098e-05,
+                "impactValue": 0.00016,
+                "costValue": 2.5603139735e-05,
                 "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -1416,6 +1339,13 @@
                 "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
+                "indicators": "Fenbutatin Oxide",
+                "unit": "mg/kg",
+                "impactValue": 0.00016,
+                "costValue": 1.8721572964e-06,
+                "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
                 "indicators": "Fenhexamid",
                 "unit": "mg/kg",
                 "impactValue": 8e-05,
@@ -1434,13 +1364,6 @@
                 "unit": "mg/kg",
                 "impactValue": 0.0004,
                 "costValue": 8.35128990074e-05,
-                "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Fenpropathrin",
-                "unit": "mg/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
                 "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -1579,15 +1502,8 @@
             {
                 "indicators": "Imidacloprid",
                 "unit": "mg/kg",
-                "impactValue": 0.00016,
-                "costValue": 8.827512431e-07,
-                "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Imidacloprid",
-                "unit": "mg/kg",
-                "impactValue": 0.00016,
-                "costValue": 8.075972651e-07,
+                "impactValue": 0.00032,
+                "costValue": 1.6903485082e-06,
                 "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -1616,6 +1532,13 @@
                 "unit": "mg/kg",
                 "impactValue": 8e-05,
                 "costValue": 5.3228001565e-06,
+                "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Maleic Hydrazide",
+                "unit": "mg/kg",
+                "impactValue": 0.00016,
+                "costValue": 6.60761398e-08,
                 "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -1827,20 +1750,6 @@
                 "impactValue": 8e-05,
                 "costValue": 2.7531724947e-06,
                 "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Fenbutatin Oxide",
-                "unit": "mg/kg",
-                "impactValue": 0.00016,
-                "costValue": 1.8721572964e-06,
-                "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Maleic Hydrazide",
-                "unit": "mg/kg",
-                "impactValue": 0.00016,
-                "costValue": 6.60761398e-08,
-                "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             }
         ]
     },
@@ -1859,11 +1768,11 @@
                 "reference": "Milk, powder, skimmed, non rehydrated; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
-                "indicators": "Global warming",
-                "unit": "kg CO2 eq",
+                "indicators": "Fine particulate matter formation",
+                "unit": "kg PM10 eq",
                 "impactValue": 0.0,
                 "costValue": 0.0,
-                "reference": "Milk, powder, skimmed, non rehydrated; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "reference": "Milk, powder, skimmed, non rehydrated; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Fossil resource scarcity",
@@ -1882,6 +1791,13 @@
             {
                 "indicators": "Freshwater eutrophication",
                 "unit": "kg P eq",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Milk, powder, skimmed, non rehydrated; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Global warming",
+                "unit": "kg CO2 eq",
                 "impactValue": 0.0,
                 "costValue": 0.0,
                 "reference": "Milk, powder, skimmed, non rehydrated; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
@@ -1929,22 +1845,15 @@
                 "reference": "Milk, powder, skimmed, non rehydrated; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
-                "indicators": "Stratospheric ozone depletion",
-                "unit": "kg CFC11 eq",
+                "indicators": "Photochemical oxidant formation",
+                "unit": "kg NMVOC",
                 "impactValue": 0.0,
                 "costValue": 0.0,
                 "reference": "Milk, powder, skimmed, non rehydrated; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
-                "indicators": "Fine particulate matter formation",
-                "unit": "kg PM10 eq",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Milk, powder, skimmed, non rehydrated; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Photochemical oxidant formation",
-                "unit": "kg NMVOC",
+                "indicators": "Stratospheric ozone depletion",
+                "unit": "kg CFC11 eq",
                 "impactValue": 0.0,
                 "costValue": 0.0,
                 "reference": "Milk, powder, skimmed, non rehydrated; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
@@ -1990,7 +1899,7 @@
                 "indicators": "Carbon Offsetting through Reforestation",
                 "unit": "kgCO2/kg",
                 "impactValue": 0.0,
-                "costValue": -0.0,
+                "costValue": 0.0,
                 "reference": "No specific anti-deforestation regulation, No specific regulation on reforestation, none; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             }
         ]
@@ -1999,50 +1908,22 @@
         "stage": "Production",
         "ingredient": "Cow milk",
         "impactCategory": "Biodiversity",
-        "impactValue": 9.28618442703e-05,
-        "costValue": 0.000423148710537,
+        "impactValue": 9.28618442704e-05,
+        "costValue": 0.0004231487105371,
         "details": [
             {
-                "indicators": "Eco-costs of land-use (Switzerland), practice-related",
-                "unit": "m²/kg",
-                "impactValue": -0.0,
-                "costValue": -0.0,
-                "reference": "FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022, missing, none: Conservative, conventional, none: Conservative, conventional, Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024 (Cereals); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Eco-costs of land-use (Switzerland), practice-related",
-                "unit": "m²/kg",
-                "impactValue": -0.0,
-                "costValue": -0.0,
-                "reference": "FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, none: Conservative, conventional, none: Conservative, conventional, Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024 (Soybeans); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Eco-costs of land-use (Switzerland), practice-related",
-                "unit": "m²/kg",
-                "impactValue": -0.0,
-                "costValue": -0.0,
-                "reference": "FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, none: Conservative, conventional, none: Conservative, conventional, Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024 (Pasture); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
                 "indicators": "Eco-costs of land-use (Switzerland), deforestation-related",
+                "unit": "m²/kg",
+                "impactValue": 9.28618442704e-05,
+                "costValue": 0.0004231487105371,
+                "reference": "FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022, missing, No specific anti-deforestation regulation (Cereals); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, No specific anti-deforestation regulation (Soybeans); FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, No specific anti-deforestation regulation (Pasture)."
+            },
+            {
+                "indicators": "Eco-costs of land-use (Switzerland), practice-related",
                 "unit": "m²/kg",
                 "impactValue": 0.0,
                 "costValue": 0.0,
-                "reference": "FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022, missing, No specific anti-deforestation regulation (Cereals); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Eco-costs of land-use (Switzerland), deforestation-related",
-                "unit": "m²/kg",
-                "impactValue": 4.9202949e-08,
-                "costValue": 2.24205804e-07,
-                "reference": "FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, No specific anti-deforestation regulation (Soybeans); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Eco-costs of land-use (Switzerland), deforestation-related",
-                "unit": "m²/kg",
-                "impactValue": 9.28126413213e-05,
-                "costValue": 0.000422924504733,
-                "reference": "FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, No specific anti-deforestation regulation (Pasture); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "reference": "FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022, missing, none: Conservative, conventional, none: Conservative, conventional, Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024 (Cereals); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, none: Conservative, conventional, none: Conservative, conventional, Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024 (Soybeans); FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, none: Conservative, conventional, none: Conservative, conventional, Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024 (Pasture)."
             }
         ]
     },
@@ -2053,174 +1934,6 @@
         "impactValue": 7.9734e-12,
         "costValue": 8.971726638000001e-07,
         "details": [
-            {
-                "indicators": "Prevalence of excessive working time",
-                "unit": "FTE/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Wage gap from gender discrimination",
-                "unit": "USD/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; True Price, Monestisation factors for true pricing (2023)."
-            },
-            {
-                "indicators": "Wage gap of workers earning below minimum wage",
-                "unit": "USD/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; True Price, Monestisation factors for true pricing (2023)."
-            },
-            {
-                "indicators": "Wage gap of workers earning above minimum wage but below decent living wage",
-                "unit": "USD/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; True Price, Monestisation factors for true pricing (2023)."
-            },
-            {
-                "indicators": "Children in hazardous work by sex, age and economic activity (5-11)",
-                "unit": "FTE-child/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in hazardous work by sex, age and economic activity (12-14)",
-                "unit": "FTE-child/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in hazardous work by sex, age and economic activity (15-17)",
-                "unit": "FTE-child/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in non-hazardous work by sex, age and economic activity (5-11)",
-                "unit": "FTE-child/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in non-hazardous work by sex, age and economic activity (12-14)",
-                "unit": "FTE-child/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in non-hazardous work by sex, age and economic activity (15-17)",
-                "unit": "FTE-child/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in hazardous work by sex, age and economic activity (5-11)",
-                "unit": "FTE-child/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in hazardous work by sex, age and economic activity (12-14)",
-                "unit": "FTE-child/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in hazardous work by sex, age and economic activity (15-17)",
-                "unit": "FTE-child/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in non-hazardous work by sex, age and economic activity (5-11)",
-                "unit": "FTE-child/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in non-hazardous work by sex, age and economic activity (12-14)",
-                "unit": "FTE-child/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Children in non-hazardous work by sex, age and economic activity (15-17)",
-                "unit": "FTE-child/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Prevalence of modern slavery (forced workers, most severe)",
-                "unit": "FTE/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Swiss Confederation, Work and rest period, 2024; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Prevalence of modern slavery (forced workers, most severe)",
-                "unit": "FTE/kg",
-                "impactValue": 6.0866e-12,
-                "costValue": 8.605201043e-07,
-                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Swiss Confederation, Work and rest period, 2024; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Prevalence of Forced workers in situations of debt bondage",
-                "unit": "FTE/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022, Global Estimates of Modern Slavery: Forced Labour and Forced Marriage International Labour Organization (ILO), Walk Free, and International Organization for Migration (IOM), Geneva, 2022, ISBN: 978-92-2-037483-2 (web PDF); International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Swiss Confederation, Work and rest period, 2024; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Prevalence of Forced workers in situations of debt bondage",
-                "unit": "FTE/kg",
-                "impactValue": 1.8868e-12,
-                "costValue": 3.66525595e-08,
-                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022, Global Estimates of Modern Slavery: Forced Labour and Forced Marriage International Labour Organization (ILO), Walk Free, and International Organization for Migration (IOM), Geneva, 2022, ISBN: 978-92-2-037483-2 (web PDF); International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Swiss Confederation, Work and rest period, 2024; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Female workers without maternity leave provision",
-                "unit": "USD/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "World population review, Total Fertility Rate, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; World population review, Total Fertility Rate, 2024, Eurostat, Duration of working life, 2052; missing; True Price, Monestisation factors for true pricing (2023)."
-            },
-            {
-                "indicators": "Women with denied maternity leave",
-                "unit": "women/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "World population review, Total Fertility Rate, 2024, Eurostat, Duration of working life, 2052; missing; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Workers without paid leave provision",
-                "unit": "USD/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Employing Workers, Doing Business: Measuring Business Regulations. World Bank Group, 2014; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; 0.0; True Price, Monestisation factors for true pricing (2023)."
-            },
-            {
-                "indicators": "Informal employment rate of agricultural workers & uncovered by social protection floors/systems",
-                "unit": "FTE/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
             {
                 "indicators": "Cases of fatal occupational injury",
                 "unit": "incidents/kg",
@@ -2243,11 +1956,123 @@
                 "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
+                "indicators": "Children in hazardous work by sex, age and economic activity (12-14)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022."
+            },
+            {
+                "indicators": "Children in hazardous work by sex, age and economic activity (15-17)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022."
+            },
+            {
+                "indicators": "Children in hazardous work by sex, age and economic activity (5-11)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022."
+            },
+            {
+                "indicators": "Children in non-hazardous work by sex, age and economic activity (12-14)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022."
+            },
+            {
+                "indicators": "Children in non-hazardous work by sex, age and economic activity (15-17)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022."
+            },
+            {
+                "indicators": "Children in non-hazardous work by sex, age and economic activity (5-11)",
+                "unit": "FTE-child/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, Western Europe has been used as a proxy; Swiss Confederation, Work and rest period, 2024; Our World in data, Average weekly working hours of children, 2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022."
+            },
+            {
                 "indicators": "Children in work by age and not attending school (5-14)",
                 "unit": "children/kg",
                 "impactValue": 0.0,
                 "costValue": 0.0,
                 "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Female workers without maternity leave provision",
+                "unit": "USD/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "World population review, Total Fertility Rate, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; World population review, Total Fertility Rate, 2024, Eurostat, Duration of working life, 2052; missing; True Price, Monestisation factors for true pricing (2023)."
+            },
+            {
+                "indicators": "Informal employment rate of agricultural workers & uncovered by social protection floors/systems",
+                "unit": "FTE/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Prevalence of Forced workers in situations of debt bondage",
+                "unit": "FTE/kg",
+                "impactValue": 1.8868e-12,
+                "costValue": 3.66525595e-08,
+                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022, Global Estimates of Modern Slavery: Forced Labour and Forced Marriage International Labour Organization (ILO), Walk Free, and International Organization for Migration (IOM), Geneva, 2022, ISBN: 978-92-2-037483-2 (web PDF); International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Swiss Confederation, Work and rest period, 2024; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022."
+            },
+            {
+                "indicators": "Prevalence of excessive working time",
+                "unit": "FTE/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Prevalence of modern slavery (forced workers, most severe)",
+                "unit": "FTE/kg",
+                "impactValue": 6.0866e-12,
+                "costValue": 8.605201043e-07,
+                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Swiss Confederation, Work and rest period, 2024; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022."
+            },
+            {
+                "indicators": "Wage gap from gender discrimination",
+                "unit": "USD/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; True Price, Monestisation factors for true pricing (2023)."
+            },
+            {
+                "indicators": "Wage gap of workers earning above minimum wage but below decent living wage",
+                "unit": "USD/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; True Price, Monestisation factors for true pricing (2023)."
+            },
+            {
+                "indicators": "Wage gap of workers earning below minimum wage",
+                "unit": "USD/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; missing; True Price, Monestisation factors for true pricing (2023)."
+            },
+            {
+                "indicators": "Women with denied maternity leave",
+                "unit": "women/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "World population review, Total Fertility Rate, 2024, Eurostat, Duration of working life, 2052; missing; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+            },
+            {
+                "indicators": "Workers without paid leave provision",
+                "unit": "USD/kg",
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Employing Workers, Doing Business: Measuring Business Regulations. World Bank Group, 2014; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; 0.0; True Price, Monestisation factors for true pricing (2023)."
             }
         ]
     },
