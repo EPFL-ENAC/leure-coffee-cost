@@ -1,23 +1,23 @@
 <template>
   <div class="impact-container">
-    <div v-if="store.selectedImpact" class="impact-card">
+    <div class="impact-card">
       <div class="impact-header">
         <span class="impact-category">
           <i class="impact-icon" />
-          {{ store.selectedImpact?.indicators }}
+          {{ selectedImpact?.indicators }}
         </span>
       </div>
       <div class="impact-value">
         <h2>
-          {{ store.selectedImpact.impactValue.toExponential(2) }}
+          {{ selectedImpact?.impactValue.toExponential(2) }}
           <span class="unit">
-            {{ store.selectedImpact.unit }}
+            {{ selectedImpact?.unit }}
           </span>
         </h2>
         <h2>:</h2>
 
         <h2>
-          {{ store.selectedImpact?.costValue.toFixed(4) }}
+          {{ selectedImpact?.costValue.toFixed(4) }}
           <span class="unit">CHF</span>
         </h2>
       </div>
@@ -25,7 +25,7 @@
         <h4>Definition</h4>
         <p>{{ capitalizeFirstLetter(impactDefinition) }}</p>
         <h4>Reference</h4>
-        <p>{{ store.selectedImpact?.reference }}</p>
+        <p>{{ selectedImpact?.reference }}</p>
       </div>
     </div>
   </div>
@@ -36,6 +36,8 @@ import { useCoffeeStore } from "@/stores/coffeeStore";
 import { computed } from "vue";
 
 const store = useCoffeeStore();
+
+const selectedImpact = computed(() => store.selectedImpact ?? undefined);
 
 const impactDefinition = computed(() => {
   return store.selectedImpact?.definition ?? "";

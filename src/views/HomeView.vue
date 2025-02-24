@@ -20,13 +20,26 @@ const selectedRetailName = computed(() => store.selectedRetailName);
 const selectedCoffee = computed(() => store.selectedCoffee);
 
 const sunburstRef = useTemplateRef<any>("sunburst");
+const impactDetailRef = useTemplateRef<any>("impactDetail");
 
 watch(selectedCoffee, (newCoffee) => {
   if (newCoffee && sunburstRef.value && sunburstRef.value.$el)
     sunburstRef.value.$el.scrollIntoView({
       behavior: "smooth",
+      block: "nearest",
     });
 });
+
+watch(
+  () => store.selectedImpact,
+  (impact) => {
+    if (impact && impactDetailRef.value && impactDetailRef.value.$el)
+      impactDetailRef.value.$el.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+  }
+);
 
 watch(
   () => store.selectedImpact,
@@ -75,7 +88,10 @@ watch(
   <h3 v-if="store.isPriceVisible && !store.selectedCoffeeImpacts">
     No impacts available for the selected coffee and sale point.
   </h3>
-  <ImpactContainer />
+  <ImpactContainer
+    ref="impactDetail"
+    :class="{ hidden: !store.selectedImpact }"
+  />
   <!-- Project information and disclaimer -->
 
   <Disclaimer></Disclaimer>
