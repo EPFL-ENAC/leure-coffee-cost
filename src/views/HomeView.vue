@@ -21,9 +21,8 @@ const selectedCoffee = computed(() => store.selectedCoffee);
 
 const sunburstRef = useTemplateRef<any>("sunburst");
 
-watch(selectedCoffee, () => {
-  console.log(sunburstRef.value);
-  if (sunburstRef.value && sunburstRef.value.$el)
+watch(selectedCoffee, (newCoffee) => {
+  if (newCoffee && sunburstRef.value && sunburstRef.value.$el)
     sunburstRef.value.$el.scrollIntoView({
       behavior: "smooth",
     });
@@ -83,7 +82,7 @@ watch(
 </template>
 <style scoped>
 .hidden {
-  display: none;
+  visibility: hidden;
 }
 a {
   color: var(--color-primary);
