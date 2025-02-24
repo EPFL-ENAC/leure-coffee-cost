@@ -10,7 +10,7 @@ import SelectionSugar from "@/components/SelectionSugar.vue";
 import PriceDisplay from "@/components/PriceDisplay.vue";
 // import ResultPie from "@/components/ResultPie.vue";
 import EchartsSunburst from "@/components/EchartsSunburst.vue";
-import { computed, watch } from "vue";
+import { computed, useTemplateRef, watch } from "vue";
 import Disclaimer from "@/components/Disclaimer.vue";
 import ImpactContainer from "@/components/ImpactContainer.vue";
 // import TreemapChart from "@/components/TreemapChart.vue";
@@ -18,7 +18,16 @@ import ImpactContainer from "@/components/ImpactContainer.vue";
 const selectedRetailName = computed(() => store.selectedRetailName);
 
 const selectedCoffee = computed(() => store.selectedCoffee);
-watch(selectedCoffee, () => console.log(selectedCoffee.value));
+
+const sunburstRef = useTemplateRef<any>("sunburst");
+
+watch(selectedCoffee, () => {
+  console.log(sunburstRef.value);
+  if (sunburstRef.value && sunburstRef.value.$el)
+    sunburstRef.value.$el.scrollIntoView({
+      behavior: "smooth",
+    });
+});
 
 watch(
   () => store.selectedImpact,
@@ -32,14 +41,19 @@ watch(
   </h3>
   <SelectionType />
 
-  <SelectionCaffeine v-if="selectedRetailName && store.isDecafPossible" />
-  <SelectionMilk v-if="selectedRetailName && store.isMilkPossible" />
-  <SelectionSugar v-if="selectedRetailName" />
-  <PriceDisplay v-if="store.isPriceVisible" />
+  <SelectionCaffeine
+    :class="{ hidden: !(selectedRetailName && store.isDecafPossible) }"
+  />
+  <SelectionMilk
+    :class="{ hidden: !(selectedRetailName && store.isMilkPossible) }"
+  />
+  <SelectionSugar :class="{ hidden: !selectedRetailName }" />
+  <PriceDisplay ref="priceDisplay" :class="{ hidden: !store.isPriceVisible }" />
 
   <EchartsSunburst
-    v-if="store.isPriceVisible && store.selectedCoffeeImpacts"
+    ref="sunburst"
     :sunburstData="store.sunburstNegativeData"
+    :class="{ hidden: !(store.isPriceVisible && store.selectedCoffeeImpacts) }"
   >
     <h3>Analyse hidden cost:</h3>
     <div>
@@ -49,8 +63,8 @@ watch(
   </EchartsSunburst>
 
   <EchartsSunburst
-    v-if="store.isPriceVisible && store.selectedCoffeeImpacts"
     :sunburstData="store.sunburstPositiveData"
+    :class="{ hidden: !(store.isPriceVisible && store.selectedCoffeeImpacts) }"
   >
     <h3>Analyse offsetting impacts:</h3>
     <div>
@@ -68,6 +82,9 @@ watch(
   <Disclaimer></Disclaimer>
 </template>
 <style scoped>
+.hidden {
+  display: none;
+}
 a {
   color: var(--color-primary);
   font-weight: bold;
