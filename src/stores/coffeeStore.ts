@@ -311,7 +311,7 @@ export const useCoffeeStore = defineStore("coffee", () => {
         listImpactDefinitions.value
       );
       sunburstPositiveData.value = generateSunburstData(
-        positiveImpacts.concat(sugarImpact),
+        positiveImpacts,
         listImpactDefinitions.value
       );
     }
