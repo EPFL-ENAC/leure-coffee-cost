@@ -69,8 +69,8 @@ watch(
   >
     <h3>Analyse hidden cost:</h3>
     <div>
-      Click on a node to navigate thourgh coffee impacts. Select a specific
-      impact to get more details below.
+      Click on the pie chart to navigate through the impacts of coffee. The more
+      you click, the more detail you get.
     </div>
   </EchartsSunburst>
 
@@ -78,10 +78,10 @@ watch(
     :sunburstData="store.sunburstPositiveData"
     :class="{ hidden: !(store.isPriceVisible && store.selectedCoffeeImpacts) }"
   >
-    <h3>Analyse offsetting impacts:</h3>
+    <h3>Analyse offsetting measures:</h3>
     <div>
-      Click on a node to navigate thourgh coffee impacts. Select a specific
-      impact to get more details below.
+      Click on a pie chart to navigate through the offsetting measure. The more
+      you click, the more detail you get.
     </div>
   </EchartsSunburst>
 
