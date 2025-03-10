@@ -3,21 +3,21 @@
         "stage": "Consumption",
         "ingredient": "Cocoa beans",
         "impactCategory": "Health",
-        "impactValue": 0.04913,
-        "costValue": 0.0002206742163272,
+        "impactValue": 0.047005000000000005,
+        "costValue": 0.00013299484961099998,
         "details": [
             {
                 "indicators": "Clothianidin",
                 "unit": "mg/kg",
-                "impactValue": 0.00034,
-                "costValue": 5.1927389165e-06,
+                "impactValue": 0.00017,
+                "costValue": 2.696529188e-06,
                 "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2054 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Endosulfan",
                 "unit": "mg/kg",
-                "impactValue": 0.0034,
-                "costValue": 0.0001706187839911,
+                "impactValue": 0.0017,
+                "costValue": 8.87119022722e-05,
                 "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2055 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -58,15 +58,15 @@
             {
                 "indicators": "Pyraclostrobin",
                 "unit": "mg/kg",
-                "impactValue": 0.00017,
-                "costValue": 1.7081418465e-06,
+                "impactValue": 8.5e-05,
+                "costValue": 8.890730293e-07,
                 "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2061 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Thiamethoxam",
                 "unit": "mg/kg",
-                "impactValue": 0.00034,
-                "costValue": 5.1146555064e-06,
+                "impactValue": 0.00017,
+                "costValue": 2.6574490548e-06,
                 "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2062 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             }
         ]
@@ -1808,8 +1808,8 @@
         "stage": "Consumption",
         "ingredient": "Cow milk",
         "impactCategory": "Health",
-        "impactValue": 0.0147113999999905,
-        "costValue": 0.0009554526780296,
+        "impactValue": 0.013715899999990497,
+        "costValue": 0.0009379828429858,
         "details": [
             {
                 "indicators": "1,3-Dichloropropene",
@@ -1954,8 +1954,8 @@
             {
                 "indicators": "Boscalid",
                 "unit": "mg/kg",
-                "impactValue": 0.0002199999999999,
-                "costValue": 6.83370776e-06,
+                "impactValue": 0.0001099999999999,
+                "costValue": 3.5528438704e-06,
                 "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -1975,8 +1975,8 @@
             {
                 "indicators": "Buprofezin",
                 "unit": "mg/kg",
-                "impactValue": 0.0001099999999999,
-                "costValue": 3.6757984638e-06,
+                "impactValue": 5.49999999999e-05,
+                "costValue": 1.9091794464e-06,
                 "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -2010,15 +2010,15 @@
             {
                 "indicators": "Carbendazim",
                 "unit": "mg/kg",
-                "impactValue": 0.00055,
-                "costValue": 2.3684319721e-06,
+                "impactValue": 0.000275,
+                "costValue": 1.232748318e-06,
                 "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Carbofuran",
                 "unit": "mg/kg",
-                "impactValue": 1.1e-05,
-                "costValue": 1.1033717177e-06,
+                "impactValue": 5.5e-06,
+                "costValue": 5.299857052e-07,
                 "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -2038,8 +2038,8 @@
             {
                 "indicators": "Chlorantraniliprole",
                 "unit": "mg/kg",
-                "impactValue": 0.00055,
-                "costValue": 1.831577445e-07,
+                "impactValue": 0.000275,
+                "costValue": 9.48267936e-08,
                 "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -2115,8 +2115,8 @@
             {
                 "indicators": "Clothianidin",
                 "unit": "mg/kg",
-                "impactValue": 0.0002199999999999,
-                "costValue": 3.3600075342e-06,
+                "impactValue": 0.0001099999999999,
+                "costValue": 1.744813004e-06,
                 "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -2234,8 +2234,8 @@
             {
                 "indicators": "Diquat",
                 "unit": "mg/kg",
-                "impactValue": 0.0001099999999999,
-                "costValue": 1.76021585678e-05,
+                "impactValue": 5.49999999999e-05,
+                "costValue": 9.1476246985e-06,
                 "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -2507,8 +2507,8 @@
             {
                 "indicators": "Imidacloprid",
                 "unit": "mg/kg",
-                "impactValue": 0.0002199999999999,
-                "costValue": 1.1621145994e-06,
+                "impactValue": 0.0001099999999999,
+                "costValue": 6.068914796e-07,
                 "reference": "Europeans MRLs of milk, Functional unit: 1kg of cream Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -2936,8 +2936,8 @@
         "stage": "Production",
         "ingredient": "Cow milk",
         "impactCategory": "Livelihoods",
-        "impactValue": 5.4817e-12,
-        "costValue": 6.168062064e-07,
+        "impactValue": 0.0,
+        "costValue": 0.0,
         "details": [
             {
                 "indicators": "Cases of fatal occupational injury",
@@ -3026,8 +3026,8 @@
             {
                 "indicators": "Prevalence of Forced workers in situations of debt bondage",
                 "unit": "FTE/kg",
-                "impactValue": 1.2972e-12,
-                "costValue": 2.51986347e-08,
+                "impactValue": 0.0,
+                "costValue": 0.0,
                 "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022, Global Estimates of Modern Slavery: Forced Labour and Forced Marriage International Labour Organization (ILO), Walk Free, and International Organization for Migration (IOM), Geneva, 2022, ISBN: 978-92-2-037483-2 (web PDF); International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Swiss Confederation, Work and rest period, 2024; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022."
             },
             {
@@ -3040,8 +3040,8 @@
             {
                 "indicators": "Prevalence of modern slavery (forced workers, most severe)",
                 "unit": "FTE/kg",
-                "impactValue": 4.1845e-12,
-                "costValue": 5.916075717e-07,
+                "impactValue": 0.0,
+                "costValue": 0.0,
                 "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; missing; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Swiss Confederation, Work and rest period, 2024; FAOSTAT, Crops and livestock products, Yield, Cattle milk, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022."
             },
             {

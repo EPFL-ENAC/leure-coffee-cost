@@ -379,7 +379,7 @@
                 "unit": "m²/kg",
                 "impactValue": 0.045859872611465,
                 "costValue": -0.1256756022020791,
-                "reference": "Via verde regulation, Menschen fuer menschen, Reforestation (Ethiopia), One tree per kg, 1.97 stem per m², via-verde; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "reference": "Via verde regulation, Menschen fuer menschen, Reforestation (Ethiopia), Ethiopian Journal of Biodiversity volumE1, no. 1 ( march 2015), One tree per kg, 1.97 stem per m², via-verde; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             }
         ]
     },
@@ -1008,8 +1008,8 @@
         "stage": "Consumption",
         "ingredient": "Soybeans",
         "impactCategory": "Health",
-        "impactValue": 3.3172499999999996,
-        "costValue": 0.1814067050879502,
+        "impactValue": 2.7682499999999997,
+        "costValue": 0.1604644275779246,
         "details": [
             {
                 "indicators": "1,3-Dichloropropene",
@@ -1154,8 +1154,8 @@
             {
                 "indicators": "Boscalid",
                 "unit": "mg/kg",
-                "impactValue": 0.8999999999999999,
-                "costValue": 0.0279560772002452,
+                "impactValue": 0.4499999999999999,
+                "costValue": 0.0145343612883267,
                 "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -1175,8 +1175,8 @@
             {
                 "indicators": "Buprofezin",
                 "unit": "mg/kg",
-                "impactValue": 0.003,
-                "costValue": 0.0001002490490149,
+                "impactValue": 0.0015,
+                "costValue": 5.20685303567e-05,
                 "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -1210,15 +1210,15 @@
             {
                 "indicators": "Carbendazim",
                 "unit": "mg/kg",
-                "impactValue": 0.06,
-                "costValue": 0.0002583743969601,
+                "impactValue": 0.03,
+                "costValue": 0.0001344816346962,
                 "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Carbofuran",
                 "unit": "mg/kg",
-                "impactValue": 0.006,
-                "costValue": 0.0006018391187939,
+                "impactValue": 0.003,
+                "costValue": 0.000289083111949,
                 "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -1238,8 +1238,8 @@
             {
                 "indicators": "Chlorantraniliprole",
                 "unit": "mg/kg",
-                "impactValue": 0.015,
-                "costValue": 4.9952112155e-06,
+                "impactValue": 0.0075,
+                "costValue": 2.5861852826e-06,
                 "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -1315,8 +1315,8 @@
             {
                 "indicators": "Clothianidin",
                 "unit": "mg/kg",
-                "impactValue": 0.006,
-                "costValue": 9.16365691162e-05,
+                "impactValue": 0.003,
+                "costValue": 4.75858092002e-05,
                 "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -1434,8 +1434,8 @@
             {
                 "indicators": "Diquat",
                 "unit": "mg/kg",
-                "impactValue": 0.09,
-                "costValue": 0.0144017661009691,
+                "impactValue": 0.045,
+                "costValue": 0.0074844202079034,
                 "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -1574,8 +1574,8 @@
             {
                 "indicators": "Fenpropathrin",
                 "unit": "mg/kg",
-                "impactValue": 0.003,
-                "costValue": 1.2918719848e-05,
+                "impactValue": 0.0015,
+                "costValue": 6.7240817348e-06,
                 "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -1707,8 +1707,8 @@
             {
                 "indicators": "Imidacloprid",
                 "unit": "mg/kg",
-                "impactValue": 0.006,
-                "costValue": 3.16940345299e-05,
+                "impactValue": 0.003,
+                "costValue": 1.65515858087e-05,
                 "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -2029,8 +2029,8 @@
             {
                 "indicators": "Pyraclostrobin",
                 "unit": "mg/kg",
-                "impactValue": 0.006,
-                "costValue": 6.02873592906e-05,
+                "impactValue": 0.003,
+                "costValue": 3.13790480957e-05,
                 "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -2148,8 +2148,8 @@
             {
                 "indicators": "Thiamethoxam",
                 "unit": "mg/kg",
-                "impactValue": 0.003,
-                "costValue": 4.51293132919e-05,
+                "impactValue": 0.0015,
+                "costValue": 2.34480798957e-05,
                 "reference": "Europeans MRLs of Soybeans, Functional unit: 1kg of soybeans Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {

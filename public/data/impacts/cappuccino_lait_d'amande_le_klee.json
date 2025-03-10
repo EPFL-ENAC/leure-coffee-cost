@@ -3,8 +3,8 @@
         "stage": "Consumption",
         "ingredient": "Almond",
         "impactCategory": "Health",
-        "impactValue": 0.5526,
-        "costValue": 0.0345839610506293,
+        "impactValue": 0.519,
+        "costValue": 0.0336448574235165,
         "details": [
             {
                 "indicators": "1,3-Dichloropropene",
@@ -149,8 +149,8 @@
             {
                 "indicators": "Boscalid",
                 "unit": "mg/kg",
-                "impactValue": 0.012,
-                "costValue": 0.0003727476960032,
+                "impactValue": 0.006,
+                "costValue": 0.0001937914838443,
                 "reference": "Europeans MRLs of Almond, Functional unit: 1kg of almond Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -170,8 +170,8 @@
             {
                 "indicators": "Buprofezin",
                 "unit": "mg/kg",
-                "impactValue": 0.0024,
-                "costValue": 8.01992392119e-05,
+                "impactValue": 0.0012,
+                "costValue": 4.16548242854e-05,
                 "reference": "Europeans MRLs of Almond, Functional unit: 1kg of almond Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -205,15 +205,15 @@
             {
                 "indicators": "Carbendazim",
                 "unit": "mg/kg",
-                "impactValue": 0.024,
-                "costValue": 0.000103349758784,
+                "impactValue": 0.012,
+                "costValue": 5.37926538785e-05,
                 "reference": "Europeans MRLs of Almond, Functional unit: 1kg of almond Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Carbofuran",
                 "unit": "mg/kg",
-                "impactValue": 0.0048,
-                "costValue": 0.0004814712950351,
+                "impactValue": 0.0024,
+                "costValue": 0.0002312664895592,
                 "reference": "Europeans MRLs of Almond, Functional unit: 1kg of almond Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -233,8 +233,8 @@
             {
                 "indicators": "Chlorantraniliprole",
                 "unit": "mg/kg",
-                "impactValue": 0.0072,
-                "costValue": 2.3977013834e-06,
+                "impactValue": 0.0036,
+                "costValue": 1.2413689356e-06,
                 "reference": "Europeans MRLs of Almond, Functional unit: 1kg of almond Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -310,8 +310,8 @@
             {
                 "indicators": "Clothianidin",
                 "unit": "mg/kg",
-                "impactValue": 0.0024,
-                "costValue": 3.66546276465e-05,
+                "impactValue": 0.0012,
+                "costValue": 1.903432368e-05,
                 "reference": "Europeans MRLs of Almond, Functional unit: 1kg of almond Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -429,8 +429,8 @@
             {
                 "indicators": "Diquat",
                 "unit": "mg/kg",
-                "impactValue": 0.0048,
-                "costValue": 0.0007680941920516,
+                "impactValue": 0.0024,
+                "costValue": 0.0003991690777548,
                 "reference": "Europeans MRLs of Almond, Functional unit: 1kg of almond Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -569,8 +569,8 @@
             {
                 "indicators": "Fenpropathrin",
                 "unit": "mg/kg",
-                "impactValue": 0.0024,
-                "costValue": 1.03349758784e-05,
+                "impactValue": 0.0012,
+                "costValue": 5.3792653878e-06,
                 "reference": "Europeans MRLs of Almond, Functional unit: 1kg of almond Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -702,8 +702,8 @@
             {
                 "indicators": "Imidacloprid",
                 "unit": "mg/kg",
-                "impactValue": 0.0024,
-                "costValue": 1.26776138119e-05,
+                "impactValue": 0.0012,
+                "costValue": 6.6206343235e-06,
                 "reference": "Europeans MRLs of Almond, Functional unit: 1kg of almond Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -1024,8 +1024,8 @@
             {
                 "indicators": "Pyraclostrobin",
                 "unit": "mg/kg",
-                "impactValue": 0.0048,
-                "costValue": 4.82298874325e-05,
+                "impactValue": 0.0024,
+                "costValue": 2.51032384766e-05,
                 "reference": "Europeans MRLs of Almond, Functional unit: 1kg of almond Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -2059,7 +2059,7 @@
                 "unit": "m²/kg",
                 "impactValue": 0.045859872611465,
                 "costValue": -0.1256756022020791,
-                "reference": "Via verde regulation, Menschen fuer menschen, Reforestation (Ethiopia), One tree per kg, 1.97 stem per m², via-verde; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "reference": "Via verde regulation, Menschen fuer menschen, Reforestation (Ethiopia), Ethiopian Journal of Biodiversity volumE1, no. 1 ( march 2015), One tree per kg, 1.97 stem per m², via-verde; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             }
         ]
     },

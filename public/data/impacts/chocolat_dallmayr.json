@@ -3,21 +3,21 @@
         "stage": "Consumption",
         "ingredient": "Cocoa beans",
         "impactCategory": "Health",
-        "impactValue": 0.0867,
-        "costValue": 0.0003894250876367,
+        "impactValue": 0.08295,
+        "costValue": 0.00023469679343160002,
         "details": [
             {
                 "indicators": "Clothianidin",
                 "unit": "mg/kg",
-                "impactValue": 0.0006,
-                "costValue": 9.1636569116e-06,
+                "impactValue": 0.0003,
+                "costValue": 4.75858092e-06,
                 "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2054 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Endosulfan",
                 "unit": "mg/kg",
-                "impactValue": 0.006,
-                "costValue": 0.0003010919717491,
+                "impactValue": 0.003,
+                "costValue": 0.0001565504157746,
                 "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2055 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -58,15 +58,15 @@
             {
                 "indicators": "Pyraclostrobin",
                 "unit": "mg/kg",
-                "impactValue": 0.0003,
-                "costValue": 3.0143679645e-06,
+                "impactValue": 0.00015,
+                "costValue": 1.5689524047e-06,
                 "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2061 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Thiamethoxam",
                 "unit": "mg/kg",
-                "impactValue": 0.0006,
-                "costValue": 9.0258626583e-06,
+                "impactValue": 0.0003,
+                "costValue": 4.6896159791e-06,
                 "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2062 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             }
         ]

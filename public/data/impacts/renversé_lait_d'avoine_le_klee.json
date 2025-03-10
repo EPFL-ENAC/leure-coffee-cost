@@ -379,7 +379,7 @@
                 "unit": "m²/kg",
                 "impactValue": 0.045859872611465,
                 "costValue": -0.1256756022020791,
-                "reference": "Via verde regulation, Menschen fuer menschen, Reforestation (Ethiopia), One tree per kg, 1.97 stem per m², via-verde; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "reference": "Via verde regulation, Menschen fuer menschen, Reforestation (Ethiopia), Ethiopian Journal of Biodiversity volumE1, no. 1 ( march 2015), One tree per kg, 1.97 stem per m², via-verde; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             }
         ]
     },
@@ -2423,8 +2423,8 @@
         "stage": "Production",
         "ingredient": "Oat",
         "impactCategory": "Livelihoods",
-        "impactValue": 5.248794e-09,
-        "costValue": 0.0003424702888944,
+        "impactValue": 2.4210841e-09,
+        "costValue": 2.42991300483e-05,
         "details": [
             {
                 "indicators": "Cases of fatal occupational injury",
@@ -2513,8 +2513,8 @@
             {
                 "indicators": "Prevalence of Forced workers in situations of debt bondage",
                 "unit": "FTE/kg",
-                "impactValue": 6.691527e-10,
-                "costValue": 1.29983756984e-05,
+                "impactValue": 0.0,
+                "costValue": 0.0,
                 "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022, Global Estimates of Modern Slavery: Forced Labour and Forced Marriage International Labour Organization (ILO), Walk Free, and International Organization for Migration (IOM), Geneva, 2022, ISBN: 978-92-2-037483-2 (web PDF); International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Republique Francaise, Durée du travail d'un salarié à temps plein, 2024; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
@@ -2527,8 +2527,8 @@
             {
                 "indicators": "Prevalence of modern slavery (forced workers, most severe)",
                 "unit": "FTE/kg",
-                "impactValue": 2.1585572e-09,
-                "costValue": 0.0003051727831477,
+                "impactValue": 0.0,
+                "costValue": 0.0,
                 "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Republique Francaise, Durée du travail d'un salarié à temps plein, 2024; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {

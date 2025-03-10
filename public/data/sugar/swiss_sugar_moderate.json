@@ -3,8 +3,8 @@
         "stage": "Consumption",
         "ingredient": "Sugarbeet",
         "impactCategory": "Health",
-        "impactValue": 0.029939999999999696,
-        "costValue": 0.0003504469045124,
+        "impactValue": 0.0261899999999997,
+        "costValue": 0.00020673492081739998,
         "details": [
             {
                 "indicators": "2,4-D",
@@ -12,13 +12,6 @@
                 "impactValue": 0.00015,
                 "costValue": 1.5830741844e-06,
                 "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2024 Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024"
-            },
-            {
-                "indicators": "Aldicarb",
-                "unit": "mg/kg",
-                "impactValue": 0.0003,
-                "costValue": 8.93785633673e-05,
-                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2025 Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024"
             },
             {
                 "indicators": "Aldicarb",
@@ -52,13 +45,6 @@
                 "indicators": "Carbofuran",
                 "unit": "mg/kg",
                 "impactValue": 0.0003,
-                "costValue": 3.12756006844e-05,
-                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2029 Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024"
-            },
-            {
-                "indicators": "Carbofuran",
-                "unit": "mg/kg",
-                "impactValue": 0.0003,
                 "costValue": 2.89083111949e-05,
                 "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2029 Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024"
             },
@@ -70,13 +56,6 @@
                 "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2030 Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024"
             },
             {
-                "indicators": "Chlorantraniliprole",
-                "unit": "mg/kg",
-                "impactValue": 0.0015,
-                "costValue": 4.818051865e-07,
-                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2030 Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024"
-            },
-            {
                 "indicators": "Clothianidin",
                 "unit": "mg/kg",
                 "impactValue": 0.0012,
@@ -84,24 +63,10 @@
                 "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2031 Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024"
             },
             {
-                "indicators": "Clothianidin",
-                "unit": "mg/kg",
-                "impactValue": 0.0012,
-                "costValue": 1.76203039664e-05,
-                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2031 Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024"
-            },
-            {
                 "indicators": "Cyhalothrin",
                 "unit": "mg/kg",
                 "impactValue": 0.00015,
                 "costValue": 2.37929046e-06,
-                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2032 Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024"
-            },
-            {
-                "indicators": "Cyhalothrin",
-                "unit": "mg/kg",
-                "impactValue": 0.00015,
-                "costValue": 2.2025379958e-06,
                 "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2032 Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024"
             },
             {
@@ -217,24 +182,10 @@
                 "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2048 Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024"
             },
             {
-                "indicators": "Propiconazole",
-                "unit": "mg/kg",
-                "impactValue": 6e-05,
-                "costValue": 4.405075991e-07,
-                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2048 Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024"
-            },
-            {
                 "indicators": "Pyraclostrobin",
                 "unit": "mg/kg",
                 "impactValue": 0.00024,
                 "costValue": 2.5103238476e-06,
-                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2049 Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024"
-            },
-            {
-                "indicators": "Pyraclostrobin",
-                "unit": "mg/kg",
-                "impactValue": 0.00024,
-                "costValue": 2.3126648955e-06,
                 "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2049 Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024"
             },
             {
@@ -715,8 +666,8 @@
         "stage": "Production",
         "ingredient": "Sugarbeet",
         "impactCategory": "Livelihoods",
-        "impactValue": 2.509052e-10,
-        "costValue": 6.937625168e-06,
+        "impactValue": 2.053139e-10,
+        "costValue": 1.8077267507e-06,
         "details": [
             {
                 "indicators": "Prevalence of excessive working time",
@@ -840,8 +791,8 @@
             {
                 "indicators": "Prevalence of modern slavery (forced workers, most severe)",
                 "unit": "FTE/kg",
-                "impactValue": 3.48025e-11,
-                "costValue": 4.9203245918e-06,
+                "impactValue": 0.0,
+                "costValue": 0.0,
                 "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Swiss Confederation, Work and rest period, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024"
             },
             {
@@ -854,8 +805,8 @@
             {
                 "indicators": "Prevalence of Forced workers in situations of debt bondage",
                 "unit": "FTE/kg",
-                "impactValue": 1.07888e-11,
-                "costValue": 2.095738255e-07,
+                "impactValue": 0.0,
+                "costValue": 0.0,
                 "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022, Global Estimates of Modern Slavery: Forced Labour and Forced Marriage International Labour Organization (ILO), Walk Free, and International Organization for Migration (IOM), Geneva, 2022, ISBN: 978-92-2-037483-2 (web PDF); International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Swiss Confederation, Work and rest period, 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024"
             },
             {

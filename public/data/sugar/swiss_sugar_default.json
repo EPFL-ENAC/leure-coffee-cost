@@ -21,13 +21,6 @@
                 "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2025 Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024"
             },
             {
-                "indicators": "Aldicarb",
-                "unit": "mg/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2025 Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024"
-            },
-            {
                 "indicators": "Azoxystrobin",
                 "unit": "mg/kg",
                 "impactValue": 0.0,
@@ -56,20 +49,6 @@
                 "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2029 Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024"
             },
             {
-                "indicators": "Carbofuran",
-                "unit": "mg/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2029 Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024"
-            },
-            {
-                "indicators": "Chlorantraniliprole",
-                "unit": "mg/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2030 Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024"
-            },
-            {
                 "indicators": "Chlorantraniliprole",
                 "unit": "mg/kg",
                 "impactValue": 0.0,
@@ -82,20 +61,6 @@
                 "impactValue": 0.0,
                 "costValue": 0.0,
                 "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2031 Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024"
-            },
-            {
-                "indicators": "Clothianidin",
-                "unit": "mg/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2031 Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024"
-            },
-            {
-                "indicators": "Cyhalothrin",
-                "unit": "mg/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2032 Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024"
             },
             {
                 "indicators": "Cyhalothrin",
@@ -215,20 +180,6 @@
                 "impactValue": 0.0,
                 "costValue": 0.0,
                 "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2048 Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024"
-            },
-            {
-                "indicators": "Propiconazole",
-                "unit": "mg/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2048 Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024"
-            },
-            {
-                "indicators": "Pyraclostrobin",
-                "unit": "mg/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "Food and Agriculture Organisation, World Health Organisation, International Food Standards, Codex Alimentarius, 2049 Misssing data at the country level, EU has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024"
             },
             {
                 "indicators": "Pyraclostrobin",

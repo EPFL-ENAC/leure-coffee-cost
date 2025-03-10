@@ -6,14 +6,14 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview",
-    "prepare": "husky install"
+    "preview": "vite preview"
   },
   "dependencies": {
     "d3": "^7.9.0",
     "echarts": "^5.5.1",
     "feather-icons": "^4.29.2",
     "node": "^20.18.0",
+    "npx": "^10.2.2",
     "papaparse": "^5.4.1",
     "pinia": "^2.2.2",
     "pinia-plugin-persistedstate": "^3.2.3",
