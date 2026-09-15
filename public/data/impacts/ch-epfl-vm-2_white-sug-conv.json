@@ -1,0 +1,682 @@
+{
+    "serveId": "ch-epfl-vm#2_white-sug-conv",
+    "salePointId": "ch-epfl-vm#2",
+    "recipeId": "white-sug-conv",
+    "productId": "sug-ch-pow-conv",
+    "productName": "Sugar, Switzerland, Powder, none",
+    "recipe": 3.0,
+    "impacts": [
+        {
+            "stage": "Cultivation",
+            "impactCategory": "Biodiversity",
+            "impactValue": 0.6434,
+            "costValue": 0.0,
+            "details": [
+                {
+                    "indicators": "eco-costs of land-use (switzerland) [m2]",
+                    "unit": "m2",
+                    "impactValue": 0.6434,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "https://www.fao.org/faostat/en/#data/QCL; https://www.ecocostsvalue.com/social/internalities/"
+                }
+            ]
+        },
+        {
+            "stage": "Cultivation",
+            "impactCategory": "Environment",
+            "impactValue": 1.6503,
+            "costValue": 0.0007,
+            "details": [
+                {
+                    "indicators": "fine particulate matter formation [kg PM2.5 eq]",
+                    "unit": "kg PM2.5 eq",
+                    "impactValue": 0.0005,
+                    "costValue": 0.0001,
+                    "impactDefinition": "To fill",
+                    "reference": "Ecoivent, process : sugar beet production | sugar beet | Cutoff, U - CH ; CE-Delft, Environmental Prices Handbook (2017)"
+                },
+                {
+                    "indicators": "fossil resource scarcity [kg oil eq]",
+                    "unit": "kg oil eq",
+                    "impactValue": 0.0301,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Ecoivent, process : sugar beet production | sugar beet | Cutoff, U - CH ; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "freshwater ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.006,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Ecoivent, process : sugar beet production | sugar beet | Cutoff, U - CH ; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "freshwater eutrophication [kg P eq]",
+                    "unit": "kg P eq",
+                    "impactValue": 0.0001,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Ecoivent, process : sugar beet production | sugar beet | Cutoff, U - CH ; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "global warming [kg CO2 eq]",
+                    "unit": "kg CO2 eq",
+                    "impactValue": 0.241,
+                    "costValue": 0.0001,
+                    "impactDefinition": "To fill",
+                    "reference": "Ecoivent, process : sugar beet production | sugar beet | Cutoff, U - CH ; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "land use [m2a crop eq]",
+                    "unit": "m2a crop eq",
+                    "impactValue": 0.8236,
+                    "costValue": 0.0003,
+                    "impactDefinition": "To fill",
+                    "reference": "Ecoivent, process : sugar beet production | sugar beet | Cutoff, U - CH ; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "marine ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.008,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Ecoivent, process : sugar beet production | sugar beet | Cutoff, U - CH ; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "marine eutrophication [kg N eq]",
+                    "unit": "kg N eq",
+                    "impactValue": 0.0012,
+                    "costValue": 0.0001,
+                    "impactDefinition": "To fill",
+                    "reference": "Ecoivent, process : sugar beet production | sugar beet | Cutoff, U - CH ; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "mineral resource scarcity [kg Cu eq]",
+                    "unit": "kg Cu eq",
+                    "impactValue": 0.0007,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Ecoivent, process : sugar beet production | sugar beet | Cutoff, U - CH ; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "terrestrial acidification [kg SO2 eq]",
+                    "unit": "kg SO2 eq",
+                    "impactValue": 0.0028,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Ecoivent, process : sugar beet production | sugar beet | Cutoff, U - CH ; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "terrestrial ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.5246,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Ecoivent, process : sugar beet production | sugar beet | Cutoff, U - CH ; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "water consumption [m3]",
+                    "unit": "m3",
+                    "impactValue": 0.0116,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Ecoivent, process : sugar beet production | sugar beet | Cutoff, U - CH ; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                }
+            ]
+        },
+        {
+            "stage": "Cultivation",
+            "impactCategory": "Health",
+            "impactValue": 8.3518,
+            "costValue": 0.6639,
+            "details": [
+                {
+                    "indicators": "human carcinogenic toxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.0082,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Ecoivent, process : sugar beet production | sugar beet | Cutoff, U - CH ; 0"
+                },
+                {
+                    "indicators": "human non-carcinogenic toxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": -0.3914,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Ecoivent, process : sugar beet production | sugar beet | Cutoff, U - CH ; 0"
+                },
+                {
+                    "indicators": "ionizing radiation [kBq Co-60 eq]",
+                    "unit": "kBq Co-60 eq",
+                    "impactValue": 0.0034,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Ecoivent, process : sugar beet production | sugar beet | Cutoff, U - CH ; 0"
+                },
+                {
+                    "indicators": "ozone formation, human health [kg NOx eq]",
+                    "unit": "kg NOx eq",
+                    "impactValue": 0.0008,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Ecoivent, process : sugar beet production | sugar beet | Cutoff, U - CH ; 0"
+                },
+                {
+                    "indicators": "ozone formation, terrestrial ecosystems [kg NOx eq]",
+                    "unit": "kg NOx eq",
+                    "impactValue": 0.0009,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Ecoivent, process : sugar beet production | sugar beet | Cutoff, U - CH ; 0"
+                },
+                {
+                    "indicators": "stratospheric ozone depletion [kg CFC11 eq]",
+                    "unit": "kg CFC11 eq",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Ecoivent, process : sugar beet production | sugar beet | Cutoff, U - CH ; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "2,4-d [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.05,
+                    "costValue": 0.0127,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=239; CE-Delft, Environmental Prices Handbook (2017)"
+                },
+                {
+                    "indicators": "aldicarb [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.1,
+                    "costValue": 0.0001,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=239; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "azoxystrobin [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.05,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=239; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "benzovindiflupyr [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.4,
+                    "costValue": 0.252,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=239; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "bicyclopyrone [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.02,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=239; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "carbofuran [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.1,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=239; 0"
+                },
+                {
+                    "indicators": "chlorantraniliprole [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.5,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=239; 0"
+                },
+                {
+                    "indicators": "clothianidin [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.4,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=239; 0"
+                },
+                {
+                    "indicators": "cyhalothrin (includes lambda-cyhalothrin) [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.05,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=239; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "cypermethrins(including alpha- andzeta-cypermethrin) [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.2,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=239; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "dicamba [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 1.0,
+                    "costValue": 0.0437,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=239; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "ethoprophos [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.02,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=239; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "fluazifop-p-butyl [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.01,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=239; 0"
+                },
+                {
+                    "indicators": "fluensulfone [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.06,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=239; 0"
+                },
+                {
+                    "indicators": "glyphosate [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 2.0,
+                    "costValue": 0.3491,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=239; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "imazapic [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.01,
+                    "costValue": 0.0001,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=239; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "isoxaflutole [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.01,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=239; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "mefentrifluconazole [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 1.5,
+                    "costValue": 0.006,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=239; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "mesotrione [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.01,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=239; https://www.ecocostsvalue.com/social/internalities/"
+                },
+                {
+                    "indicators": "metaflumizone [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.02,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=239; https://www.ecocostsvalue.com/social/internalities/"
+                },
+                {
+                    "indicators": "metconazole [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.06,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=239; https://www.ecocostsvalue.com/social/internalities/"
+                },
+                {
+                    "indicators": "methoxyfenozide [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.01,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=239; https://www.ecocostsvalue.com/social/internalities/"
+                },
+                {
+                    "indicators": "novaluron [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.5,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=239; https://www.ecocostsvalue.com/social/internalities/"
+                },
+                {
+                    "indicators": "pendimethalin [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.01,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=239; https://www.ecocostsvalue.com/social/internalities/"
+                },
+                {
+                    "indicators": "propiconazole [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.02,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=239; https://www.ecocostsvalue.com/social/internalities/"
+                },
+                {
+                    "indicators": "pyraclostrobin [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.08,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=239; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "saflufenacil [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.03,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=239; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "tebufenozide [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 1.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=239; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "teflubenzuron [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.01,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=240; https://www.ecocostsvalue.com/social/internalities/"
+                },
+                {
+                    "indicators": "trinexapac-ethyl [mg/kg]",
+                    "unit": "mg/kg",
+                    "impactValue": 0.5,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "Codex alimentarus: https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/commodities-detail/en/?c_id=241; https://www.ecocostsvalue.com/social/internalities/"
+                }
+            ]
+        },
+        {
+            "stage": "Cultivation",
+            "impactCategory": "Livelihoods",
+            "impactValue": 0.0247,
+            "costValue": 0.0,
+            "details": [
+                {
+                    "indicators": "wage gap of workers earning below minimum wage [CHF/month]",
+                    "unit": "CHF/month",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "; https://www.ecocostsvalue.com/social/internalities/"
+                },
+                {
+                    "indicators": "wage gap of workers earning above minimum wage but below decent living wage [CHF/month]",
+                    "unit": "CHF/month",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "; https://www.ecocostsvalue.com/social/internalities/"
+                },
+                {
+                    "indicators": "underage workers below minimum age involved in hazardous work [child FTE/kg]",
+                    "unit": "child FTE/kg",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "; https://www.ecocostsvalue.com/social/internalities/"
+                },
+                {
+                    "indicators": "forced workers (medium severe) [FTE/kg]",
+                    "unit": "FTE/kg",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "; https://www.ecocostsvalue.com/social/internalities/"
+                },
+                {
+                    "indicators": "wage gap from gender discrimination [CHF]",
+                    "unit": "CHF",
+                    "impactValue": 0.017,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "; https://www.ecocostsvalue.com/social/internalities/"
+                },
+                {
+                    "indicators": "workers with denied paid leave [FTE/kg]",
+                    "unit": "FTE/kg",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "; https://www.ecocostsvalue.com/social/internalities/"
+                },
+                {
+                    "indicators": "workers without legal social security [FTE/kg]",
+                    "unit": "FTE/kg",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "; https://www.ecocostsvalue.com/social/internalities/"
+                },
+                {
+                    "indicators": "excessive and underpaid overtime [FTE/kg]",
+                    "unit": "FTE/kg",
+                    "impactValue": 0.0077,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "; https://www.ecocostsvalue.com/social/internalities/"
+                },
+                {
+                    "indicators": "fatal occupational incidents [incidents/kg]",
+                    "unit": "incidents/kg",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "; https://www.ecocostsvalue.com/social/internalities/"
+                },
+                {
+                    "indicators": "insured non-fatal occupational incidents [incidents/kg]",
+                    "unit": "incidents/kg",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "; https://www.ecocostsvalue.com/social/internalities/"
+                },
+                {
+                    "indicators": "uninsured non-fatal occupational incidents [incidents/kg]",
+                    "unit": "incidents/kg",
+                    "impactValue": 0.0,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": "; https://www.ecocostsvalue.com/social/internalities/"
+                }
+            ]
+        },
+        {
+            "stage": "Transport",
+            "impactCategory": "Environment",
+            "impactValue": 0.5485,
+            "costValue": 6.7666,
+            "details": [
+                {
+                    "indicators": "agricultural land occupation - alop [m2a]",
+                    "unit": "m2a",
+                    "impactValue": 0.0014,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),tractor and trailer, agricultural (Switzerland), Fonctional Unit: 1.0 t*km; ; https://www.zucker.ch/fr/fabrication/de-la-petite-graine-a-la-douceur-des-betteraves; gmaps (Aarberg to Lausanne) ; https://www.ecocostsvalue.com/social/internalities/"
+                },
+                {
+                    "indicators": "climate change - gwp100 [kg CO2-Eq]",
+                    "unit": "kg CO2-Eq",
+                    "impactValue": 0.1538,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),tractor and trailer, agricultural (Switzerland), Fonctional Unit: 1.0 t*km; ; https://www.zucker.ch/fr/fabrication/de-la-petite-graine-a-la-douceur-des-betteraves; gmaps (Aarberg to Lausanne) ; https://www.ecocostsvalue.com/social/internalities/"
+                },
+                {
+                    "indicators": "fossil resource scarcity [kg oil eq]",
+                    "unit": "kg oil eq",
+                    "impactValue": 0.0538,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),tractor and trailer, agricultural (Switzerland), Fonctional Unit: 1.0 t*km; ; https://www.zucker.ch/fr/fabrication/de-la-petite-graine-a-la-douceur-des-betteraves; gmaps (Aarberg to Lausanne) ; 0"
+                },
+                {
+                    "indicators": "freshwater ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.0041,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),tractor and trailer, agricultural (Switzerland), Fonctional Unit: 1.0 t*km; ; https://www.zucker.ch/fr/fabrication/de-la-petite-graine-a-la-douceur-des-betteraves; gmaps (Aarberg to Lausanne) ; https://www.ecocostsvalue.com/social/internalities/"
+                },
+                {
+                    "indicators": "freshwater eutrophication [kg P eq]",
+                    "unit": "kg P eq",
+                    "impactValue": 0.0595,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),tractor and trailer, agricultural (Switzerland), Fonctional Unit: 1.0 t*km; ; https://www.zucker.ch/fr/fabrication/de-la-petite-graine-a-la-douceur-des-betteraves; gmaps (Aarberg to Lausanne) ; https://www.ecocostsvalue.com/social/internalities/"
+                },
+                {
+                    "indicators": "marine ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.0053,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),tractor and trailer, agricultural (Switzerland), Fonctional Unit: 1.0 t*km; ; https://www.zucker.ch/fr/fabrication/de-la-petite-graine-a-la-douceur-des-betteraves; gmaps (Aarberg to Lausanne) ; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "marine eutrophication [kg N eq]",
+                    "unit": "kg N eq",
+                    "impactValue": 0.0042,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),tractor and trailer, agricultural (Switzerland), Fonctional Unit: 1.0 t*km; ; https://www.zucker.ch/fr/fabrication/de-la-petite-graine-a-la-douceur-des-betteraves; gmaps (Aarberg to Lausanne) ; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "metal depletion - mdp [kg Fe-Eq]",
+                    "unit": "kg Fe-Eq",
+                    "impactValue": 0.0167,
+                    "costValue": 1.2647,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),tractor and trailer, agricultural (Switzerland), Fonctional Unit: 1.0 t*km; ; https://www.zucker.ch/fr/fabrication/de-la-petite-graine-a-la-douceur-des-betteraves; gmaps (Aarberg to Lausanne) ; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "natural land transformation - nltp [m2]",
+                    "unit": "m2",
+                    "impactValue": 0.0001,
+                    "costValue": 0.0104,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),tractor and trailer, agricultural (Switzerland), Fonctional Unit: 1.0 t*km; ; https://www.zucker.ch/fr/fabrication/de-la-petite-graine-a-la-douceur-des-betteraves; gmaps (Aarberg to Lausanne) ; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "particulate matter formation - pmfp [kg PM10-Eq]",
+                    "unit": "kg PM10-Eq",
+                    "impactValue": 0.0006,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),tractor and trailer, agricultural (Switzerland), Fonctional Unit: 1.0 t*km; ; https://www.zucker.ch/fr/fabrication/de-la-petite-graine-a-la-douceur-des-betteraves; gmaps (Aarberg to Lausanne) ; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "photochemical oxidant formation - pofp [kg NMVOC]",
+                    "unit": "kg NMVOC",
+                    "impactValue": 0.0012,
+                    "costValue": 0.0087,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),tractor and trailer, agricultural (Switzerland), Fonctional Unit: 1.0 t*km; ; https://www.zucker.ch/fr/fabrication/de-la-petite-graine-a-la-douceur-des-betteraves; gmaps (Aarberg to Lausanne) ; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "terrestrial acidification [kg SO2 eq]",
+                    "unit": "kg SO2 eq",
+                    "impactValue": 0.0006,
+                    "costValue": 0.0002,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),tractor and trailer, agricultural (Switzerland), Fonctional Unit: 1.0 t*km; ; https://www.zucker.ch/fr/fabrication/de-la-petite-graine-a-la-douceur-des-betteraves; gmaps (Aarberg to Lausanne) ; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "terrestrial ecotoxicity [kg 1,4-DCB]",
+                    "unit": "kg 1,4-DCB",
+                    "impactValue": 0.0003,
+                    "costValue": 2.7209,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),tractor and trailer, agricultural (Switzerland), Fonctional Unit: 1.0 t*km; ; https://www.zucker.ch/fr/fabrication/de-la-petite-graine-a-la-douceur-des-betteraves; gmaps (Aarberg to Lausanne) ; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                },
+                {
+                    "indicators": "urban land occupation - ulop [m2a]",
+                    "unit": "m2a",
+                    "impactValue": 0.2465,
+                    "costValue": 2.7571,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),tractor and trailer, agricultural (Switzerland), Fonctional Unit: 1.0 t*km; ; https://www.zucker.ch/fr/fabrication/de-la-petite-graine-a-la-douceur-des-betteraves; gmaps (Aarberg to Lausanne) ; https://www.ecocostsvalue.com/social/internalities/"
+                },
+                {
+                    "indicators": "water depletion - wdp [m3]",
+                    "unit": "m3",
+                    "impactValue": 0.0004,
+                    "costValue": 0.0046,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),tractor and trailer, agricultural (Switzerland), Fonctional Unit: 1.0 t*km; ; https://www.zucker.ch/fr/fabrication/de-la-petite-graine-a-la-douceur-des-betteraves; gmaps (Aarberg to Lausanne) ; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                }
+            ]
+        },
+        {
+            "stage": "Transport",
+            "impactCategory": "Health",
+            "impactValue": 0.2417,
+            "costValue": 0.0023,
+            "details": [
+                {
+                    "indicators": "human toxicity - htpinf [kg 1,4-DCB-Eq]",
+                    "unit": "kg 1,4-DCB-Eq",
+                    "impactValue": 0.0405,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),tractor and trailer, agricultural (Switzerland), Fonctional Unit: 1.0 t*km; ; https://www.zucker.ch/fr/fabrication/de-la-petite-graine-a-la-douceur-des-betteraves; gmaps (Aarberg to Lausanne) ; https://www.ecocostsvalue.com/social/internalities/"
+                },
+                {
+                    "indicators": "ionising radiation - irp_he [kg U235-Eq]",
+                    "unit": "kg U235-Eq",
+                    "impactValue": 0.2007,
+                    "costValue": 0.0023,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),tractor and trailer, agricultural (Switzerland), Fonctional Unit: 1.0 t*km; ; https://www.zucker.ch/fr/fabrication/de-la-petite-graine-a-la-douceur-des-betteraves; gmaps (Aarberg to Lausanne) ; derivated from Sustainability Impact Metrics (2024): https://www.ecocostsvalue.com/ecocosts/eco-costs-land-use/"
+                },
+                {
+                    "indicators": "ozone depletion - odpinf [kg CFC-11-Eq]",
+                    "unit": "kg CFC-11-Eq",
+                    "impactValue": 0.0006,
+                    "costValue": 0.0,
+                    "impactDefinition": "To fill",
+                    "reference": " Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),transport, freight, light commercial vehicle (Switzerland), Fonctional Unit: 1.0 t*km; ;  Ecoinvent (3.8), ReCiPe 2016 Midpoint (H),tractor and trailer, agricultural (Switzerland), Fonctional Unit: 1.0 t*km; ; https://www.zucker.ch/fr/fabrication/de-la-petite-graine-a-la-douceur-des-betteraves; gmaps (Aarberg to Lausanne) ; Monetisation_Factors_for_True_Pricing_v3_0_0-1.pdf"
+                }
+            ]
+        }
+    ]
+}
