@@ -16,6 +16,7 @@ const hiddenCost = computed(
 );
 
 const offsetting = computed(() => selectedCoffee.value?.offsetting ?? 0);
+const hasOffsetting = computed(() => coffeeStore.hasOffsetting);
 </script>
 
 <template>
@@ -30,7 +31,7 @@ const offsetting = computed(() => selectedCoffee.value?.offsetting ?? 0);
         <span>Hidden Cost:</span>
         <span>{{ hiddenCost.toFixed(2) }} CHF</span>
       </div>
-      <div class="price-item">
+      <div v-if="hasOffsetting" class="price-item">
         <span>Offsetting:</span>
         <span>{{ offsetting.toFixed(2) }} CHF</span>
       </div>

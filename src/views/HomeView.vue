@@ -13,6 +13,7 @@ import EchartsSunburst from "@/components/EchartsSunburst.vue";
 import { computed, ref, useTemplateRef, watch } from "vue";
 import Disclaimer from "@/components/Disclaimer.vue";
 import ImpactContainer from "@/components/ImpactContainer.vue";
+import { datasetTexts } from "@/config/dataset";
 // import TreemapChart from "@/components/TreemapChart.vue";
 
 const selectedRetailName = computed(() => store.selectedRetailName);
@@ -23,6 +24,12 @@ const sunburstRef = useTemplateRef<any>("sunburst");
 const impactDetailRef = useTemplateRef<any>("impactDetail");
 
 const showPositive = ref(true);
+
+// Nothing to show on the offsetting side when the dataset has none
+const showSwitch = computed(() => store.hasOffsetting);
+watch(showSwitch, (possible) => {
+  if (!possible) showPositive.value = false;
+});
 
 watch(selectedCoffee, (newCoffee) => {
   if (newCoffee && sunburstRef.value && sunburstRef.value.$el)
@@ -50,9 +57,7 @@ watch(
 </script>
 
 <template>
-  <h3 v-if="!store.isPriceVisible">
-    Select a coffee and its sale point to visualize its hidden costs!
-  </h3>
+  <h3 v-if="!store.isPriceVisible">{{ datasetTexts.intro }}</h3>
   <SelectionType />
 
   <SelectionCaffeine
@@ -65,7 +70,7 @@ watch(
   <PriceDisplay ref="priceDisplay" :class="{ hidden: !store.isPriceVisible }" />
 
   <!-- Switch Button -->
-  <div class="data-switch">
+  <div v-if="showSwitch" class="data-switch">
     <label class="switch-label">
       <input type="checkbox" v-model="showPositive" />
       <span class="switch-text">

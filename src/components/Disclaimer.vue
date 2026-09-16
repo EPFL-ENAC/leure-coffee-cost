@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import { datasetTexts } from "@/config/dataset";
+</script>
+
 <template>
   <div class="disclaimer-footer">
     <h2>Contact</h2>
@@ -35,10 +39,21 @@
     </p>
     <p>
       It was developed as part of a partnership that consists of:
-      <strong>LEUrE (EPFL)</strong>,
-      <strong>RESCO (EPFL restaurants, shops, hotels)</strong>,
-      <strong>ENAC-IT-4-Research (EPFL)</strong>, with contributions from the
-      <strong>Compass Group</strong> and <strong>Dallmayr</strong>.
+      <span v-for="(partner, index) in datasetTexts.partners" :key="partner">
+        <strong>{{ partner }}</strong
+        >{{ index < datasetTexts.partners.length - 1 ? ", " : "" }}
+      </span>
+      <span v-if="datasetTexts.contributors.length > 0">
+        , with contributions from the
+        <span
+          v-for="(name, index) in datasetTexts.contributors"
+          :key="name"
+        >
+          <strong>{{ name }}</strong
+          >{{ index < datasetTexts.contributors.length - 1 ? " and " : "" }}
+        </span>
+      </span>
+      .
     </p>
     <p>
       The results of this application are based on the data, scope, and

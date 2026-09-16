@@ -3,6 +3,7 @@ import { useCoffeeStore } from "@/stores/coffeeStore";
 import { CoffeeData, Recipe, labelImages } from "@/utils/coffeeData";
 import { computed, watch } from "vue";
 import ReturnButton from "@/components/ReturnButton.vue";
+import { datasetTexts } from "@/config/dataset";
 
 const generateCoffeeImage = (imgName?: string) => {
   // const baseURL = import.meta.env.BASE_URL ?? "";
@@ -115,7 +116,7 @@ watch(
       <div></div>
     </div>
     <ReturnButton :click="returnToSelection"> Coffee choice </ReturnButton>
-    <h2>Select labels & sale point :</h2>
+    <h2>{{ datasetTexts.choiceTitle }}</h2>
     <div class="selection-coffee-sale-point">
       <div
         v-for="coffee in availableBeveragesByRetailName"
