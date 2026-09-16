@@ -1,11 +1,12 @@
 # https://github.com/EPFL-ENAC/epfl-enac-build-push-deploy-action#readme
 name: deploy
 
+# Push to `dev` and the cluster gets the new image. There is only one
+# deployment, the OLMA one, so no tag or prod overlay.
 "on":
   push:
     branches:
       - dev
-    tags: ["v*.*.*"]
 
 jobs:
   deploy:

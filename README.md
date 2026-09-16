@@ -104,10 +104,12 @@ shortcut only works in dev.
 
 ## Deployment
 
-The EPFL version is published on GitHub Pages from `main`.
+The EPFL version is published on GitHub Pages from `main`. That does not
+change.
 
-The other versions run on the ENAC Kubernetes cluster, from the Docker image
-built by `.github/workflows/deploy.yml`. The image holds every dataset, and the
+The OLMA version runs on the ENAC Kubernetes cluster, on
+<https://hidden-cost-of-coffee.epfl.ch/>, from the Docker image built by
+`.github/workflows/deploy.yml`. The image holds every dataset, and the
 `DATASET` environment variable picks the one a deployment shows. nginx puts it
 in `/config.json` when the container starts.
 
@@ -116,9 +118,10 @@ docker build -t coffee-cost .
 docker run -p 8080:80 -e DATASET=olma coffee-cost
 ```
 
-Push to the `dev` branch to deploy to the dev cluster. Push a `v*.*.*` tag to
-open the production pull request. The cluster manifests live in
-`EPFL-ENAC/enack8s-app-config`, under `epfl-leure/coffee-cost/`.
+Push to the `dev` branch and the cluster gets the new image. There is one
+deployment only, so no tag and no production pull request. The cluster
+manifests live in `EPFL-ENAC/enack8s-app-config`, under
+`epfl-leure/coffee-cost/`.
 
 ## Troubleshooting
 
