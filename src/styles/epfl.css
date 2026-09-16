@@ -1,0 +1,73 @@
+/* EPFL Design System, Architecture Vibe.
+   Trimmed port: the font, the type scale and the neutrals. Square corners,
+   no shadows, 1px hairlines. */
+
+/* The Suisse Int'l files are not committed, see public/fonts/README.md.
+   Without them the stack falls back to Arial, which EPFL also sanctions. */
+@font-face {
+  font-family: "Suisse Int'l";
+  src: url("/fonts/SuisseIntl-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Suisse Int'l";
+  src: url("/fonts/SuisseIntl-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Suisse Int'l";
+  src: url("/fonts/SuisseIntl-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Suisse Int'l";
+  src: url("/fonts/SuisseIntl-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Suisse Int'l";
+  src: url("/fonts/SuisseIntl-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-sans: "Suisse Int'l", Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+  /* neutrals */
+  --epfl-black: #212121;
+  --epfl-gray-900: #4a4a4a;
+  --epfl-gray-700: #6b6b6b;
+  --epfl-gray-500: #9b9b9b;
+  --epfl-gray-300: #b3b3b3;
+  --epfl-gray-200: #e6e6e6;
+  --epfl-gray-100: #ededed;
+  --epfl-gray-50: #fafafa;
+  --epfl-white: #ffffff;
+
+  /* the vibe: nothing is rounded, nothing floats */
+  --radius: 0;
+  --shadow: none;
+  --hairline: 1px solid var(--epfl-gray-200);
+
+  /* type scale */
+  --fs-display: 32px;
+  --fs-figure: 64px;
+  --fs-h2: 24px;
+  --fs-h3: 20px;
+  --fs-body: 15px;
+  --fs-body-s: 13px;
+  --fs-small: 12.5px;
+  --fs-xs: 11.5px;
+  --fs-eyebrow: 10px;
+  --ls-eyebrow: 0.14em;
+}

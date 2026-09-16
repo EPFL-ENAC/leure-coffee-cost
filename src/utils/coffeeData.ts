@@ -1,41 +1,15 @@
-// Define enums for better type safety
-// 'none', 'Cow milk', 'Almond milk', 'Oat milk', 'Soya milk'
+// Raw shapes of the files under public/data/.
+
+/** milkType as the CSV spells it. */
 export enum MilkType {
   NONE = "none",
   DAIRY = "Cow milk",
   ALMOND = "Almond milk",
   SOY = "Soya milk",
-  CLF = "clf",
   OAT = "Oat milk",
-  // Add more as needed
 }
 
-// export const milkName: Map<MilkType, string> = new Map([
-//   [MilkType.NONE, "none"],
-//   [MilkType.DAIRY, "Dairy"],
-//   [MilkType.ALMOND, "Almond"],
-//   [MilkType.SOY, "Soy"],
-//   [MilkType.CLF, "Lactose-free cow"],
-//   [MilkType.OAT, "Oat"],
-// ]);
-
-export enum Recipe {
-  RIS = "Ristretto",
-  ESP = "Espresso",
-  CAF = "Café",
-  CAP = "Cappuccino",
-  REN = "ren",
-  LAMA = "lama",
-  RENV = "renv",
-  MOC = "moc",
-  CAPVA = "capva",
-  LATMAC = "latmac",
-  LATMACVA = "latmacva",
-  ESPMOC = "espmoc",
-  CAFMOC = "cafmoc",
-  SUG = "sug",
-}
-
+/** One row of public/data/coffee_data.csv. */
 export type CoffeeData = {
   serveId: string;
   recipeId: string;
@@ -55,6 +29,33 @@ export type CoffeeData = {
   coffeeDetails: string;
 };
 
+/** One row of public/data/impacts_definitions.csv, headers camelised. */
+export type ImpactDefinition = {
+  indicator: string;
+  unit: string;
+  indicatorDefinition: string;
+  monetisationMethod: string;
+};
+
+/** One indicator inside an impact row. */
+export type ImpactDetail = {
+  indicators: string;
+  unit: string;
+  impactValue: number;
+  costValue: number;
+  reference: string;
+};
+
+/** One row of public/data/impacts/<slug>.json, and of the sugar files. */
+export type Impact = {
+  stage: string;
+  ingredient: string;
+  impactCategory: string;
+  impactValue: number;
+  costValue: number;
+  details: ImpactDetail[];
+};
+
 export const labelImages: Map<string, string> = new Map([
   ["eu-organic", "organic.jpg"],
   ["via-verde", "viaverde.png"],
@@ -63,192 +64,13 @@ export const labelImages: Map<string, string> = new Map([
   ["blue-planet", "blueplanet.png"],
 ]);
 
-export type ImpactDefinition = {
-  indicator: string;
-  unit: string;
-  indicatorDefinition: string;
-  monetisationMethod: string;
-};
+export const labelNames: Map<string, string> = new Map([
+  ["fairtrade", "Fairtrade"],
+  ["eu-organic", "EU Organic"],
+  ["via-verde", "Via Verde"],
+  ["blue-planet", "Blue Planet"],
+  ["rainforest-alliance", "Rainforest Alliance"],
+]);
 
-export type ImpactDetail = {
-  indicators: string;
-  unit: string;
-  impactValue: number;
-  costValue: number;
-  definition: string;
-  reference: string;
-};
-
-export type Impact = {
-  stage: string;
-  ingredient: string;
-  ingredientID: string;
-  impactCategory: string;
-  impactValue: number;
-  costValue: number;
-  details: ImpactDetail[];
-};
-
-export type CoffeeImpactData = {
-  serveId: string;
-  salePointId: string;
-  productId: string;
-  productName: string;
-  recipe: number;
-  ingredient: string;
-  ingredientId: string;
-  details: ImpactDetail[];
-  impacts: Impact[];
-  stage: string;
-  impactCategory: string;
-  indicators: string;
-  unit: string;
-  impactValue: number;
-  costValue: number;
-  impactDefinition: string;
-  coffeeDetails: string;
-  reference: string;
-};
-
-export type LeafSunburst = CoffeeImpactData & {
-  name: string;
-  value: number;
-};
-
-export type LayerSunburst = {
-  name: string;
-  value: number;
-  children: LeafSunburst[];
-};
-
-export type RootSunburst = {
-  name: string;
-  value: number;
-  children: LayerSunburst[];
-};
-
-const recursiveSum = (node: any, depth: number) => {
-  if (node.children) {
-    // console.log("Node.children", node.children);
-
-    if (!Array.isArray(node.children))
-      node.children = Object.values(node.children);
-
-    node.value = node.children.reduce(
-      (sum: any, child: any) => sum + recursiveSum(child, depth - 1),
-      0
-    );
-
-    if (depth <= 0) delete node.children;
-  }
-
-  return node.value || 0;
-};
-
-export type SunburstNode = RootSunburst | LayerSunburst | LeafSunburst;
-
-// Function to generate sunburstData split by stage from a CoffeeImpactData object
-export function generateSunburstData(
-  impacts: CoffeeImpactData[],
-  definitions: ImpactDefinition[],
-  depth: number = 10
-): RootSunburst {
-  // Object to store sunburst data for each stage
-
-  console.log("GenerateSunburstData", impacts, definitions, depth);
-  const sunburstData: any = {
-    value: 0,
-    name: "Coffee",
-    children: {},
-  };
-
-  // Validate impacts
-  if (!impacts || !Array.isArray(impacts)) {
-    console.warn("No impacts data available.");
-    return sunburstData;
-  }
-
-  // Iterate through each impact in the CoffeeImpactData
-  impacts
-    .filter((d) => d.impactValue > 0)
-    .forEach((impact) => {
-      const { impactCategory, ingredient, details, stage } = impact;
-
-      // Ensure we have valid data
-      if (!stage) {
-        console.warn(
-          `No stage available for impactCategory: ${impactCategory}`
-        );
-        return;
-      }
-      if (!ingredient) {
-        console.warn(
-          `No ingredient available for impactCategory: ${impactCategory}`
-        );
-        return;
-      }
-      if (!details || !Array.isArray(details)) {
-        console.warn(`No details available for category: ${impactCategory}`);
-        return;
-      }
-
-      // If the ingredient doesn't exist yet in sunburstData, create a new RootSunburst for it
-      if (!sunburstData.children[ingredient]) {
-        sunburstData.children[ingredient] = {
-          value: 0,
-          treeSelection: "Ingredient",
-          name: ingredient,
-          children: {},
-        };
-      }
-
-      if (!sunburstData.children[ingredient].children[impactCategory]) {
-        sunburstData.children[ingredient].children[impactCategory] = {
-          value: 0,
-          treeSelection: "Impact Category",
-          name: impactCategory,
-          children: {},
-        };
-      }
-
-      if (
-        !sunburstData.children[ingredient].children[impactCategory].children[
-          stage
-        ]
-      ) {
-        sunburstData.children[ingredient].children[impactCategory].children[
-          stage
-        ] = {
-          value: 0,
-          treeSelection: "Stage",
-          name: stage,
-          children: [],
-        };
-      }
-
-      // Iterate through each detail within the impact
-      details
-        .map((detail) => ({
-          ...detail,
-          lowerCaseIndicator: detail.indicators.toLowerCase(),
-        }))
-        .forEach((detail) => {
-          const value = isNaN(detail.costValue) ? 0 : detail.costValue;
-          sunburstData.children[ingredient].children[impactCategory].children[
-            stage
-          ].children.push({
-            ...detail,
-            name: detail.indicators,
-            definition:
-              definitions.find(
-                (d) => d.indicator.toLowerCase() === detail.lowerCaseIndicator
-              )?.indicatorDefinition ?? "",
-            value,
-          });
-        });
-    });
-
-  recursiveSum(sunburstData, depth);
-
-  return sunburstData;
-}
+/** The stage that carries the offsetting rows. Their cost is negative. */
+export const OFFSET_STAGE = "Offsetting schemes";

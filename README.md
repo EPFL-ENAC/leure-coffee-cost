@@ -75,6 +75,14 @@ make dev
 
 This runs `npm run dev` behind the scenes to start the development server.
 
+### Fonts
+
+The app asks for Suisse Int'l, the EPFL typeface. The files are licensed, so
+they are not in the repo. `public/fonts/` is empty on purpose: drop the five
+`SuisseIntl-*.woff2` files there at deploy time and they get picked up. Without
+them the app falls back to Arial and still looks fine. See
+`public/fonts/README.md` for the exact file names.
+
 ## Troubleshooting
 
 - **Missing dependencies?** Run `pip install -r data_processing/requirements.txt` if available, or install the individual packages listed above.
