@@ -25,11 +25,10 @@ const impactDetailRef = useTemplateRef<any>("impactDetail");
 
 const showPositive = ref(true);
 
-// Nothing to show on the offsetting side when the dataset has none
+// Nothing to show on the offsetting side when the dataset has none, so the
+// switch is hidden and the chart always shows the hidden costs.
 const showSwitch = computed(() => store.hasOffsetting);
-watch(showSwitch, (possible) => {
-  if (!possible) showPositive.value = false;
-});
+const showOffsetting = computed(() => showPositive.value && showSwitch.value);
 
 watch(selectedCoffee, (newCoffee) => {
   if (newCoffee && sunburstRef.value && sunburstRef.value.$el)
@@ -75,7 +74,7 @@ watch(
       <input type="checkbox" v-model="showPositive" />
       <span class="switch-text">
         {{
-          showPositive ? "Showing Offsetting Measures" : "Showing Hidden Costs"
+          showOffsetting ? "Showing Offsetting Measures" : "Showing Hidden Costs"
         }}
       </span>
     </label>
@@ -84,13 +83,13 @@ watch(
   <EchartsSunburst
     ref="sunburst"
     :sunburstData="
-      showPositive ? store.sunburstPositiveData : store.sunburstNegativeData
+      showOffsetting ? store.sunburstPositiveData : store.sunburstNegativeData
     "
     :class="{ hidden: !(store.isPriceVisible && store.selectedCoffeeImpacts) }"
   >
-    <h3 v-if="showPositive">Analyse offsetting measures:</h3>
+    <h3 v-if="showOffsetting">Analyse offsetting measures:</h3>
     <h3 v-else>Analyse hidden cost:</h3>
-    <div v-if="showPositive">
+    <div v-if="showOffsetting">
       Click on a pie chart to navigate through the offsetting measure. The more
       you click, the more detail you get.
     </div>
