@@ -2,11 +2,18 @@
 
 This repository contains the code and resources for the "Hidden Cost of Coffee" mobile app, developed in collaboration between the LEURE Lab and ENACIT4R.
 
+The app can show several datasets. Each one is a separate deployment of the
+same image, it only changes which data folder the app reads. Today there are
+two: `epfl` (the EPFL sale points) and `olma` (the OLMA fair).
+
 ## Project Structure
 
 - **src/**: Contains the source code for the application, including Vue components, TypeScript files, and stores.
-- **data_processing/**: Holds Jupyter Notebooks and CSV data files.
-- **public/data/**: Where processed data files will be generated.
+- **src/config/dataset.ts**: The list of datasets and the texts that change between them.
+- **`data_processing/datasets/<name>/`**: The CSV files of one dataset.
+- **data_processing/shared/**: The CSV files used by every dataset.
+- **`public/data/<name>/`**: Where processed data files will be generated.
+- **public/config.json**: Which dataset the app reads when it runs from the dev server or GitHub Pages.
 - **Makefile**: Provides commands (e.g., `process-data`) to run data processing and other build tasks.
 
 ## Prerequisites
@@ -35,25 +42,41 @@ pip install jupyter pandas numpy nbconvert
 
 ### 2. Prepare the Data Files
 
-Place the following CSV files in the `data_processing/` folder:
+Each dataset has its own folder under `data_processing/datasets/`. Put the two
+files that change from one dataset to the other there, for example
+`data_processing/datasets/epfl/`:
 
 - `TCF-Coffe_App-Export_Beverage-List.csv`
 - `TCF-Coffe_App-Export_Impact-Data.csv`
+
+The three files below are the same for every dataset, so they live in
+`data_processing/shared/`:
+
 - `TCF-Coffe_App-Export_Sugar-Data.csv`
 - `TCF-Coffe_App-Export_Impact-Description.csv`
 - `TCF-Coffe_App-Export_Coffee-Description.csv`
 
+A dataset folder can also hold its own copy of a shared file. The notebook looks
+in the dataset folder first, then in `shared/`.
+
 These are the "ground truth" data files needed for processing.
+
+To add a new dataset, create its folder here, add its name to `DatasetId` in
+`src/config/dataset.ts` with its texts, then process it.
 
 ### 3. Process the Data
 
 From the root directory of the project, run:
 
 ```bash
-make process-data
+make process-data              # the epfl dataset, the default
+make process-data DATASET=olma # one named dataset
+make process-all               # every folder in data_processing/datasets/
 ```
 
-This will execute the Jupyter notebook that processes the CSV files and generate output files in the `public/data/` directory.
+This will execute the Jupyter notebook that processes the CSV files and generate
+output files in `public/data/<dataset>/`. Each run only touches its own dataset
+folder.
 
 ### 4. Commit Changes
 
@@ -75,8 +98,31 @@ make dev
 
 This runs `npm run dev` behind the scenes to start the development server.
 
+It reads `public/config.json`, so it shows the `epfl` dataset. To look at
+another one without editing the file, add `?dataset=olma` to the URL. This
+shortcut only works in dev.
+
+## Deployment
+
+The EPFL version is published on GitHub Pages from `main`.
+
+The other versions run on the ENAC Kubernetes cluster, from the Docker image
+built by `.github/workflows/deploy.yml`. The image holds every dataset, and the
+`DATASET` environment variable picks the one a deployment shows. nginx puts it
+in `/config.json` when the container starts.
+
+```bash
+docker build -t coffee-cost .
+docker run -p 8080:80 -e DATASET=olma coffee-cost
+```
+
+Push to the `dev` branch to deploy to the dev cluster. Push a `v*.*.*` tag to
+open the production pull request. The cluster manifests live in
+`EPFL-ENAC/enack8s-app-config`, under `epfl-leure/coffee-cost/`.
+
 ## Troubleshooting
 
 - **Missing dependencies?** Run `pip install -r data_processing/requirements.txt` if available, or install the individual packages listed above.
 - **CSV encoding issues?** Ensure your CSV files use Windows-1252 encoding as specified in the processing script.
-- **Execution errors?** Check that all CSV files are correctly named and placed in the `data_processing/` folder.
+- **Execution errors?** Check that all CSV files are correctly named and placed in their dataset folder or in `data_processing/shared/`.
+- **Impact JSON files full of `{}`?** The notebook was run with a pandas version that does not match. Reinstall from `data_processing/requirements.txt`.
