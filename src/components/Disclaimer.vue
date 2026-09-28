@@ -1,86 +1,68 @@
+<script setup lang="ts">
+import { ref } from "vue";
+import { useUiStore } from "@/stores/uiStore";
+
+const ui = useUiStore();
+const open = ref(false);
+</script>
+
 <template>
-  <div class="disclaimer-footer">
-    <h2>Contact</h2>
-    <div id="project-info" class="project-info">
-      <p>
-        For any questions or feedback,
-        <a href="mailto:true-cost-of-food@epfl.ch">please write us !</a>
-      </p>
-    </div>
-    <h2>Disclaimer</h2>
-    <div id="project-info" class="project-info">
-      <p>
-        This application is part of a bigger project called
-        <a
-          href="https://truecostoffood.ch/"
-          target="_blank"
-          rel="noopener noreferrer"
+  <footer class="foot">
+    <button class="head" type="button" :aria-expanded="open" @click="open = !open">
+      <span class="eyebrow">{{ ui.t.aboutTitle }}</span>
+      <span class="chev">{{ open ? "−" : "+" }}</span>
+    </button>
+
+    <div v-if="open" class="body">
+      <!-- Each paragraph is a list of pieces, so the text stays in the i18n
+           tables and the markup stays here. No HTML string is injected. -->
+      <p v-for="(para, pi) in ui.t.aboutParas" :key="pi">
+        <template v-for="(seg, si) in para" :key="si"
+          ><a
+            v-if="seg.href"
+            :href="seg.href"
+            :target="seg.href.startsWith('http') ? '_blank' : undefined"
+            rel="noopener noreferrer"
+            >{{ seg.t }}</a
+          ><strong v-else-if="seg.b">{{ seg.t }}</strong
+          ><em v-else-if="seg.i">{{ seg.t }}</em
+          ><template v-else>{{ seg.t }}</template></template
         >
-          True Cost of Food </a
-        >, aiming to raise awareness about the hidden costs of food production
-        and consumption.
       </p>
     </div>
-    <p>
-      <strong
-        >LEUrE (Laboratory of Environmental and Urban Economics, EPFL)</strong
-      >
-      developed this application as part of the research project
-      <em
-        >‘From Farm to Fork and beyond: A Systemic Approach for Implementing
-        True Cost Accounting for Food in Switzerland’</em
-      >, funded by the
-      <strong>Swiss National Science Foundation (SNSF)</strong>, from 2024 to
-      2027 (project number: 216652).
-    </p>
-    <p>
-      It was developed as part of a partnership that consists of:
-      <strong>LEUrE (EPFL)</strong>,
-      <strong>RESCO (EPFL restaurants, shops, hotels)</strong>,
-      <strong>ENAC-IT-4-Research (EPFL)</strong>, with contributions from the
-      <strong>Compass Group</strong> and <strong>Dallmayr</strong>.
-    </p>
-    <p>
-      The results of this application are based on the data, scope, and
-      limitations as presented and documented in the application on sources
-      considered reliable. <strong>No warranty</strong>
-      is given as to the accuracy, precision, or completeness, whether express
-      or implied, due to the nature of the data. Neither the partners nor any of
-      the companies shall be liable for any loss or damage arising from the use
-      of the application or the information presented therein.
-    </p>
-  </div>
+  </footer>
 </template>
+
 <style scoped>
-.disclaimer-footer {
-  padding: 2em 0;
-  font-size: 0.95em;
+.foot {
+  border-top: var(--hairline);
+  background: var(--surface-alt);
+}
+.head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px var(--pad-shell);
+}
+.chev {
+  font-size: var(--fs-body-s);
+  color: var(--accent);
+}
+.body {
+  padding: 0 var(--pad-shell) 28px;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: var(--fs-xs);
   line-height: 1.6;
-  text-align: justify;
+  color: var(--mut);
+  text-wrap: pretty;
 }
-
-.disclaimer-footer p {
-  margin-bottom: 1.5em;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.disclaimer-footer strong {
-  font-weight: bold;
-}
-
-.disclaimer-footer em {
-  font-style: italic;
-}
-a {
-  color: var(--color-primary);
-  font-weight: bold;
-  text-decoration: dotted white underline;
-}
-@media screen and (max-width: 600px) {
-  .disclaimer-footer {
-    font-size: 0.9em;
-  }
+.body strong {
+  font-weight: 500;
+  color: var(--ink);
 }
 </style>
