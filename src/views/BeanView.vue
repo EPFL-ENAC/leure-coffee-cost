@@ -7,7 +7,7 @@ import LabelIcons from "@/components/LabelIcons.vue";
 import StepRail from "@/components/StepRail.vue";
 import { useCoffeeStore } from "@/stores/coffeeStore";
 import { useUiStore } from "@/stores/uiStore";
-import { labelImages, labelNames } from "@/utils/coffeeData";
+import { labelImages } from "@/utils/coffeeData";
 import { labelUrl } from "@/utils/assets";
 import type { Bean } from "@/utils/cups";
 import { toMilk, toSugar } from "@/utils/routes";
@@ -68,7 +68,7 @@ const keyRows = computed(() =>
   [...labelImages.keys()].map((id) => ({
     id,
     src: labelUrl(labelImages.get(id) as string),
-    name: labelNames.get(id) ?? id,
+    name: ui.labelL(id),
     what: ui.t.labelWhat[id] ?? "",
   }))
 );
@@ -99,7 +99,7 @@ function pick(row: Row) {
     <div v-if="sample" class="drink-head">
       <div class="drink-text">
         <h1 class="section-title big">{{ sample.drink }}</h1>
-        <p class="sub">{{ sample.blurb }}</p>
+        <p class="sub">{{ ui.blurbL(sample) }}</p>
       </div>
       <DrinkIcon :cup="sample" :size="44" />
     </div>

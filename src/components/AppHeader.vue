@@ -20,8 +20,18 @@ function pick(sp: string) {
 
 <template>
   <header class="bar">
-    <button class="who" type="button" @click="picking = !picking">
-      <span class="sp">{{ salePoint }} · EPFL</span>
+    <button
+      class="who"
+      type="button"
+      aria-haspopup="listbox"
+      :aria-expanded="picking"
+      :title="ui.t.changePlace"
+      @click="picking = !picking"
+    >
+      <span class="sp">
+        {{ salePoint }} · EPFL
+        <span class="chev" :class="{ open: picking }" aria-hidden="true">▾</span>
+      </span>
       <span class="mark">{{ ui.t.wordmark }}</span>
     </button>
     <div class="langs">
@@ -37,12 +47,15 @@ function pick(sp: string) {
       </button>
     </div>
   </header>
-  <div v-if="picking" class="picker">
+  <div v-if="picking" class="picker" role="listbox">
+    <div class="picker-title">{{ ui.t.changePlace }}</div>
     <button
       v-for="sp in SALE_POINTS"
       :key="sp"
       type="button"
       class="row row--tap"
+      role="option"
+      :aria-selected="sp === salePoint"
       :class="{ on: sp === salePoint }"
       @click="pick(sp)"
     >
@@ -74,6 +87,19 @@ function pick(sp: string) {
   font-weight: 500;
   color: var(--ink);
 }
+.chev {
+  display: inline-block;
+  margin-left: 4px;
+  font-size: 11px;
+  color: var(--accent);
+  transition: transform 0.15s ease;
+}
+.chev.open {
+  transform: rotate(180deg);
+}
+.who:hover .sp {
+  color: var(--accent);
+}
 .mark {
   font-size: 9.5px;
   letter-spacing: 0.14em;
@@ -100,6 +126,14 @@ function pick(sp: string) {
 }
 .picker {
   background: var(--surface-alt);
+  border-bottom: var(--hairline);
+}
+.picker-title {
+  padding: 10px var(--pad-shell) 6px;
+  font-size: 9.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--mut);
   border-bottom: var(--hairline);
 }
 .picker .row {

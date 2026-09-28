@@ -18,18 +18,19 @@ const du = (ing: string) => DU[ing.toLowerCase()] ?? "de " + ing.toLowerCase();
 
 const fr: Strings = {
   code: "FR",
-  wordmark: "COÛT RÉEL",
+  wordmark: "COÛT CACHÉ DU CAFÉ",
+  changePlace: "Changer de point de vente",
   loading: "Chargement des données de cette machine…",
   errPre: "Impossible de charger les données de cette machine.",
 
   drinkTitle: "Que buvez-vous ?",
   drinkFoot:
-    "Les prix sont ceux de la machine. Le coût réel y ajoute les dommages causés par la tasse, chiffrés en francs.",
+    "Les prix sont ceux de la machine. Le coût caché, ce sont les dommages causés par chaque boisson, chiffrés en francs. Prix + coût caché = prix réel.",
 
   beanTitle: "Quel café ?",
   beanSub:
-    "Même boisson, autres grains. Les labels déterminent ce qui est restitué sur chaque tasse.",
-  givenBack: "restitué",
+    "Même boisson, autres grains. Les labels déterminent ce qui est compensé sur chaque boisson.",
+  givenBack: "compensé",
   labelKeyShow: "Que signifient ces labels ?",
   hide: "Masquer",
   beanHere: (sp) => "Servi ici : " + sp + ".",
@@ -38,10 +39,45 @@ const fr: Strings = {
     fairtrade: "un prix minimum et une prime versés à la coopérative de producteurs.",
     "eu-organic": "cultivé sans pesticides de synthèse ni engrais minéral.",
     "via-verde":
-      "le programme propre à Dallmayr : un reboisement en Éthiopie financé par tasse.",
-    "blue-planet": "le programme de reboisement élargi, deux fois plus restitué par tasse.",
+      "le programme propre à Dallmayr : un reboisement en Éthiopie financé par boisson.",
+    "blue-planet": "le programme de reboisement élargi, deux fois plus compensé par boisson.",
     "rainforest-alliance":
       "des règles agricoles sur les forêts, les sols et les conditions de travail.",
+  },
+  labelName: {
+    "fairtrade": "Fairtrade",
+    "eu-organic": "Bio UE",
+    "via-verde": "Via Verde",
+    "blue-planet": "Blue Planet",
+    "rainforest-alliance": "Rainforest Alliance",
+  },
+  drinkBlurb: {
+    "Café":
+      "Un café simple et doux, pour tous les moments de la journée.",
+    "Café Macchiato":
+      "Un espresso corsé avec un nuage de mousse de lait. Entre l’espresso et le cappuccino.",
+    "Cappuccino":
+      "Un espresso avec une belle couche de mousse de lait et un peu de cacao.",
+    "Chocolait":
+      "Une boisson chocolatée douce, faite de cacao et de lait.",
+    "Chocolat":
+      "Un chocolat chaud classique, fait avec du vrai cacao.",
+    "Espresso":
+      "Un café court et corsé. La base de la plupart des boissons au café.",
+    "Espresso Macchiato":
+      "Un espresso avec une touche de mousse de lait.",
+    "Frappé":
+      "Un café froid et mousseux, secoué ou mixé. Idéal quand il fait chaud.",
+    "Latte Macchiato":
+      "Un espresso versé lentement dans du lait chaud, en couches.",
+    "Macchiato":
+      "Une boisson à base d’espresso avec un peu de lait. Corsée, avec une touche crémeuse.",
+    "Mocaccino":
+      "Un espresso mélangé à du chocolat, avec de la mousse de lait.",
+    "Renversé":
+      "Le cousin suisse du latte : moitié café, moitié lait.",
+    "Ristretto":
+      "Un espresso très court et très concentré.",
   },
 
   milkTitle: "Quel lait ?",
@@ -54,10 +90,13 @@ const fr: Strings = {
     (lowest ? "Le coût le plus bas ici. " : "") +
     "Le lait représente " +
     share +
-    "% du coût caché de cette tasse" +
+    "% du coût caché de cette boisson" +
     (cat ? ", surtout côté " + cat.toLowerCase() : "") +
     ".",
   noMilk: "Sans lait",
+  milkNoneValue: "0 CHF dus au lait",
+  milkNoneNote:
+    "Cette boisson est servie sans lait, aucune part de son coût caché ne vient donc du lait.",
   milk: {
     Cow: "Lait de vache",
     "Lactose-free cow": "Lait de vache sans lactose",
@@ -73,32 +112,32 @@ const fr: Strings = {
     "Sucre de betterave suisse, un sachet à la fois. Chacun ajoute " +
     c +
     " CHF de coût caché : culture de la betterave, extraction du sucre et résidus de pesticides que vous buvez.",
-  sugarNoteNone: "Le coût le plus bas ici : la tasse telle que la machine la sert.",
+  sugarNoteNone: "Le coût le plus bas ici : la boisson telle que la machine la sert.",
   sugarNote: (p) =>
     "Le sucre pèserait " +
     p +
-    "% du coût caché de cette tasse, surtout la culture et l’extraction.",
+    "% du coût caché de cette boisson, surtout la culture et l’extraction.",
   nothingAdded: "rien d’ajouté",
 
-  hiddenLabel: "COÛT CACHÉ DE CETTE TASSE",
+  hiddenLabel: "COÛT CACHÉ DE CETTE BOISSON",
   contextLine: (pct, paid) =>
     "Environ " +
     pct +
     "% en plus des " +
     paid +
-    " CHF payés : des dommages dont le prix ne dit rien.",
+    " CHF payés : des dommages non reflétés dans le prix.",
   truePrice: "Prix réel",
   pricePaid: "Prix payé à la machine",
-  hiddenLegend: "Coût caché de cette tasse",
-  givenBackLegend: "Restitué par les labels",
-  whyLink: "Pourquoi une part est-elle restituée ?",
-  givenBackHead: "CE QUI EST RESTITUÉ",
+  hiddenLegend: "Coût caché de cette boisson",
+  givenBackLegend: "Compensé par les labels",
+  whyLink: "Pourquoi une compensation ?",
+  givenBackHead: "CE QUI EST COMPENSÉ",
   offsetNote: (n) =>
     n +
-    " finance un reboisement en Éthiopie, qui restaure des habitats et stocke du carbone. Le même montant est crédité à chaque tasse issue de ces grains, quelle que soit votre commande.",
-  offsetNone: "Aucun programme de compensation n’est déclaré pour cette tasse.",
+    " finance un reboisement en Éthiopie, qui restaure des habitats et stocke du carbone. Le même montant est crédité à chaque boisson faite avec ces grains, quelle que soit votre commande.",
+  offsetNone: "Aucun programme de compensation n’est déclaré pour cette boisson.",
 
-  whereGoes: (v) => "Où vont ces " + v + " CHF",
+  whereGoes: (v) => "D’où proviennent ces " + v + " CHF",
   catsSub:
     "Chaque type de dommage est chiffré à part. Ouvrez-en un pour voir les indicateurs qui le composent.",
   allImpacts: "‹ Tous les impacts",
@@ -124,18 +163,18 @@ const fr: Strings = {
 
   changeTitle: "Changer une chose",
   changeSub: "Un seul changement, et son effet sur le coût caché.",
-  changeNone: "Aucune tasse de cette machine ne coûte moins que celle-ci.",
+  changeNone: "Aucune boisson de cette machine n’a un coût caché plus bas.",
   chipMilk: (m) => m + " à la place",
   chipLowest: (d) => d + " à la place, le coût caché le plus bas ici",
-  seeAll: "Voir toutes les tasses de cette machine ›",
+  seeAll: "Voir toutes les boissons de cette machine ›",
   footNote:
-    "Le coût caché correspond aux dommages causés par cette tasse, chiffrés en francs selon la méthode True Price. Il n’est pas ajouté à votre note.",
+    "Le coût caché correspond aux dommages causés par cette boisson, chiffrés en francs selon la méthode True Price (TCAF, True Cost Accounting for Food). Il n’est pas ajouté à votre note.",
 
-  yourCup: "‹ Votre tasse",
+  yourCup: "‹ Votre boisson",
   comparison: "COMPARAISON",
   yours: "LA VÔTRE",
-  switchTo: "Passer à cette tasse",
-  cmpTitle: (c) => "Votre tasse comparée à " + c,
+  switchTo: "Passer à cette boisson",
+  cmpTitle: (c) => "Votre boisson comparée à " + c,
   cmpDelta: (s) => s + " CHF cachés",
   cmpNote: (add, amt, cat) =>
     (add ? "Ce changement ajoute " : "Ce changement économise ") +
@@ -146,8 +185,8 @@ const fr: Strings = {
   cmpSame: "Même coût caché dans les deux cas.",
   noChange: "sans changement",
 
-  everyCupTitle: (sp) => "Toutes les tasses : " + sp,
-  rankSub: (n) => "COÛT CACHÉ CROISSANT · " + n + " TASSES",
+  everyCupTitle: (sp) => "Toutes les boissons : " + sp,
+  rankSub: (n) => "COÛT CACHÉ CROISSANT · " + n + " BOISSONS",
   ordinal: (n) => (n === 1 ? "1re" : n + "e"),
   rankNote: (place, nearest, diff) =>
     "La vôtre arrive " +

@@ -24,6 +24,8 @@ export type Seg = {
 export type Strings = {
   code: string;
   wordmark: string;
+  /** Title of the sale point picker in the header. */
+  changePlace: string;
   loading: string;
   errPre: string;
 
@@ -40,6 +42,10 @@ export type Strings = {
   beanHere: (salePoint: string) => string;
   beanElsewhere: (places: string) => string;
   labelWhat: Record<string, string>;
+  /** Label names, keyed like labelWhat. Brand names stay as they are. */
+  labelName: Record<string, string>;
+  /** Short text about each drink, keyed by the CSV recipeId. Missing ones use the CSV text. */
+  drinkBlurb: Record<string, string>;
 
   /* screen 3: milk */
   milkTitle: string;
@@ -47,6 +53,9 @@ export type Strings = {
   milkIntroOne: string;
   milkNote: (lowest: boolean, share: number, cat: string) => string;
   noMilk: string;
+  /** The no-milk row, for a drink that is only served without milk. */
+  milkNoneValue: string;
+  milkNoneNote: string;
   milk: Record<Milk, string>;
   /** French and English lower-case a milk name mid-sentence, German does not. */
   lowerNouns: boolean;

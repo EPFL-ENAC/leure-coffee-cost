@@ -42,14 +42,14 @@ export function unescapeCp1252(t: string): string {
     .replaceAll("\\%", "%");
 }
 
-/** Cuts a long definition at the last full sentence, or adds an ellipsis. */
+/**
+ * Cleans a definition text for display. It never drops words: the CSV texts
+ * often end without a dot, so we add one instead of cutting the last sentence.
+ */
 export function tidy(t: string): string {
-  const s = (t || "").trim();
-  if (!s || /[.!?]$/.test(s)) return s;
-  const dot = s.lastIndexOf(". ");
-  if (dot > 40) return s.slice(0, dot + 1);
-  const sp = s.lastIndexOf(" ");
-  return (sp > 0 ? s.slice(0, sp) : s) + "…";
+  const s = (t || "").replaceAll(/\s+/g, " ").trim();
+  if (!s || /[.!?…]$/.test(s)) return s;
+  return s + ".";
 }
 
 export function firstSentence(t: string): string {

@@ -49,7 +49,8 @@ const steps = computed<Step[]>(() => {
             : props.hasMilk && props.step === 2
               ? dash
               : t.noMilk,
-      to: d ? toMilk(props.salePoint, d, props.bean) : null,
+      // A drink without milk has no milk step to go back to.
+      to: d && props.hasMilk ? toMilk(props.salePoint, d, props.bean) : null,
       muted: !props.hasMilk,
     },
     {

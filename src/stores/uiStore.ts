@@ -7,6 +7,7 @@ import {
   type DefFamily,
   type MethodFamily,
 } from "@/i18n/families";
+import { labelNames } from "@/utils/coffeeData";
 import type { Cup, Milk } from "@/utils/cups";
 
 /** Language, and the transient flags the screens toggle. */
@@ -96,6 +97,12 @@ export const useUiStore = defineStore(
       return english;
     }
 
+    /** Label name in the current language, then the English one, then the id. */
+    const labelL = (id: string) => t.value.labelName[id] ?? labelNames.get(id) ?? id;
+
+    /** Short drink text. Falls back to the English text of the CSV. */
+    const blurbL = (cup: Cup) => t.value.drinkBlurb[cup.recipeId] ?? cup.blurb;
+
     const milkL = (m: Milk | null) => (m ? (t.value.milk[m] ?? m) : t.value.noMilk);
 
     /** "Cappuccino, oat milk". The milk keeps its case in German. */
@@ -129,6 +136,8 @@ export const useUiStore = defineStore(
       indMethodL,
       milkL,
       cupL,
+      labelL,
+      blurbL,
     };
   },
   { persist: { key: "tc-lang", paths: ["lang"] } }

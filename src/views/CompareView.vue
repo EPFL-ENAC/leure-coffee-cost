@@ -143,17 +143,16 @@ function switchToOther() {
             >{{ deltaStr(r.b - r.a) }}</span
           >
         </div>
-        <div class="pair">
+        <!-- One grid for both bars, so the name column takes the width of the longest name. -->
+        <div class="pairs">
           <div class="pair-bar">
             <BarMeter :width="pct(r.a, rowMax)" :height="7" />
           </div>
           <span class="pair-tag">{{ ui.t.yours }}</span>
-        </div>
-        <div class="pair">
           <div class="pair-bar">
             <BarMeter :width="pct(r.b, rowMax)" :height="7" color="var(--accent)" />
           </div>
-          <span class="pair-tag accent">{{ otherLabel }}</span>
+          <span class="pair-tag accent" :title="otherLabel">{{ otherLabel }}</span>
         </div>
       </div>
 
@@ -245,22 +244,25 @@ function switchToOther() {
 .cmp-delta.down {
   color: var(--accent);
 }
-.pair {
-  display: flex;
+.pairs {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(52px, max-content);
   align-items: center;
-  gap: 8px;
-}
-.pair-bar {
-  flex: 1;
+  column-gap: 8px;
+  row-gap: 6px;
 }
 .pair-tag {
-  width: 52px;
+  /* Ellipsis only as a last resort, on a very long milk name on a small phone. */
+  max-width: 50vw;
   font-size: var(--fs-eyebrow);
   letter-spacing: 0.08em;
   color: var(--mut);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+.pair-tag.accent {
+  color: var(--accent);
 }
 .note {
   border-top: var(--hairline);

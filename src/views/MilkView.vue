@@ -45,12 +45,18 @@ watch(
   { immediate: true }
 );
 
+/** Only reached by URL: the drink is served without milk, nothing to choose. */
+const noMilkOnly = computed(
+  () => variants.value.length > 0 && variants.value.every((c) => c.milk === null)
+);
+
 const maxHidden = computed(() =>
   variants.value.reduce((m, c) => Math.max(m, c.hiddenCost), 0)
 );
 
 const intro = computed(() => {
   const list = variants.value;
+  if (noMilkOnly.value) return ui.t.milkNoneNote;
   if (list.length < 2) return ui.t.milkIntroOne;
   const spread = maxHidden.value - list[0].hiddenCost;
   return spread > 0.005 ? ui.t.milkIntro(spread.toFixed(2)) : ui.t.milkIntroOne;
@@ -104,18 +110,28 @@ function pick(cup: Cup) {
         class="opt"
         @click="pick(v)"
       >
-        <div class="line">
-          <span class="name">{{ ui.milkL(v.milk) }}</span>
-          <span class="val tnum">
-            {{ v.hiddenCost.toFixed(3) }} {{ ui.t.chfHiddenShort }}
-          </span>
-        </div>
-        <BarMeter
-          :value="v.hiddenCost"
-          :max="maxHidden"
-          :color="i === 0 ? 'var(--accent)' : 'var(--bean)'"
-        />
-        <p class="note" :class="{ best: i === 0 }">{{ noteFor(v, i) }}</p>
+        <template v-if="noMilkOnly">
+          <div class="line">
+            <span class="name">{{ ui.t.noMilk }}</span>
+            <span class="val tnum">{{ ui.t.milkNoneValue }}</span>
+          </div>
+          <!-- Empty and grey on purpose: the milk adds nothing here. -->
+          <BarMeter :value="0" :max="1" color="var(--epfl-gray-100)" />
+        </template>
+        <template v-else>
+          <div class="line">
+            <span class="name">{{ ui.milkL(v.milk) }}</span>
+            <span class="val tnum">
+              {{ v.hiddenCost.toFixed(3) }} {{ ui.t.chfHiddenShort }}
+            </span>
+          </div>
+          <BarMeter
+            :value="v.hiddenCost"
+            :max="maxHidden"
+            :color="i === 0 ? 'var(--accent)' : 'var(--bean)'"
+          />
+          <p class="note" :class="{ best: i === 0 }">{{ noteFor(v, i) }}</p>
+        </template>
       </button>
     </div>
   </div>
