@@ -16,14 +16,13 @@
     "vue-router": "^4.4.5"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.1.2",
-    "@commitlint/config-conventional": "^17.1.0",
-    "@types/papaparse": "^5.3.14",
-    "@vitejs/plugin-vue": "^5.1.2",
-    "typescript": "^5.5.3",
-    "vite": "^5.4.0",
-    "vite-plugin-qrcode": "^0.2.3",
-    "vitest": "^2.1.2",
-    "vue-tsc": "^2.0.29"
+    "@commitlint/cli": "^21.2.3",
+    "@commitlint/config-conventional": "^21.2.3",
+    "@types/papaparse": "^5.5.2",
+    "@vitejs/plugin-vue": "^6.0.9",
+    "typescript": "~5.9.3",
+    "vite": "^8.3.1",
+    "vite-plugin-qrcode": "^0.4.1",
+    "vue-tsc": "^3.3.11"
   }
 }
