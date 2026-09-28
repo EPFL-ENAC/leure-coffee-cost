@@ -13,6 +13,7 @@ import EchartsSunburst from "@/components/EchartsSunburst.vue";
 import { computed, ref, useTemplateRef, watch } from "vue";
 import Disclaimer from "@/components/Disclaimer.vue";
 import ImpactContainer from "@/components/ImpactContainer.vue";
+import { datasetTexts } from "@/config/dataset";
 // import TreemapChart from "@/components/TreemapChart.vue";
 
 const selectedRetailName = computed(() => store.selectedRetailName);
@@ -23,6 +24,11 @@ const sunburstRef = useTemplateRef<any>("sunburst");
 const impactDetailRef = useTemplateRef<any>("impactDetail");
 
 const showPositive = ref(true);
+
+// Nothing to show on the offsetting side when the dataset has none, so the
+// switch is hidden and the chart always shows the hidden costs.
+const showSwitch = computed(() => store.hasOffsetting);
+const showOffsetting = computed(() => showPositive.value && showSwitch.value);
 
 watch(selectedCoffee, (newCoffee) => {
   if (newCoffee && sunburstRef.value && sunburstRef.value.$el)
@@ -50,9 +56,7 @@ watch(
 </script>
 
 <template>
-  <h3 v-if="!store.isPriceVisible">
-    Select a coffee and its sale point to visualize its hidden costs!
-  </h3>
+  <h3 v-if="!store.isPriceVisible">{{ datasetTexts.intro }}</h3>
   <SelectionType />
 
   <SelectionCaffeine
@@ -65,12 +69,12 @@ watch(
   <PriceDisplay ref="priceDisplay" :class="{ hidden: !store.isPriceVisible }" />
 
   <!-- Switch Button -->
-  <div class="data-switch">
+  <div v-if="showSwitch" class="data-switch">
     <label class="switch-label">
       <input type="checkbox" v-model="showPositive" />
       <span class="switch-text">
         {{
-          showPositive ? "Showing Offsetting Measures" : "Showing Hidden Costs"
+          showOffsetting ? "Showing Offsetting Measures" : "Showing Hidden Costs"
         }}
       </span>
     </label>
@@ -79,13 +83,13 @@ watch(
   <EchartsSunburst
     ref="sunburst"
     :sunburstData="
-      showPositive ? store.sunburstPositiveData : store.sunburstNegativeData
+      showOffsetting ? store.sunburstPositiveData : store.sunburstNegativeData
     "
     :class="{ hidden: !(store.isPriceVisible && store.selectedCoffeeImpacts) }"
   >
-    <h3 v-if="showPositive">Analyse offsetting measures:</h3>
+    <h3 v-if="showOffsetting">Analyse offsetting measures:</h3>
     <h3 v-else>Analyse hidden cost:</h3>
-    <div v-if="showPositive">
+    <div v-if="showOffsetting">
       Click on a pie chart to navigate through the offsetting measure. The more
       you click, the more detail you get.
     </div>

@@ -10,6 +10,7 @@ import {
   ImpactDetail,
 } from "@/utils/coffeeData";
 import { type RootSunburst } from "@/utils/coffeeData";
+import { dataUrl } from "@/config/dataset";
 import Papa from "papaparse";
 
 export const useCoffeeStore = defineStore("coffee", () => {
@@ -21,7 +22,7 @@ export const useCoffeeStore = defineStore("coffee", () => {
     if (listCoffee.value && listCoffee.value.length !== 0) return;
 
     try {
-      const response = await fetch("./data/coffee_data.csv"); // Corrected filename
+      const response = await fetch(await dataUrl("coffee_data.csv"));
       const csvText = await response.text();
       const parsedData = Papa.parse<CoffeeData>(csvText, {
         header: true,
@@ -71,10 +72,12 @@ export const useCoffeeStore = defineStore("coffee", () => {
 
     sugarIDs.forEach(async (sugarID, index) => {
       try {
-        const fileName = `./data/sugar/${sugarID
-          .toLowerCase()
-          .replaceAll(" ", "_")
-          .replaceAll(",", "")}.json`;
+        const fileName = await dataUrl(
+          `sugar/${sugarID
+            .toLowerCase()
+            .replaceAll(" ", "_")
+            .replaceAll(",", "")}.json`
+        );
         const response = await fetch(fileName);
         const json = await response.json();
         console.log("Fetch impacts ", fileName, json);
@@ -101,7 +104,7 @@ export const useCoffeeStore = defineStore("coffee", () => {
       return;
 
     try {
-      const response = await fetch("./data/impacts_definitions.csv"); // Corrected filename
+      const response = await fetch(await dataUrl("impacts_definitions.csv"));
       const csvText = await response.text();
       const parsedData = Papa.parse<ImpactDefinition>(csvText, {
         header: true,
@@ -155,15 +158,30 @@ export const useCoffeeStore = defineStore("coffee", () => {
   //   );
   // };
 
+  const availableCoffeesAfterRetailName = computed(() => {
+    if (!listCoffee.value) return [];
+    const retailName = selectedRetailName.value;
+    return listCoffee.value.filter((d) => d.retailName === retailName);
+  });
+
+  const milkTypesOf = (coffees: CoffeeData[]) => [
+    ...new Set(coffees.map((d) => (d.milkType ?? MilkType.NONE) as MilkType)),
+  ];
+
   // Derived state: Available milk types
   const availableMilkTypes = computed<MilkType[]>(() => {
     if (!selectedRecipe.value) return [MilkType.NONE];
+    // Once a drink is picked, only the milks sold under that name are possible.
+    // Some sale points sell one name with several milks, others sell one name
+    // per milk.
+    if (selectedRetailName.value)
+      return milkTypesOf(availableCoffeesAfterRetailName.value);
+
     const list = listCoffee.value
       ?.filter(filterWithCurrentRecipe)
-      .filter(filterWithCurrentDecaf)
-      .map((d) => d.milkType);
+      .filter(filterWithCurrentDecaf);
     if (!list) return [MilkType.NONE];
-    else return [...new Set(list)].map((d) => (d ?? MilkType.NONE) as MilkType);
+    else return milkTypesOf(list);
   });
 
   watch(availableMilkTypes, (newList) => {
@@ -178,6 +196,11 @@ export const useCoffeeStore = defineStore("coffee", () => {
 
   const selectRetailName = (retailName: string) => {
     selectedRetailName.value = retailName;
+    const milks = milkTypesOf(
+      listCoffee.value?.filter((d) => d.retailName === retailName) ?? []
+    );
+    if (!milks.includes(milkType.value))
+      milkType.value = milks[0] ?? MilkType.NONE;
   };
 
   // Actions
@@ -215,18 +238,17 @@ export const useCoffeeStore = defineStore("coffee", () => {
     }
   );
 
-  const availableCoffeesAfterRetailName = computed(() => {
-    if (!listCoffee.value) return [];
-    const retailName = selectedRetailName.value;
-    return listCoffee.value.filter((d) => d.retailName === retailName);
-  });
-
   const isDecafPossible = computed(() => {
     return (
       availableCoffeesAfterRetailName.value.some((d) => d.isDecaf) &&
       availableCoffeesAfterRetailName.value.some((d) => !d.isDecaf)
     );
   });
+
+  // Some datasets have no offsetting at all, then we hide what shows it
+  const hasOffsetting = computed(() =>
+    (listCoffee.value ?? []).some((d) => d.offsetting !== 0)
+  );
 
   const isMilkPossible = computed(() => {
     return (
@@ -273,10 +295,12 @@ export const useCoffeeStore = defineStore("coffee", () => {
     sunburstPositiveData.value = undefined;
     sunburstNegativeData.value = undefined;
     try {
-      const fileName = `./data/impacts/${serveId
-        .toLowerCase()
-        .replaceAll(" ", "_")
-        .replaceAll(",", "")}.json`;
+      const fileName = await dataUrl(
+        `impacts/${serveId
+          .toLowerCase()
+          .replaceAll(" ", "_")
+          .replaceAll(",", "")}.json`
+      );
       const response = await fetch(fileName);
       const json = await response.json();
       console.log("Fetch impacts ", fileName, json);
@@ -363,6 +387,7 @@ export const useCoffeeStore = defineStore("coffee", () => {
     availableMilkTypes,
     availableCoffees,
     isPriceVisible,
+    hasOffsetting,
     availableCoffeesAfterRetailName,
     isDecafPossible,
     isMilkPossible,
