@@ -5,7 +5,7 @@ import BarMeter from "@/components/BarMeter.vue";
 import StepRail from "@/components/StepRail.vue";
 import { useCoffeeStore } from "@/stores/coffeeStore";
 import { useUiStore } from "@/stores/uiStore";
-import { beanFromSlug, milkFromSlug } from "@/utils/cups";
+import { milkFromSlug } from "@/utils/cups";
 import { one, toResult } from "@/utils/routes";
 import { useKnown } from "@/utils/guard";
 
@@ -25,7 +25,7 @@ useKnown(
   () => props.salePoint
 );
 
-const bean = computed(() => beanFromSlug(one(route.query.b) ?? ""));
+const bean = computed(() => store.beanFromSlug(one(route.query.b) ?? ""));
 const milk = computed(() => milkFromSlug(one(route.query.m) ?? ""));
 
 const cup = computed(() => {
@@ -67,7 +67,7 @@ function pick(i: number) {
     :bean="bean"
     :milk="milk"
     :sugar="0"
-    :has-bean="true"
+    :has-bean="!!drink && store.hasBeanChoice(salePoint, drink)"
     :has-milk="milk !== null"
   />
 

@@ -3,7 +3,7 @@ import { ref } from "vue";
 import { useRouter } from "vue-router";
 import { useUiStore } from "@/stores/uiStore";
 import { LANGS, TABLES } from "@/i18n";
-import { SALE_POINTS } from "@/utils/cups";
+import { dataset } from "@/config/dataset";
 import { toDrinks } from "@/utils/routes";
 
 defineProps<{ salePoint: string }>();
@@ -11,6 +11,10 @@ defineProps<{ salePoint: string }>();
 const ui = useUiStore();
 const router = useRouter();
 const picking = ref(false);
+
+const { salePoints, place } = dataset();
+/** With one sale point there is nothing to pick. */
+const canPick = salePoints.length > 1;
 
 function pick(sp: string) {
   picking.value = false;
@@ -21,6 +25,7 @@ function pick(sp: string) {
 <template>
   <header class="bar">
     <button
+      v-if="canPick"
       class="who"
       type="button"
       aria-haspopup="listbox"
@@ -29,11 +34,15 @@ function pick(sp: string) {
       @click="picking = !picking"
     >
       <span class="sp">
-        {{ salePoint }} · EPFL
+        {{ place ? salePoint + " · " + place : salePoint }}
         <span class="chev" :class="{ open: picking }" aria-hidden="true">▾</span>
       </span>
       <span class="mark">{{ ui.t.wordmark }}</span>
     </button>
+    <div v-else class="who">
+      <span class="sp">{{ place ? salePoint + " · " + place : salePoint }}</span>
+      <span class="mark">{{ ui.t.wordmark }}</span>
+    </div>
     <div class="langs">
       <button
         v-for="code in LANGS"
@@ -47,10 +56,10 @@ function pick(sp: string) {
       </button>
     </div>
   </header>
-  <div v-if="picking" class="picker" role="listbox">
+  <div v-if="canPick && picking" class="picker" role="listbox">
     <div class="picker-title">{{ ui.t.changePlace }}</div>
     <button
-      v-for="sp in SALE_POINTS"
+      v-for="sp in salePoints"
       :key="sp"
       type="button"
       class="row row--tap"
@@ -97,7 +106,7 @@ function pick(sp: string) {
 .chev.open {
   transform: rotate(180deg);
 }
-.who:hover .sp {
+button.who:hover .sp {
   color: var(--accent);
 }
 .mark {

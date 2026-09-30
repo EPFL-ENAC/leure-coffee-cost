@@ -41,3 +41,6 @@ PROMPT.sent.md
 .claude/rules/wtx.md
 .claude/worktrees/
 opencode.json
+
+# vue-tsc -b cache
+*.tsbuildinfo

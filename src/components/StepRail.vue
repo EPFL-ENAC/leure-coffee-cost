@@ -34,8 +34,9 @@ const steps = computed<Step[]>(() => {
     },
     {
       label: t.rail[1],
-      value: props.step >= 1 ? (props.bean ?? dash) : dash,
-      to: d ? toBean(props.salePoint, d) : null,
+      value: props.step >= 1 && props.bean ? ui.beanL(props.bean) : dash,
+      // A drink without a bean choice has no coffee step to go back to.
+      to: d && props.hasBean ? toBean(props.salePoint, d) : null,
       muted: !props.hasBean,
     },
     {

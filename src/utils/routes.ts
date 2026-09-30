@@ -60,6 +60,15 @@ export const toAll = (sp: string, cupId: string, sugar: number): RouteLocationRa
   query: { c: cupId, ...(sugar ? { s: String(sugar) } : {}) },
 });
 
+/** Past the coffee step: the milk step, or straight to sugar with one milk or none. */
+export const toAfterBean = (
+  sp: string,
+  drink: string,
+  bean: Bean | null,
+  milks: Milk[]
+): RouteLocationRaw =>
+  milks.length > 1 ? toMilk(sp, drink, bean) : toSugar(sp, drink, bean, milks[0] ?? null);
+
 /** Reads a query value that may arrive as an array. */
 export function one(v: unknown): string | null {
   if (Array.isArray(v)) return typeof v[0] === "string" ? v[0] : null;

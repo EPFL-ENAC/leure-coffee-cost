@@ -1,9 +1,10 @@
 import { createRouter, createWebHistory } from "vue-router";
-import { DEFAULT_SALE_POINT } from "@/utils/cups";
+import { defaultSalePoint } from "@/config/dataset";
 import { slug } from "@/utils/format";
 
 const routes = [
-  { path: "/", redirect: "/" + slug(DEFAULT_SALE_POINT) },
+  // A function, so it reads the dataset once config.json is loaded.
+  { path: "/", redirect: () => "/" + slug(defaultSalePoint()) },
   {
     path: "/:sp",
     name: "drinks",

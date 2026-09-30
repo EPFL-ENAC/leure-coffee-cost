@@ -1,9 +1,13 @@
 // Turns the raw CSV rows and impact files into the "cup" shape the screens use.
 //
 // Two things the CSV does not carry as columns are recovered here: the sale
-// point and the bean brand. Both are readable from serveId and retailName, but
-// only with explicit tables, not regex guesses. Adding real columns in
+// point and the bean. Both are readable from serveId and retailName, but only
+// with explicit tables, not regex guesses. Adding real columns in
 // data_processing/ is the proper fix, this is the layer that lets us wait.
+//
+// Each dataset writes its serveId its own way, so each has its own reader:
+// "Cappuccino Via Verde, lait d'avoine, Le Klee" at EPFL, and
+// "Café Fairtrade, Brazil" or "Cappuccino, lait d'avoine" at OLMA.
 
 import {
   type CoffeeData,
@@ -12,9 +16,14 @@ import {
 } from "@/utils/coffeeData";
 import { slug } from "@/utils/format";
 
-/** Bean brands, as they appear at the end of the first serveId segment. */
-export const BEAN_BRANDS = ["Blue Planet", "Via Verde"] as const;
-export type Bean = (typeof BEAN_BRANDS)[number];
+/** EPFL bean brands, as they appear at the end of the first serveId segment. */
+const BEAN_BRANDS = ["Blue Planet", "Via Verde"] as const;
+
+/**
+ * What the coffee step offers. At EPFL it is the brand ("Via Verde"), at OLMA
+ * the label and the origin ("Fairtrade, Brazil").
+ */
+export type Bean = string;
 
 /** Milk keys used everywhere in the app and in the i18n tables. */
 export type Milk = "Cow" | "Lactose-free cow" | "Oat" | "Almond" | "Soy";
@@ -38,21 +47,8 @@ const MILK_COLUMN: Record<string, Milk> = {
 /** Milk options, in the order the i18n tables list them. */
 export const MILKS: Milk[] = ["Cow", "Lactose-free cow", "Oat", "Almond", "Soy"];
 
-export function beanFromSlug(s: string): Bean | null {
-  return BEAN_BRANDS.find((b) => slug(b) === s) ?? null;
-}
-
 export function milkFromSlug(s: string): Milk | null {
   return MILKS.find((m) => slug(m) === s) ?? null;
-}
-
-/** Sale points, in the order the app offers them. */
-export const SALE_POINTS = ["Le Klee", "Dallmayr", "Compass Machine"] as const;
-export type SalePoint = (typeof SALE_POINTS)[number];
-export const DEFAULT_SALE_POINT: SalePoint = "Le Klee";
-
-export function salePointFromSlug(s: string): SalePoint | null {
-  return SALE_POINTS.find((p) => slug(p) === s) ?? null;
 }
 
 /** The file name rule used by public/data/impacts/ and public/data/sugar/. */
@@ -113,7 +109,7 @@ export function parseServeId(serveId: string): {
 }
 
 /** Bean brand and drink name, from the first segment then from retailName. */
-export function beanAndDrink(row: CoffeeData): { bean: Bean | null; drink: string } {
+function beanAndDrink(row: CoffeeData): { bean: Bean | null; drink: string } {
   const { first } = parseServeId(row.serveId);
   for (const b of BEAN_BRANDS) {
     if (first.endsWith(" " + b)) {
@@ -124,21 +120,50 @@ export function beanAndDrink(row: CoffeeData): { bean: Bean | null; drink: strin
   return { bean: fromName ?? null, drink: first };
 }
 
-export function milkOf(row: CoffeeData): Milk | null {
-  const { middles } = parseServeId(row.serveId);
-  for (const m of middles) {
-    const hit = MILK_VARIANTS[m];
-    if (hit) return hit;
-  }
+function milkFromColumn(row: CoffeeData): Milk | null {
   const col = row.milkType;
   if (!col || col === "none") return null;
   return MILK_COLUMN[col] ?? null;
 }
 
-/** One CSV row becomes a cup. The tree is loaded later, on demand. */
-export function buildCup(row: CoffeeData): Cup {
+/** What a dataset reader gets out of one CSV row. */
+export type RowParts = {
+  salePoint: string;
+  drink: string;
+  bean: Bean | null;
+  milk: Milk | null;
+};
+
+/** "Cappuccino Via Verde, lait d'avoine, Le Klee": the sale point comes last. */
+export function readEpflRow(row: CoffeeData): RowParts {
+  const { middles, salePoint } = parseServeId(row.serveId);
   const { bean, drink } = beanAndDrink(row);
-  const { salePoint } = parseServeId(row.serveId);
+  const variant = middles.map((m) => MILK_VARIANTS[m]).find(Boolean);
+  return { salePoint, drink, bean, milk: variant ?? milkFromColumn(row) };
+}
+
+/**
+ * "Café Fairtrade, Brazil" or "Cappuccino, lait d'avoine". One sale point,
+ * the first segment is the drink then the label, the others are the origin or
+ * the milk.
+ */
+export function readOlmaRow(row: CoffeeData): RowParts {
+  const [first = "", ...rest] = row.serveId.split(",").map((s) => s.trim());
+  const drink = row.recipeId;
+  const label = first.startsWith(drink + " ") ? first.slice(drink.length + 1) : "";
+  const origins = rest.filter((s) => !MILK_VARIANTS[s]);
+  const variant = rest.map((s) => MILK_VARIANTS[s]).find(Boolean);
+  return {
+    salePoint: "OLMA",
+    drink,
+    bean: [label, ...origins].filter(Boolean).join(", ") || null,
+    milk: variant ?? milkFromColumn(row),
+  };
+}
+
+/** One CSV row becomes a cup. The tree is loaded later, on demand. */
+export function buildCup(row: CoffeeData, read: (row: CoffeeData) => RowParts): Cup {
+  const { salePoint, drink, bean, milk } = read(row);
   return {
     id: slug(row.serveId),
     serveId: row.serveId,
@@ -146,7 +171,7 @@ export function buildCup(row: CoffeeData): Cup {
     drink,
     recipeId: row.recipeId,
     bean,
-    milk: milkOf(row),
+    milk,
     icon: drink.replaceAll(" ", "_"),
     retailPrice: row.retailPrice,
     hiddenCost: row.hiddenCost,
