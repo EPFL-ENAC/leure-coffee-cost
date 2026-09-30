@@ -150,6 +150,8 @@ export type Strings = {
   catBlurb: Record<string, string>;
   ing: Record<string, string>;
   stage: Record<string, string>;
+  /** Words of a bean name, "Conventionnel" or "Brazil". Missing words stay as they are. */
+  beanWord?: Record<string, string>;
 };
 
 export type LangCode = "en" | "fr" | "de";

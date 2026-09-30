@@ -1,0 +1,35 @@
+# Keeps `dev` on the same commit as `main`. GitHub Pages (EPFL) deploys `main`,
+# the cluster (OLMA) deploys `dev`, so both show the same code and only the
+# dataset changes.
+name: sync dev
+
+"on":
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: sync-dev
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Fast-forward only. If someone pushed to `dev` by hand, this fails
+      # instead of throwing their commits away.
+      - name: Move dev to main
+        run: git push origin "${GITHUB_SHA}:refs/heads/dev"
+
+      - name: Deploy dev
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref dev

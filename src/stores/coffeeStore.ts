@@ -1,6 +1,7 @@
 import { defineStore } from "pinia";
 import { computed, ref } from "vue";
 import Papa from "papaparse";
+import { dataset } from "@/config/dataset";
 import { dataUrl } from "@/utils/assets";
 import {
   type CoffeeData,
@@ -43,7 +44,13 @@ export const useCoffeeStore = defineStore("coffee", () => {
   const error = ref<string | null>(null);
 
   /** Built cups, cheap: no impact file needed. */
-  const cups = computed<Cup[]>(() => rows.value.map(buildCup));
+  const cups = computed<Cup[]>(() => rows.value.map((r) => buildCup(r, dataset().readRow)));
+
+  /** Some datasets have no offsetting at all, then the screens hide it. */
+  const hasOffsetting = computed(() => cups.value.some((c) => c.offsetting !== 0));
+
+  /** Labels that show up in this dataset, for the label key. */
+  const labelsInUse = computed(() => new Set(cups.value.flatMap((c) => c.labels)));
 
   /** Cups with their impact tree, filled in as the files arrive. */
   const full = ref<Record<string, FullCup>>({});
@@ -198,6 +205,18 @@ export const useCoffeeStore = defineStore("coffee", () => {
       .sort((a, b) => Number(b.here) - Number(a.here) || a.bean.localeCompare(b.bean));
   };
 
+  /**
+   * False when the drink comes without a bean, then the coffee step is
+   * skipped. With `atLeast` 2, true only when there is a real choice.
+   */
+  const hasBeanChoice = (salePoint: string, drink: string, atLeast = 1): boolean =>
+    new Set(cupsAt(salePoint).flatMap((c) => (c.drink === drink && c.bean ? [c.bean] : [])))
+      .size >= atLeast;
+
+  /** Bean behind a URL slug, among the beans of this dataset. */
+  const beanFromSlug = (wanted: string): Bean | null =>
+    cups.value.find((c) => c.bean && slug(c.bean) === wanted)?.bean ?? null;
+
   /** Every cup of one drink and bean at one sale point, one per milk. */
   const variantsFor = (salePoint: string, drink: string, bean: Bean | null): Cup[] =>
     cupsAt(salePoint).filter((c) => c.drink === drink && c.bean === bean);
@@ -218,6 +237,8 @@ export const useCoffeeStore = defineStore("coffee", () => {
     defs,
     loading,
     error,
+    hasOffsetting,
+    labelsInUse,
 
     init,
     loadCup,
@@ -229,6 +250,8 @@ export const useCoffeeStore = defineStore("coffee", () => {
     drinkFromSlug,
     drinksAt,
     beansFor,
+    beanFromSlug,
+    hasBeanChoice,
     variantsFor,
     milksFor,
     defOf,

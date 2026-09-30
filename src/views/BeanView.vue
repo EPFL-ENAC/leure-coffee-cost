@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from "vue";
+import { computed, watch } from "vue";
 import { useRoute, useRouter } from "vue-router";
 import Disclosure from "@/components/Disclosure.vue";
 import DrinkIcon from "@/components/DrinkIcon.vue";
@@ -9,8 +9,9 @@ import { useCoffeeStore } from "@/stores/coffeeStore";
 import { useUiStore } from "@/stores/uiStore";
 import { labelImages } from "@/utils/coffeeData";
 import { labelUrl } from "@/utils/assets";
+import { dataset } from "@/config/dataset";
 import type { Bean } from "@/utils/cups";
-import { toMilk, toSugar } from "@/utils/routes";
+import { toAfterBean } from "@/utils/routes";
 import { useKnown } from "@/utils/guard";
 
 const props = defineProps<{ salePoint: string }>();
@@ -41,6 +42,7 @@ type Row = {
   here: boolean;
   note: string;
   offset: number;
+  hidden: number;
   labels: string[];
 };
 
@@ -59,18 +61,25 @@ const rows = computed<Row[]>(() => {
         ? ui.t.beanHere(props.salePoint)
         : ui.t.beanElsewhere(b.elsewhere.join(", ")),
       offset: cup ? Math.abs(cup.offsetting) : 0,
+      hidden: cup ? cup.hiddenCost : 0,
       labels: cup ? cup.labels : [],
     };
   });
 });
 
+/** With one sale point, "served here" under every row says nothing. */
+const showNotes = dataset().salePoints.length > 1;
+
+/** Only the labels this dataset uses. */
 const keyRows = computed(() =>
-  [...labelImages.keys()].map((id) => ({
-    id,
-    src: labelUrl(labelImages.get(id) as string),
-    name: ui.labelL(id),
-    what: ui.t.labelWhat[id] ?? "",
-  }))
+  [...labelImages.keys()]
+    .filter((id) => store.labelsInUse.has(id))
+    .map((id) => ({
+      id,
+      src: labelUrl(labelImages.get(id) as string),
+      name: ui.labelL(id),
+      what: ui.t.labelWhat[id] ?? "",
+    }))
 );
 
 function pick(row: Row) {
@@ -78,9 +87,19 @@ function pick(row: Row) {
   ui.resetImpacts();
   const milks = store.milksFor(props.salePoint, drink.value, row.bean);
   // One variant only, the milk step has nothing to ask.
-  if (milks.length > 1) router.push(toMilk(props.salePoint, drink.value, row.bean));
-  else router.push(toSugar(props.salePoint, drink.value, row.bean, milks[0] ?? null));
+  router.push(toAfterBean(props.salePoint, drink.value, row.bean, milks));
 }
+
+// A drink that comes one way only has no coffee step, go past it.
+watch(
+  drink,
+  (d) => {
+    if (!d || store.hasBeanChoice(props.salePoint, d)) return;
+    const milks = store.milksFor(props.salePoint, d, null);
+    router.replace(toAfterBean(props.salePoint, d, null, milks));
+  },
+  { immediate: true }
+);
 </script>
 
 <template>
@@ -118,21 +137,27 @@ function pick(row: Row) {
         @click="pick(r)"
       >
         <div class="left">
-          <span class="name" :class="{ dim: !r.here }">{{ r.bean }}</span>
+          <span class="name" :class="{ dim: !r.here }">{{ ui.beanL(r.bean) }}</span>
           <div class="labels">
             <LabelIcons :labels="r.labels" :size="22" />
           </div>
         </div>
-        <div class="right">
+        <div v-if="store.hasOffsetting" class="right">
           <span class="val tnum" :class="{ dim: !r.here }">−{{ r.offset.toFixed(2) }} CHF</span>
           <span class="sub-val" :class="{ dim: !r.here }">{{ ui.t.givenBack }}</span>
         </div>
+        <!-- Nothing is given back in this dataset, the hidden cost is what differs. -->
+        <div v-else class="right">
+          <span class="val tnum" :class="{ dim: !r.here }">
+            {{ r.hidden.toFixed(3) }} {{ ui.t.chfHiddenShort }}
+          </span>
+        </div>
         <span v-if="r.here" class="chev">›</span>
       </component>
-      <p class="note" :class="{ off: !r.here }">{{ r.note }}</p>
+      <p v-if="showNotes" class="note" :class="{ off: !r.here }">{{ r.note }}</p>
     </template>
 
-    <div class="key-link">
+    <div v-if="keyRows.length" class="key-link">
       <Disclosure
         :open="ui.labelKey"
         :show-label="ui.t.labelKeyShow"
@@ -140,7 +165,7 @@ function pick(row: Row) {
         @toggle="ui.labelKey = !ui.labelKey"
       />
     </div>
-    <div v-if="ui.labelKey" class="key">
+    <div v-if="ui.labelKey && keyRows.length" class="key">
       <div v-for="k in keyRows" :key="k.id" class="key-row">
         <img class="key-icon" :src="k.src" :alt="k.name" />
         <p class="key-text"><span class="key-name">{{ k.name }}</span> ({{ k.what }})</p>

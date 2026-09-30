@@ -5,7 +5,7 @@ import AppHeader from "@/components/AppHeader.vue";
 import Disclaimer from "@/components/Disclaimer.vue";
 import { useCoffeeStore } from "@/stores/coffeeStore";
 import { useUiStore } from "@/stores/uiStore";
-import { DEFAULT_SALE_POINT, salePointFromSlug } from "@/utils/cups";
+import { defaultSalePoint, salePointFromSlug } from "@/config/dataset";
 import { one } from "@/utils/routes";
 
 const route = useRoute();
@@ -17,7 +17,7 @@ onMounted(() => {
 });
 
 const salePoint = computed(
-  () => salePointFromSlug(one(route.params.sp) ?? "") ?? DEFAULT_SALE_POINT
+  () => salePointFromSlug(one(route.params.sp) ?? "") ?? defaultSalePoint()
 );
 </script>
 

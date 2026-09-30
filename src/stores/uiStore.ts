@@ -1,21 +1,27 @@
 import { defineStore } from "pinia";
 import { computed, ref } from "vue";
+import { dataset } from "@/config/dataset";
 import { TABLES, type LangCode } from "@/i18n";
+import olma from "@/i18n/olma";
 import {
   DEF_FAMILIES,
   METHOD_FAMILIES,
   type DefFamily,
   type MethodFamily,
 } from "@/i18n/families";
+import { useCoffeeStore } from "@/stores/coffeeStore";
 import { labelNames } from "@/utils/coffeeData";
-import type { Cup, Milk } from "@/utils/cups";
+import type { Bean, Cup, Milk } from "@/utils/cups";
 
 /** Language, and the transient flags the screens toggle. */
 export const useUiStore = defineStore(
   "ui",
   () => {
     const lang = ref<LangCode>("en");
-    const t = computed(() => TABLES[lang.value]);
+    // OLMA changes a few texts, EPFL uses the tables as they are.
+    const t = computed(() =>
+      dataset().id === "olma" ? { ...TABLES[lang.value], ...olma[lang.value] } : TABLES[lang.value]
+    );
 
     function setLang(code: LangCode) {
       lang.value = code;
@@ -103,13 +109,29 @@ export const useUiStore = defineStore(
     /** Short drink text. Falls back to the English text of the CSV. */
     const blurbL = (cup: Cup) => t.value.drinkBlurb[cup.recipeId] ?? cup.blurb;
 
+    /** "Fairtrade, Brazil" becomes "Fairtrade, Brésil", word by word. */
+    const beanL = (bean: Bean) =>
+      bean
+        .split(", ")
+        .map((word) => t.value.beanWord?.[word] ?? word)
+        .join(", ");
+
     const milkL = (m: Milk | null) => (m ? (t.value.milk[m] ?? m) : t.value.noMilk);
 
-    /** "Cappuccino, oat milk". The milk keeps its case in German. */
+    /**
+     * "Cappuccino, oat milk". The milk keeps its case in German. The bean is
+     * named only when the drink comes with several beans at that sale point,
+     * "Café Blue Planet" or "Café Fairtrade, Brazil".
+     */
     function cupL(cup: Cup): string {
-      if (!cup.milk) return cup.drink;
+      const coffee = useCoffeeStore();
+      const name =
+        cup.bean && coffee.hasBeanChoice(cup.salePoint, cup.drink, 2)
+          ? cup.drink + " " + beanL(cup.bean)
+          : cup.drink;
+      if (!cup.milk) return name;
       const m = milkL(cup.milk);
-      return cup.drink + ", " + (t.value.lowerNouns ? m.toLowerCase() : m);
+      return name + ", " + (t.value.lowerNouns ? m.toLowerCase() : m);
     }
 
     return {
@@ -135,6 +157,7 @@ export const useUiStore = defineStore(
       indDefL,
       indMethodL,
       milkL,
+      beanL,
       cupL,
       labelL,
       blurbL,

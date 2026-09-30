@@ -1,0 +1,26 @@
+# https://github.com/EPFL-ENAC/epfl-enac-build-push-deploy-action#readme
+name: deploy
+
+# The cluster deploys from `dev` (the action maps `dev` to the dev overlay and
+# does nothing for `main`). Nobody pushes to `dev` by hand: sync-dev.yml moves
+# it to `main` and starts this workflow, so OLMA runs the same commit as the
+# EPFL site on GitHub Pages.
+"on":
+  push:
+    branches:
+      - dev
+  # A push made with GITHUB_TOKEN starts no workflow, so sync-dev.yml starts
+  # this one by hand.
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    permissions:
+      contents: read
+      packages: write
+    uses: EPFL-ENAC/epfl-enac-build-push-deploy-action/.github/workflows/deploy.yml@v3.0.4
+    secrets:
+      token: ${{ secrets.CD_TOKEN }}
+    with:
+      org: epfl-leure
+      repo: coffee-cost

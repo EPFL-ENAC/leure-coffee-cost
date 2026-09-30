@@ -5,7 +5,7 @@ import DrinkIcon from "@/components/DrinkIcon.vue";
 import StepRail from "@/components/StepRail.vue";
 import { useCoffeeStore } from "@/stores/coffeeStore";
 import { useUiStore } from "@/stores/uiStore";
-import { toBean } from "@/utils/routes";
+import { toAfterBean, toBean } from "@/utils/routes";
 
 const props = defineProps<{ salePoint: string }>();
 
@@ -17,7 +17,11 @@ const drinks = computed(() => store.drinksAt(props.salePoint));
 
 function pick(drink: string) {
   ui.resetImpacts();
-  router.push(toBean(props.salePoint, drink));
+  if (store.hasBeanChoice(props.salePoint, drink)) router.push(toBean(props.salePoint, drink));
+  else {
+    const milks = store.milksFor(props.salePoint, drink, null);
+    router.push(toAfterBean(props.salePoint, drink, null, milks));
+  }
 }
 </script>
 

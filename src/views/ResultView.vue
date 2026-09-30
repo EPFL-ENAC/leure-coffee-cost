@@ -68,13 +68,20 @@ const truePrice = computed(() => (baseCup.value?.truePrice ?? 0) + sugarCost.val
 const legend = computed(() => [
   { fill: "var(--bean)", label: ui.t.pricePaid, val: paid.value.toFixed(2), accent: false },
   { fill: "var(--accent)", label: ui.t.hiddenLegend, val: "+" + money(hidden.value), accent: false },
-  {
-    fill: "transparent",
-    label: ui.t.givenBackLegend,
-    val: "−" + money(offset.value),
-    accent: true,
-  },
+  // A dataset without offsetting has nothing to give back.
+  ...(store.hasOffsetting
+    ? [
+        {
+          fill: "transparent",
+          label: ui.t.givenBackLegend,
+          val: "−" + money(offset.value),
+          accent: true,
+        },
+      ]
+    : []),
 ]);
+
+const beanName = computed(() => (baseCup.value?.bean ? ui.beanL(baseCup.value.bean) : ""));
 
 const offsetRows = computed(() => {
   const rows = (cup.value?.offsetDetail ?? []).filter((x) => x.c < 0);
@@ -109,7 +116,7 @@ const chips = computed<Chip[]>(() => {
   if (mine.milk && siblings.value.length) {
     push(siblings.value[0], ui.t.chipMilk(ui.milkL(siblings.value[0].milk)));
   }
-  if (lowest.value) push(lowest.value, ui.t.chipLowest(lowest.value.drink));
+  if (lowest.value) push(lowest.value, ui.t.chipLowest(ui.cupL(lowest.value)));
   return out.slice(0, 2);
 });
 
@@ -133,7 +140,7 @@ function goAll() {
       :bean="baseCup.bean"
       :milk="baseCup.milk"
       :sugar="sugarIdx"
-      :has-bean="true"
+      :has-bean="store.hasBeanChoice(salePoint, baseCup.drink)"
       :has-milk="baseCup.milk !== null"
     />
 
@@ -176,6 +183,7 @@ function goAll() {
         <div class="labels">
           <LabelIcons :labels="baseCup.labels" :size="24" />
           <Disclosure
+            v-if="store.hasOffsetting"
             :open="ui.why"
             :show-label="ui.t.whyLink"
             :hide-label="ui.t.hide"
@@ -183,9 +191,9 @@ function goAll() {
           />
         </div>
 
-        <div v-if="ui.why" class="why">
+        <div v-if="ui.why && store.hasOffsetting" class="why">
           <p class="why-note">
-            {{ offsetRows.length ? ui.t.offsetNote(baseCup.bean ?? "") : ui.t.offsetNone }}
+            {{ offsetRows.length ? ui.t.offsetNote(beanName) : ui.t.offsetNone }}
           </p>
           <div v-if="offsetRows.length" class="why-rows">
             <div class="eyebrow">{{ ui.t.givenBackHead }}</div>
