@@ -1,7 +1,7 @@
 import { defineStore } from "pinia";
-import { computed, ref } from "vue";
+import { computed, ref, watchEffect } from "vue";
 import { dataset } from "@/config/dataset";
-import { TABLES, type LangCode } from "@/i18n";
+import { TABLES, isLang, type LangCode } from "@/i18n";
 import olma from "@/i18n/olma";
 import {
   DEF_FAMILIES,
@@ -13,15 +13,36 @@ import { useCoffeeStore } from "@/stores/coffeeStore";
 import { labelNames } from "@/utils/coffeeData";
 import type { Bean, Cup, Milk } from "@/utils/cups";
 
+/**
+ * Language of a first visit: the first browser language we have. Most OLMA
+ * visitors speak German, so OLMA falls back to German, EPFL to English.
+ * A language picked before is saved and wins over this.
+ */
+function firstLang(): LangCode {
+  const asked = navigator.languages?.length ? navigator.languages : [navigator.language];
+  for (const l of asked) {
+    const code = l?.slice(0, 2).toLowerCase();
+    if (isLang(code)) return code;
+  }
+  return dataset().id === "olma" ? "de" : "en";
+}
+
 /** Language, and the transient flags the screens toggle. */
 export const useUiStore = defineStore(
   "ui",
   () => {
-    const lang = ref<LangCode>("en");
+    const lang = ref<LangCode>(firstLang());
     // OLMA changes a few texts, EPFL uses the tables as they are.
     const t = computed(() =>
       dataset().id === "olma" ? { ...TABLES[lang.value], ...olma[lang.value] } : TABLES[lang.value]
     );
+
+    // So the browser and screen readers know the page language, and do not
+    // offer to translate a page that is already in German.
+    watchEffect(() => {
+      document.documentElement.lang = lang.value;
+      document.title = t.value.docTitle;
+    });
 
     function setLang(code: LangCode) {
       lang.value = code;

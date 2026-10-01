@@ -28,7 +28,7 @@ const olma: Record<LangCode, Partial<Strings>> = {
     rankNoteLowest: "Yours already has the lowest hidden cost here.",
     beanWord: { Conventionnel: "Conventional" },
     aboutParas: withPartners(en.aboutParas, [
-      { t: "It was developed as part of a partnership that consists of: " },
+      { t: "It was developed as part of a partnership between: " },
       { t: "LEUrE (EPFL)", b: true },
       { t: " and " },
       { t: "ENAC-IT-4-Research (EPFL)", b: true },
@@ -46,6 +46,7 @@ const olma: Record<LangCode, Partial<Strings>> = {
     sugarNoteNone: "Le coût le plus bas ici : la boisson telle qu’elle est servie.",
     changeNone: "Aucune boisson ici n’a un coût caché plus bas.",
     seeAll: "Voir toutes les boissons ›",
+    everyCupTitle: () => "Toutes les boissons à l’OLMA",
     rankNoteLowest: "La vôtre a déjà le coût caché le plus bas ici.",
     beanWord: {
       Brazil: "Brésil",
@@ -65,13 +66,14 @@ const olma: Record<LangCode, Partial<Strings>> = {
     loading: "Daten werden geladen…",
     errPre: "Die Daten konnten nicht geladen werden.",
     drinkFoot:
-      "Die Preise sind die an der OLMA. Die versteckten Kosten sind die Schäden, die jedes Getränk verursacht, in Franken bewertet. Preis plus versteckte Kosten ergibt den wahren Preis.",
+      "Die Preise sind die OLMA-Preise. Die versteckten Kosten sind die Schäden, die jedes Getränk verursacht, in Franken bewertet. Preis plus versteckte Kosten ergibt den wahren Preis.",
     beanSub:
       "Gleiches Getränk, andere Bohnen. Das Label und das Herkunftsland der Bohnen verändern die versteckten Kosten.",
     pricePaid: "Bezahlter Preis",
     sugarNoteNone: "Die niedrigsten Kosten hier: das Getränk, wie es serviert wird.",
     changeNone: "Kein Getränk hier hat niedrigere versteckte Kosten.",
     seeAll: "Alle Getränke ansehen ›",
+    everyCupTitle: () => "Alle Getränke an der OLMA",
     rankNoteLowest: "Ihr Getränk hat schon die niedrigsten versteckten Kosten hier.",
     beanWord: {
       Conventionnel: "Konventionell",
@@ -81,7 +83,7 @@ const olma: Record<LangCode, Partial<Strings>> = {
       Indonesia: "Indonesien",
     },
     aboutParas: withPartners(de.aboutParas, [
-      { t: "Sie entstand in Partnerschaft zwischen: " },
+      { t: "Sie entstand in einer Partnerschaft von: " },
       { t: "LEUrE (EPFL)", b: true },
       { t: " und " },
       { t: "ENAC-IT-4-Research (EPFL)", b: true },

@@ -3,6 +3,7 @@ import type { Strings } from "@/i18n/types";
 const de: Strings = {
   code: "DE",
   wordmark: "VERSTECKTE KAFFEEKOSTEN",
+  docTitle: "Versteckte Kaffeekosten",
   changePlace: "Verkaufsstelle wechseln",
   loading: "Daten dieser Maschine werden geladen…",
   errPre: "Die Daten dieser Maschine konnten nicht geladen werden.",
@@ -22,7 +23,7 @@ const de: Strings = {
   labelWhat: {
     fairtrade:
       "ein Mindestpreis und eine Prämie für die Kooperative der Produzentinnen und Produzenten.",
-    "eu-organic": "angebaut ohne synthetische Pestizide und Mineraldünger.",
+    "eu-organic": "angebaut ohne synthetische Pestizide und ohne Mineraldünger.",
     "via-verde": "Dallmayrs eigenes Programm: Wiederbewaldung in Äthiopien, pro Getränk finanziert.",
     "blue-planet": "das grössere Wiederbewaldungsprogramm, doppelt so viel pro Getränk kompensiert.",
     "rainforest-alliance": "Anbauregeln zu Wald, Boden und Arbeitsbedingungen.",
@@ -65,7 +66,7 @@ const de: Strings = {
 
   milkTitle: "Welche Milch?",
   milkIntro: (sp) =>
-    "Die Bohnen sind immer dieselben. Zwischen der günstigsten und der teuersten Milch liegen " +
+    "Die Bohnen sind immer dieselben. Zwischen der Milch mit den niedrigsten und der mit den höchsten versteckten Kosten liegen " +
     sp +
     " CHF versteckte Kosten.",
   milkIntroOne: "Dieses Getränk wird nur auf eine Art serviert.",
@@ -79,7 +80,7 @@ const de: Strings = {
   noMilk: "Ohne Milch",
   milkNoneValue: "0 CHF durch Milch",
   milkNoneNote:
-    "Dieses Getränk wird ohne Milch serviert, also kommt nichts von seinen versteckten Kosten von der Milch.",
+    "Dieses Getränk enthält keine Milch, also kommen keine versteckten Kosten von der Milch.",
   milk: {
     Cow: "Kuhmilch",
     "Lactose-free cow": "Laktosefreie Kuhmilch",
@@ -108,7 +109,7 @@ const de: Strings = {
     pct +
     "% zusätzlich zu den bezahlten " +
     paid +
-    " CHF, Schäden, die der Preis nicht abbildet.",
+    " CHF: Schäden, die der Preis nicht abbildet.",
   truePrice: "Wahrer Preis",
   pricePaid: "An der Maschine bezahlter Preis",
   hiddenLegend: "Versteckte Kosten dieses Getränks",
@@ -133,7 +134,7 @@ const de: Strings = {
   howFrancs: "WIE DARAUS FRANKEN WERDEN",
   done: "Fertig",
   readMore: "Mehr lesen",
-  showLess: "Weniger",
+  showLess: "Weniger anzeigen",
   mixedUnits: "gemischte Einheiten",
   noDefinition: "Für diesen Indikator ist im Datensatz keine Definition hinterlegt.",
   restInds: (n) => n + (n === 1 ? " kleinerer Indikator" : " kleinere Indikatoren"),
@@ -145,10 +146,10 @@ const de: Strings = {
   stageOnly: (stage) => "Vor allem durch " + stage,
 
   changeTitle: "Eine Sache ändern",
-  changeSub: "Ein Wechsel, und was er mit den versteckten Kosten macht.",
+  changeSub: "Ein Wechsel und seine Wirkung auf die versteckten Kosten.",
   changeNone: "Kein Getränk an dieser Maschine hat niedrigere versteckte Kosten.",
   chipMilk: (m) => "Stattdessen " + m,
-  chipLowest: (d) => "Stattdessen " + d + ", das Getränk mit den niedrigsten Kosten hier",
+  chipLowest: (d) => "Stattdessen " + d + " (niedrigste versteckte Kosten hier)",
   seeAll: "Alle Getränke dieser Maschine ansehen ›",
   footNote:
     "Versteckte Kosten sind die Schäden dieses Getränks, nach der True-Price-Methode (TCAF, True Cost Accounting for Food) in Franken bewertet. Sie werden Ihrer Rechnung nicht hinzugefügt.",
@@ -168,17 +169,17 @@ const de: Strings = {
   cmpSame: "Gleiche versteckte Kosten in beiden Fällen.",
   noChange: "keine Änderung",
 
-  everyCupTitle: (sp) => "Alle Getränke: " + sp,
+  everyCupTitle: (sp) => "Alle Getränke bei " + sp,
   rankSub: (n) => "NIEDRIGSTE VERSTECKTE KOSTEN ZUERST · " + n + " GETRÄNKE",
   ordinal: (n) => n + ".",
   rankNote: (place, nearest, diff) =>
     "Ihr Getränk liegt auf Platz " +
     place +
-    " Das nächstgünstigere Getränk ist " +
+    " Das nächste Getränk mit tieferen versteckten Kosten ist " +
     nearest +
-    ", mit " +
+    " (" +
     diff +
-    " CHF weniger versteckten Kosten. Tippen Sie auf eine Zeile, um sie mit Ihrem zu vergleichen.",
+    " CHF weniger). Tippen Sie auf eine Zeile, um sie mit Ihrem zu vergleichen.",
   rankNoteLowest: "Ihr Getränk hat schon die niedrigsten versteckten Kosten an dieser Maschine.",
 
   aboutTitle: "ÜBER DIE APP & HAFTUNGSAUSSCHLUSS",
@@ -207,7 +208,7 @@ const de: Strings = {
       { t: ", von 2024 bis 2027 (Projektnummer: 216652)." },
     ],
     [
-      { t: "Sie entstand in Partnerschaft zwischen: " },
+      { t: "Sie entstand in einer Partnerschaft von: " },
       { t: "LEUrE (EPFL)", b: true },
       { t: ", " },
       { t: "RESCO (Restaurants, Läden und Hotellerie der EPFL)", b: true },
@@ -231,6 +232,7 @@ const de: Strings = {
   ],
 
   indicator: {
+    acephate: "Acephat",
     "agricultural land occupation": "Landwirtschaftliche Flächenbelegung",
     "cases of fatal occupational injury": "Tödliche Arbeitsunfälle",
     "cases of non-fatal occupational injury, insured":
@@ -275,6 +277,10 @@ const de: Strings = {
       "Öko-Kosten der Landnutzung (Vereinigte Staaten), durch Entwaldung",
     "eco-costs of land-use (united states of america), practice-related":
       "Öko-Kosten der Landnutzung (Vereinigte Staaten), durch Anbaupraktiken",
+    "eco-costs of land-use (vietnam), deforestation-related":
+      "Öko-Kosten der Landnutzung (Vietnam), durch Entwaldung",
+    "eco-costs of land-use (vietnam), practice-related":
+      "Öko-Kosten der Landnutzung (Vietnam), durch Anbaupraktiken",
     "fine particulate matter formation": "Feinstaubbildung",
     "fossil resource scarcity": "Knappheit fossiler Ressourcen",
     "global warming": "Klimaerwärmung",
@@ -285,6 +291,7 @@ const de: Strings = {
     "prevalence of excessive working time": "Überlange Arbeitszeiten",
     "prevalence of modern slavery (forced workers, most severe)":
       "Moderne Sklaverei (Zwangsarbeit, schwerste Fälle)",
+    tebuconazole: "Tebuconazol",
     "terrestrial acidification": "Bodenversauerung",
     "wage gap from gender discrimination": "Lohnlücke durch Geschlechterdiskriminierung",
     "wage gap of workers earning above minimum wage but below decent living wage":
@@ -319,11 +326,11 @@ const de: Strings = {
     "terrestrial acidification":
       "Die Bodenversauerung entsteht, wenn der Säuregrad des Bodens schädlich vom optimalen Wert abweicht. Die Versauerung der Umwelt wird durch Schwefel- und Stickoxide aus menschlichen und natürlichen Quellen verursacht. Auf Ackerland sind die Hauptursachen Dünger auf Ammonium- und Harnstoffbasis, Schwefeldünger und der Anbau von Leguminosen. Versauerung schädigt Wälder und Oberflächengewässer, vor allem auf schwachen Böden. Sie wirkt auch auf das Pflanzenwachstum und damit auf die Erträge, weil der pH-Wert die Verfügbarkeit der Nährstoffe verändert.",
     "wage gap from gender discrimination":
-      "Die Lohnlücke durch Geschlechterdiskriminierung [CHF/kg] beziffert den Einkommensunterschied zwischen Männern und Frauen, bezogen auf die Produktion. Die Kennzahl zeigt die wirtschaftlichen Unterschiede, die aus Diskriminierung am Arbeitsplatz entstehen, und damit strukturelle Ungleichheiten, die das Einkommen und die wirtschaftliche Sicherheit von Frauen treffen.",
+      "Die Lohnlücke durch Geschlechterdiskriminierung beziffert den Einkommensunterschied zwischen Männern und Frauen, bezogen auf die Produktion. Die Kennzahl zeigt die wirtschaftlichen Unterschiede, die aus Diskriminierung am Arbeitsplatz entstehen, und damit strukturelle Ungleichheiten, die das Einkommen und die wirtschaftliche Sicherheit von Frauen treffen.",
     "wage gap of workers earning above minimum wage but below decent living wage":
-      "Die Lohnlücke von Arbeitskräften über dem Mindestlohn, aber unter einem existenzsichernden Lohn [CHF/kg] beziffert den Abstand zwischen ihrem Einkommen und einem existenzsichernden Lohn, bezogen auf die Produktion. Die Kennzahl zeigt die Lage von Menschen, die mehr als den gesetzlichen Mindestlohn verdienen, aber trotzdem nicht genug für die Grundbedürfnisse und ein würdiges Leben.",
+      "Die Lohnlücke von Arbeitskräften über dem Mindestlohn, aber unter einem existenzsichernden Lohn beziffert den Abstand zwischen ihrem Einkommen und einem existenzsichernden Lohn, bezogen auf die Produktion. Die Kennzahl zeigt die Lage von Menschen, die mehr als den gesetzlichen Mindestlohn verdienen, aber trotzdem nicht genug für die Grundbedürfnisse und ein würdiges Leben.",
     "wage gap of workers earning below minimum wage":
-      "Die Lohnlücke von Arbeitskräften unter dem Mindestlohn [CHF/kg] beziffert den Abstand zwischen ihrem Einkommen und dem gesetzlichen Mindestlohn, bezogen auf die Produktion. Die Kennzahl zeigt das Ausmass wirtschaftlicher Ausbeutung und der Verletzung von Arbeitsrechten, also echte Probleme mit Einkommenssicherheit und unfairen Praktiken.",
+      "Die Lohnlücke von Arbeitskräften unter dem Mindestlohn beziffert den Abstand zwischen ihrem Einkommen und dem gesetzlichen Mindestlohn, bezogen auf die Produktion. Die Kennzahl zeigt das Ausmass wirtschaftlicher Ausbeutung und der Verletzung von Arbeitsrechten, also echte Probleme mit Einkommenssicherheit und unfairen Praktiken.",
     "water consumption":
       "Der Wasserverbrauch [m3] bezeichnet die Nutzung von Wasser auf eine Art, bei der es verdunstet, in Produkte eingebaut, in andere Einzugsgebiete geleitet oder ins Meer abgegeben wird. Es steht damit im Ursprungsgebiet weder Menschen noch Ökosystemen zur Verfügung. Die Wasserressourcen stehen durch Bevölkerungswachstum und steigende Nachfrage nach Nahrung immer stärker unter Druck, und die Landwirtschaft macht den grössten Teil des weltweiten Süsswasserverbrauchs aus. Wassermangel trifft Wasserlebewesen direkt, senkt die Erträge und kann zu Mangelernährung führen.",
   },
@@ -395,9 +402,9 @@ const de: Strings = {
   ing: {
     "Coffee beans": "Kaffeebohnen",
     "Cow milk": "Kuhmilch",
-    Oat: "Haferdrink",
-    Almond: "Mandeldrink",
-    Soybeans: "Sojabohnen",
+    Oat: "Hafermilch",
+    Almond: "Mandelmilch",
+    Soybeans: "Sojamilch",
     "Cocoa beans": "Kakaobohnen",
     Sugarbeet: "Zucker",
     Sugar: "Zucker",
@@ -410,12 +417,12 @@ const de: Strings = {
     "End of life, industrial-composting": "das Lebensende (industrielle Kompostierung)",
     "Production & Processing": "Anbau und Verarbeitung",
     Consumption: "den Konsum",
-    "Processing, Almond beverage": "die Herstellung des Mandeldrinks",
-    "Processing, Soybean beverage": "die Herstellung des Sojadrinks",
+    "Processing, Almond beverage": "die Herstellung der Mandelmilch",
+    "Processing, Soybean beverage": "die Herstellung der Sojamilch",
     "Processing, Sugar extraction": "die Zuckergewinnung",
     "Transport, Field to Storage": "den Transport vom Feld zum Lager",
-    "Transport, Manufacture-to-Retail": "den Transport vom Werk zum Verkaufspunkt",
-    "Transport, Retail-to-Waste": "den Transport vom Verkaufspunkt zum Abfall",
+    "Transport, Manufacture-to-Retail": "den Transport vom Werk zur Verkaufsstelle",
+    "Transport, Retail-to-Waste": "den Transport von der Verkaufsstelle zur Entsorgung",
     "Transport, Storage-to-Port": "den Transport vom Lager zum Hafen",
     Cultivation: "den Anbau",
     "End-use": "die Nutzung",
