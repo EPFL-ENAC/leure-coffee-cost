@@ -103,11 +103,16 @@ function barColor(i: number): string {
   padding: 14px var(--pad-shell) 16px;
   border-bottom: var(--hairline);
 }
-@media (min-width: 900px) {
+@media (min-width: 640px) {
   .rail {
-    gap: 56px;
+    gap: 40px;
     padding-top: 16px;
     padding-bottom: 18px;
+  }
+}
+@media (min-width: 1200px) {
+  .rail {
+    gap: 56px;
   }
 }
 .step {

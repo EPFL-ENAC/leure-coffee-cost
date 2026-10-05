@@ -168,4 +168,14 @@ function open(c: Cup) {
 .screen {
   --screen-max: 960px;
 }
+
+@media (min-width: 640px) {
+  .name {
+    flex: 0 1 40%;
+  }
+  .bar {
+    flex: 1 1 0;
+    width: auto;
+  }
+}
 </style>

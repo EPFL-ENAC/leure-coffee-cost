@@ -132,17 +132,22 @@ img {
 }
 
 /* Every screen sits in the middle of the sheet. Each one sets its own
-   --screen-max, the phone never reads it. */
+   --screen-max, only the laptop reads it. A tablet uses the full width. */
 .screen {
   width: 100%;
   display: flex;
   flex-direction: column;
 }
 
-@media (min-width: 900px) {
+/* Wide cards. On a phone a card is a row with a hairline on top. From a tablet
+   up the same block gets a full border and sits in a grid. */
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 640px) {
   .screen {
-    max-width: var(--screen-max, 960px);
-    margin: 0 auto;
     padding: 0 var(--pad);
   }
   /* On a phone the grey strip cuts two blocks apart. Wide, a hairline is enough. */
@@ -150,5 +155,21 @@ img {
     height: 0;
     background: none;
     border-bottom: 0;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, var(--card-min, 280px)), 1fr));
+    gap: 12px;
+    padding: 0 var(--pad);
+  }
+  .cards > .card {
+    border: var(--hairline);
+  }
+}
+
+@media (min-width: 1200px) {
+  .screen {
+    max-width: var(--screen-max, 960px);
+    margin: 0 auto;
   }
 }

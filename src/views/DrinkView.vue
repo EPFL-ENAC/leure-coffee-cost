@@ -42,12 +42,12 @@ function pick(drink: string) {
       <h1 class="display">{{ ui.t.drinkTitle }}</h1>
     </div>
 
-    <div class="list">
+    <div class="cards">
       <button
         v-for="d in drinks"
         :key="d.drink"
         type="button"
-        class="row row--tap drink"
+        class="card row row--tap drink"
         @click="pick(d.drink)"
       >
         <DrinkIcon :cup="d" />
@@ -67,10 +67,6 @@ function pick(drink: string) {
 }
 .head {
   padding: var(--pad-top) var(--pad) 18px;
-}
-.list {
-  display: flex;
-  flex-direction: column;
 }
 .drink {
   width: 100%;
@@ -103,21 +99,11 @@ function pick(drink: string) {
 }
 
 /* Wide, the drinks read better as a grid of cards than as one long list. */
-@media (min-width: 900px) {
+@media (min-width: 640px) {
   .head {
     padding-bottom: 22px;
   }
-  .display {
-    font-size: 36px;
-  }
-  .list {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 12px;
-  }
   .drink {
-    border: var(--hairline);
-    padding: 0 16px;
     min-height: 72px;
   }
   .foot {

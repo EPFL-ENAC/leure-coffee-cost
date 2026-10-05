@@ -290,4 +290,22 @@ function switchToOther() {
 .screen {
   --screen-max: 900px;
 }
+
+@media (min-width: 640px) {
+  .title {
+    font-size: 32px;
+    max-width: 720px;
+  }
+  .figures {
+    gap: 56px;
+  }
+  .fig-val {
+    font-size: 44px;
+  }
+  .switch {
+    width: auto;
+    min-width: 280px;
+    padding: 14px 28px;
+  }
+}
 </style>

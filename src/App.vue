@@ -50,7 +50,12 @@ const salePoint = computed(
   display: flex;
   flex-direction: column;
   position: relative;
-  box-shadow: 0 0 0 1px var(--line);
+}
+/* Only the laptop sheet has an edge, a phone or a tablet is the sheet. */
+@media (min-width: 1200px) {
+  .column {
+    box-shadow: 0 0 0 1px var(--line);
+  }
 }
 .column > :deep(*:last-child) {
   margin-top: auto;

@@ -128,34 +128,36 @@ watch(
       <p class="sub">{{ ui.t.beanSub }}</p>
     </div>
 
-    <template v-for="r in rows" :key="r.bean">
-      <component
-        :is="r.here ? 'button' : 'div'"
-        class="row bean"
-        :class="{ 'row--tap': r.here, off: !r.here }"
-        :type="r.here ? 'button' : undefined"
-        @click="pick(r)"
-      >
-        <div class="left">
-          <span class="name" :class="{ dim: !r.here }">{{ ui.beanL(r.bean) }}</span>
-          <div class="labels">
-            <LabelIcons :labels="r.labels" :size="22" />
+    <div class="cards beans">
+      <div v-for="r in rows" :key="r.bean" class="card" :class="{ off: !r.here }">
+        <component
+          :is="r.here ? 'button' : 'div'"
+          class="row bean"
+          :class="{ 'row--tap': r.here }"
+          :type="r.here ? 'button' : undefined"
+          @click="pick(r)"
+        >
+          <div class="left">
+            <span class="name" :class="{ dim: !r.here }">{{ ui.beanL(r.bean) }}</span>
+            <div class="labels">
+              <LabelIcons :labels="r.labels" :size="22" />
+            </div>
           </div>
-        </div>
-        <div v-if="store.hasOffsetting" class="right">
-          <span class="val tnum" :class="{ dim: !r.here }">−{{ r.offset.toFixed(2) }} CHF</span>
-          <span class="sub-val" :class="{ dim: !r.here }">{{ ui.t.givenBack }}</span>
-        </div>
-        <!-- Nothing is given back in this dataset, the hidden cost is what differs. -->
-        <div v-else class="right">
-          <span class="val tnum" :class="{ dim: !r.here }">
-            {{ r.hidden.toFixed(3) }} {{ ui.t.chfHiddenShort }}
-          </span>
-        </div>
-        <span v-if="r.here" class="chev">›</span>
-      </component>
-      <p v-if="showNotes" class="note" :class="{ off: !r.here }">{{ r.note }}</p>
-    </template>
+          <div v-if="store.hasOffsetting" class="right">
+            <span class="val tnum" :class="{ dim: !r.here }">−{{ r.offset.toFixed(2) }} CHF</span>
+            <span class="sub-val" :class="{ dim: !r.here }">{{ ui.t.givenBack }}</span>
+          </div>
+          <!-- Nothing is given back in this dataset, the hidden cost is what differs. -->
+          <div v-else class="right">
+            <span class="val tnum" :class="{ dim: !r.here }">
+              {{ r.hidden.toFixed(3) }} {{ ui.t.chfHiddenShort }}
+            </span>
+          </div>
+          <span v-if="r.here" class="chev">›</span>
+        </component>
+        <p v-if="showNotes" class="note">{{ r.note }}</p>
+      </div>
+    </div>
 
     <div v-if="keyRows.length" class="key-link">
       <Disclosure
@@ -204,7 +206,11 @@ watch(
   padding: 14px var(--pad);
   min-height: 64px;
 }
-.bean.off {
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.card.off {
   background: var(--surface-alt);
 }
 .left {
@@ -255,9 +261,6 @@ watch(
   color: var(--mut);
   text-wrap: pretty;
 }
-.note.off {
-  background: var(--surface-alt);
-}
 .key-link {
   border-top: var(--hairline);
   padding: 14px var(--pad);
@@ -294,10 +297,36 @@ watch(
 .screen {
   --screen-max: 900px;
 }
+.beans {
+  --card-min: 320px;
+}
+.key {
+  --card-min: 300px;
+}
 
-@media (min-width: 900px) {
+/* Wide, the two coffees sit side by side as cards, each with its note. */
+@media (min-width: 640px) {
   .drink-head {
     padding-top: 32px;
+  }
+  .head {
+    padding-bottom: 20px;
+    max-width: 720px;
+  }
+  .card .bean {
+    flex: 1;
+    border-top: 0;
+  }
+  .key-link {
+    border-top: 0;
+    padding: 20px calc(2 * var(--pad)) 14px;
+  }
+  .key {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, var(--card-min)), 1fr));
+    gap: 12px 28px;
+    margin: 0 var(--pad) 32px;
+    border: var(--hairline);
   }
 }
 </style>
