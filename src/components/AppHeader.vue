@@ -3,7 +3,7 @@ import { ref } from "vue";
 import { useRouter } from "vue-router";
 import { useUiStore } from "@/stores/uiStore";
 import { LANGS, TABLES } from "@/i18n";
-import { dataset } from "@/config/dataset";
+import { dataset, salePointLabel } from "@/config/dataset";
 import { toDrinks } from "@/utils/routes";
 
 defineProps<{ salePoint: string }>();
@@ -15,6 +15,11 @@ const picking = ref(false);
 const { salePoints, place } = dataset();
 /** With one sale point there is nothing to pick. */
 const canPick = salePoints.length > 1;
+
+/** "Le Klee · EPFL", or the label of the sale point when it has one. */
+function name(sp: string): string {
+  return place ? salePointLabel(sp) + " · " + place : salePointLabel(sp);
+}
 
 function pick(sp: string) {
   picking.value = false;
@@ -34,13 +39,13 @@ function pick(sp: string) {
       @click="picking = !picking"
     >
       <span class="sp">
-        {{ place ? salePoint + " · " + place : salePoint }}
+        {{ name(salePoint) }}
         <span class="chev" :class="{ open: picking }" aria-hidden="true">▾</span>
       </span>
       <span class="mark">{{ ui.t.wordmark }}</span>
     </button>
     <div v-else class="who">
-      <span class="sp">{{ place ? salePoint + " · " + place : salePoint }}</span>
+      <span class="sp">{{ name(salePoint) }}</span>
       <span class="mark">{{ ui.t.wordmark }}</span>
     </div>
     <div class="langs">
@@ -68,7 +73,7 @@ function pick(sp: string) {
       :class="{ on: sp === salePoint }"
       @click="pick(sp)"
     >
-      <span class="name">{{ sp }}</span>
+      <span class="name">{{ salePointLabel(sp) }}</span>
       <span v-if="sp === salePoint" class="tick">·</span>
     </button>
   </div>

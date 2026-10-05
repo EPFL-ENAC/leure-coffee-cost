@@ -18,7 +18,7 @@ const olma: Record<LangCode, Partial<Strings>> = {
     loading: "Loading the data…",
     errPre: "Could not load the data.",
     drinkFoot:
-      "Prices are what you pay at OLMA. The hidden cost is the damage each beverage causes, priced in francs. Price plus hidden cost gives the true price.",
+      "Prices shown are the average prices of a coffee and a cappuccino in Switzerland. Hidden costs are the cost to prevent or repair the damage these drinks cause along their whole value chain.",
     beanSub:
       "Same drink, different beans. The label and the country the beans come from change the hidden cost.",
     pricePaid: "Price paid",
@@ -39,7 +39,7 @@ const olma: Record<LangCode, Partial<Strings>> = {
     loading: "Chargement des données…",
     errPre: "Impossible de charger les données.",
     drinkFoot:
-      "Les prix sont ceux payés à l’OLMA. Le coût caché, ce sont les dommages causés par chaque boisson, chiffrés en francs. Prix + coût caché = prix réel.",
+      "Les prix affichés correspondent aux prix moyens du café et du cappuccino en Suisse. Les coûts cachés représentent les coûts liés à la prévention ou à la réparation des dommages générés par ces boissons tout au long de leur chaîne de valeur.",
     beanSub:
       "Même boisson, autres grains. Le label et le pays d’origine des grains changent le coût caché.",
     pricePaid: "Prix payé",
@@ -66,11 +66,11 @@ const olma: Record<LangCode, Partial<Strings>> = {
     loading: "Daten werden geladen…",
     errPre: "Die Daten konnten nicht geladen werden.",
     drinkFoot:
-      "Die Preise sind die OLMA-Preise. Die versteckten Kosten sind die Schäden, die jedes Getränk verursacht, in Franken bewertet. Preis plus versteckte Kosten ergibt den wahren Preis.",
+      "Die angegebenen Preise entsprechen den durchschnittlichen Preisen für Kaffee und Cappuccino in der Schweiz. Die versteckten Kosten entstehen durch die Schäden, die diese Getränke entlang der gesamten Wertschöpfungskette verursachen.",
     beanSub:
       "Gleiches Getränk, andere Bohnen. Das Label und das Herkunftsland der Bohnen verändern die versteckten Kosten.",
     pricePaid: "Bezahlter Preis",
-    sugarNoteNone: "Die niedrigsten Kosten hier: das Getränk, wie es serviert wird.",
+    sugarNoteNone: "Die niedrigsten versteckten Kosten: das Getränk, wie es serviert wird.",
     changeNone: "Kein Getränk hier hat niedrigere versteckte Kosten.",
     seeAll: "Alle Getränke ansehen ›",
     everyCupTitle: () => "Alle Getränke an der OLMA",
