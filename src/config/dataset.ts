@@ -15,6 +15,8 @@ export type Dataset = {
   salePoints: string[];
   /** Shown after the sale point in the header, "Le Klee · EPFL". */
   place: string | null;
+  /** Shown in the header instead of the sale point id. The id stays in the URL. */
+  labels?: Record<string, string>;
   /** Reads sale point, drink, bean and milk out of one CSV row. */
   readRow: (row: CoffeeData) => RowParts;
 };
@@ -30,6 +32,7 @@ const DATASETS: Record<DatasetId, Dataset> = {
     id: "olma",
     salePoints: ["OLMA"],
     place: null,
+    labels: { OLMA: "OLMA 2026 - True Cost of Food" },
     readRow: readOlmaRow,
   },
 };
@@ -50,6 +53,8 @@ export const defaultSalePoint = (): string => current.salePoints[0];
 export function salePointFromSlug(s: string): string | null {
   return current.salePoints.find((p) => slug(p) === s) ?? null;
 }
+
+export const salePointLabel = (sp: string): string => current.labels?.[sp] ?? sp;
 
 /**
  * Reads config.json. main.ts waits for it before mounting, so every data URL

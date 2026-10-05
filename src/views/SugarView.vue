@@ -88,7 +88,7 @@ function pick(i: number) {
         <div class="line">
           <span class="name">{{ ui.t.sugarLabels[i] ?? lv.key }}</span>
           <span class="val tnum">
-            {{ i === 0 ? ui.t.nothingAdded : "+" + lv.cost.toFixed(4) + " " + ui.t.chfHiddenShort }}
+            {{ i === 0 ? ui.t.nothingAdded : "+" + lv.cost.toFixed(4) + " " + ui.t.chfHidden }}
           </span>
         </div>
         <BarMeter
@@ -130,12 +130,14 @@ function pick(i: number) {
 .name {
   font-size: var(--fs-body);
   color: var(--ink);
+  white-space: nowrap;
 }
+/* "+0.0012 CHF versteckte Kosten" is long, it wraps before the name does. */
 .val {
+  min-width: 0;
   font-size: var(--fs-body-s);
   color: var(--mut);
-  white-space: nowrap;
-  flex-shrink: 0;
+  text-align: right;
 }
 .note {
   font-size: var(--fs-xs);

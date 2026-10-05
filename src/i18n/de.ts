@@ -1,5 +1,15 @@
 import type { Strings } from "@/i18n/types";
 
+/**
+ * "vor allem im Umweltbereich", not "im Bereich Umwelt". Keyed by the German
+ * category name, the one ui.catL gives to milkNote and cmpNote.
+ */
+const AREA: Record<string, string> = {
+  Umwelt: "im Umweltbereich",
+  Gesundheit: "im Gesundheitsbereich",
+};
+const inArea = (cat: string): string => AREA[cat] ?? "im Bereich " + cat;
+
 const de: Strings = {
   code: "DE",
   wordmark: "VERSTECKTE KAFFEEKOSTEN",
@@ -70,16 +80,16 @@ const de: Strings = {
 
   milkTitle: "Welche Milch?",
   milkIntro: (sp) =>
-    "Die Bohnen sind immer dieselben. Zwischen der Milch mit den niedrigsten und der mit den höchsten versteckten Kosten liegen " +
+    "Die Bohnen bleiben immer gleich. Zwischen der günstigsten und der teuersten Milch liegen " +
     sp +
     " CHF versteckte Kosten.",
   milkIntroOne: "Dieses Getränk wird nur auf eine Art serviert.",
   milkNote: (lowest, share, cat) =>
-    (lowest ? "Die niedrigsten Kosten hier. " : "") +
+    (lowest ? "Die niedrigsten versteckten Kosten hier. " : "") +
     "Die Milch macht " +
     share +
     "% der versteckten Kosten dieses Getränks aus" +
-    (cat ? ", vor allem im Bereich " + cat : "") +
+    (cat ? ", vor allem " + inArea(cat) : "") +
     ".",
   noMilk: "Ohne Milch",
   milkNoneValue: "0 CHF durch Milch",
@@ -97,14 +107,14 @@ const de: Strings = {
   sugarTitle: "Zucker?",
   sugarLabels: ["Ohne Zucker", "1 Beutel", "2 Beutel", "3 Beutel"],
   sugarIntro: (c) =>
-    "Schweizer Rübenzucker, Beutel für Beutel. Jeder fügt " +
+    "Schweizer Rübenzucker, pro Beutel. Jeder Beutel verursacht " +
     c +
-    " CHF versteckte Kosten hinzu: Rübenanbau, Zuckergewinnung und die Pestizidrückstände, die Sie mittrinken.",
-  sugarNoteNone: "Die niedrigsten Kosten hier: das Getränk, wie die Maschine es ausgibt.",
+    " CHF an versteckten Kosten – durch den Rübenanbau, die Zuckergewinnung und Pestizidrückstände.",
+  sugarNoteNone: "Die niedrigsten versteckten Kosten hier: das Getränk, wie die Maschine es ausgibt.",
   sugarNote: (p) =>
     "Der Zucker würde " +
     p +
-    "% der versteckten Kosten dieses Getränks ausmachen, vor allem durch Anbau und Zuckergewinnung.",
+    "% der versteckten Kosten dieses Getränks ausmachen, vor allem durch den Anbau und die Zuckergewinnung.",
   nothingAdded: "nichts hinzugefügt",
 
   hiddenLabel: "VERSTECKTE KOSTEN DIESES GETRÄNKS",
@@ -113,7 +123,7 @@ const de: Strings = {
     pct +
     "% zusätzlich zu den bezahlten " +
     paid +
-    " CHF: Schäden, die der Preis nicht abbildet.",
+    " CHF: Schäden, die im Preis nicht berücksichtigt sind.",
   truePrice: "Wahrer Preis",
   pricePaid: "An der Maschine bezahlter Preis",
   hiddenLegend: "Versteckte Kosten dieses Getränks",
@@ -125,9 +135,9 @@ const de: Strings = {
     " finanziert Wiederbewaldung in Äthiopien, die Lebensräume wiederherstellt und Kohlenstoff bindet. Der gleiche Betrag wird jedem Getränk aus diesen Bohnen angerechnet, egal, was Sie bestellen.",
   offsetNone: "Für dieses Getränk ist kein Kompensationsprogramm deklariert.",
 
-  whereGoes: (v) => "Woher die " + v + " CHF kommen",
+  whereGoes: (v) => "Woher kommen diese " + v + " CHF?",
   catsSub:
-    "Jede Art von Schaden wird einzeln bewertet. Öffnen Sie eine, um die Indikatoren dahinter zu sehen.",
+    "Jede Schadenart wird einzeln berechnet. Öffnen Sie eine davon, um die enthaltenen Indikatoren zu sehen.",
   allImpacts: "‹ Alle Auswirkungen",
   byWhat: "Nach Indikator",
   byWhere: "Nach Zutat",
@@ -153,10 +163,11 @@ const de: Strings = {
   changeSub: "Ein Wechsel und seine Wirkung auf die versteckten Kosten.",
   changeNone: "Kein Getränk an dieser Maschine hat niedrigere versteckte Kosten.",
   chipMilk: (m) => "Stattdessen " + m,
-  chipLowest: (d) => "Stattdessen " + d + " (niedrigste versteckte Kosten hier)",
+  chipLowest: (d) =>
+    "Stattdessen: " + d + ". Das Getränk mit den niedrigsten versteckten Kosten hier.",
   seeAll: "Alle Getränke dieser Maschine ansehen ›",
   footNote:
-    "Versteckte Kosten sind die Schäden dieses Getränks, nach der True-Price-Methode (TCAF, True Cost Accounting for Food) in Franken bewertet. Sie werden Ihrer Rechnung nicht hinzugefügt.",
+    "Versteckte Kosten sind die Schäden, die dieses Getränk verursacht. Sie werden nach der True-Price-Methode (TCAF, True Cost Accounting for Food) in Franken bewertet und Ihrer Rechnung nicht hinzugefügt.",
 
   yourCup: "‹ Ihr Getränk",
   comparison: "VERGLEICH",
@@ -166,9 +177,9 @@ const de: Strings = {
   cmpDelta: (s) => s + " CHF versteckt",
   cmpNote: (add, amt, cat) =>
     (add
-      ? "Diese Änderung fügt " + amt + " CHF versteckte Kosten hinzu, vor allem im Bereich "
-      : "Diese Änderung spart " + amt + " CHF versteckte Kosten, vor allem im Bereich ") +
-    cat +
+      ? "Diese Änderung fügt " + amt + " CHF versteckte Kosten hinzu, vor allem "
+      : "Diese Änderung spart " + amt + " CHF versteckte Kosten, vor allem ") +
+    inArea(cat) +
     ".",
   cmpSame: "Gleiche versteckte Kosten in beiden Fällen.",
   noChange: "keine Änderung",
@@ -391,7 +402,7 @@ const de: Strings = {
   rail: ["1 GETRÄNK", "2 KAFFEE", "3 MILCH", "4 ZUCKER"],
   cats: {
     Environment: "Umwelt",
-    Livelihoods: "Lebensgrundlagen",
+    Livelihoods: "Lebensbedingungen",
     Health: "Gesundheit",
     Biodiversity: "Biodiversität",
   },

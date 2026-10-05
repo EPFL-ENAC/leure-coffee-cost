@@ -110,7 +110,7 @@ const fr: Strings = {
   sugarTitle: "Du sucre ?",
   sugarLabels: ["Sans sucre", "1 sachet", "2 sachets", "3 sachets"],
   sugarIntro: (c) =>
-    "Sucre de betterave suisse, un sachet à la fois. Chacun ajoute " +
+    "Sucre de betterave suisse, par sachet. Chacun ajoute " +
     c +
     " CHF de coût caché : culture de la betterave, extraction du sucre et résidus de pesticides que vous buvez.",
   sugarNoteNone: "Le coût le plus bas ici : la boisson telle que la machine la sert.",
