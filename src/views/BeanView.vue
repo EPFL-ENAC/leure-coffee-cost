@@ -213,12 +213,14 @@ watch(
 .card.off {
   background: var(--surface-alt);
 }
+/* Name and label icons on one line, the icons go below only if it is too narrow. */
 .left {
   flex: 1;
   min-width: 0;
   display: flex;
-  flex-direction: column;
-  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 10px;
 }
 .labels {
   display: flex;
