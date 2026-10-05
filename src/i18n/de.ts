@@ -35,6 +35,10 @@ const de: Strings = {
     "blue-planet": "Blue Planet",
     "rainforest-alliance": "Rainforest Alliance",
   },
+  drinkName: {
+    "Café": "Kaffee",
+    "Café Macchiato": "Kaffee Macchiato",
+  },
   drinkBlurb: {
     "Café":
       "Ein einfacher, milder Kaffee für jede Tageszeit.",

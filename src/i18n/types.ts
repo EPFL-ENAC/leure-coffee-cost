@@ -154,6 +154,8 @@ export type Strings = {
   stage: Record<string, string>;
   /** Words of a bean name, "Conventionnel" or "Brazil". Missing words stay as they are. */
   beanWord?: Record<string, string>;
+  /** Drink names, keyed by the CSV name. Missing ones stay as they are. */
+  drinkName?: Record<string, string>;
 };
 
 export type LangCode = "en" | "fr" | "de";

@@ -51,7 +51,7 @@ function pick(drink: string) {
         @click="pick(d.drink)"
       >
         <DrinkIcon :cup="d" />
-        <span class="name">{{ d.drink }}</span>
+        <span class="name">{{ ui.drinkL(d.drink) }}</span>
         <span class="price tnum">{{ d.retailPrice.toFixed(2) }} CHF</span>
         <span class="chev">›</span>
       </button>
