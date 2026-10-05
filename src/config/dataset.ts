@@ -32,7 +32,7 @@ const DATASETS: Record<DatasetId, Dataset> = {
     id: "olma",
     salePoints: ["OLMA"],
     place: null,
-    labels: { OLMA: 'OLMA 2026 - "True Cost of Food" Project' },
+    labels: { OLMA: "OLMA 2026 - True Cost of Food" },
     readRow: readOlmaRow,
   },
 };
