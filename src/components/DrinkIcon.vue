@@ -1,9 +1,11 @@
 <script setup lang="ts">
 import { computed, ref, watch } from "vue";
+import { useUiStore } from "@/stores/uiStore";
 import { coffeeUrl } from "@/utils/assets";
 import type { Cup } from "@/utils/cups";
 
 const props = withDefaults(defineProps<{ cup: Cup; size?: number }>(), { size: 24 });
+const ui = useUiStore();
 
 // Some drinks have no SVG of their own ("Frappé Vanille"), the recipe one
 // stands in for them.
@@ -24,7 +26,7 @@ function onError() {
   <img
     class="icon"
     :src="src"
-    :alt="cup.drink"
+    :alt="ui.drinkL(cup.drink)"
     :style="{ width: size + 'px', height: size + 'px' }"
     @error="onError"
   />

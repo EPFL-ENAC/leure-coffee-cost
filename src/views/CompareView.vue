@@ -46,7 +46,7 @@ const delta = computed(() => hidB.value - hidA.value);
 const otherLabel = computed(() => {
   const c = other.value;
   if (!c) return "";
-  const name = c.bean && store.hasBeanChoice(c.salePoint, c.drink, 2) ? ui.beanL(c.bean) : c.drink;
+  const name = c.bean && store.hasBeanChoice(c.salePoint, c.drink, 2) ? ui.beanL(c.bean) : ui.drinkL(c.drink);
   return (c.milk ? ui.milkL(c.milk) : name).toUpperCase();
 });
 

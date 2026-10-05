@@ -130,6 +130,9 @@ export const useUiStore = defineStore(
     /** Short drink text. Falls back to the English text of the CSV. */
     const blurbL = (cup: Cup) => t.value.drinkBlurb[cup.recipeId] ?? cup.blurb;
 
+    /** Drink name in the current language, "Café" is "Kaffee" in German. */
+    const drinkL = (drink: string) => t.value.drinkName?.[drink] ?? drink;
+
     /** "Fairtrade, Brazil" becomes "Fairtrade, Brésil", word by word. */
     const beanL = (bean: Bean) =>
       bean
@@ -148,8 +151,8 @@ export const useUiStore = defineStore(
       const coffee = useCoffeeStore();
       const name =
         cup.bean && coffee.hasBeanChoice(cup.salePoint, cup.drink, 2)
-          ? cup.drink + " " + beanL(cup.bean)
-          : cup.drink;
+          ? drinkL(cup.drink) + " " + beanL(cup.bean)
+          : drinkL(cup.drink);
       if (!cup.milk) return name;
       const m = milkL(cup.milk);
       return name + ", " + (t.value.lowerNouns ? m.toLowerCase() : m);
@@ -178,6 +181,7 @@ export const useUiStore = defineStore(
       indDefL,
       indMethodL,
       milkL,
+      drinkL,
       beanL,
       cupL,
       labelL,

@@ -28,7 +28,7 @@ const steps = computed<Step[]>(() => {
   return [
     {
       label: t.rail[0],
-      value: d ?? dash,
+      value: d ? ui.drinkL(d) : dash,
       to: toDrinks(props.salePoint),
       muted: false,
     },

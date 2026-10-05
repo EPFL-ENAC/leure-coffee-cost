@@ -117,7 +117,7 @@ watch(
   <div class="screen">
     <div v-if="sample" class="drink-head">
       <div class="drink-text">
-        <h1 class="section-title big">{{ sample.drink }}</h1>
+        <h1 class="section-title big">{{ ui.drinkL(sample.drink) }}</h1>
         <p class="sub">{{ ui.blurbL(sample) }}</p>
       </div>
       <DrinkIcon :cup="sample" :size="44" />
