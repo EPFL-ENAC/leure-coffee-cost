@@ -837,126 +837,126 @@
                 "unit": "m2a",
                 "impactValue": 8.13244010736e-05,
                 "costValue": 0.0,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)."
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)"
             },
             {
                 "indicators": "Fine particulate matter formation",
                 "unit": "kg PM10 eq",
                 "impactValue": 1.99855136879e-05,
                 "costValue": 0.0,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)."
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)"
             },
             {
                 "indicators": "Fossil resource scarcity",
                 "unit": "kg oil eq",
                 "impactValue": 0.0030868820367356,
                 "costValue": 0.0014669618342632,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)."
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)"
             },
             {
                 "indicators": "Freshwater ecotoxicity",
                 "unit": "kg 1,4-DCB",
                 "impactValue": 0.0001112110994827,
                 "costValue": 4.790988619e-06,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)."
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)"
             },
             {
                 "indicators": "Freshwater eutrophication",
                 "unit": "kg P eq",
                 "impactValue": 7.541670059e-07,
                 "costValue": 0.0001628376268547,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)."
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)"
             },
             {
                 "indicators": "Global warming",
                 "unit": "kg CO2 eq",
                 "impactValue": 0.0085687133861872,
                 "costValue": 0.0014429263708845,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)."
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)"
             },
             {
                 "indicators": "Human toxicity",
                 "unit": "kg 1,4-DCB",
                 "impactValue": 0.0018176438181941,
                 "costValue": 0.0,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)."
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)"
             },
             {
                 "indicators": "Ionising radiation",
                 "unit": "kg U235-Eq",
                 "impactValue": 0.0006780443252755,
                 "costValue": 3.90400936757e-05,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)."
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)"
             },
             {
                 "indicators": "Marine ecotoxicity",
                 "unit": "kg 1,4-DCB",
                 "impactValue": 0.0001121912650027,
                 "costValue": 2.202183963e-07,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)."
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)"
             },
             {
                 "indicators": "Marine eutrophication",
                 "unit": "kg N eq",
                 "impactValue": 1.56465590316e-05,
                 "costValue": 0.0002343839100752,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)."
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)"
             },
             {
                 "indicators": "Metal depletion",
                 "unit": "kg Fe eq",
                 "impactValue": 0.0005121240968736,
                 "costValue": 0.0,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)."
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)"
             },
             {
                 "indicators": "Natural land transformation",
                 "unit": "m2",
                 "impactValue": 3.0743241427e-06,
                 "costValue": 0.0,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)."
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)"
             },
             {
                 "indicators": "Photochemical oxidant formation",
                 "unit": "kg NMVOC",
                 "impactValue": 5.15759886473e-05,
                 "costValue": 0.0001612662692932,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)."
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)"
             },
             {
                 "indicators": "Stratospheric ozone depletion",
                 "unit": "kg CFC11 eq",
                 "impactValue": 1.4688957e-09,
                 "costValue": 8.78639029e-08,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)."
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)"
             },
             {
                 "indicators": "Terrestrial acidification",
                 "unit": "kg SO2 eq",
                 "impactValue": 5.00583998944e-05,
                 "costValue": 0.0002492670944562,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)."
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)"
             },
             {
                 "indicators": "Terrestrial ecotoxicity",
                 "unit": "kg 1,4-DCB",
                 "impactValue": 2.177405629e-06,
                 "costValue": 6.748411e-10,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)."
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)"
             },
             {
                 "indicators": "Urban land occupation",
                 "unit": "m2a",
                 "impactValue": 0.0002622848676181,
                 "costValue": 1.11746236131e-05,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)."
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)"
             },
             {
                 "indicators": "Water consumption",
                 "unit": "m3",
                 "impactValue": 7.5228910287e-06,
                 "costValue": 1.03365916997e-05,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)."
+                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO4 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); Sea; transport, freight, sea, bulk carrier for dry goods (16555); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO4 (340)"
             }
         ]
     }

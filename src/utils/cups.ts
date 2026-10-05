@@ -7,7 +7,7 @@
 //
 // Each dataset writes its serveId its own way, so each has its own reader:
 // "Cappuccino Via Verde, lait d'avoine, Le Klee" at EPFL, and
-// "Café Fairtrade, Brazil" or "Cappuccino, lait d'avoine" at OLMA.
+// "Café Fairtrade, Colombia" or "Cappuccino, India, lait d'avoine" at OLMA.
 
 import {
   type CoffeeData,
@@ -142,16 +142,22 @@ export function readEpflRow(row: CoffeeData): RowParts {
   return { salePoint, drink, bean, milk: variant ?? milkFromColumn(row) };
 }
 
+/** OLMA labels as the serveId spells them. The CSV has a typo on cappuccinos. */
+const OLMA_LABELS: Record<string, string> = { Fairtade: "Fairtrade" };
+
 /**
- * "Café Fairtrade, Brazil" or "Cappuccino, lait d'avoine". One sale point,
- * the first segment is the drink then the label, the others are the origin or
- * the milk.
+ * "Café Fairtrade, Colombia" or "Cappuccino, India, lait d'avoine". One sale
+ * point, the first segment is the drink then the label, the others are the
+ * origin or the milk. Cappuccinos have no label when the beans are
+ * conventional, cafés say "Conventionnel": we add it so both drinks offer the
+ * same coffee choices.
  */
 export function readOlmaRow(row: CoffeeData): RowParts {
   const [first = "", ...rest] = row.serveId.split(",").map((s) => s.trim());
   const drink = row.recipeId;
-  const label = first.startsWith(drink + " ") ? first.slice(drink.length + 1) : "";
+  const raw = first.startsWith(drink + " ") ? first.slice(drink.length + 1) : "";
   const origins = rest.filter((s) => !MILK_VARIANTS[s]);
+  const label = OLMA_LABELS[raw] ?? (raw || (origins.length ? "Conventionnel" : ""));
   const variant = rest.map((s) => MILK_VARIANTS[s]).find(Boolean);
   return {
     salePoint: "OLMA",

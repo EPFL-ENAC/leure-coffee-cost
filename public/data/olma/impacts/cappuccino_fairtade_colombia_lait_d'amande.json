@@ -1683,232 +1683,232 @@
         "stage": "Consumption",
         "ingredient": "Coffee beans",
         "impactCategory": "Health",
-        "impactValue": 0.039125,
-        "costValue": 0.0027372217013487002,
+        "impactValue": 0.0554,
+        "costValue": 0.0035132889824967,
         "details": [
             {
                 "indicators": "Aldicarb",
                 "unit": "mg/kg",
                 "impactValue": 0.001,
                 "costValue": 0.0002474555815827,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Azoxystrobin",
                 "unit": "mg/kg",
                 "impactValue": 0.0003,
                 "costValue": 0.0,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Boscalid",
                 "unit": "mg/kg",
                 "impactValue": 0.0005,
                 "costValue": 1.45150078173e-05,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Buprofezin",
                 "unit": "mg/kg",
                 "impactValue": 0.004,
                 "costValue": 0.0001247980743296,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Carbendazim",
                 "unit": "mg/kg",
                 "impactValue": 0.001,
                 "costValue": 4.029076903e-06,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Carbofuran",
                 "unit": "mg/kg",
-                "impactValue": 0.00325,
-                "costValue": 0.0002814807240504,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "impactValue": 0.01,
+                "costValue": 0.0008660945355397,
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Chlorantraniliprole",
                 "unit": "mg/kg",
                 "impactValue": 0.0005,
                 "costValue": 1.549644962e-07,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Chlorpyrifos",
                 "unit": "mg/kg",
                 "impactValue": 0.0005,
                 "costValue": 3.46087375003e-05,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Clothianidin",
                 "unit": "mg/kg",
                 "impactValue": 0.0005,
                 "costValue": 7.1283668284e-06,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Cyantraniliprole",
                 "unit": "mg/kg",
                 "impactValue": 0.0005,
                 "costValue": 0.0,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Cyhalothrin",
                 "unit": "mg/kg",
                 "impactValue": 0.0001,
                 "costValue": 1.4256733656e-06,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Cypermethrins",
                 "unit": "mg/kg",
                 "impactValue": 0.0005,
                 "costValue": 2.7893609328e-06,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Cyproconazole",
                 "unit": "mg/kg",
                 "impactValue": 0.0007,
                 "costValue": 0.0,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Diquat",
                 "unit": "mg/kg",
                 "impactValue": 0.0002,
                 "costValue": 2.98978168137e-05,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Disulfoton",
                 "unit": "mg/kg",
-                "impactValue": 0.0015,
-                "costValue": 0.0005020849679156,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "impactValue": 0.002,
+                "costValue": 0.0006694466238875,
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Endosulfan",
                 "unit": "mg/kg",
-                "impactValue": 0.001,
-                "costValue": 4.69025875377e-05,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "impactValue": 0.002,
+                "costValue": 9.38051750755e-05,
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Fenpropathrin",
                 "unit": "mg/kg",
                 "impactValue": 0.0003,
                 "costValue": 1.2087230709e-06,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Flutriafol",
                 "unit": "mg/kg",
                 "impactValue": 0.0015,
                 "costValue": 0.0,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Glufosinate-Ammonium",
                 "unit": "mg/kg",
                 "impactValue": 0.001,
                 "costValue": 1.42567336568e-05,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Haloxyfop",
                 "unit": "mg/kg",
                 "impactValue": 0.0002,
                 "costValue": 4.90927524184e-05,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Imidacloprid",
                 "unit": "mg/kg",
-                "impactValue": 0.00535,
-                "costValue": 2.65299217614e-05,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "impactValue": 0.01,
+                "costValue": 4.95886388064e-05,
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Permethrin",
                 "unit": "mg/kg",
-                "impactValue": 0.0003,
-                "costValue": 6.19857985e-07,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "impactValue": 0.0005,
+                "costValue": 1.0330966418e-06,
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Phorate",
                 "unit": "mg/kg",
                 "impactValue": 0.0005,
                 "costValue": 0.0001015533998891,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Propiconazole",
                 "unit": "mg/kg",
-                "impactValue": 0.00055,
-                "costValue": 3.9206017556e-06,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "impactValue": 0.0002,
+                "costValue": 1.4256733656e-06,
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Pyraclostrobin",
                 "unit": "mg/kg",
-                "impactValue": 0.004,
-                "costValue": 3.76047177615e-05,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "impactValue": 0.003,
+                "costValue": 2.82035383211e-05,
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Saflufenacil",
                 "unit": "mg/kg",
                 "impactValue": 0.0001,
                 "costValue": 0.0,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Spirodiclofen",
                 "unit": "mg/kg",
                 "impactValue": 0.0003,
                 "costValue": 2.789360932e-07,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Tebuconazole",
                 "unit": "mg/kg",
-                "impactValue": 0.0015,
-                "costValue": 0.000264369430637,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "impactValue": 0.001,
+                "costValue": 0.0001762462870913,
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Terbufos",
                 "unit": "mg/kg",
                 "impactValue": 0.0005,
                 "costValue": 0.0008814380547852,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Thiamethoxam",
                 "unit": "mg/kg",
-                "impactValue": 0.0011,
-                "costValue": 1.54551257613e-05,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "impactValue": 0.002,
+                "costValue": 2.8100228657e-05,
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Triadimefon",
                 "unit": "mg/kg",
-                "impactValue": 0.001875,
-                "costValue": 2.13076182371e-05,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "impactValue": 0.005,
+                "costValue": 5.6820315299e-05,
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Triadimenol",
                 "unit": "mg/kg",
-                "impactValue": 0.004,
-                "costValue": 2.23148874629e-05,
-                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy."
+                "impactValue": 0.005,
+                "costValue": 2.78936093286e-05,
+                "reference": "Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2016 Misssing data at the country level, Global has been used as a proxy; World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), Consumer Health: internalities of food in economics and I-eco-costs, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             }
         ]
     },
@@ -1924,126 +1924,126 @@
                 "unit": "m2a",
                 "impactValue": 4.33460340426e-05,
                 "costValue": 0.0,
-                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, Robusta."
+                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Fine particulate matter formation",
                 "unit": "kg PM10 eq",
                 "impactValue": 2.5213003477e-06,
                 "costValue": 0.0,
-                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, Robusta."
+                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Fossil resource scarcity",
                 "unit": "kg oil eq",
                 "impactValue": 5.72682805658e-05,
                 "costValue": 2.72152874337e-05,
-                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, Robusta."
+                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Freshwater ecotoxicity",
                 "unit": "kg 1,4-DCB",
                 "impactValue": 3.1293811164e-06,
                 "costValue": 1.348141452e-07,
-                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, Robusta."
+                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Freshwater eutrophication",
                 "unit": "kg P eq",
                 "impactValue": 2.11988204e-08,
                 "costValue": 4.5771899174e-06,
-                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, Robusta."
+                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Global warming",
                 "unit": "kg CO2 eq",
                 "impactValue": 0.0004360107261606,
                 "costValue": 7.34219183687e-05,
-                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, Robusta."
+                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Human toxicity",
                 "unit": "kg 1,4-DCB",
                 "impactValue": 3.72790083424e-05,
                 "costValue": 0.0,
-                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, Robusta."
+                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Ionising radiation",
                 "unit": "kg U235-Eq",
                 "impactValue": 3.64345526309e-05,
                 "costValue": 2.097810268e-06,
-                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, Robusta."
+                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Marine ecotoxicity",
                 "unit": "kg 1,4-DCB",
                 "impactValue": 2.8868707979e-06,
                 "costValue": 5.6665914e-09,
-                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, Robusta."
+                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Marine eutrophication",
                 "unit": "kg N eq",
                 "impactValue": 8.949985829e-07,
                 "costValue": 1.34069904417e-05,
-                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, Robusta."
+                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Metal depletion",
                 "unit": "kg Fe eq",
                 "impactValue": 2.32938572529e-05,
                 "costValue": 0.0,
-                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, Robusta."
+                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Natural land transformation",
                 "unit": "m2",
                 "impactValue": 3.03383466e-08,
                 "costValue": 0.0,
-                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, Robusta."
+                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Photochemical oxidant formation",
                 "unit": "kg NMVOC",
                 "impactValue": 8.059105548e-07,
                 "costValue": 2.5198971842e-06,
-                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, Robusta."
+                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Stratospheric ozone depletion",
                 "unit": "kg CFC11 eq",
                 "impactValue": 2.63945e-11,
                 "costValue": 1.5788229e-09,
-                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, Robusta."
+                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Terrestrial acidification",
                 "unit": "kg SO2 eq",
                 "impactValue": 1.76708692125e-05,
                 "costValue": 8.79925493908e-05,
-                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, Robusta."
+                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Terrestrial ecotoxicity",
                 "unit": "kg 1,4-DCB",
                 "impactValue": 1.86086524e-08,
                 "costValue": 5.7673e-12,
-                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, Robusta."
+                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Urban land occupation",
                 "unit": "m2a",
                 "impactValue": 6.0543535127e-06,
                 "costValue": 2.579451965e-07,
-                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, Robusta."
+                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Water consumption",
                 "unit": "m3",
                 "impactValue": 2.706341269e-07,
                 "costValue": 3.718563062e-07,
-                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, Robusta."
+                "reference": "Coffee, Arabica; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             }
         ]
     },
@@ -2059,7 +2059,7 @@
                 "unit": "kgCO2/kg",
                 "impactValue": 0.0,
                 "costValue": 0.0,
-                "reference": "No specific anti-deforestation regulation, No specific regulation on reforestation, none; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "reference": "Fairtrade regulation, No specific regulation enforced, fairtrade; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             }
         ]
     },
@@ -2202,29 +2202,15 @@
         "stage": "Production",
         "ingredient": "Coffee beans",
         "impactCategory": "Biodiversity",
-        "impactValue": 0.0001620797441491,
-        "costValue": 0.00099148915112,
+        "impactValue": 0.0,
+        "costValue": 0.0,
         "details": [
-            {
-                "indicators": "Eco-costs of land-use (Brazil), deforestation-related",
-                "unit": "m²/kg",
-                "impactValue": 2.48786612302e-05,
-                "costValue": 0.0001223197239825,
-                "reference": "FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, No specific anti-deforestation regulation (Coffee, Arabica); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Eco-costs of land-use (Brazil), practice-related",
-                "unit": "m²/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, none: Conservative, conventional, none: Conservative, conventional, Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024 (Coffee, Arabica); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
             {
                 "indicators": "Eco-costs of land-use (Colombia), deforestation-related",
                 "unit": "m²/kg",
-                "impactValue": 3.73844319843e-05,
-                "costValue": 0.0002145001080883,
-                "reference": "FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, No specific anti-deforestation regulation (Coffee, Arabica); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, Blue Planet regulation, Fairtrade regulation, Via verde regulation (Coffee, Arabica); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Eco-costs of land-use (Colombia), practice-related",
@@ -2232,20 +2218,6 @@
                 "impactValue": 0.0,
                 "costValue": 0.0,
                 "reference": "FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, none: Conservative, conventional, none: Conservative, conventional, Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024 (Coffee, Arabica); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Eco-costs of land-use (Indonesia), deforestation-related",
-                "unit": "m²/kg",
-                "impactValue": 9.98166509346e-05,
-                "costValue": 0.0006546693190492,
-                "reference": "FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, No specific anti-deforestation regulation (Coffee, Robusta); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
-            },
-            {
-                "indicators": "Eco-costs of land-use (Indonesia), practice-related",
-                "unit": "m²/kg",
-                "impactValue": 0.0,
-                "costValue": 0.0,
-                "reference": "FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022, Elizabeth Goldman, Mikaela Weisse, Nancy Harris and Tina Schneider, Estimating the Role of Seven Commodities in Agriculture-Linked Deforestation: Oil Palm, Soy, Cattle, Wood Fiber, Cocoa, Coffee, and Rubber, World Resources Institute, 2020, none: Conservative, conventional, none: Conservative, conventional, Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024 (Coffee, Robusta); World Bank, Inflation (annual %), 2024; Sustainability Impact Metrics (a spin-off of Delft University of Technology), The eco-costs of land-use, 2024; European Central Bank, Eurosystem, US dollar (USD), 2024."
             }
         ]
     },
@@ -2253,134 +2225,134 @@
         "stage": "Production",
         "ingredient": "Coffee beans",
         "impactCategory": "Environment",
-        "impactValue": 0.7686051031666608,
-        "costValue": 0.095988726553572,
+        "impactValue": 0.8060153072883274,
+        "costValue": 0.08958303440420659,
         "details": [
             {
                 "indicators": "Fine particulate matter formation",
                 "unit": "kg PM2.5 eq",
-                "impactValue": 0.0002939078823163,
-                "costValue": 0.0284426454048573,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; coffee, green bean."
+                "impactValue": 0.0002241425646855,
+                "costValue": 0.0216911756065958,
+                "reference": "Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Fossil resource scarcity",
                 "unit": "kg oil eq",
-                "impactValue": 0.0156379764667536,
-                "costValue": 0.0074315488472935,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; coffee, green bean."
+                "impactValue": 0.015611051643519,
+                "costValue": 0.0074187535128397,
+                "reference": "Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Freshwater ecotoxicity",
                 "unit": "kg 1,4-DCB",
-                "impactValue": 0.008210542379239,
-                "costValue": 0.0003537112327654,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; coffee, green bean."
+                "impactValue": 0.0114299514007179,
+                "costValue": 0.0004924037918151,
+                "reference": "Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Freshwater eutrophication",
                 "unit": "kg P eq",
-                "impactValue": 3.3115946807e-05,
-                "costValue": 0.0071503024482156,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; coffee, green bean."
+                "impactValue": 4.50497255989e-05,
+                "costValue": 0.0097270105281461,
+                "reference": "Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Global warming",
                 "unit": "kg CO2 eq",
-                "impactValue": 0.1111813917256476,
-                "costValue": 0.0187223629548848,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; coffee, green bean."
+                "impactValue": 0.0871434594066968,
+                "costValue": 0.0146745012886907,
+                "reference": "Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Human carcinogenic toxicity",
                 "unit": "kg 1,4-DCB",
-                "impactValue": 0.0043571041650506,
+                "impactValue": 0.0049898328707877,
                 "costValue": 0.0,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; coffee, green bean."
+                "reference": "Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Human non-carcinogenic toxicity",
                 "unit": "kg 1,4-DCB",
-                "impactValue": 0.1914066943393628,
+                "impactValue": 0.1805709385549114,
                 "costValue": 0.0,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; coffee, green bean."
+                "reference": "Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Ionizing radiation",
                 "unit": "kBq Co-60 eq",
-                "impactValue": 0.0015497912108686,
+                "impactValue": 0.0019095434671958,
                 "costValue": 0.0,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; coffee, green bean."
+                "reference": "Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Land use",
                 "unit": "m2a crop eq",
-                "impactValue": 0.1278212482856391,
-                "costValue": 0.0137333770448987,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; coffee, green bean."
+                "impactValue": 0.1789369715467806,
+                "costValue": 0.0192253551775111,
+                "reference": "Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Marine ecotoxicity",
                 "unit": "kg 1,4-DCB",
-                "impactValue": 0.0061861090940169,
-                "costValue": 1.21426122086e-05,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; coffee, green bean."
+                "impactValue": 0.0082970764528514,
+                "costValue": 1.62861954584e-05,
+                "reference": "Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Marine eutrophication",
                 "unit": "kg N eq",
-                "impactValue": 0.0003387211982764,
-                "costValue": 0.0050740101204741,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; coffee, green bean."
+                "impactValue": 0.0005595084498922,
+                "costValue": 0.0083813813593288,
+                "reference": "Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Mineral resource scarcity",
                 "unit": "kg Cu eq",
-                "impactValue": 0.000507683389581,
-                "costValue": 0.000116960379087,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; coffee, green bean."
+                "impactValue": 0.0005908256939754,
+                "costValue": 0.0001361147489949,
+                "reference": "Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Ozone formation, Human health",
                 "unit": "kg NOx eq",
-                "impactValue": 0.0003196063085293,
+                "impactValue": 0.0003407435143167,
                 "costValue": 0.0,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; coffee, green bean."
+                "reference": "Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Ozone formation, Terrestrial ecosystems",
                 "unit": "kg NOx eq",
-                "impactValue": 0.0003354284268542,
+                "impactValue": 0.0003590975945095,
                 "costValue": 0.0,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; coffee, green bean."
+                "reference": "Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Stratospheric ozone depletion",
                 "unit": "kg CFC11 eq",
-                "impactValue": 9.126205489e-07,
-                "costValue": 5.45895804913e-05,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; coffee, green bean."
+                "impactValue": 1.2087001655e-06,
+                "costValue": 7.22999663466e-05,
+                "reference": "Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Terrestrial acidification",
                 "unit": "kg SO2 eq",
-                "impactValue": 0.0014484304841983,
-                "costValue": 0.007212496985103,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; coffee, green bean."
+                "impactValue": 0.0010722286954335,
+                "costValue": 0.0053391904668697,
+                "reference": "Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Terrestrial ecotoxicity",
                 "unit": "kg 1,4-DCB",
-                "impactValue": 0.2934498541642711,
-                "costValue": 9.09486176622e-05,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; coffee, green bean."
+                "impactValue": 0.3122511770891857,
+                "costValue": 9.67756927348e-05,
+                "reference": "Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Water consumption",
                 "unit": "m3",
-                "impactValue": 0.0055265850787001,
-                "costValue": 0.0075936303256305,
-                "reference": "Coffee, green bean {BR}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; coffee, green bean."
+                "impactValue": 0.0016824999171039,
+                "costValue": 0.0023117860688749,
+                "reference": "Coffee, green bean {CO}| coffee green bean production, arabica | Cut-off, U - Copied from Ecoinvent; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             }
         ]
     },
@@ -2388,148 +2360,148 @@
         "stage": "Production",
         "ingredient": "Coffee beans",
         "impactCategory": "Livelihoods",
-        "impactValue": 0.019652231693180096,
-        "costValue": 0.054796449752287105,
+        "impactValue": 0.0308754600250924,
+        "costValue": 0.0303609144888004,
         "details": [
             {
                 "indicators": "Cases of fatal occupational injury",
                 "unit": "incidents/kg",
-                "impactValue": 3.0189e-11,
-                "costValue": 9.82427795396e-05,
+                "impactValue": 9.7e-12,
+                "costValue": 3.15663273365e-05,
                 "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Cases of non-fatal occupational injury, insured",
                 "unit": "incidents/kg",
-                "impactValue": 2.5876054e-09,
-                "costValue": 9.9177445598e-06,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, South-Eastern Asia has been used as a proxy."
+                "impactValue": 9.4418485e-09,
+                "costValue": 3.61886089302e-05,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Cases of non-fatal occupational injury, uninsured",
                 "unit": "incidents/kg",
-                "impactValue": 3.0946409e-09,
-                "costValue": 1.22767226731e-05,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, South-Eastern Asia has been used as a proxy."
+                "impactValue": 1.12639596e-08,
+                "costValue": 4.46851542245e-05,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Children in hazardous work by sex, age and economic activity (12-14)",
                 "unit": "FTE-child/kg",
-                "impactValue": 1.48842039e-08,
-                "costValue": 0.0001691450321701,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, South America has been used as a proxy; L&E Global, Colombia: Reduction of working time started by law on 15 July 2023, 2023; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, South-Eastern Asia has been used as a proxy; Global People strategist, Country snapshot, Indonesia, 2024."
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, South America has been used as a proxy; L&E Global, Colombia: Reduction of working time started by law on 15 July 2023, 2023; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Children in hazardous work by sex, age and economic activity (15-17)",
                 "unit": "FTE-child/kg",
-                "impactValue": 3.63444565e-08,
-                "costValue": 0.0004130206966105,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, South America has been used as a proxy; L&E Global, Colombia: Reduction of working time started by law on 15 July 2023, 2023; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, South-Eastern Asia has been used as a proxy; Global People strategist, Country snapshot, Indonesia, 2024."
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, South America has been used as a proxy; L&E Global, Colombia: Reduction of working time started by law on 15 July 2023, 2023; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Children in hazardous work by sex, age and economic activity (5-11)",
                 "unit": "FTE-child/kg",
-                "impactValue": 1.03453437e-08,
-                "costValue": 0.000268262270083,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, South America has been used as a proxy; L&E Global, Colombia: Reduction of working time started by law on 15 July 2023, 2023; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, South-Eastern Asia has been used as a proxy; Global People strategist, Country snapshot, Indonesia, 2024."
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, South America has been used as a proxy; L&E Global, Colombia: Reduction of working time started by law on 15 July 2023, 2023; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Children in non-hazardous work by sex, age and economic activity (12-14)",
                 "unit": "FTE-child/kg",
-                "impactValue": 1.74392764e-08,
-                "costValue": 4.28791698574e-05,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, South America has been used as a proxy; L&E Global, Colombia: Reduction of working time started by law on 15 July 2023, 2023; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, South-Eastern Asia has been used as a proxy; Global People strategist, Country snapshot, Indonesia, 2024."
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, South America has been used as a proxy; L&E Global, Colombia: Reduction of working time started by law on 15 July 2023, 2023; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Children in non-hazardous work by sex, age and economic activity (15-17)",
                 "unit": "FTE-child/kg",
                 "impactValue": 0.0,
                 "costValue": 0.0,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, South America has been used as a proxy; L&E Global, Colombia: Reduction of working time started by law on 15 July 2023, 2023; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, South-Eastern Asia has been used as a proxy; Global People strategist, Country snapshot, Indonesia, 2024."
+                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, South America has been used as a proxy; L&E Global, Colombia: Reduction of working time started by law on 15 July 2023, 2023; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Children in non-hazardous work by sex, age and economic activity (5-11)",
                 "unit": "FTE-child/kg",
-                "impactValue": 7.67681476e-08,
-                "costValue": 0.0007859513529514,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, South America has been used as a proxy; L&E Global, Colombia: Reduction of working time started by law on 15 July 2023, 2023; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, South-Eastern Asia has been used as a proxy; Global People strategist, Country snapshot, Indonesia, 2024."
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, South America has been used as a proxy; L&E Global, Colombia: Reduction of working time started by law on 15 July 2023, 2023; Our World in data, Average weekly working hours of children, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Children in work by age and not attending school (5-14)",
                 "unit": "children/kg",
-                "impactValue": 1.3426845e-09,
-                "costValue": 3.10715525376e-05,
+                "impactValue": 0.0,
+                "costValue": 0.0,
                 "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Female workers without maternity leave provision",
                 "unit": "USD/kg",
-                "impactValue": 3.9673669419e-06,
-                "costValue": 3.8868045298e-06,
-                "reference": "World population review, Total Fertility Rate, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; World population review, Total Fertility Rate, 2024, ILO estimates (labor participation rates).; Derived from Fairtrade, True Pricing, Assessing coffee farmer household income, 2017 (Vietnam, used as proxy); FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; True Price, Monestisation factors for true pricing (2023); World population review, Total Fertility Rate, 2024, ILO/UNDP; Derived from Fairtrade, True Pricing, Assessing coffee farmer household income, 2017 (Kenya, used as proxy); World population review, Total Fertility Rate, 2024, ILO/World Bank; Fairtrade, True Pricing, Assessing coffee farmer household income, 2017."
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "World population review, Total Fertility Rate, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; World population review, Total Fertility Rate, 2024, ILO/UNDP; Derived from Fairtrade, True Pricing, Assessing coffee farmer household income, 2017 (Kenya, used as proxy); FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; True Price, Monestisation factors for true pricing (2023)."
             },
             {
                 "indicators": "Informal employment rate of agricultural workers & uncovered by social protection floors/systems",
                 "unit": "FTE/kg",
-                "impactValue": 1.14298539046e-05,
-                "costValue": 0.0276310562231998,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Derived from Fairtrade, True Pricing, Assessing coffee farmer household income, 2017 (Vietnam, used as proxy); FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; Derived from Fairtrade, True Pricing, Assessing coffee farmer household income, 2017 (Kenya, used as proxy); Derived from ILOSTAT, Annual Population, 2024; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024 Misssing data at the country level, South-Eastern Asia has been used as a proxy; Fairtrade, True Pricing, Assessing coffee farmer household income, 2017."
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Derived from Fairtrade, True Pricing, Assessing coffee farmer household income, 2017 (Kenya, used as proxy); FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Prevalence of Forced workers in situations of debt bondage",
                 "unit": "FTE/kg",
-                "impactValue": 1.06823698e-08,
-                "costValue": 0.0001865070557848,
-                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022, Global Estimates of Modern Slavery: Forced Labour and Forced Marriage International Labour Organization (ILO), Walk Free, and International Organization for Migration (IOM), Geneva, 2022, ISBN: 978-92-2-037483-2 (web PDF); International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; L&E Global, Colombia: Reduction of working time started by law on 15 July 2023, 2023; Global People strategist, Country snapshot, Indonesia, 2024."
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022, Global Estimates of Modern Slavery: Forced Labour and Forced Marriage International Labour Organization (ILO), Walk Free, and International Organization for Migration (IOM), Geneva, 2022, ISBN: 978-92-2-037483-2 (web PDF); International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; L&E Global, Colombia: Reduction of working time started by law on 15 July 2023, 2023; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Prevalence of excessive working time",
                 "unit": "FTE/kg",
-                "impactValue": 1.2565889832e-06,
-                "costValue": 0.0001427995644645,
+                "impactValue": 0.0,
+                "costValue": 0.0,
                 "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Prevalence of modern slavery (forced workers, most severe)",
                 "unit": "FTE/kg",
-                "impactValue": 3.44592577e-08,
-                "costValue": 0.0043787684408354,
-                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; International Labour Organization. IRLEX, Legal Database on Industrial Relations, Brazil (2021); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; FAOSTAT, Crops and livestock products, Yield, Sugarbeet and sugarcane, 2022; L&E Global, Colombia: Reduction of working time started by law on 15 July 2023, 2023; Global People strategist, Country snapshot, Indonesia, 2024."
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Walkfree, global slavery index, 2024; World Bank, Annual Population, 2024; FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; FAOSTAT, Crops and livestock products, Yield, Agriculture land, 2022; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; L&E Global, Colombia: Reduction of working time started by law on 15 July 2023, 2023; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Wage gap from gender discrimination",
                 "unit": "USD/kg",
-                "impactValue": 0.0005443789951767,
-                "costValue": 0.0005333246900059,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Derived from Fairtrade, True Pricing, Assessing coffee farmer household income, 2017 (Vietnam, used as proxy); FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; True Price, Monestisation factors for true pricing (2023); Derived from Fairtrade, True Pricing, Assessing coffee farmer household income, 2017 (Kenya, used as proxy); Fairtrade, True Pricing, Assessing coffee farmer household income, 2017."
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Derived from Fairtrade, True Pricing, Assessing coffee farmer household income, 2017 (Kenya, used as proxy); FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; True Price, Monestisation factors for true pricing (2023)."
             },
             {
                 "indicators": "Wage gap of workers earning above minimum wage but below decent living wage",
                 "unit": "USD/kg",
-                "impactValue": 0.0149399868308442,
-                "costValue": 0.0146366114707746,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Derived from Fairtrade, True Pricing, Assessing coffee farmer household income, 2017 (Vietnam, used as proxy); FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; True Price, Monestisation factors for true pricing (2023); Derived from Fairtrade, True Pricing, Assessing coffee farmer household income, 2017 (Kenya, used as proxy); Fairtrade, True Pricing, Assessing coffee farmer household income, 2017."
+                "impactValue": 0.0308754393095843,
+                "costValue": 0.0302484743983092,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Derived from Fairtrade, True Pricing, Assessing coffee farmer household income, 2017 (Kenya, used as proxy); FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; True Price, Monestisation factors for true pricing (2023)."
             },
             {
                 "indicators": "Wage gap of workers earning below minimum wage",
                 "unit": "USD/kg",
-                "impactValue": 0.0023756706540666,
-                "costValue": 0.0033950579322944,
-                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Derived from Fairtrade, True Pricing, Assessing coffee farmer household income, 2017 (Vietnam, used as proxy); FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; True Price, Monestisation factors for true pricing (2023); Derived from Fairtrade, True Pricing, Assessing coffee farmer household income, 2017 (Kenya, used as proxy); Fairtrade, True Pricing, Assessing coffee farmer household income, 2017."
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; Derived from Fairtrade, True Pricing, Assessing coffee farmer household income, 2017 (Kenya, used as proxy); FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; True Price, Monestisation factors for true pricing (2023)."
             },
             {
                 "indicators": "Women with denied maternity leave",
                 "unit": "women/kg",
-                "impactValue": 1.752007953e-07,
-                "costValue": 0.0003185588618154,
-                "reference": "World population review, Total Fertility Rate, 2024, ILO estimates (labor participation rates).; Derived from Fairtrade, True Pricing, Assessing coffee farmer household income, 2017 (Vietnam, used as proxy); FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; World population review, Total Fertility Rate, 2024, ILO/UNDP; Derived from Fairtrade, True Pricing, Assessing coffee farmer household income, 2017 (Kenya, used as proxy); World population review, Total Fertility Rate, 2024, ILO/World Bank; Fairtrade, True Pricing, Assessing coffee farmer household income, 2017."
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "World population review, Total Fertility Rate, 2024, ILO/UNDP; Derived from Fairtrade, True Pricing, Assessing coffee farmer household income, 2017 (Kenya, used as proxy); FAOSTAT, Crops and livestock products, Yield, Coffee beans, 2022; World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024."
             },
             {
                 "indicators": "Workers without paid leave provision",
                 "unit": "USD/kg",
-                "impactValue": 0.0017751582242922,
-                "costValue": 0.0017391113876,
-                "reference": "Employing Workers, Doing Business: Measuring Business Regulations. World Bank Group, 2014; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; 5.242486091264845E-4; True Price, Monestisation factors for true pricing (2023); 7.210639565796066E-4; 0.001947464485200507."
+                "impactValue": 0.0,
+                "costValue": 0.0,
+                "reference": "Employing Workers, Doing Business: Measuring Business Regulations. World Bank Group, 2014; International Labour Organization. ILO modelled estimates database, ILOSTAT. https://ilostat.ilo.org/data/. Accessed 14-10-2024; 7.210639565796066E-4; True Price, Monestisation factors for true pricing (2023)."
             }
         ]
     },
@@ -2537,134 +2509,134 @@
         "stage": "Transport",
         "ingredient": "Coffee beans",
         "impactCategory": "Environment",
-        "impactValue": 0.015048087478166102,
-        "costValue": 0.0035465296749988997,
+        "impactValue": 0.015381487692284798,
+        "costValue": 0.0036115065806195,
         "details": [
             {
                 "indicators": "Agricultural land occupation",
                 "unit": "m2a",
-                "impactValue": 0.0001696698161581,
+                "impactValue": 8.65594226195e-05,
                 "costValue": 0.0,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO5 (70); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (9146); transport, freight, sea, bulk carrier for dry goods (10088); transport, freight, sea, bulk carrier for dry goods (15843); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO5 (1000)"
+                "reference": "Road; transport, freight, light commercial vehicle (89); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (10088); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17)."
             },
             {
                 "indicators": "Fine particulate matter formation",
                 "unit": "kg PM10 eq",
-                "impactValue": 1.66439381516e-05,
+                "impactValue": 1.58564642084e-05,
                 "costValue": 0.0,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO5 (70); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (9146); transport, freight, sea, bulk carrier for dry goods (10088); transport, freight, sea, bulk carrier for dry goods (15843); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO5 (1000)"
+                "reference": "Road; transport, freight, light commercial vehicle (89); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (10088); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17)."
             },
             {
                 "indicators": "Fossil resource scarcity",
                 "unit": "kg oil eq",
-                "impactValue": 0.0029720292796105,
-                "costValue": 0.0014123809953269,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO5 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (9146); transport, freight, sea, bulk carrier for dry goods (10088); transport, freight, sea, bulk carrier for dry goods (15843); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO5 (1000)"
+                "impactValue": 0.0030816178222908,
+                "costValue": 0.0014644601508214,
+                "reference": "Road; transport, freight, light commercial vehicle (89); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (10088); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17)."
             },
             {
                 "indicators": "Freshwater ecotoxicity",
                 "unit": "kg 1,4-DCB",
-                "impactValue": 0.0001132793541105,
-                "costValue": 4.8800892972e-06,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO5 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (9146); transport, freight, sea, bulk carrier for dry goods (10088); transport, freight, sea, bulk carrier for dry goods (15843); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO5 (1000)"
+                "impactValue": 0.0001158365011273,
+                "costValue": 4.990251523e-06,
+                "reference": "Road; transport, freight, light commercial vehicle (89); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (10088); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17)."
             },
             {
                 "indicators": "Freshwater eutrophication",
                 "unit": "kg P eq",
-                "impactValue": 7.702230558e-07,
-                "costValue": 0.000166304404164,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO5 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (9146); transport, freight, sea, bulk carrier for dry goods (10088); transport, freight, sea, bulk carrier for dry goods (15843); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO5 (1000)"
+                "impactValue": 7.842281868e-07,
+                "costValue": 0.0001693283528055,
+                "reference": "Road; transport, freight, light commercial vehicle (89); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (10088); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17)."
             },
             {
                 "indicators": "Global warming",
                 "unit": "kg CO2 eq",
-                "impactValue": 0.0082518767028376,
-                "costValue": 0.0013895727359729,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO5 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (9146); transport, freight, sea, bulk carrier for dry goods (10088); transport, freight, sea, bulk carrier for dry goods (15843); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO5 (1000)"
+                "impactValue": 0.0084888228757884,
+                "costValue": 0.0014294732281497,
+                "reference": "Road; transport, freight, light commercial vehicle (89); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (10088); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17)."
             },
             {
                 "indicators": "Human toxicity",
                 "unit": "kg 1,4-DCB",
-                "impactValue": 0.0018432231429484,
+                "impactValue": 0.0018793735030851,
                 "costValue": 0.0,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO5 (70); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (9146); transport, freight, sea, bulk carrier for dry goods (10088); transport, freight, sea, bulk carrier for dry goods (15843); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO5 (1000)"
+                "reference": "Road; transport, freight, light commercial vehicle (89); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (10088); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17)."
             },
             {
                 "indicators": "Ionising radiation",
                 "unit": "kg U235-Eq",
-                "impactValue": 0.0006732181569186,
-                "costValue": 3.87622149918e-05,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO5 (70); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (9146); transport, freight, sea, bulk carrier for dry goods (10088); transport, freight, sea, bulk carrier for dry goods (15843); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO5 (1000)"
+                "impactValue": 0.0007027829571658,
+                "costValue": 4.04644821271e-05,
+                "reference": "Road; transport, freight, light commercial vehicle (89); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (10088); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17)."
             },
             {
                 "indicators": "Marine ecotoxicity",
                 "unit": "kg 1,4-DCB",
-                "impactValue": 0.0001122974377332,
-                "costValue": 2.20426801e-07,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO5 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (9146); transport, freight, sea, bulk carrier for dry goods (10088); transport, freight, sea, bulk carrier for dry goods (15843); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO5 (1000)"
+                "impactValue": 0.0001161994950332,
+                "costValue": 2.280860853e-07,
+                "reference": "Road; transport, freight, light commercial vehicle (89); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (10088); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17)."
             },
             {
                 "indicators": "Marine eutrophication",
                 "unit": "kg N eq",
-                "impactValue": 1.23777379264e-05,
-                "costValue": 0.0001854172925313,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO5 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (9146); transport, freight, sea, bulk carrier for dry goods (10088); transport, freight, sea, bulk carrier for dry goods (15843); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO5 (1000)"
+                "impactValue": 1.12694528026e-05,
+                "costValue": 0.0001688152907578,
+                "reference": "Road; transport, freight, light commercial vehicle (89); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (10088); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17)."
             },
             {
                 "indicators": "Metal depletion",
                 "unit": "kg Fe eq",
-                "impactValue": 0.0005005771766612,
+                "impactValue": 0.0005252019158951,
                 "costValue": 0.0,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO5 (70); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (9146); transport, freight, sea, bulk carrier for dry goods (10088); transport, freight, sea, bulk carrier for dry goods (15843); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO5 (1000)"
+                "reference": "Road; transport, freight, light commercial vehicle (89); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (10088); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17)."
             },
             {
                 "indicators": "Natural land transformation",
                 "unit": "m2",
-                "impactValue": 2.914172131e-06,
+                "impactValue": 3.0720969681e-06,
                 "costValue": 0.0,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO5 (70); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (9146); transport, freight, sea, bulk carrier for dry goods (10088); transport, freight, sea, bulk carrier for dry goods (15843); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO5 (1000)"
+                "reference": "Road; transport, freight, light commercial vehicle (89); World Bank, Inflation (annual %), 2024; No factor available; European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (10088); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17)."
             },
             {
                 "indicators": "Photochemical oxidant formation",
                 "unit": "kg NMVOC",
-                "impactValue": 4.17091842799e-05,
-                "costValue": 0.0001304150384802,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO5 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (9146); transport, freight, sea, bulk carrier for dry goods (10088); transport, freight, sea, bulk carrier for dry goods (15843); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO5 (1000)"
+                "impactValue": 3.9436623696e-05,
+                "costValue": 0.0001233092635504,
+                "reference": "Road; transport, freight, light commercial vehicle (89); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (10088); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17)."
             },
             {
                 "indicators": "Stratospheric ozone depletion",
                 "unit": "kg CFC11 eq",
-                "impactValue": 1.3360986e-09,
-                "costValue": 7.99204691e-08,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO5 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (9146); transport, freight, sea, bulk carrier for dry goods (10088); transport, freight, sea, bulk carrier for dry goods (15843); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO5 (1000)"
+                "impactValue": 1.4719014e-09,
+                "costValue": 8.80436913e-08,
+                "reference": "Road; transport, freight, light commercial vehicle (89); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (10088); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17)."
             },
             {
                 "indicators": "Terrestrial acidification",
                 "unit": "kg SO2 eq",
-                "impactValue": 3.91230937557e-05,
-                "costValue": 0.0001948144552601,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO5 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (9146); transport, freight, sea, bulk carrier for dry goods (10088); transport, freight, sea, bulk carrier for dry goods (15843); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO5 (1000)"
+                "impactValue": 3.77811428861e-05,
+                "costValue": 0.0001881321762645,
+                "reference": "Road; transport, freight, light commercial vehicle (89); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (10088); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17)."
             },
             {
                 "indicators": "Terrestrial ecotoxicity",
                 "unit": "kg 1,4-DCB",
-                "impactValue": 2.3437953259e-06,
-                "costValue": 7.264101e-10,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO5 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (9146); transport, freight, sea, bulk carrier for dry goods (10088); transport, freight, sea, bulk carrier for dry goods (15843); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO5 (1000)"
+                "impactValue": 2.215983137e-06,
+                "costValue": 6.867974e-10,
+                "reference": "Road; transport, freight, light commercial vehicle (89); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (10088); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17)."
             },
             {
                 "indicators": "Urban land occupation",
                 "unit": "m2a",
-                "impactValue": 0.0002877192717603,
-                "costValue": 1.22582541546e-05,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO5 (70); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (9146); transport, freight, sea, bulk carrier for dry goods (10088); transport, freight, sea, bulk carrier for dry goods (15843); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO5 (1000)"
+                "impactValue": 0.0002667788412235,
+                "costValue": 1.13660889616e-05,
+                "reference": "Road; transport, freight, light commercial vehicle (89); World Bank, Inflation (annual %), 2024; CE-Delft, Environmental Prices Handbook (2017); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (10088); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17)."
             },
             {
                 "indicators": "Water consumption",
                 "unit": "m3",
-                "impactValue": 8.3136587028e-06,
-                "costValue": 1.14231211397e-05,
-                "reference": "Road; transport, freight, lorry 7.5-16 metric ton, EURO5 (70); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, light commercial vehicle (89); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (750); transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (9146); transport, freight, sea, bulk carrier for dry goods (10088); transport, freight, sea, bulk carrier for dry goods (15843); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17); transport, freight, lorry 7.5-16 metric ton, EURO5 (1000)"
+                "impactValue": 7.8968942697e-06,
+                "costValue": 1.08504790845e-05,
+                "reference": "Road; transport, freight, light commercial vehicle (89); World Bank, Inflation (annual %), 2024; True Price, Monestisation factors for true pricing (2023); European Central Bank, Eurosystem, US dollar (USD), 2024; transport, freight, lorry 3.5-7.5 metric ton, EURO6 (1000); Sea; transport, freight, sea, bulk carrier for dry goods (10088); Road waste-collection; municipal waste collection service by 21 metric ton lorry (17)."
             }
         ]
     }
