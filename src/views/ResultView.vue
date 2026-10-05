@@ -262,6 +262,7 @@ function goAll() {
   display: flex;
   align-items: baseline;
   gap: 10px;
+  padding-top: 0.75rem;
 }
 .figure {
   font-size: var(--fs-figure);
