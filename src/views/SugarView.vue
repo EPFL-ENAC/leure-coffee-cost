@@ -77,12 +77,12 @@ function pick(i: number) {
       <p class="sub">{{ intro }}</p>
     </div>
 
-    <div class="opts">
+    <div class="cards opts">
       <button
         v-for="(lv, i) in levels"
         :key="lv.key"
         type="button"
-        class="opt"
+        class="card opt"
         @click="pick(i)"
       >
         <div class="line">
@@ -134,6 +134,8 @@ function pick(i: number) {
 .val {
   font-size: var(--fs-body-s);
   color: var(--mut);
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 .note {
   font-size: var(--fs-xs);
@@ -144,26 +146,18 @@ function pick(i: number) {
 .screen {
   --screen-max: 1000px;
 }
-.opts {
-  display: flex;
-  flex-direction: column;
-}
 
-/* Wide, the options sit two by two as cards, not as a stack of rows. */
-@media (min-width: 900px) {
+/* Wide, the options sit side by side as cards, not as a stack of rows. */
+@media (min-width: 640px) {
   .head {
     padding-bottom: 20px;
     max-width: 720px;
   }
   .opts {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 12px;
     padding-bottom: 48px;
   }
   .opt {
-    border: var(--hairline);
-    padding: 14px 16px;
+    padding: 16px var(--pad);
   }
 }
 </style>

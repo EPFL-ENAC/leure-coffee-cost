@@ -15,21 +15,30 @@
   --dim: #b3b3b3;
   --faint: #9b9b9b;
 
-  /* the phone column */
-  --col: 412px;
+  /* the sheet: full width on a phone and a tablet, 1280px on a laptop */
+  --col: 100%;
   --pad: 20px;
-  /* the shell chrome (header, step rail), which hugs the edge less on a laptop */
+  /* the shell chrome (header, step rail), which hugs the edge less when wide */
   --pad-shell: 20px;
   /* space above a screen title */
   --pad-top: 28px;
 }
 
-/* Laptop. The same screens, laid out wide: a 1280px sheet, grids instead of one
-   column, and the result split in two. */
-@media (min-width: 900px) {
+/* Three layouts, the same screens:
+   - phone, under 640px: one column, full width.
+   - tablet, 640 to 1199px: full width, cards in grids, the result summary as a band.
+   - laptop, 1200px and up: a 1280px sheet, the result split in two.
+   CSS custom properties cannot hold a media query, so the two numbers (640 and
+   1200) are written out in every file that needs them. */
+@media (min-width: 640px) {
   :root {
-    --col: 1280px;
     --pad-shell: 40px;
     --pad-top: 40px;
+    --fs-display: 36px;
+  }
+}
+@media (min-width: 1200px) {
+  :root {
+    --col: 1280px;
   }
 }

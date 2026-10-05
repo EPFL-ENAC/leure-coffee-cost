@@ -222,17 +222,19 @@ function goAll() {
         <h2 class="section-title">{{ ui.t.changeTitle }}</h2>
         <p class="sub">{{ chips.length ? ui.t.changeSub : ui.t.changeNone }}</p>
       </div>
-      <button
-        v-for="ch in chips"
-        :key="ch.key"
-        type="button"
-        class="row row--tap chip"
-        @click="openCompare(ch.other)"
-      >
-        <span class="chip-label">{{ ch.label }}</span>
-        <span class="chip-delta tnum" :class="{ down: !ch.up }">{{ ch.deltaStr }}</span>
-        <span class="chev">›</span>
-      </button>
+      <div class="cards chips">
+        <button
+          v-for="ch in chips"
+          :key="ch.key"
+          type="button"
+          class="card row row--tap chip"
+          @click="openCompare(ch.other)"
+        >
+          <span class="chip-label">{{ ch.label }}</span>
+          <span class="chip-delta tnum" :class="{ down: !ch.up }">{{ ch.deltaStr }}</span>
+          <span class="chev">›</span>
+        </button>
+      </div>
 
       <div class="gap gap--edge"></div>
       <button type="button" class="row row--tap all" @click="goAll">{{ ui.t.seeAll }}</button>
@@ -433,10 +435,45 @@ function goAll() {
   flex-direction: column;
 }
 
-/* Wide: what the cup costs stays on the left while the detail scrolls on the
-   right. The grey strips between blocks are not needed any more, the hairlines
-   and the column rule do the job. */
-@media (min-width: 900px) {
+.chips {
+  --card-min: 300px;
+}
+
+/* Tablet and laptop. The grey strips between blocks are not needed any more,
+   hairlines do the job, and the chips sit side by side as cards. */
+@media (min-width: 640px) {
+  .main > .gap--edge {
+    display: none;
+  }
+  .all {
+    border-top: var(--hairline);
+  }
+  .chips {
+    padding-bottom: 12px;
+  }
+}
+
+/* Tablet: the summary is a band on top, the figure on the left and the money
+   split on the right, then the detail under it at full width. */
+@media (min-width: 640px) and (max-width: 1199px) {
+  .result {
+    padding: 0 var(--pad);
+  }
+  .side {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: start;
+    padding-bottom: 8px;
+    border-bottom: var(--hairline);
+  }
+  .money {
+    padding-top: 28px;
+  }
+}
+
+/* Laptop: what the cup costs stays on the left while the detail scrolls on
+   the right. */
+@media (min-width: 1200px) {
   .result {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr);
@@ -449,12 +486,6 @@ function goAll() {
   }
   .main {
     border-left: var(--hairline);
-  }
-  .main > .gap--edge {
-    display: none;
-  }
-  .all {
-    border-top: var(--hairline);
   }
 }
 </style>

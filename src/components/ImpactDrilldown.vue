@@ -444,10 +444,14 @@ const split = computed(() => {
   align-self: flex-start;
 }
 
-/* Wide, there is room for the whole ingredient name. On a phone it stays cut. */
-@media (min-width: 900px) {
+/* Wide, there is room for the whole ingredient name and a longer bar.
+   On a phone the name stays cut. */
+@media (min-width: 640px) {
   .split-name {
     width: 150px;
+  }
+  .cat-bar {
+    width: clamp(78px, 30%, 320px);
   }
 }
 </style>
