@@ -1,16 +1,16 @@
 import type { Strings } from "@/i18n/types";
 
 /**
- * "de" plus the article of an ingredient: du lait, des grains, de la boisson.
+ * "de" plus the article of an ingredient: du lait, des grains, du sucre.
  * Keyed by the lower-case French ingredient name from `ing` below. Anything
  * else falls back to a plain "de".
  */
 const DU: Record<string, string> = {
   "grains de café": "des grains de café",
   "lait de vache": "du lait de vache",
-  "boisson d’avoine": "de la boisson d’avoine",
-  "boisson d’amande": "de la boisson d’amande",
-  "fèves de soja": "des fèves de soja",
+  "lait d’avoine": "du lait d’avoine",
+  "lait d’amande": "du lait d’amande",
+  "lait de soja": "du lait de soja",
   "fèves de cacao": "des fèves de cacao",
   sucre: "du sucre",
 };
@@ -19,6 +19,7 @@ const du = (ing: string) => DU[ing.toLowerCase()] ?? "de " + ing.toLowerCase();
 const fr: Strings = {
   code: "FR",
   wordmark: "COÛT CACHÉ DU CAFÉ",
+  docTitle: "Coût caché du café",
   changePlace: "Changer de point de vente",
   loading: "Chargement des données de cette machine…",
   errPre: "Impossible de charger les données de cette machine.",
@@ -165,7 +166,7 @@ const fr: Strings = {
   changeSub: "Un seul changement, et son effet sur le coût caché.",
   changeNone: "Aucune boisson de cette machine n’a un coût caché plus bas.",
   chipMilk: (m) => m + " à la place",
-  chipLowest: (d) => d + " à la place, le coût caché le plus bas ici",
+  chipLowest: (d) => d + " à la place (coût caché le plus bas ici)",
   seeAll: "Voir toutes les boissons de cette machine ›",
   footNote:
     "Le coût caché correspond aux dommages causés par cette boisson, chiffrés en francs selon la méthode True Price (TCAF, True Cost Accounting for Food). Il n’est pas ajouté à votre note.",
@@ -251,6 +252,7 @@ const fr: Strings = {
   ],
 
   indicator: {
+    acephate: "Acéphate",
     "agricultural land occupation": "Occupation de terres agricoles",
     "cases of fatal occupational injury": "Accidents du travail mortels",
     "cases of non-fatal occupational injury, insured":
@@ -295,6 +297,10 @@ const fr: Strings = {
       "Éco-coûts de l’usage des terres (États-Unis), liés à la déforestation",
     "eco-costs of land-use (united states of america), practice-related":
       "Éco-coûts de l’usage des terres (États-Unis), liés aux pratiques agricoles",
+    "eco-costs of land-use (vietnam), deforestation-related":
+      "Éco-coûts de l’usage des terres (Vietnam), liés à la déforestation",
+    "eco-costs of land-use (vietnam), practice-related":
+      "Éco-coûts de l’usage des terres (Vietnam), liés aux pratiques agricoles",
     "fine particulate matter formation": "Formation de particules fines",
     "fossil resource scarcity": "Raréfaction des ressources fossiles",
     "global warming": "Réchauffement climatique",
@@ -305,6 +311,7 @@ const fr: Strings = {
     "prevalence of excessive working time": "Temps de travail excessif",
     "prevalence of modern slavery (forced workers, most severe)":
       "Esclavage moderne (travail forcé, cas les plus graves)",
+    tebuconazole: "Tébuconazole",
     "terrestrial acidification": "Acidification des sols",
     "wage gap from gender discrimination":
       "Écart de salaire lié à la discrimination de genre",
@@ -340,11 +347,11 @@ const fr: Strings = {
     "terrestrial acidification":
       "L’acidification des sols apparaît quand l’acidité du sol s’écarte de son niveau optimal, au détriment du milieu. L’acidification de l’environnement vient des oxydes de soufre et d’azote émis par des sources humaines et naturelles. Sur les terres agricoles, les causes principales sont les engrais à base d’ammonium et d’urée, les engrais soufrés et la culture de légumineuses. L’acidification dégrade les forêts et les eaux de surface, surtout là où les sols sont pauvres. Elle agit aussi sur la croissance des cultures, et donc sur les rendements, car le pH du sol change la disponibilité des nutriments pour les plantes.",
     "wage gap from gender discrimination":
-      "L’écart de salaire lié à la discrimination de genre [CHF/kg] chiffre la différence de revenu entre travailleurs et travailleuses, rapportée à la production. Cet indicateur compte, car il montre les écarts économiques qui viennent de la discrimination de genre au travail et reflète des inégalités de système qui pèsent sur les revenus des femmes et sur leur stabilité économique.",
+      "L’écart de salaire lié à la discrimination de genre chiffre la différence de revenu entre travailleurs et travailleuses, rapportée à la production. Cet indicateur compte, car il montre les écarts économiques qui viennent de la discrimination de genre au travail et reflète des inégalités de système qui pèsent sur les revenus des femmes et sur leur stabilité économique.",
     "wage gap of workers earning above minimum wage but below decent living wage":
-      "L’écart de salaire des personnes payées au-dessus du minimum légal mais sous un salaire vital décent [CHF/kg] chiffre la différence entre leur revenu et le seuil d’un salaire vital décent, rapportée à la production. Cet indicateur aide à comprendre les difficultés économiques de personnes qui gagnent plus que le minimum légal, mais pas assez pour couvrir leurs besoins de base et vivre décemment.",
+      "L’écart de salaire des personnes payées au-dessus du minimum légal mais sous un salaire vital décent chiffre la différence entre leur revenu et le seuil d’un salaire vital décent, rapportée à la production. Cet indicateur aide à comprendre les difficultés économiques de personnes qui gagnent plus que le minimum légal, mais pas assez pour couvrir leurs besoins de base et vivre décemment.",
     "wage gap of workers earning below minimum wage":
-      "L’écart de salaire des personnes payées sous le salaire minimum [CHF/kg] chiffre la différence entre leur revenu et le salaire minimum légal, rapportée à la production. Cet indicateur montre l’ampleur de l’exploitation économique et des atteintes au droit du travail, et reflète de vrais problèmes d’insécurité de revenu et de pratiques injustes.",
+      "L’écart de salaire des personnes payées sous le salaire minimum chiffre la différence entre leur revenu et le salaire minimum légal, rapportée à la production. Cet indicateur montre l’ampleur de l’exploitation économique et des atteintes au droit du travail, et reflète de vrais problèmes d’insécurité de revenu et de pratiques injustes.",
     "water consumption":
       "La consommation d’eau [m3] est l’usage de l’eau d’une façon qui la fait s’évaporer, l’incorpore à des produits, la transfère vers d’autres bassins versants ou la rejette à la mer. Elle n’est donc plus disponible dans son bassin d’origine, ni pour les humains ni pour les écosystèmes. Les ressources en eau subissent une pression croissante, à cause de la croissance de la population et de la demande alimentaire, et la production agricole représente la plus grande part de la consommation mondiale d’eau douce. Le manque d’eau touche directement les organismes aquatiques, réduit les rendements et peut conduire à la malnutrition.",
   },
@@ -416,9 +423,9 @@ const fr: Strings = {
   ing: {
     "Coffee beans": "Grains de café",
     "Cow milk": "Lait de vache",
-    Oat: "Boisson d’avoine",
-    Almond: "Boisson d’amande",
-    Soybeans: "Fèves de soja",
+    Oat: "Lait d’avoine",
+    Almond: "Lait d’amande",
+    Soybeans: "Lait de soja",
     "Cocoa beans": "Fèves de cacao",
     Sugarbeet: "Sucre",
     Sugar: "Sucre",
@@ -431,12 +438,12 @@ const fr: Strings = {
     "End of life, industrial-composting": "la fin de vie (compostage industriel)",
     "Production & Processing": "la production et la transformation",
     Consumption: "la consommation",
-    "Processing, Almond beverage": "la fabrication de la boisson d’amande",
-    "Processing, Soybean beverage": "la fabrication de la boisson de soja",
+    "Processing, Almond beverage": "la fabrication du lait d’amande",
+    "Processing, Soybean beverage": "la fabrication du lait de soja",
     "Processing, Sugar extraction": "l’extraction du sucre",
     "Transport, Field to Storage": "le transport du champ au stockage",
     "Transport, Manufacture-to-Retail": "le transport de l’usine au point de vente",
-    "Transport, Retail-to-Waste": "le transport du point de vente aux déchets",
+    "Transport, Retail-to-Waste": "le transport du point de vente au traitement des déchets",
     "Transport, Storage-to-Port": "le transport du stockage au port",
     Cultivation: "la culture",
     "End-use": "l’utilisation",

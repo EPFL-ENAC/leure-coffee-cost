@@ -3,6 +3,7 @@ import type { Strings } from "@/i18n/types";
 const en: Strings = {
   code: "EN",
   wordmark: "HIDDEN COST OF COFFEE",
+  docTitle: "Hidden Cost of Coffee",
   changePlace: "Change sale point",
   loading: "Loading this machine's data…",
   errPre: "Could not load the data for this machine.",
@@ -64,7 +65,7 @@ const en: Strings = {
 
   milkTitle: "Which milk?",
   milkIntro: (sp) =>
-    "The beans are the same every time. Between the lowest and highest milk there is " +
+    "The beans are the same every time. Between the milk with the lowest and the highest hidden cost there is " +
     sp +
     " CHF of hidden cost.",
   milkIntroOne: "This drink is served one way only.",
@@ -73,7 +74,7 @@ const en: Strings = {
     "The milk is " +
     share +
     "% of this drink's hidden cost" +
-    (cat ? ", mostly " + cat.toLowerCase() : "") +
+    (cat ? ", mostly from " + cat.toLowerCase() : "") +
     ".",
   noMilk: "No milk",
   milkNoneValue: "0 CHF from milk",
@@ -143,7 +144,7 @@ const en: Strings = {
   changeSub: "One swap, and what it does to the hidden cost.",
   changeNone: "No drink on this machine has a lower hidden cost.",
   chipMilk: (m) => m + " instead",
-  chipLowest: (d) => d + " instead, the lowest hidden cost here",
+  chipLowest: (d) => "Switch to " + d + " (lowest hidden cost here)",
   seeAll: "See every drink on this machine ›",
   footNote:
     "Hidden cost is the damage this drink causes, priced in francs by the True Price method (TCAF, True Cost Accounting for Food). It is not added to your bill.",
@@ -157,7 +158,7 @@ const en: Strings = {
   cmpNote: (add, amt, cat) =>
     (add ? "That change adds " : "That change saves ") +
     amt +
-    " CHF of hidden cost, mostly under " +
+    " CHF of hidden cost, mostly from " +
     cat.toLowerCase() +
     ".",
   cmpSame: "Same hidden cost either way.",
@@ -173,9 +174,9 @@ const en: Strings = {
   rankNote: (place, nearest, diff) =>
     "Yours is the " +
     place +
-    " lowest. The nearest cheaper drink is " +
+    " lowest. The next drink with a lower hidden cost is " +
     nearest +
-    ", " +
+    ", with " +
     diff +
     " CHF less hidden cost. Tap any row to compare it with yours.",
   rankNoteLowest: "Yours already has the lowest hidden cost on this machine.",
@@ -184,7 +185,7 @@ const en: Strings = {
   aboutParas: [
     [
       { t: "For any questions or feedback, " },
-      { t: "please write us", href: "mailto:true-cost-of-food@epfl.ch" },
+      { t: "write to us", href: "mailto:true-cost-of-food@epfl.ch" },
       { t: "." },
     ],
     [
@@ -206,7 +207,7 @@ const en: Strings = {
       { t: ", from 2024 to 2027 (project number: 216652)." },
     ],
     [
-      { t: "It was developed as part of a partnership that consists of: " },
+      { t: "It was developed as part of a partnership between: " },
       { t: "LEUrE (EPFL)", b: true },
       { t: ", " },
       { t: "RESCO (EPFL restaurants, shops, hotels)", b: true },
@@ -220,7 +221,7 @@ const en: Strings = {
     ],
     [
       {
-        t: "The results of this application are based on the data, scope, and limitations as presented and documented in the application on sources considered reliable. ",
+        t: "The results of this application are based on the data, scope, and limitations as presented and documented in the application, and on sources considered reliable. ",
       },
       { t: "No warranty", b: true },
       {
@@ -258,28 +259,28 @@ const en: Strings = {
   ing: {
     "Coffee beans": "Coffee beans",
     "Cow milk": "Cow milk",
-    Oat: "Oat drink",
-    Almond: "Almond drink",
-    Soybeans: "Soybeans",
+    Oat: "Oat milk",
+    Almond: "Almond milk",
+    Soybeans: "Soy milk",
     "Cocoa beans": "Cocoa beans",
     Sugarbeet: "Sugar",
     Sugar: "Sugar",
   },
   stage: {
-    "Processing, Roast and ground": "processing, roast and ground",
+    "Processing, Roast and ground": "roasting and grinding",
     "Processing, Cocoa processing": "cocoa processing",
     Production: "production",
     Transport: "transport",
-    "End of life, industrial-composting": "end of life, industrial-composting",
+    "End of life, industrial-composting": "industrial composting at end of life",
     "Production & Processing": "production & processing",
     Consumption: "consumption",
-    "Processing, Almond beverage": "processing, almond beverage",
-    "Processing, Soybean beverage": "processing, soybean beverage",
-    "Processing, Sugar extraction": "processing, sugar extraction",
-    "Transport, Field to Storage": "transport, field to storage",
-    "Transport, Manufacture-to-Retail": "transport, manufacture-to-retail",
-    "Transport, Retail-to-Waste": "transport, retail-to-waste",
-    "Transport, Storage-to-Port": "transport, storage-to-port",
+    "Processing, Almond beverage": "making the almond milk",
+    "Processing, Soybean beverage": "making the soy milk",
+    "Processing, Sugar extraction": "sugar extraction",
+    "Transport, Field to Storage": "transport from field to storage",
+    "Transport, Manufacture-to-Retail": "transport from factory to shop",
+    "Transport, Retail-to-Waste": "transport from shop to waste treatment",
+    "Transport, Storage-to-Port": "transport from storage to port",
     Cultivation: "cultivation",
     "End-use": "end use",
     "Roasting & Ground": "roasting and grinding",

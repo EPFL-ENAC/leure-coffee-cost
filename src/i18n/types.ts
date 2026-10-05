@@ -24,6 +24,8 @@ export type Seg = {
 export type Strings = {
   code: string;
   wordmark: string;
+  /** Browser tab title. */
+  docTitle: string;
   /** Title of the sale point picker in the header. */
   changePlace: string;
   loading: string;
